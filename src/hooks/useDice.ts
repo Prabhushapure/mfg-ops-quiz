@@ -9,7 +9,7 @@ export function useDice() {
   const [isRolling, setIsRolling] = useState(false);
   const displayInterval = useRef<ReturnType<typeof setInterval> | null>(null);
 
-  const roll = useCallback((): Promise<number> => {
+  const roll = useCallback((currentPosition?: number): Promise<number> => {
     return new Promise((resolve) => {
       setIsRolling(true);
       playDiceRoll();
@@ -21,7 +21,7 @@ export function useDice() {
         count++;
         if (count >= 8) {
           if (displayInterval.current) clearInterval(displayInterval.current);
-          const finalValue = rollDice();
+          const finalValue = rollDice(currentPosition);
           setValue(finalValue);
           setIsRolling(false);
           resolve(finalValue);

@@ -13,6 +13,9 @@ export const SNAKES: SnakeOrLadder[] = [
   { from: 22, to: 3 },
   { from: 16, to: 8 },
   { from: 31, to: 19 },
+  { from: 20, to: 9 },
+  { from: 33, to: 15 },
+  { from: 28, to: 17 },
 ];
 
 // Ladders: bottom → top (landing on bottom triggers quiz)
@@ -24,44 +27,44 @@ export const LADDERS: SnakeOrLadder[] = [
   { from: 29, to: 35 },
 ];
 
-// Industrial color palette for cells
+// Muted industrial color palette — subdued so snakes/ladders stand out
 const CELL_COLORS = [
-  "#2d4a3e", // dark teal
-  "#3d2f5c", // deep purple
-  "#4a3728", // earth brown
-  "#2c3e50", // midnight blue
-  "#3e2723", // dark sienna
-  "#1b5e20", // forest green
-  "#4a148c", // deep violet
-  "#bf360c", // deep orange-red
-  "#006064", // dark cyan
-  "#263238", // blue grey
-  "#33691e", // olive green
-  "#4e342e", // brown
-  "#1a237e", // indigo
-  "#880e4f", // dark pink
-  "#004d40", // dark teal
-  "#311b92", // deep purple
-  "#e65100", // orange
-  "#01579b", // light blue dark
-  "#827717", // lime dark
-  "#3e2723", // brown
-  "#0d47a1", // blue
-  "#1b5e20", // green
-  "#f57f17", // amber
-  "#4a148c", // purple
-  "#006064", // cyan
-  "#bf360c", // deep orange
-  "#283593", // indigo
-  "#2e7d32", // green
-  "#ad1457", // pink
-  "#00695c", // teal
-  "#4527a0", // deep purple
-  "#c62828", // red
-  "#1565c0", // blue
-  "#558b2f", // light green
-  "#ff6f00", // amber
-  "#6a1b9a", // purple
+  "#1e2d3d", // slate blue
+  "#2a2438", // muted plum
+  "#2d2a26", // charcoal brown
+  "#1f2b38", // steel blue
+  "#2b2226", // dark cocoa
+  "#1e2e28", // forest shadow
+  "#252135", // twilight purple
+  "#2f2420", // umber
+  "#1c2e30", // deep teal
+  "#1e242a", // gunmetal
+  "#252e1e", // olive shadow
+  "#2a2524", // warm charcoal
+  "#1c2040", // navy
+  "#2d1e2a", // plum shadow
+  "#1c2a28", // pine
+  "#221c34", // indigo shadow
+  "#302418", // bronze shadow
+  "#1a2838", // steel
+  "#2a2a1c", // khaki shadow
+  "#2b2220", // mocha
+  "#1c2640", // denim
+  "#1e2e22", // sage dark
+  "#302a18", // brass shadow
+  "#261e38", // violet shadow
+  "#1c2c2e", // petrol
+  "#2e2218", // sienna shadow
+  "#1e2238", // cobalt shadow
+  "#222e24", // moss
+  "#2a1e28", // berry shadow
+  "#1e2c28", // jade dark
+  "#241e34", // grape shadow
+  "#2c1e1e", // rust shadow
+  "#1c2636", // slate
+  "#262e1e", // olive
+  "#2e2818", // amber shadow
+  "#241c30", // heather
 ];
 
 /**

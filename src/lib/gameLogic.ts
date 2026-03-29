@@ -1,5 +1,5 @@
 import { GameResult, GameState } from "@/types/game";
-import { TOTAL_CELLS } from "./boardConfig";
+import { TOTAL_CELLS, SNAKES } from "./boardConfig";
 
 export const GAME_DURATION = 10 * 60; // 10 minutes in seconds
 export const POINTS_PER_CORRECT = 10;
@@ -78,9 +78,33 @@ export function pickRandomQuestion<
   return available[Math.floor(Math.random() * available.length)];
 }
 
+const SNAKE_BIAS = 0.55; // 55% chance to steer toward a snake head
+const snakeHeads = new Set(SNAKES.map((s) => s.from));
+
 /**
  * Roll a dice (1-6).
+ * Biased: ~55% of the time, if a roll value would land the player
+ * on a snake head, that value is chosen instead of a random one.
  */
-export function rollDice(): number {
-  return Math.floor(Math.random() * 6) + 1;
+export function rollDice(currentPosition?: number): number {
+  const fair = Math.floor(Math.random() * 6) + 1;
+
+  if (currentPosition === undefined || Math.random() > SNAKE_BIAS) {
+    return fair;
+  }
+
+  // Find dice values that land on a snake head
+  const snakeValues: number[] = [];
+  for (let d = 1; d <= 6; d++) {
+    const dest = currentPosition + d;
+    if (dest <= TOTAL_CELLS && snakeHeads.has(dest)) {
+      snakeValues.push(d);
+    }
+  }
+
+  if (snakeValues.length > 0) {
+    return snakeValues[Math.floor(Math.random() * snakeValues.length)];
+  }
+
+  return fair;
 }

@@ -66,9 +66,9 @@ export default function Home() {
   // Dice roll handler
   const onDiceRoll = useCallback(async () => {
     if (state.phase !== "playing" || state.isMoving || dice.isRolling) return;
-    const value = await dice.roll();
+    const value = await dice.roll(state.playerPosition);
     await handleDiceRoll(value);
-  }, [state.phase, state.isMoving, dice, handleDiceRoll]);
+  }, [state.phase, state.isMoving, state.playerPosition, dice, handleDiceRoll]);
 
   // Play again handler
   const onPlayAgain = useCallback(() => {
