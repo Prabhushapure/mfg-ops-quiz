@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useCallback, useRef } from "react";
-import { GamePhase, GameState, QuizQuestion, SnakeOrLadder } from "@/types/game";
+import { GameState, QuizQuestion } from "@/types/game";
 import {
   calculateNewPosition,
   POINTS_PER_CORRECT,

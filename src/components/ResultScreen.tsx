@@ -1,18 +1,35 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { GameResult } from "@/types/game";
 import { playGameWin, playGameLose } from "@/lib/sounds";
+
+function generateConfetti() {
+  const colors = ["#fbbf24", "#22c55e", "#3b82f6", "#ef4444", "#a855f7"];
+  return Array.from({ length: 30 }).map((_, i) => ({
+    delay: i * 0.06,
+    x: Math.random() * 100,
+    color: colors[Math.floor(Math.random() * colors.length)],
+    rotation: 720 + Math.random() * 360,
+    duration: 2 + Math.random(),
+  }));
+}
 
 interface ResultScreenProps {
   result: GameResult;
   onPlayAgain: () => void;
 }
 
-function ConfettiPiece({ delay, x }: { delay: number; x: number }) {
-  const colors = ["#fbbf24", "#22c55e", "#3b82f6", "#ef4444", "#a855f7"];
-  const color = colors[Math.floor(Math.random() * colors.length)];
+interface ConfettiPieceProps {
+  delay: number;
+  x: number;
+  color: string;
+  rotation: number;
+  duration: number;
+}
+
+function ConfettiPiece({ delay, x, color, rotation, duration }: ConfettiPieceProps) {
   return (
     <motion.div
       className="absolute w-2 h-3 rounded-sm"
@@ -20,11 +37,11 @@ function ConfettiPiece({ delay, x }: { delay: number; x: number }) {
       initial={{ y: -20, rotate: 0, opacity: 1 }}
       animate={{
         y: 600,
-        rotate: 720 + Math.random() * 360,
+        rotate: rotation,
         opacity: [1, 1, 0],
       }}
       transition={{
-        duration: 2 + Math.random(),
+        duration,
         delay,
         ease: "easeOut",
       }}
@@ -41,6 +58,8 @@ export default function ResultScreen({ result, onPlayAgain }: ResultScreenProps)
     }
   }, [result.passed]);
 
+  const [confettiPieces] = useState(generateConfetti);
+
   const formatTime = (seconds: number): string => {
     const mins = Math.floor(seconds / 60);
     const secs = seconds % 60;
@@ -56,12 +75,8 @@ export default function ResultScreen({ result, onPlayAgain }: ResultScreenProps)
       {/* Confetti for pass */}
       {result.passed && (
         <div className="fixed inset-0 pointer-events-none overflow-hidden">
-          {Array.from({ length: 30 }).map((_, i) => (
-            <ConfettiPiece
-              key={i}
-              delay={i * 0.06}
-              x={Math.random() * 100}
-            />
+          {confettiPieces.map((piece, i) => (
+            <ConfettiPiece key={i} {...piece} />
           ))}
         </div>
       )}

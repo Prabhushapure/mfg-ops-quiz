@@ -13,7 +13,6 @@ export default function Snake({ snake }: SnakeProps) {
 
   // Create a smooth S-curve between head and tail
   const dx = tailPos.x - headPos.x;
-  const dy = tailPos.y - headPos.y;
   const midY = (headPos.y + tailPos.y) / 2;
 
   // Control points for S-curve
