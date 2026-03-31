@@ -173,7 +173,7 @@ export default function ResultScreen({ result, onPlayAgain }: ResultScreenProps)
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >
-            Play Again
+            Close
           </motion.button>
         </div>
       </motion.div>

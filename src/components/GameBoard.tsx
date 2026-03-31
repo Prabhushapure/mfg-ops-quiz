@@ -20,6 +20,8 @@ interface GameBoardProps {
 
 export default function GameBoard({ playerPosition }: GameBoardProps) {
   const cells = [];
+  const cellTexts = [];
+
   for (let cellNum = 1; cellNum <= BOARD_SIZE * BOARD_SIZE; cellNum++) {
     const { row, col } = cellToRowCol(cellNum);
     // Flip row so row 0 (cells 1-6) is at bottom visually
@@ -31,7 +33,7 @@ export default function GameBoard({ playerPosition }: GameBoardProps) {
     const isFinish = cellNum === 36;
 
     cells.push(
-      <g key={cellNum}>
+      <g key={`bg-${cellNum}`}>
         {/* Cell background */}
         <rect
           x={x}
@@ -56,6 +58,11 @@ export default function GameBoard({ playerPosition }: GameBoardProps) {
           rx="3"
           ry="3"
         />
+      </g>
+    );
+
+    cellTexts.push(
+      <g key={`text-${cellNum}`}>
         {/* Cell number */}
         <text
           x={x + 8}
@@ -157,6 +164,9 @@ export default function GameBoard({ playerPosition }: GameBoardProps) {
         {SNAKES.map((snake) => (
           <Snake key={`snake-${snake.from}`} snake={snake} />
         ))}
+
+        {/* Cell Texts on top */}
+        {cellTexts}
 
         {/* Player */}
         <PlayerToken position={playerPosition} />
