@@ -11,8 +11,16 @@ export default function Ladder({ ladder }: LadderProps) {
   const bottomPos = getCellPosition(ladder.from);
   const topPos = getCellPosition(ladder.to);
 
-  const dx = topPos.x - bottomPos.x;
-  const dy = topPos.y - bottomPos.y;
+  let dx = topPos.x - bottomPos.x;
+const dy = topPos.y - bottomPos.y;
+
+// Force slight tilt if ladder is too straight
+if (Math.abs(dx) < 5) {
+  const tilt = 18; // adjust (10–25 for more/less tilt)
+
+  // Alternate direction so all ladders don't tilt same way
+  dx = ladder.from % 2 === 0 ? tilt : -tilt;
+}
   const length = Math.sqrt(dx * dx + dy * dy);
   const angle = Math.atan2(dy, dx);
 

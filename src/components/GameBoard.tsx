@@ -59,47 +59,76 @@ export default function GameBoard({ playerPosition }: GameBoardProps) {
         {/* Cell number */}
         <text
           x={x + 8}
-          y={y + 16}
-          fill="rgba(255,255,255,0.85)"
-          fontSize="12"
-          fontWeight="700"
+          y={y + 18}
+          fill="#ffffff"
+          fontSize="14"
+          fontWeight="800"
           fontFamily="var(--font-heading)"
+          stroke="#000000"
+          strokeWidth="0.5"
+          colorInterpolationFilters="sRGB"
         >
           {cellNum}
         </text>
         {/* Start / Finish labels */}
         {isStart && (
-          <text
-            x={x + CELL_SIZE / 2}
-            y={y + CELL_SIZE - 10}
-            fill="#fbbf24"
-            fontSize="9"
-            fontWeight="800"
-            textAnchor="middle"
-            fontFamily="var(--font-heading)"
-          >
-            START
-          </text>
+          <g>
+            <text
+              x={x + CELL_SIZE / 2}
+              y={y + CELL_SIZE - 22}
+              fill="#ffffff"
+              fontSize="12"
+              fontWeight="800"
+              textAnchor="middle"
+              fontFamily="var(--font-heading)"
+            >
+              START
+            </text>
+            <text
+              x={x + CELL_SIZE / 2}
+              y={y + CELL_SIZE - 8}
+              fill="#ffffff"
+              fontSize="16"
+              fontWeight="900"
+              textAnchor="middle"
+              fontFamily="var(--font-heading)"
+            >
+              →
+            </text>
+          </g>
         )}
         {isFinish && (
-          <text
-            x={x + CELL_SIZE / 2}
-            y={y + CELL_SIZE - 10}
-            fill="#22c55e"
-            fontSize="9"
-            fontWeight="800"
-            textAnchor="middle"
-            fontFamily="var(--font-heading)"
-          >
-            FINISH
-          </text>
+          <g>
+            <text
+              x={x + CELL_SIZE / 2}
+              y={y + CELL_SIZE - 22}
+              fill="#ffffff"
+              fontSize="12"
+              fontWeight="800"
+              textAnchor="middle"
+              fontFamily="var(--font-heading)"
+            >
+              FINISH
+            </text>
+            <text
+              x={x + CELL_SIZE / 2}
+              y={y + CELL_SIZE - 8}
+              fill="#ffffff"
+              fontSize="16"
+              fontWeight="900"
+              textAnchor="middle"
+              fontFamily="var(--font-heading)"
+            >
+              ←
+            </text>
+          </g>
         )}
       </g>
     );
   }
 
   return (
-    <div className="w-full max-w-[560px] mx-auto">
+    <div className="w-full max-w-[720px] mx-auto">
       <svg
         viewBox={`0 0 ${BOARD_PIXEL_SIZE} ${BOARD_PIXEL_SIZE}`}
         className="w-full h-auto rounded-xl border-2 border-navy-700 shadow-2xl"

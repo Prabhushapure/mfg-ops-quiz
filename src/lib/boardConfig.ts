@@ -27,44 +27,24 @@ export const LADDERS: SnakeOrLadder[] = [
   { from: 29, to: 35 },
 ];
 
-// Muted industrial color palette — subdued so snakes/ladders stand out
+const THEME_COLORS = {
+  LIME: "#a8cc1c",
+  BLUE: "#009fe3",
+  ORANGE: "#f39200",
+  PURPLE: "#95288b",
+  MAGENTA: "#e4007c",
+  RED: "#e30613",
+  YELLOW: "#ffcc00",
+};
+
+// Vibrant color palette matching the provided classic snake & ladders board graphic.
 const CELL_COLORS = [
-  "#1e2d3d", // slate blue
-  "#2a2438", // muted plum
-  "#2d2a26", // charcoal brown
-  "#1f2b38", // steel blue
-  "#2b2226", // dark cocoa
-  "#1e2e28", // forest shadow
-  "#252135", // twilight purple
-  "#2f2420", // umber
-  "#1c2e30", // deep teal
-  "#1e242a", // gunmetal
-  "#252e1e", // olive shadow
-  "#2a2524", // warm charcoal
-  "#1c2040", // navy
-  "#2d1e2a", // plum shadow
-  "#1c2a28", // pine
-  "#221c34", // indigo shadow
-  "#302418", // bronze shadow
-  "#1a2838", // steel
-  "#2a2a1c", // khaki shadow
-  "#2b2220", // mocha
-  "#1c2640", // denim
-  "#1e2e22", // sage dark
-  "#302a18", // brass shadow
-  "#261e38", // violet shadow
-  "#1c2c2e", // petrol
-  "#2e2218", // sienna shadow
-  "#1e2238", // cobalt shadow
-  "#222e24", // moss
-  "#2a1e28", // berry shadow
-  "#1e2c28", // jade dark
-  "#241e34", // grape shadow
-  "#2c1e1e", // rust shadow
-  "#1c2636", // slate
-  "#262e1e", // olive
-  "#2e2818", // amber shadow
-  "#241c30", // heather
+  THEME_COLORS.LIME,    THEME_COLORS.BLUE,    THEME_COLORS.ORANGE,  THEME_COLORS.PURPLE,  THEME_COLORS.MAGENTA, THEME_COLORS.RED,     // 1-6
+  THEME_COLORS.PURPLE,  THEME_COLORS.LIME,    THEME_COLORS.MAGENTA, THEME_COLORS.RED,     THEME_COLORS.ORANGE,  THEME_COLORS.YELLOW,  // 7-12
+  THEME_COLORS.MAGENTA, THEME_COLORS.PURPLE,  THEME_COLORS.BLUE,    THEME_COLORS.ORANGE,  THEME_COLORS.LIME,    THEME_COLORS.MAGENTA, // 13-18
+  THEME_COLORS.BLUE,    THEME_COLORS.BLUE,    THEME_COLORS.YELLOW,  THEME_COLORS.PURPLE,  THEME_COLORS.YELLOW,  THEME_COLORS.LIME,    // 19-24
+  THEME_COLORS.BLUE,    THEME_COLORS.RED,     THEME_COLORS.BLUE,    THEME_COLORS.PURPLE,  THEME_COLORS.RED,     THEME_COLORS.LIME,    // 25-30
+  THEME_COLORS.PURPLE,  THEME_COLORS.RED,     THEME_COLORS.LIME,    THEME_COLORS.BLUE,    THEME_COLORS.YELLOW,  THEME_COLORS.MAGENTA  // 31-36
 ];
 
 /**
