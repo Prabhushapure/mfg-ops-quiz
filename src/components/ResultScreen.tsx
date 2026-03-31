@@ -166,7 +166,9 @@ export default function ResultScreen({ result, onPlayAgain }: ResultScreenProps)
           </div>
 
           <motion.button
-            onClick={onPlayAgain}
+            onClick={() => {
+              window.location.href = "https://www.suraxa-safety.com/AWE-SaaS/partner/license";
+            }}
             className="w-full mt-6 px-8 py-3.5 bg-safety-yellow text-navy-950 font-heading font-black text-lg rounded-xl
                        shadow-lg shadow-yellow-900/30 hover:bg-yellow-400 active:bg-yellow-500
                        transition-colors uppercase tracking-wider"

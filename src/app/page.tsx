@@ -40,12 +40,12 @@ export default function Home() {
     updateTimeRemaining(timer.timeRemaining);
   }, [timer.timeRemaining, updateTimeRemaining]);
 
-  // Pause timer during quiz
+  // Pause timer when not actively playing
   useEffect(() => {
-    if (state.phase === "quiz") {
-      timer.pause();
-    } else if (state.phase === "playing") {
+    if (state.phase === "playing") {
       timer.resume();
+    } else {
+      timer.pause();
     }
   }, [state.phase, timer]);
 

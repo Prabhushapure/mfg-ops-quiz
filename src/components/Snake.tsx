@@ -161,10 +161,10 @@ export default function Snake({ snake }: SnakeProps) {
   const perpX = -dy / distance;
   const perpY = dx / distance;
 
-  let pathD = `M ${headPos.x} ${headPos.y}`;
+  const points = [];
 
-  // Generate sine wave
-  for (let i = 1; i <= numPoints; i++) {
+  // Generate sine wave centerline points
+  for (let i = 0; i <= numPoints; i++) {
     const t = i / numPoints;
     const taper = Math.sin(t * Math.PI); // Taper at ends to snap to cells
 
@@ -177,7 +177,67 @@ export default function Snake({ snake }: SnakeProps) {
     const px = baseX + perpX * offset;
     const py = baseY + perpY * offset;
 
-    pathD += ` L ${px} ${py}`;
+    points.push({ x: px, y: py, t });
+  }
+
+  // Compute tapered polygon outline
+  const leftPoints = [];
+  const rightPoints = [];
+
+  for (let i = 0; i <= numPoints; i++) {
+    const p = points[i];
+    
+    // Calculate tangent vector
+    let tDx = 0, tDy = 0;
+    if (i === 0) {
+      tDx = points[1].x - points[0].x;
+      tDy = points[1].y - points[0].y;
+    } else if (i === numPoints) {
+      tDx = points[numPoints].x - points[numPoints - 1].x;
+      tDy = points[numPoints].y - points[numPoints - 1].y;
+    } else {
+      tDx = points[i + 1].x - points[i - 1].x;
+      tDy = points[i + 1].y - points[i - 1].y;
+    }
+    const len = Math.sqrt(tDx * tDx + tDy * tDy);
+    const nx = -tDy / len;
+    const ny = tDx / len;
+    
+    // Smooth parabolic width taper
+    let wMultiplier = 1.0;
+    if (p.t > 0.4) {
+       // Taper from 1.0 down to 0.1 over the last 60%
+       const progress = (p.t - 0.4) / 0.6;
+       // Ease out taper to give it a nice tail dropoff
+       wMultiplier = 1.0 - Math.pow(progress, 1.5) * 0.85;
+    }
+
+    const currentWidth = (style.bodyWidth / 2) * wMultiplier;
+    
+    leftPoints.push({ x: p.x + nx * currentWidth, y: p.y + ny * currentWidth });
+    rightPoints.push({ x: p.x - nx * currentWidth, y: p.y - ny * currentWidth });
+  }
+
+  // Build polygon path
+  let polyD = `M ${leftPoints[0].x} ${leftPoints[0].y}`;
+  for (let i = 1; i <= numPoints; i++) {
+    polyD += ` L ${leftPoints[i].x} ${leftPoints[i].y}`;
+  }
+  // Small curve connecting the tail end
+  const tailDx = points[numPoints].x - points[numPoints - 1].x;
+  const tailDy = points[numPoints].y - points[numPoints - 1].y;
+  const tailLen = Math.sqrt(tailDx * tailDx + tailDy * tailDy);
+  
+  polyD += ` Q ${points[numPoints].x + (tailDx/tailLen)*(style.bodyWidth*0.1)} ${points[numPoints].y + (tailDy/tailLen)*(style.bodyWidth*0.1)} ${rightPoints[numPoints].x} ${rightPoints[numPoints].y}`;
+  for (let i = numPoints - 1; i >= 0; i--) {
+    polyD += ` L ${rightPoints[i].x} ${rightPoints[i].y}`;
+  }
+  polyD += ' Z'; // Close at head
+
+  // Build the simple centerline path for the stripes to follow correctly
+  let pathD = `M ${points[0].x} ${points[0].y}`;
+  for (let i = 1; i <= numPoints; i++) {
+    pathD += ` L ${points[i].x} ${points[i].y}`;
   }
 
   // Calculate face angle from the first tiny step to perfectly align head
@@ -193,40 +253,46 @@ export default function Snake({ snake }: SnakeProps) {
   const angle = Math.atan2(vy, vx) * (180 / Math.PI) + 90;
 
   const hs = style.headSize;
+  const snakeId = `snake-${styleKey}`;
 
   return (
     <g className="pointer-events-none">
-      {/* Outer black stroke for cartoon outline */}
+      <defs>
+        <clipPath id={`clip-${snakeId}`}>
+          <path d={polyD} />
+        </clipPath>
+      </defs>
+
+      {/* Snake body color (fills the tapered polygon) */}
       <path
-        d={pathD}
+        d={polyD}
+        fill={style.bodyColor}
+      />
+
+      {/* Snake stripes masked perfectly by the tapered body */}
+      <g clipPath={`url(#clip-${snakeId})`}>
+        {style.stripes.map((stripe, idx) => (
+          <path
+            key={idx}
+            d={pathD}
+            fill="none"
+            stroke={stripe.color}
+            strokeWidth={style.bodyWidth + 2} // Extra wide to ensure 100% fill before clip
+            strokeDasharray={stripe.dashArray}
+            strokeDashoffset={stripe.dashOffset}
+            strokeLinecap="butt"
+          />
+        ))}
+      </g>
+
+      {/* Outer black stroke for crisp cartoon outline over stripes */}
+      <path
+        d={polyD}
         fill="none"
         stroke={style.outlineColor}
-        strokeWidth={style.bodyWidth + 6}
-        strokeLinecap="round"
+        strokeWidth="3.5"
+        strokeLinejoin="round"
       />
-
-      {/* Snake body color */}
-      <path
-        d={pathD}
-        fill="none"
-        stroke={style.bodyColor}
-        strokeWidth={style.bodyWidth}
-        strokeLinecap="round"
-      />
-
-      {/* Snake stripes using stroke-dasharray */}
-      {style.stripes.map((stripe, idx) => (
-        <path
-          key={idx}
-          d={pathD}
-          fill="none"
-          stroke={stripe.color}
-          strokeWidth={style.bodyWidth}
-          strokeDasharray={stripe.dashArray}
-          strokeDashoffset={stripe.dashOffset}
-          strokeLinecap="butt"
-        />
-      ))}
 
       {/* Head */}
       <g transform={`translate(${headPos.x}, ${headPos.y}) rotate(${angle})`}>

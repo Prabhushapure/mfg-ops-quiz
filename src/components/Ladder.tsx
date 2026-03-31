@@ -60,46 +60,60 @@ if (Math.abs(dx) < 5) {
     <g className="pointer-events-none">
       <defs>
         <linearGradient
-          id={`${ladderId}-grad`}
+          id={`${ladderId}-wood-grad`}
           x1="0%"
           y1="0%"
           x2="100%"
           y2="0%"
         >
-          <stop offset="0%" stopColor="#94a3b8" />
-          <stop offset="50%" stopColor="#e2e8f0" />
-          <stop offset="100%" stopColor="#94a3b8" />
+          <stop offset="0%" stopColor="#4a2e15" />
+          <stop offset="20%" stopColor="#7a4623" />
+          <stop offset="50%" stopColor="#a36233" />
+          <stop offset="80%" stopColor="#7a4623" />
+          <stop offset="100%" stopColor="#3d240e" />
+        </linearGradient>
+
+        <linearGradient
+          id={`${ladderId}-rung-grad`}
+          x1="0%"
+          y1="0%"
+          x2="0%"
+          y2="100%"
+        >
+          <stop offset="0%" stopColor="#8c5128" />
+          <stop offset="50%" stopColor="#ba723d" />
+          <stop offset="100%" stopColor="#5c3619" />
         </linearGradient>
       </defs>
 
       {/* Shadow */}
       <line
-        x1={leftRailStart.x + 2}
-        y1={leftRailStart.y + 2}
-        x2={leftRailEnd.x + 2}
-        y2={leftRailEnd.y + 2}
-        stroke="rgba(0,0,0,0.2)"
-        strokeWidth="5"
+        x1={leftRailStart.x + 3}
+        y1={leftRailStart.y + 3}
+        x2={leftRailEnd.x + 3}
+        y2={leftRailEnd.y + 3}
+        stroke="rgba(0,0,0,0.25)"
+        strokeWidth="6"
         strokeLinecap="round"
       />
       <line
-        x1={rightRailStart.x + 2}
-        y1={rightRailStart.y + 2}
-        x2={rightRailEnd.x + 2}
-        y2={rightRailEnd.y + 2}
-        stroke="rgba(0,0,0,0.2)"
-        strokeWidth="5"
+        x1={rightRailStart.x + 3}
+        y1={rightRailStart.y + 3}
+        x2={rightRailEnd.x + 3}
+        y2={rightRailEnd.y + 3}
+        stroke="rgba(0,0,0,0.25)"
+        strokeWidth="6"
         strokeLinecap="round"
       />
 
-      {/* Rails */}
+      {/* Rails Base Wood */}
       <line
         x1={leftRailStart.x}
         y1={leftRailStart.y}
         x2={leftRailEnd.x}
         y2={leftRailEnd.y}
-        stroke={`url(#${ladderId}-grad)`}
-        strokeWidth="4"
+        stroke={`url(#${ladderId}-wood-grad)`}
+        strokeWidth="6"
         strokeLinecap="round"
       />
       <line
@@ -107,9 +121,31 @@ if (Math.abs(dx) < 5) {
         y1={rightRailStart.y}
         x2={rightRailEnd.x}
         y2={rightRailEnd.y}
-        stroke={`url(#${ladderId}-grad)`}
-        strokeWidth="4"
+        stroke={`url(#${ladderId}-wood-grad)`}
+        strokeWidth="6"
         strokeLinecap="round"
+      />
+
+      {/* Rail Wood Grain Texture */}
+      <line
+        x1={leftRailStart.x - 1}
+        y1={leftRailStart.y}
+        x2={leftRailEnd.x - 1}
+        y2={leftRailEnd.y}
+        stroke="#3d240e"
+        strokeWidth="1"
+        strokeDasharray="14 6 8 12 20 4"
+        opacity="0.4"
+      />
+      <line
+        x1={rightRailStart.x + 1}
+        y1={rightRailStart.y}
+        x2={rightRailEnd.x + 1}
+        y2={rightRailEnd.y}
+        stroke="#5c3619"
+        strokeWidth="1"
+        strokeDasharray="8 4 18 10 12 6"
+        opacity="0.5"
       />
 
       {/* Rungs */}
@@ -117,11 +153,11 @@ if (Math.abs(dx) < 5) {
         <g key={i}>
           <line
             x1={rung.x1 + 1}
-            y1={rung.y1 + 1}
+            y1={rung.y1 + 1.5}
             x2={rung.x2 + 1}
-            y2={rung.y2 + 1}
-            stroke="rgba(0,0,0,0.15)"
-            strokeWidth="3"
+            y2={rung.y2 + 1.5}
+            stroke="rgba(0,0,0,0.3)"
+            strokeWidth="4"
             strokeLinecap="round"
           />
           <line
@@ -129,16 +165,31 @@ if (Math.abs(dx) < 5) {
             y1={rung.y1}
             x2={rung.x2}
             y2={rung.y2}
-            stroke="#cbd5e1"
-            strokeWidth="3"
+            stroke={`url(#${ladderId}-rung-grad)`}
+            strokeWidth="4"
             strokeLinecap="round"
+          />
+          {/* Rung Grain Texture */}
+          <line
+            x1={rung.x1}
+            y1={rung.y1}
+            x2={rung.x2}
+            y2={rung.y2}
+            stroke="#5c3619"
+            strokeWidth="1"
+            strokeDasharray="6 3 10 5"
+            opacity="0.6"
           />
         </g>
       ))}
 
-      {/* Safety yellow accents at top and bottom */}
-      <circle cx={bottomPos.x} cy={bottomPos.y} r="4" fill="#fbbf24" opacity={0.6} />
-      <circle cx={topPos.x} cy={topPos.y} r="4" fill="#22c55e" opacity={0.6} />
+      {/* Rustic accents at joints */}
+      {rungs.map((rung, i) => (
+        <g key={`accent-${i}`}>
+          <circle cx={rung.x1} cy={rung.y1} r="1.5" fill="#3d240e" />
+          <circle cx={rung.x2} cy={rung.y2} r="1.5" fill="#3d240e" />
+        </g>
+      ))}
     </g>
   );
 }
