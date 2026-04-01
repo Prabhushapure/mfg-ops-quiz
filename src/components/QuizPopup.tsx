@@ -104,13 +104,15 @@ export default function QuizPopup({
             {/* Image */}
             {question.image && (
               <div className="mb-4 rounded-lg overflow-hidden bg-navy-800 border border-navy-700">
+                {console.log("IMAGE VALUE:", question.image)}
                 <Image
-                  src={`/images/quiz/${question.image}`}
-                  alt="Quiz question image"
-                  width={500}
-                  height={300}
-                  className="w-full h-40 sm:h-52 object-cover"
-                />
+  src={`/snake/images/quiz/${question.image}`}
+  alt="Quiz question image"
+  width={500}
+  height={300}
+  className="w-full h-40 sm:h-52 object-cover"
+  unoptimized
+/>
               </div>
             )}
 
