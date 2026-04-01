@@ -104,7 +104,6 @@ export default function QuizPopup({
             {/* Image */}
             {question.image && (
               <div className="mb-4 rounded-lg overflow-hidden bg-navy-800 border border-navy-700">
-                {console.log("IMAGE VALUE:", question.image)}
                 <Image
   src={`/snake/images/quiz/${question.image}`}
   alt="Quiz question image"

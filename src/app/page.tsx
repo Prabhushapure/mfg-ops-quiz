@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useCallback } from "react";
+import { useEffect, useCallback, useRef, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import { AnimatePresence } from "framer-motion";
 import GameBoard from "@/components/GameBoard";
 import Dice from "@/components/Dice";
@@ -14,7 +15,12 @@ import { useDice } from "@/hooks/useDice";
 import { calculateResult } from "@/lib/gameLogic";
 import { playTimerWarning } from "@/lib/sounds";
 
-export default function Home() {
+function HomeContent() {
+  const searchParams = useSearchParams();
+  const token = searchParams.get("token");
+  const playNo = searchParams.get("play_no");
+  const hasSubmittedRef = useRef(false);
+
   const {
     state,
     startGame,
@@ -80,6 +86,52 @@ export default function Home() {
   // Calculate result for result screen
   const gameResult =
     state.phase === "result" ? calculateResult(state) : null;
+
+  const submitScore = useCallback(async () => {
+  if (!token || !playNo || !gameResult) return;
+
+  try {
+    await fetch("https://www.suraxa-safety.com/AWE-SaaS/api/play/complete", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        token,
+        play_no: parseInt(playNo, 10),
+        score: gameResult.scorePercentage,
+        play_result: gameResult.passed ? "Pass" : "Fail",
+      }),
+    });
+  } catch (error) {
+    console.error("Error submitting game score:", error);
+  }
+}, [token, playNo, gameResult]);
+
+  useEffect(() => {
+    if (state.phase === "start") {
+      hasSubmittedRef.current = false;
+    }
+
+    if (state.phase === "result" && gameResult && token && playNo && !hasSubmittedRef.current) {
+      hasSubmittedRef.current = true;
+
+      submitScore();
+    }
+  }, [state.phase, gameResult?.finalScore, gameResult?.passed, token, playNo]);
+
+  const handleClose = useCallback(async () => {
+  if (!hasSubmittedRef.current) {
+    hasSubmittedRef.current = true;
+    await submitScore();
+  }
+
+  if (token) {
+    window.location.href = `https://www.suraxa-safety.com/AWE-SaaS/play?token=${token}`;
+  } else {
+    window.location.href = "https://www.suraxa-safety.com/AWE-SaaS/play";
+  }
+}, [token]);
 
   return (
     <div className="min-h-screen flex flex-col bg-[#fff5f8]">
@@ -166,9 +218,17 @@ export default function Home() {
       {/* Result Screen */}
       <AnimatePresence>
         {state.phase === "result" && gameResult && (
-          <ResultScreen result={gameResult} onPlayAgain={onPlayAgain} />
+          <ResultScreen result={gameResult} onPlayAgain={onPlayAgain} onClose={handleClose} />
         )}
       </AnimatePresence>
     </div>
+  );
+}
+
+export default function Home() {
+  return (
+    <Suspense fallback={<div className="min-h-screen flex items-center justify-center bg-[#fff5f8]">Loading...</div>}>
+      <HomeContent />
+    </Suspense>
   );
 }
