@@ -91,7 +91,7 @@ function HomeContent() {
   if (!token || !playNo || !gameResult) return;
 
   try {
-    await fetch("https://www.suraxa-safety.com/AWE-SaaS/api/play/complete", {
+    await fetch("https://antiz-digital.com/GamifiedLearning/api/play/complete", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -127,9 +127,9 @@ function HomeContent() {
   }
 
   if (token) {
-    window.location.href = `https://www.suraxa-safety.com/AWE-SaaS/play?token=${token}`;
+    window.location.href = `https://antiz-digital.com/GamifiedLearning/play?token=${token}`;
   } else {
-    window.location.href = "https://www.suraxa-safety.com/AWE-SaaS/play";
+    window.location.href = "https://antiz-digital.com/GamifiedLearning/play";
   }
 }, [token]);
 
