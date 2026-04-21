@@ -129,7 +129,7 @@ function HomeContent() {
   if (token) {
     window.location.href = `https://antiz-digital.com/GamifiedLearning/play?token=${token}`;
   } else {
-    window.location.href = "https://antiz-digital.com/GamifiedLearning/play";
+    window.location.href = "https://antiz-digital.com/GamifiedLearning/partner/license";
   }
 }, [token]);
 
