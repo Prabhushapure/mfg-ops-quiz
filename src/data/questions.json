@@ -3,12 +3,12 @@
     "id": "q1",
     "question": "What is the primary purpose of Lockout/Tagout (LOTO) procedures?",
     "options": [
-      "A. To identify the location of electrical panels",
-      "B. To prevent unexpected energization of equipment during maintenance",
-      "C. To test voltage levels in circuits",
-      "D. To label electrical wires by color"
+      "A. To label electrical wires by color",
+      "B. To test voltage levels in circuits",
+      "C. To prevent unexpected energization of equipment during maintenance",
+      "D. To identify the location of electrical panels"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "LOTO procedures ensure that machines are properly shut off and cannot be started up again before maintenance work is completed, protecting workers from unexpected energization.",
     "image": "lockout-tagout.jpg",
     "topic": "Lockout/Tagout"
@@ -17,12 +17,12 @@
     "id": "q2",
     "question": "Which class of fire extinguisher is appropriate for an electrical fire?",
     "options": [
-      "A. Class A",
-      "B. Class B",
-      "C. Class C",
-      "D. Class D"
+      "A. Class D",
+      "B. Class C",
+      "C. Class B",
+      "D. Class A"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "Class C fire extinguishers are rated for fires involving energized electrical equipment. Using water (Class A) on an electrical fire can cause electrocution.",
     "image": "fire-extinguisher-class-c.jpg",
     "topic": "Electrical Fire Safety"
@@ -31,9 +31,9 @@
     "id": "q3",
     "question": "What does GFCI stand for?",
     "options": [
-      "A. General Fault Circuit Interrupter",
+      "A. Grounded Fuse Circuit Isolator",
       "B. Ground Fault Circuit Interrupter",
-      "C. Grounded Fuse Circuit Isolator",
+      "C. General Fault Circuit Interrupter",
       "D. Ground Frequency Current Indicator"
     ],
     "correctAnswer": "B",
@@ -45,12 +45,12 @@
     "id": "q4",
     "question": "At what voltage level is electrical energy generally considered hazardous to humans?",
     "options": [
-      "A. Above 500V only",
+      "A. 50V AC or 100V DC and above",
       "B. Above 120V only",
-      "C. 50V AC or 100V DC and above",
+      "C. Above 500V only",
       "D. Only above 1000V"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "OSHA and NFPA consider 50V AC or 100V DC as the threshold above which electrical energy becomes hazardous. Even lower voltages can be dangerous under wet conditions.",
     "topic": "Voltage Classifications"
   },
@@ -58,12 +58,12 @@
     "id": "q5",
     "question": "What type of PPE should be worn when working near energized electrical equipment with arc flash hazard?",
     "options": [
-      "A. Standard cotton coveralls",
-      "B. Arc-rated (AR) clothing and face shield",
-      "C. Rubber boots only",
-      "D. High-visibility vest"
+      "A. High-visibility vest",
+      "B. Standard cotton coveralls",
+      "C. Arc-rated (AR) clothing and face shield",
+      "D. Rubber boots only"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Arc-rated clothing and face shields are specifically designed to protect against the thermal hazards of an arc flash, which can reach temperatures of 35,000°F.",
     "image": "arc-flash-ppe.jpg",
     "topic": "PPE for Electrical Work"
@@ -72,12 +72,12 @@
     "id": "q6",
     "question": "What is the first step before performing any electrical maintenance?",
     "options": [
-      "A. Put on safety glasses",
-      "B. Notify your supervisor",
-      "C. Verify zero-energy state using a voltage tester",
+      "A. Notify your supervisor",
+      "B. Verify zero-energy state using a voltage tester",
+      "C. Put on safety glasses",
       "D. Read the equipment manual"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "After following LOTO procedures, you must verify zero-energy state using an appropriate voltage tester before touching any electrical components. This confirms the equipment is truly de-energized.",
     "topic": "Lockout/Tagout"
   },
@@ -85,12 +85,12 @@
     "id": "q7",
     "question": "Which type of gloves should be used when working on energized electrical circuits?",
     "options": [
-      "A. Leather work gloves",
-      "B. Latex medical gloves",
-      "C. Insulated rubber electrical gloves with leather protectors",
-      "D. Cotton gloves"
+      "A. Insulated rubber electrical gloves with leather protectors",
+      "B. Cotton gloves",
+      "C. Latex medical gloves",
+      "D. Leather work gloves"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "Insulated rubber gloves rated for the appropriate voltage class, worn with leather protector gloves, provide the necessary protection against electrical shock.",
     "image": "insulated-gloves.jpg",
     "topic": "PPE for Electrical Work"
@@ -99,10 +99,10 @@
     "id": "q8",
     "question": "What is an arc flash?",
     "options": [
-      "A. A type of lightning strike",
+      "A. A short circuit that only damages wiring",
       "B. A visible light produced by a flashlight",
       "C. An explosive release of energy caused by an electrical arc through air",
-      "D. A short circuit that only damages wiring"
+      "D. A type of lightning strike"
     ],
     "correctAnswer": "C",
     "explanation": "An arc flash is a dangerous condition where an electric current flows through air between conductors, creating an explosive release of energy with extreme heat, pressure, and light.",
@@ -126,11 +126,11 @@
     "question": "What is the purpose of grounding electrical equipment?",
     "options": [
       "A. To increase power efficiency",
-      "B. To provide a safe path for fault current to flow to earth",
-      "C. To improve signal quality",
-      "D. To reduce electricity costs"
+      "B. To reduce electricity costs",
+      "C. To provide a safe path for fault current to flow to earth",
+      "D. To improve signal quality"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Grounding provides a low-resistance path for fault current to flow to earth, which helps trip protective devices and prevents dangerous voltages from appearing on equipment surfaces.",
     "topic": "Grounding and Bonding"
   },
@@ -138,12 +138,12 @@
     "id": "q11",
     "question": "Which of the following is a sign of an overloaded electrical circuit?",
     "options": [
-      "A. LED lights flickering once during a storm",
-      "B. Circuit breakers tripping frequently or warm outlet covers",
-      "C. A fuse that has never blown",
-      "D. Equipment running at normal speed"
+      "A. A fuse that has never blown",
+      "B. Equipment running at normal speed",
+      "C. LED lights flickering once during a storm",
+      "D. Circuit breakers tripping frequently or warm outlet covers"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Frequently tripping breakers, warm outlets or switch plates, buzzing sounds, and burning smells are all signs of circuit overload that require immediate attention.",
     "image": "circuit-breaker-panel.jpg",
     "topic": "Circuit Breakers and Overcurrent Protection"
@@ -152,12 +152,12 @@
     "id": "q12",
     "question": "What should you do FIRST if a coworker is being electrocuted by contact with a live conductor?",
     "options": [
-      "A. Grab them and pull them away",
-      "B. Throw water on them to reduce the shock",
-      "C. De-energize the circuit or use a non-conductive object to separate them from the source",
-      "D. Start CPR immediately"
+      "A. De-energize the circuit or use a non-conductive object to separate them from the source",
+      "B. Start CPR immediately",
+      "C. Grab them and pull them away",
+      "D. Throw water on them to reduce the shock"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "Never touch someone being electrocuted directly. First de-energize the source if possible, or use a dry, non-conductive object (like a wooden board) to separate them from the conductor.",
     "topic": "First Aid for Electrical Shock"
   },
@@ -165,12 +165,12 @@
     "id": "q13",
     "question": "What is the minimum safe approach distance for unqualified workers near exposed 600V conductors?",
     "options": [
-      "A. 1 foot",
-      "B. 3.5 feet",
-      "C. 10 feet",
-      "D. 25 feet"
+      "A. 3.5 feet",
+      "B. 1 foot",
+      "C. 25 feet",
+      "D. 10 feet"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "OSHA requires unqualified workers to maintain a minimum distance of 10 feet from exposed energized conductors at 600V or less. Qualified workers may approach closer with proper PPE.",
     "topic": "Safe Working Distances"
   },
@@ -178,10 +178,10 @@
     "id": "q14",
     "question": "What is the function of a fuse in an electrical circuit?",
     "options": [
-      "A. To boost voltage during peak demand",
-      "B. To store electrical energy",
+      "A. To convert AC to DC power",
+      "B. To boost voltage during peak demand",
       "C. To melt and break the circuit when current exceeds a safe level",
-      "D. To convert AC to DC power"
+      "D. To store electrical energy"
     ],
     "correctAnswer": "C",
     "explanation": "A fuse contains a metal element that melts when excessive current flows through it, breaking the circuit and protecting wiring and equipment from damage due to overcurrent.",
@@ -192,12 +192,12 @@
     "id": "q15",
     "question": "When should insulated rubber electrical gloves be tested?",
     "options": [
-      "A. Only when they look damaged",
-      "B. Once a year",
-      "C. Before each use (visual inspection) and electrically tested every 6 months",
+      "A. Before each use (visual inspection) and electrically tested every 6 months",
+      "B. Only when they look damaged",
+      "C. Once a year",
       "D. Only after an incident"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "Insulated rubber gloves must be visually inspected before each use and air-tested. They must also undergo formal electrical testing every 6 months per OSHA requirements.",
     "topic": "PPE for Electrical Work"
   },
@@ -206,11 +206,11 @@
     "question": "What color is used to identify safety ground wires in the US?",
     "options": [
       "A. Red",
-      "B. Blue",
-      "C. Green or green with yellow stripe",
-      "D. White"
+      "B. Green or green with yellow stripe",
+      "C. White",
+      "D. Blue"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "In the US National Electrical Code (NEC), green or green with a yellow stripe is designated for equipment grounding conductors.",
     "topic": "Grounding and Bonding"
   },
@@ -218,10 +218,10 @@
     "id": "q17",
     "question": "Which of the following is the MOST dangerous path for electric current through the human body?",
     "options": [
-      "A. Hand to foot on the same side",
+      "A. Elbow to same-side hand",
       "B. Hand to hand (across the chest)",
-      "C. Foot to foot",
-      "D. Elbow to same-side hand"
+      "C. Hand to foot on the same side",
+      "D. Foot to foot"
     ],
     "correctAnswer": "B",
     "explanation": "Current flowing hand-to-hand passes through the chest cavity and heart, creating the most dangerous path. As little as 100mA across the heart can be fatal.",
@@ -231,12 +231,12 @@
     "id": "q18",
     "question": "What does the term 'arc blast' refer to?",
     "options": [
-      "A. The sound of a circuit breaker tripping",
-      "B. The pressure wave created by an arc flash that can throw workers and debris",
-      "C. A type of welding technique",
-      "D. An explosion caused by natural gas"
+      "A. An explosion caused by natural gas",
+      "B. A type of welding technique",
+      "C. The sound of a circuit breaker tripping",
+      "D. The pressure wave created by an arc flash that can throw workers and debris"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "An arc blast is the pressure wave that accompanies an arc flash. It can exceed 2,000 lbs/sq ft, enough to throw workers across a room and cause severe injuries from impact and flying debris.",
     "topic": "Arc Flash Hazards"
   },
@@ -244,12 +244,12 @@
     "id": "q19",
     "question": "What is the purpose of an energized electrical work permit?",
     "options": [
-      "A. To allow anyone to work on live circuits",
-      "B. To document that de-energizing creates a greater hazard and authorize specific live work with safety measures",
-      "C. To waive the requirement for PPE",
-      "D. To certify that equipment is properly grounded"
+      "A. To document that de-energizing creates a greater hazard and authorize specific live work with safety measures",
+      "B. To allow anyone to work on live circuits",
+      "C. To certify that equipment is properly grounded",
+      "D. To waive the requirement for PPE"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "An energized work permit documents the justification for working on live equipment (when de-energizing would create greater risk), specifies the hazards, and lists required safety measures.",
     "topic": "NFPA 70E Standards"
   },
@@ -258,11 +258,11 @@
     "question": "Which device is shown in this image?",
     "options": [
       "A. A voltage regulator",
-      "B. A GFCI (Ground Fault Circuit Interrupter) outlet",
-      "C. A standard duplex outlet",
-      "D. A USB charging port"
+      "B. A standard duplex outlet",
+      "C. A USB charging port",
+      "D. A GFCI (Ground Fault Circuit Interrupter) outlet"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "A GFCI outlet has TEST and RESET buttons and monitors the current balance between hot and neutral wires. It can trip in as fast as 1/40th of a second to prevent shock.",
     "image": "gfci-outlet.jpg",
     "topic": "GFCI Protection"
@@ -272,9 +272,9 @@
     "question": "What is bonding in electrical systems?",
     "options": [
       "A. Connecting all metal parts together to ensure they are at the same electrical potential",
-      "B. Gluing wires together for strength",
+      "B. Connecting two different power sources",
       "C. Wrapping wires with electrical tape",
-      "D. Connecting two different power sources"
+      "D. Gluing wires together for strength"
     ],
     "correctAnswer": "A",
     "explanation": "Bonding connects metal parts together to maintain them at the same potential, preventing dangerous voltage differences that could cause shock or arcing between components.",
@@ -284,12 +284,12 @@
     "id": "q22",
     "question": "What is the maximum current (in milliamps) that the human body can typically feel?",
     "options": [
-      "A. 0.5 mA",
-      "B. 1 mA",
-      "C. 10 mA",
-      "D. 100 mA"
+      "A. 10 mA",
+      "B. 100 mA",
+      "C. 1 mA",
+      "D. 0.5 mA"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "The threshold of perception for electrical current is approximately 1 mA. At 10-20 mA, muscles contract and the person may not be able to let go (let-go threshold).",
     "topic": "Electrical Hazard Identification"
   },
@@ -297,12 +297,12 @@
     "id": "q23",
     "question": "Which piece of equipment is used to verify zero-energy state before maintenance?",
     "options": [
-      "A. Multimeter or voltage tester",
-      "B. Ammeter only",
+      "A. Ammeter only",
+      "B. Multimeter or voltage tester",
       "C. Oscilloscope",
       "D. Power quality analyzer"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "A multimeter or a proximity voltage tester is used to confirm that circuits are de-energized (zero-energy state) before beginning maintenance work.",
     "image": "multimeter.jpg",
     "topic": "Lockout/Tagout"
@@ -311,10 +311,10 @@
     "id": "q24",
     "question": "What is the OSHA standard that covers electrical safety for general industry?",
     "options": [
-      "A. 29 CFR 1910.147",
+      "A. 29 CFR 1926.500",
       "B. 29 CFR 1910.303-399 (Subpart S)",
-      "C. 29 CFR 1926.500",
-      "D. 29 CFR 1910.134"
+      "C. 29 CFR 1910.134",
+      "D. 29 CFR 1910.147"
     ],
     "correctAnswer": "B",
     "explanation": "OSHA's Subpart S (29 CFR 1910.303-399) covers electrical safety requirements for general industry, including design, safety-related work practices, and maintenance.",
@@ -324,12 +324,12 @@
     "id": "q25",
     "question": "What does the 'trip' rating on a circuit breaker indicate?",
     "options": [
-      "A. How many times it can be reset",
-      "B. The current level at which it will automatically open the circuit",
+      "A. The current level at which it will automatically open the circuit",
+      "B. The physical size of the breaker",
       "C. The voltage it can handle",
-      "D. The physical size of the breaker"
+      "D. How many times it can be reset"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "A circuit breaker's trip rating indicates the current level (in amps) at which it will automatically open to interrupt the circuit and protect wiring from overheating.",
     "image": "circuit-breaker-panel.jpg",
     "topic": "Circuit Breakers and Overcurrent Protection"
@@ -338,12 +338,12 @@
     "id": "q26",
     "question": "What should be done if an electrical cord is damaged or has exposed wiring?",
     "options": [
-      "A. Wrap it with duct tape and continue using it",
-      "B. Immediately remove it from service and replace it",
-      "C. Use it only for low-power applications",
+      "A. Use it only for low-power applications",
+      "B. Wrap it with duct tape and continue using it",
+      "C. Immediately remove it from service and replace it",
       "D. Cover it with a rug to prevent tripping"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Damaged cords with exposed wiring present shock and fire hazards. They should be immediately removed from service, tagged out, and replaced — never repaired with tape.",
     "topic": "Electrical Hazard Identification"
   },
@@ -351,12 +351,12 @@
     "id": "q27",
     "question": "What is the arc flash boundary?",
     "options": [
-      "A. The physical edge of an electrical panel",
-      "B. The distance at which a person could receive a second-degree burn from an arc flash",
-      "C. The area where hard hats are required",
-      "D. The maximum reach of a ladder"
+      "A. The distance at which a person could receive a second-degree burn from an arc flash",
+      "B. The area where hard hats are required",
+      "C. The maximum reach of a ladder",
+      "D. The physical edge of an electrical panel"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "The arc flash boundary is the distance from an arc source at which incident energy equals 1.2 cal/cm², enough to cause a second-degree burn on exposed skin.",
     "image": "arc-flash-boundary-label.jpg",
     "topic": "Arc Flash Hazards"
@@ -365,12 +365,12 @@
     "id": "q28",
     "question": "Why should water never be used to extinguish an electrical fire?",
     "options": [
-      "A. Water is not cold enough",
-      "B. Water conducts electricity and can cause electrocution",
+      "A. Water will damage the paint on equipment",
+      "B. Water is not cold enough",
       "C. Water makes the fire burn hotter",
-      "D. Water will damage the paint on equipment"
+      "D. Water conducts electricity and can cause electrocution"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Water is an excellent conductor of electricity. Using water on an energized electrical fire can cause the current to travel through the water stream to the person, resulting in electrocution.",
     "topic": "Electrical Fire Safety"
   },
@@ -378,12 +378,12 @@
     "id": "q29",
     "question": "Which of the following is a requirement of a proper LOTO procedure?",
     "options": [
-      "A. Only the supervisor needs to apply a lock",
-      "B. Each worker must apply their own individual lock and tag",
+      "A. Each worker must apply their own individual lock and tag",
+      "B. Tags alone are sufficient without locks",
       "C. Locks can be shared among team members",
-      "D. Tags alone are sufficient without locks"
+      "D. Only the supervisor needs to apply a lock"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "OSHA requires each authorized worker to apply their own individual lock and tag to energy-isolating devices. Only the person who applied a lock may remove it.",
     "image": "lockout-tagout.jpg",
     "topic": "Lockout/Tagout"
@@ -406,12 +406,12 @@
     "id": "q31",
     "question": "What is the 'let-go' threshold for AC current?",
     "options": [
-      "A. 1 mA",
-      "B. 5-10 mA",
-      "C. 10-20 mA",
-      "D. 75-100 mA"
+      "A. 5-10 mA",
+      "B. 1 mA",
+      "C. 75-100 mA",
+      "D. 10-20 mA"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "At 10-20 mA of AC current, muscles involuntarily contract and a person cannot voluntarily release their grip on an energized conductor — this is called the let-go threshold.",
     "topic": "Voltage Classifications"
   },
@@ -419,10 +419,10 @@
     "id": "q32",
     "question": "What type of face protection is required within the arc flash boundary?",
     "options": [
-      "A. Safety glasses only",
+      "A. Welding goggles",
       "B. A standard face shield",
       "C. An arc-rated face shield or arc flash hood",
-      "D. Welding goggles"
+      "D. Safety glasses only"
     ],
     "correctAnswer": "C",
     "explanation": "Within the arc flash boundary, workers must wear arc-rated face shields or arc flash hoods that are rated for the calculated incident energy level at that distance.",
@@ -434,11 +434,11 @@
     "question": "What does a double-insulated power tool marking indicate?",
     "options": [
       "A. The tool can be used underwater",
-      "B. The tool has two layers of insulation and does not require a grounding prong",
+      "B. The tool is rated for outdoor use only",
       "C. The tool runs on dual voltage",
-      "D. The tool is rated for outdoor use only"
+      "D. The tool has two layers of insulation and does not require a grounding prong"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "The double-insulation symbol (square within a square) means the tool has both functional and supplementary insulation, eliminating the need for a three-prong grounding plug.",
     "image": "double-insulated-tool.png",
     "topic": "Grounding and Bonding"
@@ -447,12 +447,12 @@
     "id": "q34",
     "question": "How should you test a voltage tester before using it?",
     "options": [
-      "A. Shake it to hear if the battery rattles",
-      "B. Test it on a known live source before and after testing the circuit",
-      "C. Check if the LED light turns on",
-      "D. It doesn't need testing if it's new"
+      "A. It doesn't need testing if it's new",
+      "B. Check if the LED light turns on",
+      "C. Test it on a known live source before and after testing the circuit",
+      "D. Shake it to hear if the battery rattles"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Always verify your voltage tester works by testing on a known live (energized) source before and after testing the target circuit. This confirms the tester isn't giving false readings.",
     "topic": "Lockout/Tagout"
   },
@@ -460,12 +460,12 @@
     "id": "q35",
     "question": "What is the purpose of equipment grounding conductors in a power distribution system?",
     "options": [
-      "A. To carry normal operating current",
-      "B. To provide a low-impedance path for ground-fault current to facilitate overcurrent device operation",
+      "A. To provide a low-impedance path for ground-fault current to facilitate overcurrent device operation",
+      "B. To reduce electric bills",
       "C. To boost voltage to distant loads",
-      "D. To reduce electric bills"
+      "D. To carry normal operating current"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Equipment grounding conductors provide a low-impedance return path for fault current, ensuring that overcurrent protection devices (breakers/fuses) operate quickly to clear the fault.",
     "topic": "Grounding and Bonding"
   },
@@ -473,12 +473,12 @@
     "id": "q36",
     "question": "According to NFPA 70E, what must be established before approaching exposed energized conductors?",
     "options": [
-      "A. A restricted approach boundary only",
-      "B. Flash protection boundary, limited approach boundary, and restricted approach boundary",
-      "C. A 10-foot perimeter",
-      "D. Only a verbal warning to nearby workers"
+      "A. Flash protection boundary, limited approach boundary, and restricted approach boundary",
+      "B. Only a verbal warning to nearby workers",
+      "C. A restricted approach boundary only",
+      "D. A 10-foot perimeter"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "NFPA 70E requires establishing three approach boundaries: the arc flash boundary (for thermal protection), the limited approach boundary, and the restricted approach boundary for shock protection.",
     "topic": "NFPA 70E Standards"
   },
@@ -486,12 +486,12 @@
     "id": "q37",
     "question": "What should be used to rescue an unconscious person in contact with a high-voltage line?",
     "options": [
-      "A. A metal pole",
-      "B. A hot stick (insulated rescue hook) rated for the voltage",
-      "C. A wet rope",
-      "D. Your hands with rubber gloves"
+      "A. Your hands with rubber gloves",
+      "B. A metal pole",
+      "C. A hot stick (insulated rescue hook) rated for the voltage",
+      "D. A wet rope"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "A hot stick or insulated rescue hook rated for the voltage level should be used. For high-voltage rescue, only trained personnel with proper voltage-rated equipment should attempt rescue.",
     "topic": "First Aid for Electrical Shock"
   },
@@ -500,11 +500,11 @@
     "question": "What is the incident energy measured in for arc flash calculations?",
     "options": [
       "A. Watts per hour",
-      "B. Calories per square centimeter (cal/cm²)",
-      "C. Joules per kilogram",
-      "D. Amperes per meter"
+      "B. Joules per kilogram",
+      "C. Amperes per meter",
+      "D. Calories per square centimeter (cal/cm²)"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Arc flash incident energy is measured in calories per square centimeter (cal/cm²). A second-degree burn occurs at an exposure of 1.2 cal/cm² on bare skin.",
     "topic": "Arc Flash Hazards"
   },
@@ -512,12 +512,12 @@
     "id": "q39",
     "question": "Which of the following is a correct procedure after an electrical shock victim is separated from the source?",
     "options": [
-      "A. Give them water immediately",
-      "B. Check for breathing and pulse, call 911, begin CPR if needed",
+      "A. Check for breathing and pulse, call 911, begin CPR if needed",
+      "B. Give them water immediately",
       "C. Apply burn cream to any visible injuries",
       "D. Have them walk it off to restore circulation"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "After safely separating the victim from the source, check for responsiveness, breathing, and pulse. Call 911 immediately and begin CPR if the victim is not breathing or has no pulse.",
     "topic": "First Aid for Electrical Shock"
   },
@@ -527,8 +527,8 @@
     "options": [
       "A. The equipment requires annual cleaning",
       "B. Arc flash and shock hazard — PPE required and approach boundaries defined",
-      "C. The equipment is energy efficient",
-      "D. The panel is safe to open without precautions"
+      "C. The panel is safe to open without precautions",
+      "D. The equipment is energy efficient"
     ],
     "correctAnswer": "B",
     "explanation": "Arc flash warning labels provide critical safety information including incident energy levels, required PPE, and shock and arc flash approach boundaries for workers.",
