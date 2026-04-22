@@ -9,7 +9,7 @@
       "D. Oxygen, Water, Smoke"
     ],
     "correctAnswer": "A",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Fuel, Heat, Oxygen → These three form the fire triangle; removing any one stops fire.",
     "topic": "Fire Safety"
   },
   {
@@ -22,7 +22,7 @@
       "D. Carbon"
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Oxygen → Fire needs oxygen to sustain combustion.",
     "topic": "Fire Safety"
   },
   {
@@ -35,7 +35,7 @@
       "D. Class D"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Class A → Involves common materials like paper, wood, cloth.",
     "topic": "Fire Safety"
   },
   {
@@ -48,7 +48,7 @@
       "D. Class K"
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Class C → Electrical equipment fires fall under this category.",
     "topic": "Fire Safety"
   },
   {
@@ -61,7 +61,7 @@
       "D. Raise alarm"
     ],
     "correctAnswer": "D",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Raise alarm → Alerts everyone quickly and triggers emergency response.",
     "topic": "Fire Safety"
   },
   {
@@ -74,7 +74,7 @@
       "D. Kept outside"
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Easily accessible → Saves time during emergency; no searching needed.",
     "topic": "Fire Safety"
   },
   {
@@ -87,7 +87,7 @@
       "D. Remove oxygen"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Detect smoke early → Early warning prevents fire spread.",
     "topic": "Fire Safety"
   },
   {
@@ -100,7 +100,7 @@
       "D. Power cut"
     ],
     "correctAnswer": "A",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Emergency evacuation → Alarm signals danger, not routine activity.",
     "topic": "Fire Safety"
   },
   {
@@ -113,7 +113,7 @@
       "D. Hydrogen"
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Carbon monoxide → Colourless, odourless, and deadly gas in fires.",
     "topic": "Fire Safety"
   },
   {
@@ -126,7 +126,7 @@
       "D. Used for storage"
     ],
     "correctAnswer": "A",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Clearly marked → Ensures people can find exits quickly in panic.",
     "topic": "Fire Safety"
   },
   {
@@ -139,7 +139,7 @@
       "D. Metal fires"
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Paper fires (Class A) → Water cools and extinguishes solid material fires.",
     "topic": "Fire Safety"
   },
   {
@@ -152,7 +152,7 @@
       "D. Plastic"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Electrical fires → CO₂ doesn’t conduct electricity and leaves no residue.",
     "topic": "Fire Safety"
   },
   {
@@ -165,7 +165,7 @@
       "D. Flammable liquids"
     ],
     "correctAnswer": "D",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Flammable liquids → Foam forms a layer to cut oxygen supply.",
     "topic": "Fire Safety"
   },
   {
@@ -178,7 +178,7 @@
       "D. Press, Aim, Spray, Sweep"
     ],
     "correctAnswer": "A",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "PASS method → Standard safe technique to use extinguishers.",
     "topic": "Fire Safety"
   },
   {
@@ -191,7 +191,7 @@
       "D. Top"
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Base of fire → Targets source, not just visible flames.",
     "topic": "Fire Safety"
   },
   {
@@ -204,7 +204,7 @@
       "D. None"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Fire hazard → Overloading causes overheating and sparks.",
     "topic": "Fire Safety"
   },
   {
@@ -217,7 +217,7 @@
       "D. Black"
     ],
     "correctAnswer": "D",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Black label (CO₂) → Standard colour coding for identification.",
     "topic": "Fire Safety"
   },
   {
@@ -230,7 +230,7 @@
       "D. Only gas"
     ],
     "correctAnswer": "A",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "All types (multi-purpose) → Dry powder works on multiple fire classes.",
     "topic": "Fire Safety"
   },
   {
@@ -243,7 +243,7 @@
       "D. Only after fire"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Regular inspection → Ensures extinguisher works when needed.",
     "topic": "Fire Safety"
   },
   {
@@ -256,7 +256,7 @@
       "D. Hidden"
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Replaced/serviced → Expired ones may fail during emergency.",
     "topic": "Fire Safety"
   },
   {
@@ -269,7 +269,7 @@
       "D. Displayed clearly"
     ],
     "correctAnswer": "D",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Displayed clearly → Everyone should know escape routes.",
     "topic": "Fire Safety"
   },
   {
@@ -282,7 +282,7 @@
       "D. Go back"
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Use stairs calmly → Elevators may fail; panic causes accidents.",
     "topic": "Fire Safety"
   },
   {
@@ -295,7 +295,7 @@
       "D. Lift area"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Safe gathering area → Helps account for all employees.",
     "topic": "Fire Safety"
   },
   {
@@ -308,7 +308,7 @@
       "D. Security"
     ],
     "correctAnswer": "A",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Evacuation guidance → Fire wardens manage safe exit.",
     "topic": "Fire Safety"
   },
   {
@@ -321,7 +321,7 @@
       "D. Run fast"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Crawl low → Smoke rises; cleaner air is near the floor.",
     "topic": "Fire Safety"
   },
   {
@@ -334,7 +334,7 @@
       "D. Fire may be behind it"
     ],
     "correctAnswer": "D",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Fire may be behind → Hot door indicates fire on the other side.",
     "topic": "Fire Safety"
   },
   {
@@ -347,7 +347,7 @@
       "D. Optional"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Known to all → Quick response saves lives.",
     "topic": "Fire Safety"
   },
   {
@@ -360,7 +360,7 @@
       "D. Avoid work"
     ],
     "correctAnswer": "A",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Practice procedures → Builds familiarity and reduces panic.",
     "topic": "Fire Safety"
   },
   {
@@ -373,7 +373,7 @@
       "D. Ignore"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Wait for instructions → Re-entry can be dangerous without clearance.",
     "topic": "Fire Safety"
   },
   {
@@ -386,7 +386,7 @@
       "D. Dangerous"
     ],
     "correctAnswer": "D",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Dangerous → Lifts can stop or fill with smoke.",
     "topic": "Fire Safety"
   },
   {
@@ -399,7 +399,7 @@
       "D. None"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Increase fire risk → Paper is highly flammable.",
     "topic": "Fire Safety"
   },
   {
@@ -412,7 +412,7 @@
       "D. Encouraged"
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Fire hazard → Smoking can ignite materials easily.",
     "topic": "Fire Safety"
   },
   {
@@ -425,7 +425,7 @@
       "D. Fire hazard"
     ],
     "correctAnswer": "D",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Fire hazard → Faulty wiring causes sparks/short circuits.",
     "topic": "Fire Safety"
   },
   {
@@ -438,7 +438,7 @@
       "D. Broken"
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Closed/unblocked → Prevents fire spread and keeps escape routes safe.",
     "topic": "Fire Safety"
   },
   {
@@ -451,7 +451,7 @@
       "D. Ignored"
     ],
     "correctAnswer": "A",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Stored safely → Prevents accidental ignition.",
     "topic": "Fire Safety"
   },
   {
@@ -464,7 +464,7 @@
       "D. Used more"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Switched off → Prevents overheating and possible ignition.",
     "topic": "Fire Safety"
   },
   {
@@ -477,7 +477,7 @@
       "D. None"
     ],
     "correctAnswer": "A",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Fire risk → Continuous charging can overheat devices.",
     "topic": "Fire Safety"
   },
   {
@@ -490,7 +490,7 @@
       "D. None"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Cause overheating → Poor ventilation traps heat.",
     "topic": "Fire Safety"
   },
   {
@@ -503,7 +503,7 @@
       "D. Checked"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Overloaded → Leads to overheating and electrical fires.",
     "topic": "Fire Safety"
   },
   {
@@ -516,7 +516,7 @@
       "D. Ignored"
     ],
     "correctAnswer": "A",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Important guidance → Helps in navigation and awareness during emergencies.",
     "topic": "Fire Safety"
   },
   {
@@ -529,7 +529,7 @@
       "D. Air"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Heat → Sprinklers activate when temperature rises.",
     "topic": "Fire Safety"
   },
   {
@@ -542,7 +542,7 @@
       "D. Cover furniture"
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Smother fire → Cuts oxygen supply to small fires.",
     "topic": "Fire Safety"
   },
   {
@@ -555,7 +555,7 @@
       "D. Meeting"
     ],
     "correctAnswer": "A",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Power failure → Helps visibility during emergencies.",
     "topic": "Fire Safety"
   },
   {
@@ -568,7 +568,7 @@
       "D. Dangerous"
     ],
     "correctAnswer": "D",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Dangerous → Panic leads to poor decisions and injuries.",
     "topic": "Fire Safety"
   },
   {
@@ -581,7 +581,7 @@
       "D. Lit"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Blocked → Prevents escape and increases risk.",
     "topic": "Fire Safety"
   },
   {
@@ -594,7 +594,7 @@
       "D. HR"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Everyone → Safety is a shared responsibility.",
     "topic": "Fire Safety"
   },
   {
@@ -607,7 +607,7 @@
       "D. Covered"
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Reported immediately → Gas leaks can cause explosions.",
     "topic": "Fire Safety"
   },
   {
@@ -620,7 +620,7 @@
       "D. Class D"
     ],
     "correctAnswer": "A",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Class K → Kitchen fires involve oils/grease.",
     "topic": "Fire Safety"
   },
   {
@@ -633,7 +633,7 @@
       "D. Illegal"
     ],
     "correctAnswer": "B",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Important process → Identifies risks and prevention methods.",
     "topic": "Fire Safety"
   },
   {
@@ -646,7 +646,7 @@
       "D. None"
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "explanation": "Reduce accidents → Awareness improves response and prevention.",
     "topic": "Fire Safety"
   }
 ]
