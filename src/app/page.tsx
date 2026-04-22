@@ -23,6 +23,8 @@ function HomeContent() {
 
   const {
     state,
+    selectedTopic,
+    setSelectedTopic,
     startGame,
     handleDiceRoll,
     handleAnswer,
@@ -37,9 +39,9 @@ function HomeContent() {
 
   // Start game handler
   const onStartGame = useCallback(() => {
-    startGame();
+    startGame(selectedTopic);
     timer.start();
-  }, [startGame, timer]);
+  }, [startGame, selectedTopic, timer]);
 
   // Sync timer to game state
   useEffect(() => {
@@ -137,7 +139,13 @@ function HomeContent() {
     <div className="min-h-screen flex flex-col bg-[#fff5f8]">
       {/* Start Screen */}
       <AnimatePresence>
-        {state.phase === "start" && <StartScreen onStart={onStartGame} />}
+        {state.phase === "start" && (
+          <StartScreen
+            selectedTopic={selectedTopic}
+            onTopicChange={setSelectedTopic}
+            onStart={onStartGame}
+          />
+        )}
       </AnimatePresence>
 
       {/* Game Header */}
@@ -157,7 +165,7 @@ function HomeContent() {
           {/* Board */}
           <div className="flex flex-col items-start w-full min-h-0 shrink" style={{ maxWidth: 'min(100%, 80vh, 720px)' }}>
             <h2 className="text-xl md:text-2xl text-pink-950 font-heading font-bold text-left w-full mt-0 mb-2 shrink-0">
-              Electrical Safety
+              {selectedTopic === "fire" ? "Fire Safety" : "Electrical Safety"}
             </h2>
             <div className="w-full shrink min-h-0 aspect-square">
               <GameBoard playerPosition={state.playerPosition} />

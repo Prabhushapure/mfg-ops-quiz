@@ -1,0 +1,652 @@
+[
+  {
+    "id": "fs1",
+    "question": "What are the three elements of fire?",
+    "options": [
+      "A. Fuel, Heat, Oxygen",
+      "B. Heat, Light, Smoke",
+      "C. Water, Air, Heat",
+      "D. Oxygen, Water, Smoke"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs2",
+    "question": "Fire cannot exist without:",
+    "options": [
+      "A. Smoke",
+      "B. Heat",
+      "C. Oxygen",
+      "D. Carbon"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs3",
+    "question": "Which class of fire involves paper and wood?",
+    "options": [
+      "A. Class B",
+      "B. Class A",
+      "C. Class C",
+      "D. Class D"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs4",
+    "question": "Electrical fires belong to:",
+    "options": [
+      "A. Class A",
+      "B. Class B",
+      "C. Class C",
+      "D. Class K"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs5",
+    "question": "What is the first step when you notice a fire?",
+    "options": [
+      "A. Run away",
+      "B. Call Friend",
+      "C. Use water",
+      "D. Raise alarm"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs6",
+    "question": "Fire extinguishers should be:",
+    "options": [
+      "A. Hidden",
+      "B. Locked",
+      "C. Easily accessible",
+      "D. Kept outside"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs7",
+    "question": "Smoke detectors are used to:",
+    "options": [
+      "A. Stop fire",
+      "B. Detect smoke early",
+      "C. Cool the fire",
+      "D. Remove oxygen"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs8",
+    "question": "Fire alarm sound indicates:",
+    "options": [
+      "A. Emergency evacuation",
+      "B. Lunch Break",
+      "C. Meeting",
+      "D. Power cut"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs9",
+    "question": "Which gas is most dangerous in fire?",
+    "options": [
+      "A. Oxygen",
+      "B. Nitrogen",
+      "C. Carbon monoxide",
+      "D. Hydrogen"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs10",
+    "question": "Emergency exit should be:",
+    "options": [
+      "A. Clearly marked",
+      "B. Blocked",
+      "C. Locked",
+      "D. Used for storage"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs11",
+    "question": "Water extinguisher is used for:",
+    "options": [
+      "A. Electrical fires",
+      "B. Oil fires",
+      "C. Paper fires",
+      "D. Metal fires"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs12",
+    "question": "CO₂ extinguisher is used for:",
+    "options": [
+      "A. Paper",
+      "B. Electrical fires",
+      "C. Wood",
+      "D. Plastic"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs13",
+    "question": "Foam extinguisher is used for:",
+    "options": [
+      "A. Electrical fires",
+      "B. Gas",
+      "C. Metals",
+      "D. Flammable liquids"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs14",
+    "question": "PASS stands for:",
+    "options": [
+      "A. Pull, Aim, Squeeze, Sweep",
+      "B. Push, Aim, Stop, Spray",
+      "C. Pull, Adjust, Spray, Stop",
+      "D. Press, Aim, Spray, Sweep"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs15",
+    "question": "When using extinguisher aim at:",
+    "options": [
+      "A. Flames",
+      "B. Smoke",
+      "C. Base of fire",
+      "D. Top"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs16",
+    "question": "Overusing electrical sockets can cause:",
+    "options": [
+      "A. Cooling",
+      "B. Fire hazard",
+      "C. Water leak",
+      "D. None"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs17",
+    "question": "Fire extinguisher color for CO₂ is:",
+    "options": [
+      "A. Blue",
+      "B. Green",
+      "C. Red",
+      "D. Black"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs18",
+    "question": "Dry powder extinguishers are used for:",
+    "options": [
+      "A. All types of fire",
+      "B. Only paper",
+      "C. Only oil",
+      "D. Only gas"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs19",
+    "question": "Extinguishers should be inspected:",
+    "options": [
+      "A. Once in 5 years",
+      "B. Monthly/regularly",
+      "C. Never",
+      "D. Only after fire"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs20",
+    "question": "Expired extinguisher should be:",
+    "options": [
+      "A. Used",
+      "B. Ignored",
+      "C. Replaced or serviced",
+      "D. Hidden"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs21",
+    "question": "Evacuation plan should be:",
+    "options": [
+      "A. Unknown",
+      "B. Optional",
+      "C. Hidden",
+      "D. Displayed clearly"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs22",
+    "question": "During evacuation:",
+    "options": [
+      "A. Use elevator",
+      "B. Run",
+      "C. Use stairs calmly",
+      "D. Go back"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs23",
+    "question": "Assembly point is:",
+    "options": [
+      "A. Work desk",
+      "B. Safe gathering area",
+      "C. Pantry",
+      "D. Lift area"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs24",
+    "question": "Fire wardens are responsible for:",
+    "options": [
+      "A. Evacuation guidance",
+      "B. Cooking",
+      "C. Cleaning",
+      "D. Security"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs25",
+    "question": "In smoke, you should:",
+    "options": [
+      "A. Stand",
+      "B. Crawl low",
+      "C. Jump",
+      "D. Run fast"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs26",
+    "question": "Do not open a hot door because:",
+    "options": [
+      "A. It is broken",
+      "B. It is heavy",
+      "C. It is locked",
+      "D. Fire may be behind it"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs27",
+    "question": "Emergency numbers should be:",
+    "options": [
+      "A. Hidden",
+      "B. Known to all employees",
+      "C. Only manager knows",
+      "D. Optional"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs28",
+    "question": "Fire drill is conducted to:",
+    "options": [
+      "A. Practice safety procedures",
+      "B. Waste Time",
+      "C. Entertain employees",
+      "D. Avoid work"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs29",
+    "question": "After evacuation:",
+    "options": [
+      "A. Re-enter immediately",
+      "B. Wait for instructions",
+      "C. Go home",
+      "D. Ignore"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs30",
+    "question": "Lifts during fire:",
+    "options": [
+      "A. Safe",
+      "B. Recomended",
+      "C. Faster",
+      "D. Dangerous"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs31",
+    "question": "Paper clutter can:",
+    "options": [
+      "A. Reduce fire risk",
+      "B. Increase fire risk",
+      "C. Cool room",
+      "D. None"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs32",
+    "question": "Smoking in office:",
+    "options": [
+      "A. Allowed anywhere",
+      "B. Safe",
+      "C. Fire hazard",
+      "D. Encouraged"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs33",
+    "question": "Faulty wiring can cause:",
+    "options": [
+      "A. Lighting",
+      "B. Noise",
+      "C. Cooling",
+      "D. Fire hazard"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs34",
+    "question": "Fire doors should be:",
+    "options": [
+      "A. Open always",
+      "B. Locked",
+      "C. Closed/unblocked",
+      "D. Broken"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs35",
+    "question": "Flammable materials should be:",
+    "options": [
+      "A. Stored safely",
+      "B. Open",
+      "C. Near heat",
+      "D. Ignored"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs36",
+    "question": "Overheated equipment should be:",
+    "options": [
+      "A. Ignored",
+      "B. Switched off",
+      "C. Covered",
+      "D. Used more"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs37",
+    "question": "Chargers left plugged can:",
+    "options": [
+      "A. Cause fire risk",
+      "B. Cool Down",
+      "C. Improve battery",
+      "D. None"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs38",
+    "question": "Air vents blocked can:",
+    "options": [
+      "A. Increase airflow",
+      "B. Cause overheating",
+      "C. Reduce heat",
+      "D. None"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs39",
+    "question": "Extension cords should not be:",
+    "options": [
+      "A. Used",
+      "B. Overloaded",
+      "C. Plugged",
+      "D. Checked"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs40",
+    "question": "Fire safety signs are:",
+    "options": [
+      "A. Important guidance",
+      "B. Decoration",
+      "C. Optional",
+      "D. Ignored"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs41",
+    "question": "Sprinkler systems activate by:",
+    "options": [
+      "A. Smoke",
+      "B. Heat",
+      "C. Water",
+      "D. Air"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs42",
+    "question": "Fire blanket is used to:",
+    "options": [
+      "A. Spread fire",
+      "B. Cool room",
+      "C. Smother small fires",
+      "D. Cover furniture"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs43",
+    "question": "Emergency lighting helps during:",
+    "options": [
+      "A. Power failure",
+      "B. Day",
+      "C. Lunch",
+      "D. Meeting"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs44",
+    "question": "Panic during fire:",
+    "options": [
+      "A. Helps",
+      "B. Fun",
+      "C. Required",
+      "D. Dangerous"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs45",
+    "question": "Fire exits should never be:",
+    "options": [
+      "A. Used",
+      "B. Blocked",
+      "C. Clean",
+      "D. Lit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs46",
+    "question": "Who is responsible for fire safety?",
+    "options": [
+      "A. Manager only",
+      "B. Everyone",
+      "C. Security",
+      "D. HR"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs47",
+    "question": "Gas leaks should be:",
+    "options": [
+      "A. Ignored",
+      "B. Lit",
+      "C. Reported immediately",
+      "D. Covered"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs48",
+    "question": "Office kitchen fire is usually:",
+    "options": [
+      "A. Class K",
+      "B. Class B",
+      "C. Class A",
+      "D. Class D"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs49",
+    "question": "Fire risk assessment is:",
+    "options": [
+      "A. Optional",
+      "B. Important process",
+      "C. Waste",
+      "D. Illegal"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs50",
+    "question": "Safety training helps:",
+    "options": [
+      "A. Increase risk",
+      "B. Wate Time",
+      "C. Reduce accidents",
+      "D. None"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer as per provided Fire Safety MCQ document.",
+    "topic": "Fire Safety"
+  }
+]

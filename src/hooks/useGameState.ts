@@ -9,6 +9,7 @@ import {
 } from "@/lib/gameLogic";
 import { getSnakeAt, getLadderAt, TOTAL_CELLS } from "@/lib/boardConfig";
 import questionsData from "@/data/questions.json";
+import fireSafetyQuestionsData from "@/data/fire-safety-questions.json";
 import {
   playTokenMove,
   playCorrectAnswer,
@@ -18,7 +19,12 @@ import {
   playGameStart,
 } from "@/lib/sounds";
 
-const questions = questionsData as QuizQuestion[];
+export type GameTopic = "electrical" | "fire";
+
+const questionBank: Record<GameTopic, QuizQuestion[]> = {
+  electrical: questionsData as QuizQuestion[],
+  fire: fireSafetyQuestionsData as QuizQuestion[],
+};
 
 const initialState: GameState = {
   phase: "start",
@@ -40,10 +46,12 @@ const initialState: GameState = {
 
 export function useGameState() {
   const [state, setState] = useState<GameState>(initialState);
+  const [selectedTopic, setSelectedTopic] = useState<GameTopic>("electrical");
   const movingRef = useRef(false);
 
-  const startGame = useCallback(() => {
+  const startGame = useCallback((topic: GameTopic) => {
     playGameStart();
+    setSelectedTopic(topic);
     setState({
       ...initialState,
       phase: "playing",
@@ -108,9 +116,10 @@ export function useGameState() {
       // Check for snake or ladder
       const snake = getSnakeAt(newPos);
       const ladder = getLadderAt(newPos);
+      const selectedQuestions = questionBank[selectedTopic] ?? [];
 
       if (snake) {
-        const question = pickRandomQuestion(questions, state.questionsAsked);
+        const question = pickRandomQuestion(selectedQuestions, state.questionsAsked);
         if (question) {
           setState((prev) => ({
             ...prev,
@@ -122,7 +131,7 @@ export function useGameState() {
           }));
         }
       } else if (ladder) {
-        const question = pickRandomQuestion(questions, state.questionsAsked);
+        const question = pickRandomQuestion(selectedQuestions, state.questionsAsked);
         if (question) {
           setState((prev) => ({
             ...prev,
@@ -135,7 +144,7 @@ export function useGameState() {
         }
       }
     },
-    [state.playerPosition, state.questionsAsked, animateMovement]
+    [state.playerPosition, state.questionsAsked, animateMovement, selectedTopic]
   );
 
   const handleAnswer = useCallback(
@@ -235,6 +244,8 @@ export function useGameState() {
 
   return {
     state,
+    selectedTopic,
+    setSelectedTopic,
     startGame,
     handleDiceRoll,
     handleAnswer,
