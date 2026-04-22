@@ -1,34 +1,41 @@
 "use client";
 
 import { motion } from "framer-motion";
+import type { GameTopic } from "@/hooks/useGameState";
 
 interface StartScreenProps {
+  selectedTopic: GameTopic;
+  onTopicChange: (topic: GameTopic) => void;
   onStart: () => void;
 }
 
-export default function StartScreen({ onStart }: StartScreenProps) {
+export default function StartScreen({
+  selectedTopic,
+  onTopicChange,
+  onStart,
+}: StartScreenProps) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="fixed inset-0 z-50 flex items-center justify-center bg-navy-950/95 backdrop-blur-sm"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-navy-950/95 backdrop-blur-sm p-4 overflow-y-auto"
     >
       <motion.div
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ type: "spring", stiffness: 200, damping: 20 }}
-        className="text-center max-w-lg mx-4 p-8"
+        className="text-center max-w-lg w-full my-6 p-6 sm:p-8"
       >
         {/* Lightning icon */}
         <motion.div
           animate={{ rotate: [0, -5, 5, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-          className="text-6xl mb-4"
+          className="text-5xl mb-3"
         >
           <svg
-            width="80"
-            height="80"
+            width="64"
+            height="64"
             viewBox="0 0 80 80"
             className="mx-auto"
           >
@@ -42,16 +49,34 @@ export default function StartScreen({ onStart }: StartScreenProps) {
           </svg>
         </motion.div>
 
-        <h1 className="font-heading text-5xl sm:text-6xl font-black text-white tracking-tight mb-2">
+        <h1 className="font-heading text-4xl sm:text-5xl font-black text-white tracking-tight mb-1">
           SAFETY
           <span className="block text-safety-yellow">SCRAMBLE</span>
         </h1>
 
-        <p className="font-heading text-lg text-steel-400 tracking-widest uppercase mb-8">
+        <p className="font-heading text-base text-steel-400 tracking-widest uppercase mb-5">
           Industrial Safety Quiz
         </p>
 
-        <div className="bg-navy-800/60 rounded-xl p-6 mb-8 text-left border border-navy-700">
+        <div className="mb-6 text-left">
+          <label
+            htmlFor="topic-select"
+            className="block font-heading font-bold text-safety-yellow text-sm uppercase tracking-wider mb-2"
+          >
+            Select Topic
+          </label>
+          <select
+            id="topic-select"
+            value={selectedTopic}
+            onChange={(e) => onTopicChange(e.target.value as GameTopic)}
+            className="w-full rounded-lg bg-navy-800 border border-navy-600 text-white px-3 py-2 outline-none focus:ring-2 focus:ring-safety-yellow"
+          >
+            <option value="electrical">Electrical Safety</option>
+            <option value="fire">Fire Safety</option>
+          </select>
+        </div>
+
+        <div className="bg-navy-800/60 rounded-xl p-5 sm:p-6 mb-6 text-left border border-navy-700">
           <h2 className="font-heading font-bold text-safety-yellow text-sm uppercase tracking-wider mb-3">
             How to Play
           </h2>

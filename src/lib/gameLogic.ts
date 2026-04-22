@@ -70,6 +70,7 @@ export function calculateResult(state: GameState): GameResult {
 export function pickRandomQuestion<
   T extends { id: string },
 >(questions: T[], asked: Set<string>): T | null {
+  if (questions.length === 0) return null;
   const available = questions.filter((q) => !asked.has(q.id));
   if (available.length === 0) {
     // Reset — all questions used, allow repeats
