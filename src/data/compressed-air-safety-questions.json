@@ -1,0 +1,522 @@
+[
+  {
+    "id": "ca1",
+    "question": "Compressed air is air that is:",
+    "options": [
+      "A. Stored under high pressure",
+      "B. Hot",
+      "C. Cold",
+      "D. Dry"
+    ],
+    "correctAnswer": "A",
+    "explanation": "High pressure -> Makes compressed air hazardous.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca2",
+    "question": "The main hazard of compressed air is:",
+    "options": [
+      "A. Noise",
+      "B. High pressure causing injury",
+      "C. Color",
+      "D. Size"
+    ],
+    "correctAnswer": "B",
+    "explanation": "High pressure -> Can penetrate skin or eyes.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca3",
+    "question": "Compressed air should be used:",
+    "options": [
+      "A. Carelessly",
+      "B. Quickly",
+      "C. Safely and according to procedures",
+      "D. Randomly"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Safe use -> Prevents accidents.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca4",
+    "question": "Only trained workers should operate:",
+    "options": [
+      "A. Chairs",
+      "B. Tables",
+      "C. Lights",
+      "D. Compressed air equipment"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Training -> Ensures safe operation.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca5",
+    "question": "Compressed air safety helps to:",
+    "options": [
+      "A. Prevent injuries and equipment damage",
+      "B. Increase accidents",
+      "C. Delay work",
+      "D. Reduce safety"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Prevention -> Protects workers.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca6",
+    "question": "Air pressure should be controlled using:",
+    "options": [
+      "A. Rope",
+      "B. Pressure regulator",
+      "C. Pipe",
+      "D. Tool"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Regulator -> Maintains safe pressure.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca7",
+    "question": "Compressed air equipment should be inspected:",
+    "options": [
+      "A. Never",
+      "B. Once a year",
+      "C. Before use",
+      "D. After lunch"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Inspection -> Ensures safe condition.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca8",
+    "question": "Compressed air can cause serious injury to:",
+    "options": [
+      "A. Shoes",
+      "B. Floor",
+      "C. Table",
+      "D. Eyes and skin"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Injury risk -> High-pressure air is dangerous.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca9",
+    "question": "Warning signs near compressed air equipment indicate:",
+    "options": [
+      "A. Hazard information",
+      "B. Decoration",
+      "C. Advertisement",
+      "D. Direction"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Warning signs -> Improve awareness.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca10",
+    "question": "Compressed air safety rules apply to:",
+    "options": [
+      "A. Managers only",
+      "B. Everyone in workplace",
+      "C. Operators only",
+      "D. Visitors only"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Everyone -> Shared responsibility.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca11",
+    "question": "Compressed air should never be used to:",
+    "options": [
+      "A. Inflate tires",
+      "B. Operate tools",
+      "C. Clean clothes or body",
+      "D. Remove dust from equipment"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Body cleaning -> Can cause serious injury.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca12",
+    "question": "Air guns should be pointed:",
+    "options": [
+      "A. At people",
+      "B. At face",
+      "C. At floor only",
+      "D. Away from people"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Safe direction -> Prevents injury.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca13",
+    "question": "Maximum safe pressure for cleaning should be:",
+    "options": [
+      "A. 30 psi or less",
+      "B. 100 psi",
+      "C. 80 psi",
+      "D. 50 psi"
+    ],
+    "correctAnswer": "A",
+    "explanation": "30 psi -> Recommended safe limit.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca14",
+    "question": "Workers should wear PPE when using compressed air:",
+    "options": [
+      "A. Sometimes",
+      "B. Always when required",
+      "C. Never",
+      "D. Rarely"
+    ],
+    "correctAnswer": "B",
+    "explanation": "PPE -> Protects workers.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca15",
+    "question": "Eye protection is necessary because:",
+    "options": [
+      "A. Looks good",
+      "B. Reduces noise",
+      "C. Prevents dust and particles from entering eyes",
+      "D. Increases speed"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Eye protection -> Prevents injury.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca16",
+    "question": "Compressed air hoses should be:",
+    "options": [
+      "A. Damaged",
+      "B. Loose",
+      "C. Broken",
+      "D. In good condition without leaks"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Good condition -> Ensures safety.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca17",
+    "question": "Air hoses should not be:",
+    "options": [
+      "A. Kinked or twisted",
+      "B. Connected",
+      "C. Clean",
+      "D. Checked"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Kinking -> Causes pressure buildup.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca18",
+    "question": "Air supply should be turned off when:",
+    "options": [
+      "A. In use",
+      "B. Not in use",
+      "C. During work",
+      "D. During inspection"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Turn off -> Prevents accidental discharge.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca19",
+    "question": "Workers should keep hands:",
+    "options": [
+      "A. Near nozzle",
+      "B. On hose",
+      "C. Away from air nozzle opening",
+      "D. On regulator"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Safe distance -> Prevents injury.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca20",
+    "question": "Compressed air should be used with:",
+    "options": [
+      "A. Improper tools",
+      "B. Broken hose",
+      "C. No regulator",
+      "D. Proper equipment and attachments"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Proper equipment -> Ensures safety.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca21",
+    "question": "Leaking air hoses should be:",
+    "options": [
+      "A. Repaired immediately",
+      "B. Ignored",
+      "C. Covered",
+      "D. Painted"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Repair -> Prevents accidents.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca22",
+    "question": "Regular inspection helps to:",
+    "options": [
+      "A. Increase risk",
+      "B. Detect defects early",
+      "C. Delay work",
+      "D. Reduce safety"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Early detection -> Improves safety.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca23",
+    "question": "Air compressor should be maintained by:",
+    "options": [
+      "A. Untrained worker",
+      "B. Visitor",
+      "C. Qualified personnel",
+      "D. Driver"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Qualified personnel -> Ensure safe operation.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca24",
+    "question": "Safety valves on compressors are used to:",
+    "options": [
+      "A. Increase pressure",
+      "B. Reduce noise",
+      "C. Increase speed",
+      "D. Release excess pressure safely"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Safety valve -> Prevents explosion.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca25",
+    "question": "Filters in compressed air systems are used to:",
+    "options": [
+      "A. Remove dust and moisture",
+      "B. Increase pressure",
+      "C. Reduce safety",
+      "D. Increase risk"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Filters -> Maintain air quality.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca26",
+    "question": "Compressor noise can cause:",
+    "options": [
+      "A. Comfort",
+      "B. Hearing damage",
+      "C. Cooling",
+      "D. Speed"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Noise hazard -> Requires protection.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca27",
+    "question": "Ear protection should be used when:",
+    "options": [
+      "A. Noise is low",
+      "B. During break",
+      "C. Noise levels are high",
+      "D. At home"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Ear protection -> Prevents hearing loss.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca28",
+    "question": "Compressed air equipment should be kept:",
+    "options": [
+      "A. Dirty",
+      "B. Wet",
+      "C. Broken",
+      "D. Clean and well maintained"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Maintenance -> Ensures reliability.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca29",
+    "question": "Damaged equipment should be:",
+    "options": [
+      "A. Reported immediately",
+      "B. Used",
+      "C. Ignored",
+      "D. Stored"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Reporting -> Prevents accidents.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca30",
+    "question": "Maintenance schedule should be:",
+    "options": [
+      "A. Ignored",
+      "B. Followed regularly",
+      "C. Optional",
+      "D. Hidden"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Schedule -> Ensures safety.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca31",
+    "question": "Workers should report:",
+    "options": [
+      "A. Safe conditions",
+      "B. Holidays",
+      "C. Unsafe conditions immediately",
+      "D. Meetings"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Reporting -> Prevents accidents.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca32",
+    "question": "Housekeeping around compressed air equipment should be:",
+    "options": [
+      "A. Poor",
+      "B. Dirty",
+      "C. Wet",
+      "D. Clean and organized"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Clean area -> Reduces hazards.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca33",
+    "question": "Emergency stop button is used to:",
+    "options": [
+      "A. Stop compressor quickly during danger",
+      "B. Start compressor",
+      "C. Reduce noise",
+      "D. Turn lights off"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Emergency stop -> Ensures safety.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca34",
+    "question": "In case of hose burst, workers should:",
+    "options": [
+      "A. Ignore",
+      "B. Shut off air supply immediately",
+      "C. Continue work",
+      "D. Run randomly"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Shut off supply -> Prevents injury.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca35",
+    "question": "Safety training helps workers to:",
+    "options": [
+      "A. Increase risk",
+      "B. Reduce safety",
+      "C. Use compressed air safely",
+      "D. Delay work"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Training -> Improves awareness.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca36",
+    "question": "Compressed air accidents can be prevented by:",
+    "options": [
+      "A. Ignoring safety",
+      "B. Taking risks",
+      "C. Running",
+      "D. Following safety procedures"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Procedures -> Ensure safety.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca37",
+    "question": "Workers should avoid:",
+    "options": [
+      "A. Playing with compressed air equipment",
+      "B. Safe practices",
+      "C. Following rules",
+      "D. Wearing PPE"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Horseplay -> Causes injury.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca38",
+    "question": "Safety inspections should be conducted:",
+    "options": [
+      "A. Never",
+      "B. Regularly",
+      "C. Once in lifetime",
+      "D. Rarely"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Inspection -> Detect hazards.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca39",
+    "question": "Safety is the responsibility of:",
+    "options": [
+      "A. Manager only",
+      "B. Safety officer only",
+      "C. Everyone in workplace",
+      "D. Visitor"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Shared responsibility -> Ensures safety.",
+    "topic": "Compressed Air Safety"
+  },
+  {
+    "id": "ca40",
+    "question": "The goal of compressed air safety is to:",
+    "options": [
+      "A. Increase pressure",
+      "B. Reduce safety",
+      "C. Delay work",
+      "D. Prevent injury and equipment damage"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Goal -> Protect workers and workplace.",
+    "topic": "Compressed Air Safety"
+  }
+]

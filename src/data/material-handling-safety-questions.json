@@ -1,0 +1,522 @@
+[
+  {
+    "id": "mat1",
+    "question": "Material handling means:",
+    "options": [
+      "A. Moving and storing materials safely",
+      "B. Ignoring materials",
+      "C. Throwing materials",
+      "D. Breaking materials"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Moving materials safely -> Prevents injuries and damage.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat2",
+    "question": "The main purpose of safe material handling is to:",
+    "options": [
+      "A. Increase accidents",
+      "B. Reduce injuries and damage",
+      "C. Waste time",
+      "D. Increase workload"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reduce injuries -> Ensures worker safety.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat3",
+    "question": "Before lifting any load, you should:",
+    "options": [
+      "A. Lift quickly",
+      "B. Ignore safety",
+      "C. Check the weight of the load",
+      "D. Run"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Check weight -> Prevents strain and injury.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat4",
+    "question": "Employees should use proper techniques while:",
+    "options": [
+      "A. Sleeping",
+      "B. Talking",
+      "C. Sitting",
+      "D. Lifting materials"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Proper technique -> Reduces risk of injury.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat5",
+    "question": "Material handling injuries usually affect:",
+    "options": [
+      "A. Back and muscles",
+      "B. Hair",
+      "C. Eyes",
+      "D. Teeth"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Back injuries -> Common due to improper lifting.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat6",
+    "question": "Employees should inspect equipment before:",
+    "options": [
+      "A. Lunch",
+      "B. Using it",
+      "C. Leaving work",
+      "D. Sleeping"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Inspection -> Ensures safe operation.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat7",
+    "question": "Unsafe material handling can cause:",
+    "options": [
+      "A. Safety",
+      "B. Happiness",
+      "C. Injuries and accidents",
+      "D. Comfort"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Accidents -> Result from unsafe practices.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat8",
+    "question": "Workers should follow:",
+    "options": [
+      "A. Personal rules",
+      "B. Random instructions",
+      "C. Friend advice",
+      "D. Safety procedures"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Safety procedures -> Ensure safe work.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat9",
+    "question": "Heavy loads should be:",
+    "options": [
+      "A. Lifted with proper help or equipment",
+      "B. Lifted alone",
+      "C. Thrown",
+      "D. Ignored"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Proper help -> Prevents injury.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat10",
+    "question": "Employees must wear:",
+    "options": [
+      "A. Casual clothes",
+      "B. PPE when required",
+      "C. Slippers",
+      "D. None"
+    ],
+    "correctAnswer": "B",
+    "explanation": "PPE -> Protects workers.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat11",
+    "question": "Before lifting, keep your:",
+    "options": [
+      "A. Back bent",
+      "B. Head down",
+      "C. Back straight",
+      "D. Eyes closed"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Straight back -> Prevents injury.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat12",
+    "question": "While lifting, you should bend:",
+    "options": [
+      "A. Neck",
+      "B. Arms",
+      "C. Shoulders",
+      "D. Knees"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Bend knees -> Reduces strain.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat13",
+    "question": "Keep the load:",
+    "options": [
+      "A. Close to body",
+      "B. Away from body",
+      "C. Above head",
+      "D. On shoulder"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Close to body -> Maintains balance.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat14",
+    "question": "Twisting while lifting is:",
+    "options": [
+      "A. Safe",
+      "B. Dangerous",
+      "C. Recommended",
+      "D. Fast"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Twisting -> Causes back injury.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat15",
+    "question": "If a load is too heavy, you should:",
+    "options": [
+      "A. Lift alone",
+      "B. Ignore",
+      "C. Ask for help",
+      "D. Throw"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Ask help -> Prevents injury.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat16",
+    "question": "Sudden jerking movements during lifting are:",
+    "options": [
+      "A. Safe",
+      "B. Required",
+      "C. Fast",
+      "D. Dangerous"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Jerking -> Causes muscle strain.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat17",
+    "question": "Proper lifting reduces:",
+    "options": [
+      "A. Injuries",
+      "B. Safety",
+      "C. Comfort",
+      "D. Work"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Proper lifting -> Protects workers.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat18",
+    "question": "Use both hands while lifting:",
+    "options": [
+      "A. Optional",
+      "B. Always when possible",
+      "C. Never",
+      "D. Rarely"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Both hands -> Improves control.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat19",
+    "question": "Employees should lift loads:",
+    "options": [
+      "A. Quickly",
+      "B. Carelessly",
+      "C. Slowly and carefully",
+      "D. Randomly"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Slow lifting -> Prevents accidents.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat20",
+    "question": "Mechanical aids should be used when:",
+    "options": [
+      "A. Load is light",
+      "B. No work",
+      "C. Sitting",
+      "D. Load is heavy"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Mechanical aids -> Reduce physical strain.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat21",
+    "question": "Trolleys and forklifts are used to:",
+    "options": [
+      "A. Move materials safely",
+      "B. Sit",
+      "C. Sleep",
+      "D. Play"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Equipment -> Improves safety.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat22",
+    "question": "Operators must be:",
+    "options": [
+      "A. Untrained",
+      "B. Trained and authorized",
+      "C. Visitors",
+      "D. Children"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Training -> Ensures safe operation.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat23",
+    "question": "Damaged equipment should be:",
+    "options": [
+      "A. Used",
+      "B. Ignored",
+      "C. Reported immediately",
+      "D. Hidden"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Report -> Prevents accidents.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat24",
+    "question": "Loads should be stacked:",
+    "options": [
+      "A. Carelessly",
+      "B. Randomly",
+      "C. High without support",
+      "D. Securely and safely"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Secure stacking -> Prevents falling.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat25",
+    "question": "Overloading equipment can cause:",
+    "options": [
+      "A. Accidents and damage",
+      "B. Safety",
+      "C. Comfort",
+      "D. Speed"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Overloading -> Leads to failure.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat26",
+    "question": "Walkways should be:",
+    "options": [
+      "A. Blocked",
+      "B. Clear and clean",
+      "C. Wet",
+      "D. Dirty"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clear walkways -> Prevent trips.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat27",
+    "question": "Materials should not block:",
+    "options": [
+      "A. Desk",
+      "B. Table",
+      "C. Emergency exits",
+      "D. Chair"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Clear exits -> Ensure evacuation.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat28",
+    "question": "Employees should maintain:",
+    "options": [
+      "A. Unsafe area",
+      "B. Dirty workplace",
+      "C. Clutter",
+      "D. Good housekeeping"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Housekeeping -> Reduces hazards.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat29",
+    "question": "Proper storage prevents:",
+    "options": [
+      "A. Accidents and damage",
+      "B. Safety",
+      "C. Comfort",
+      "D. Work"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Proper storage -> Maintains safety.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat30",
+    "question": "Warning signs indicate:",
+    "options": [
+      "A. Decoration",
+      "B. Hazard information",
+      "C. Advertisement",
+      "D. Fun"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Hazard signs -> Provide safety alerts.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat31",
+    "question": "Employees must report:",
+    "options": [
+      "A. Safe conditions",
+      "B. Holidays",
+      "C. Unsafe conditions immediately",
+      "D. Lunch"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Reporting -> Prevents incidents.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat32",
+    "question": "Safety is the responsibility of:",
+    "options": [
+      "A. Manager only",
+      "B. Safety officer only",
+      "C. Visitors",
+      "D. Everyone in workplace"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Everyone -> Shared responsibility.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat33",
+    "question": "Employees should follow:",
+    "options": [
+      "A. Safety procedures always",
+      "B. Unsafe practices",
+      "C. Personal rules",
+      "D. None"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Procedures -> Ensure safety.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat34",
+    "question": "In case of injury, employees should:",
+    "options": [
+      "A. Ignore",
+      "B. Report immediately",
+      "C. Sleep",
+      "D. Leave workplace"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Report injury -> Enables treatment.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat35",
+    "question": "Emergency equipment should be:",
+    "options": [
+      "A. Hidden",
+      "B. Broken",
+      "C. Easily accessible",
+      "D. Locked"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Accessible -> Saves time.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat36",
+    "question": "During emergency, employees should:",
+    "options": [
+      "A. Panic",
+      "B. Run randomly",
+      "C. Hide",
+      "D. Stay calm and follow instructions"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Stay calm -> Ensures safety.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat37",
+    "question": "PPE protects workers from:",
+    "options": [
+      "A. Hazards and injuries",
+      "B. Comfort",
+      "C. Work",
+      "D. Noise only"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Protection -> Reduces risk.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat38",
+    "question": "Unsafe behavior should be:",
+    "options": [
+      "A. Ignored",
+      "B. Reported immediately",
+      "C. Encouraged",
+      "D. Hidden"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reporting -> Prevents accidents.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat39",
+    "question": "Safety training helps to:",
+    "options": [
+      "A. Increase accidents",
+      "B. Waste time",
+      "C. Reduce accidents",
+      "D. Delay work"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Training -> Improves safety awareness.",
+    "topic": "Material Handling Safety"
+  },
+  {
+    "id": "mat40",
+    "question": "The goal of material handling safety is to:",
+    "options": [
+      "A. Increase risk",
+      "B. Work faster",
+      "C. Reduce rules",
+      "D. Prevent injuries and damage"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Goal -> Ensure safe workplace.",
+    "topic": "Material Handling Safety"
+  }
+]

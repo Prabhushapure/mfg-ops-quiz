@@ -1,0 +1,522 @@
+[
+  {
+    "id": "sp1",
+    "question": "Safety practices are followed to:",
+    "options": [
+      "A. Prevent injuries and incidents",
+      "B. Increase accidents",
+      "C. Delay work",
+      "D. Reduce safety"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Prevent injuries -> Safety practices protect employees.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp2",
+    "question": "Employees should always:",
+    "options": [
+      "A. Ignore hazards",
+      "B. Follow safety procedures",
+      "C. Take risks",
+      "D. Work carelessly"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Procedures -> Ensure safe workplace.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp3",
+    "question": "Safety practices help to:",
+    "options": [
+      "A. Increase risk",
+      "B. Reduce productivity",
+      "C. Improve workplace safety",
+      "D. Delay work"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Improve safety -> Reduces accidents.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp4",
+    "question": "Unsafe conditions should be:",
+    "options": [
+      "A. Ignored",
+      "B. Hidden",
+      "C. Encouraged",
+      "D. Reported immediately"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Reporting -> Prevents incidents.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp5",
+    "question": "Employees must use equipment:",
+    "options": [
+      "A. Properly and safely",
+      "B. Incorrectly",
+      "C. Randomly",
+      "D. Quickly"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Proper use -> Prevents accidents.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp6",
+    "question": "Workplace accidents can be prevented by:",
+    "options": [
+      "A. Ignoring safety",
+      "B. Following safety practices",
+      "C. Taking risks",
+      "D. Running"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Following practices -> Reduces hazards.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp7",
+    "question": "Employees should participate in:",
+    "options": [
+      "A. Unsafe activities",
+      "B. Ignoring hazards",
+      "C. Safety training programs",
+      "D. Delays"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Training -> Improves safety awareness.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp8",
+    "question": "Safety rules should be followed:",
+    "options": [
+      "A. Sometimes",
+      "B. Never",
+      "C. Only during inspection",
+      "D. Always"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Always follow -> Maintains safety.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp9",
+    "question": "Safety practices are important for:",
+    "options": [
+      "A. Protecting employees and property",
+      "B. Decoration",
+      "C. Entertainment",
+      "D. Relaxation"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Protection -> Ensures workplace safety.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp10",
+    "question": "Employees must maintain:",
+    "options": [
+      "A. Unsafe workplace",
+      "B. Clean and safe work area",
+      "C. Dirty workspace",
+      "D. Cluttered area"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clean workplace -> Reduces hazards.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp11",
+    "question": "Horseplay in the workplace is:",
+    "options": [
+      "A. Safe",
+      "B. Required",
+      "C. Dangerous and prohibited",
+      "D. Recommended"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Horseplay -> Can cause injuries.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp12",
+    "question": "Employees should keep walkways:",
+    "options": [
+      "A. Blocked",
+      "B. Wet",
+      "C. Dirty",
+      "D. Clean and clear"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Clear walkways -> Prevent slips and trips.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp13",
+    "question": "Running in the workplace is:",
+    "options": [
+      "A. Dangerous",
+      "B. Safe",
+      "C. Required",
+      "D. Encouraged"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Running -> Can cause accidents.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp14",
+    "question": "Employees should wear PPE:",
+    "options": [
+      "A. Sometimes",
+      "B. When required",
+      "C. Never",
+      "D. Only during inspection"
+    ],
+    "correctAnswer": "B",
+    "explanation": "PPE -> Protects workers.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp15",
+    "question": "Smoking in restricted areas is:",
+    "options": [
+      "A. Allowed",
+      "B. Safe",
+      "C. Prohibited and dangerous",
+      "D. Recommended"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Prohibited -> Prevents fire risk.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp16",
+    "question": "Employees should use ladders:",
+    "options": [
+      "A. Incorrectly",
+      "B. Without inspection",
+      "C. While running",
+      "D. Safely and properly"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Proper use -> Prevents falls.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp17",
+    "question": "Unsafe acts should be:",
+    "options": [
+      "A. Reported immediately",
+      "B. Ignored",
+      "C. Encouraged",
+      "D. Hidden"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Reporting -> Improves safety.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp18",
+    "question": "Employees should follow safety signs:",
+    "options": [
+      "A. Sometimes",
+      "B. Always",
+      "C. Never",
+      "D. Rarely"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Safety signs -> Provide guidance.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp19",
+    "question": "Using damaged tools is:",
+    "options": [
+      "A. Safe",
+      "B. Allowed",
+      "C. Dangerous and prohibited",
+      "D. Required"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Damaged tools -> Cause accidents.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp20",
+    "question": "Employees should handle materials:",
+    "options": [
+      "A. Carelessly",
+      "B. Randomly",
+      "C. Quickly",
+      "D. Safely and properly"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Proper handling -> Prevents injuries.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp21",
+    "question": "Good housekeeping helps to:",
+    "options": [
+      "A. Reduce accidents",
+      "B. Increase hazards",
+      "C. Delay work",
+      "D. Reduce safety"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Housekeeping -> Maintains safe workplace.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp22",
+    "question": "Spilled liquids should be:",
+    "options": [
+      "A. Ignored",
+      "B. Cleaned immediately",
+      "C. Left overnight",
+      "D. Covered"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clean spills -> Prevent slips.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp23",
+    "question": "Waste materials should be:",
+    "options": [
+      "A. Thrown anywhere",
+      "B. Hidden",
+      "C. Disposed in proper bins",
+      "D. Burned"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Proper disposal -> Maintains cleanliness.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp24",
+    "question": "Tools should be stored:",
+    "options": [
+      "A. Anywhere",
+      "B. On floor",
+      "C. Randomly",
+      "D. Properly after use"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Proper storage -> Prevents accidents.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp25",
+    "question": "Emergency exits should be:",
+    "options": [
+      "A. Clear and accessible",
+      "B. Blocked",
+      "C. Locked",
+      "D. Hidden"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Accessible exits -> Ensure safe evacuation.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp26",
+    "question": "Work areas should be:",
+    "options": [
+      "A. Cluttered",
+      "B. Organized and clean",
+      "C. Dirty",
+      "D. Wet"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clean area -> Reduces hazards.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp27",
+    "question": "Electrical cords should be:",
+    "options": [
+      "A. Damaged",
+      "B. Wet",
+      "C. Maintained in good condition",
+      "D. Broken"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Good condition -> Prevents electrical hazards.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp28",
+    "question": "Materials should not be placed:",
+    "options": [
+      "A. On shelves",
+      "B. In storage",
+      "C. On racks",
+      "D. In front of emergency equipment"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Clear access -> Ensures emergency response.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp29",
+    "question": "Proper lighting in workplace helps to:",
+    "options": [
+      "A. Improve visibility and safety",
+      "B. Increase risk",
+      "C. Reduce safety",
+      "D. Delay work"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Lighting -> Prevents accidents.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp30",
+    "question": "Ventilation in workplace helps to:",
+    "options": [
+      "A. Increase heat",
+      "B. Provide fresh air and safety",
+      "C. Reduce safety",
+      "D. Delay work"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ventilation -> Improves health.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp31",
+    "question": "Employees should report accidents:",
+    "options": [
+      "A. Next week",
+      "B. Never",
+      "C. Immediately",
+      "D. Only to friends"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Immediate reporting -> Enables quick response.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp32",
+    "question": "Safety meetings are conducted to:",
+    "options": [
+      "A. Waste time",
+      "B. Reduce work",
+      "C. Increase risk",
+      "D. Discuss safety issues and improvements"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Meetings -> Improve safety awareness.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp33",
+    "question": "Employees should cooperate with:",
+    "options": [
+      "A. Safety rules and coworkers",
+      "B. Unsafe practices",
+      "C. Ignoring hazards",
+      "D. Delays"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cooperation -> Builds safety culture.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp34",
+    "question": "Safety inspections are conducted to:",
+    "options": [
+      "A. Ignore hazards",
+      "B. Identify unsafe conditions",
+      "C. Reduce safety",
+      "D. Avoid work"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Inspection -> Improves workplace safety.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp35",
+    "question": "Employees must follow emergency procedures:",
+    "options": [
+      "A. Sometimes",
+      "B. Never",
+      "C. Always",
+      "D. Rarely"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Procedures -> Ensure safety.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp36",
+    "question": "Safety awareness helps to:",
+    "options": [
+      "A. Increase accidents",
+      "B. Delay work",
+      "C. Reduce productivity",
+      "D. Reduce incidents"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Awareness -> Improves safety.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp37",
+    "question": "Safety training should be attended:",
+    "options": [
+      "A. Regularly",
+      "B. Rarely",
+      "C. Never",
+      "D. Only once"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Regular training -> Maintains safety knowledge.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp38",
+    "question": "Safety culture means:",
+    "options": [
+      "A. Ignoring safety",
+      "B. Following safety practices consistently",
+      "C. Avoiding work",
+      "D. Taking risks"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Safety culture -> Promotes safe behavior.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp39",
+    "question": "Everyone in the workplace should:",
+    "options": [
+      "A. Ignore safety",
+      "B. Avoid training",
+      "C. Take responsibility for safety",
+      "D. Break rules"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Responsibility -> Shared safety duty.",
+    "topic": "Safety Practices"
+  },
+  {
+    "id": "sp40",
+    "question": "The goal of safety practices is to:",
+    "options": [
+      "A. Increase risk",
+      "B. Reduce safety",
+      "C. Delay work",
+      "D. Create safe working environment"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Goal -> Protect employees and organization.",
+    "topic": "Safety Practices"
+  }
+]
