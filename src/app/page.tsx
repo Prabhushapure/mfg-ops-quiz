@@ -165,7 +165,51 @@ function HomeContent() {
           {/* Board */}
           <div className="flex flex-col items-start w-full min-h-0 shrink" style={{ maxWidth: 'min(100%, 80vh, 720px)' }}>
             <h2 className="text-xl md:text-2xl text-pink-950 font-heading font-bold text-left w-full mt-0 mb-2 shrink-0">
-              {selectedTopic === "fire" ? "Fire Safety" : "Electrical Safety"}
+              {selectedTopic === "fire"
+                ? "Fire Safety"
+                : selectedTopic === "safety-induction"
+                  ? "Safety Induction"
+                  : selectedTopic === "employee-responsibility"
+                    ? "Employee Responsibility"
+                    : selectedTopic === "machine-handling-safety"
+                      ? "Machine Handling Safety"
+                      : selectedTopic === "material-handling-safety"
+                        ? "Material Handling Safety"
+                        : selectedTopic === "ppe-safety"
+                          ? "PPE Safety"
+                          : selectedTopic === "chemical-handling-safety"
+                            ? "Chemical Handling Safety"
+                            : selectedTopic === "safety-management-system"
+                              ? "Safety Management System"
+                              : selectedTopic === "safety-orientation"
+                                ? "Safety Orientation"
+                                : selectedTopic === "safety-practices"
+                                  ? "Safety Practices"
+                                  : selectedTopic ===
+                                      "heavy-lifting-machinery-safety"
+                                    ? "Heavy Lifting Machinery Safety"
+                                    : selectedTopic === "general-road-safety"
+                                      ? "General Road Safety"
+                                      : selectedTopic === "gas-cylinder-safety"
+                                        ? "Gas Cylinder Safety"
+                                        : selectedTopic === "forklift-safety"
+                                          ? "Forklift Safety"
+                                          : selectedTopic ===
+                                              "factory-ergonomics-safety"
+                                            ? "Factory Ergonomics Safety"
+                                            : selectedTopic ===
+                                                "confined-space-safety"
+                                              ? "Confined Space Safety"
+                                              : selectedTopic ===
+                                                  "compressed-air-safety"
+                                                ? "Compressed Air Safety"
+                                                : selectedTopic ===
+                                                    "campus-road-safety"
+                                                  ? "Campus Road Safety"
+                                                  : selectedTopic ===
+                                                      "working-at-heights-safety"
+                                                    ? "Working at Heights Safety"
+                  : "Electrical Safety"}
             </h2>
             <div className="w-full shrink min-h-0 aspect-square">
               <GameBoard playerPosition={state.playerPosition} />

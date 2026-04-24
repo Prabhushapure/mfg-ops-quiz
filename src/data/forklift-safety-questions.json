@@ -1,0 +1,522 @@
+[
+  {
+    "id": "fl1",
+    "question": "A forklift is used to:",
+    "options": [
+      "A. Lift and move materials safely",
+      "B. Sit",
+      "C. Play",
+      "D. Store tools"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Lift materials -> Reduces manual handling risk.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl2",
+    "question": "Only ______ persons should operate a forklift.",
+    "options": [
+      "A. Visitors",
+      "B. Trained and authorized operators",
+      "C. Untrained workers",
+      "D. Anyone"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Authorized operators -> Ensure safe operation.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl3",
+    "question": "Before operating a forklift, the operator should:",
+    "options": [
+      "A. Ignore safety",
+      "B. Drive fast",
+      "C. Inspect the forklift",
+      "D. Leave workplace"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Inspection -> Prevents accidents.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl4",
+    "question": "The main hazard while operating a forklift is:",
+    "options": [
+      "A. Noise",
+      "B. Color",
+      "C. Comfort",
+      "D. Overturning or collision"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Overturning -> Major cause of forklift accidents.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl5",
+    "question": "Forklift safety helps to:",
+    "options": [
+      "A. Prevent injuries and damage",
+      "B. Increase accidents",
+      "C. Reduce safety",
+      "D. Delay work"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Prevention -> Protects workers.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl6",
+    "question": "Forklift operators must wear:",
+    "options": [
+      "A. Casual clothes",
+      "B. PPE when required",
+      "C. Slippers",
+      "D. None"
+    ],
+    "correctAnswer": "B",
+    "explanation": "PPE -> Ensures safety.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl7",
+    "question": "Forklifts should be used according to:",
+    "options": [
+      "A. Guesswork",
+      "B. Personal choice",
+      "C. Manufacturer instructions",
+      "D. Random rules"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Instructions -> Ensure safe operation.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl8",
+    "question": "Forklift safety rules apply to:",
+    "options": [
+      "A. Operators only",
+      "B. Supervisors only",
+      "C. Visitors only",
+      "D. Everyone in workplace"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Everyone -> Shared responsibility.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl9",
+    "question": "Overloading a forklift can cause:",
+    "options": [
+      "A. Tipping or equipment damage",
+      "B. Comfort",
+      "C. Safety",
+      "D. Speed"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Overloading -> Leads to accidents.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl10",
+    "question": "Forklift warning signs indicate:",
+    "options": [
+      "A. Decoration",
+      "B. Hazard information",
+      "C. Advertisement",
+      "D. Direction only"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Warning signs -> Improve awareness.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl11",
+    "question": "Before moving, the operator should:",
+    "options": [
+      "A. Ignore surroundings",
+      "B. Drive fast",
+      "C. Check area is clear of people",
+      "D. Use horn continuously"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Clear area -> Prevents collisions.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl12",
+    "question": "Forklift speed should be:",
+    "options": [
+      "A. Very fast",
+      "B. Random",
+      "C. Maximum",
+      "D. Controlled and safe"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Safe speed -> Reduces accidents.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl13",
+    "question": "While driving a forklift, forks should be:",
+    "options": [
+      "A. Kept low to the ground",
+      "B. Raised high",
+      "C. Dragging",
+      "D. Hanging"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Low forks -> Improve stability.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl14",
+    "question": "Turning a forklift at high speed is:",
+    "options": [
+      "A. Safe",
+      "B. Dangerous",
+      "C. Required",
+      "D. Recommended"
+    ],
+    "correctAnswer": "B",
+    "explanation": "High speed turn -> Causes overturning.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl15",
+    "question": "Operators should sound the horn:",
+    "options": [
+      "A. Always",
+      "B. During break",
+      "C. At blind corners or intersections",
+      "D. At parking"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Horn -> Warns pedestrians.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl16",
+    "question": "Forklift operators should keep:",
+    "options": [
+      "A. Unsafe distance",
+      "B. No distance",
+      "C. Close distance",
+      "D. Safe distance from other vehicles"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Safe distance -> Prevents collisions.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl17",
+    "question": "Forklift should not carry:",
+    "options": [
+      "A. Passengers on forks or load",
+      "B. Materials",
+      "C. Pallets",
+      "D. Boxes"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Passengers -> Very dangerous.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl18",
+    "question": "Forklift should be driven:",
+    "options": [
+      "A. Carelessly",
+      "B. Smoothly and carefully",
+      "C. Randomly",
+      "D. Fast"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Smooth driving -> Prevents accidents.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl19",
+    "question": "Forklift operators should look:",
+    "options": [
+      "A. Up only",
+      "B. Down only",
+      "C. In direction of travel",
+      "D. Back only"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Direction -> Ensures safe movement.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl20",
+    "question": "When load blocks forward view, operator should:",
+    "options": [
+      "A. Drive fast",
+      "B. Ignore",
+      "C. Stop working",
+      "D. Drive in reverse carefully"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Reverse driving -> Maintains visibility.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl21",
+    "question": "Forklift should be inspected:",
+    "options": [
+      "A. Before each shift",
+      "B. Never",
+      "C. Once a year",
+      "D. After lunch"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Inspection -> Ensures safe condition.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl22",
+    "question": "Damaged forklift should be:",
+    "options": [
+      "A. Used",
+      "B. Reported and removed from service",
+      "C. Ignored",
+      "D. Driven slowly"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Remove from service -> Prevents accidents.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl23",
+    "question": "Forklift brakes should be:",
+    "options": [
+      "A. Broken",
+      "B. Ignored",
+      "C. Checked regularly",
+      "D. Removed"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Brake check -> Ensures control.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl24",
+    "question": "Forklift tires should be:",
+    "options": [
+      "A. Worn out",
+      "B. Flat",
+      "C. Broken",
+      "D. In good condition"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Good tires -> Improve stability.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl25",
+    "question": "Battery or fuel level should be:",
+    "options": [
+      "A. Checked before operation",
+      "B. Ignored",
+      "C. Empty",
+      "D. Overfilled"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Check level -> Prevent breakdown.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl26",
+    "question": "Maintenance should be done by:",
+    "options": [
+      "A. Untrained worker",
+      "B. Qualified personnel",
+      "C. Visitor",
+      "D. Operator only"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Qualified personnel -> Ensure safety.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl27",
+    "question": "Oil leaks in forklift should be:",
+    "options": [
+      "A. Ignored",
+      "B. Covered",
+      "C. Repaired immediately",
+      "D. Painted"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Repair -> Prevent fire and damage.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl28",
+    "question": "Forklift safety devices should be:",
+    "options": [
+      "A. Removed",
+      "B. Ignored",
+      "C. Locked",
+      "D. Maintained in working condition"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Safety devices -> Prevent accidents.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl29",
+    "question": "Regular maintenance helps to:",
+    "options": [
+      "A. Improve equipment safety and reliability",
+      "B. Increase risk",
+      "C. Reduce safety",
+      "D. Delay work"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Maintenance -> Prevents failure.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl30",
+    "question": "Faulty forklift should be reported to:",
+    "options": [
+      "A. Friend",
+      "B. Supervisor or maintenance team",
+      "C. Visitor",
+      "D. Customer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reporting -> Prevents accidents.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl31",
+    "question": "Pedestrians should stay:",
+    "options": [
+      "A. Near moving forklift",
+      "B. On forklift",
+      "C. Away from forklift operating area",
+      "D. Behind load"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Safe distance -> Prevents injury.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl32",
+    "question": "Forklift operators should give way to:",
+    "options": [
+      "A. Machines",
+      "B. Trucks",
+      "C. Loads",
+      "D. Pedestrians always"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Pedestrian priority -> Ensures safety.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl33",
+    "question": "In case of forklift accident, operator should:",
+    "options": [
+      "A. Stop forklift immediately",
+      "B. Run away",
+      "C. Ignore",
+      "D. Continue work"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Stop forklift -> Prevent further damage.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl34",
+    "question": "Emergency stop button is used to:",
+    "options": [
+      "A. Start forklift",
+      "B. Stop forklift quickly during danger",
+      "C. Reduce speed",
+      "D. Turn lights off"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Emergency stop -> Ensures safety.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl35",
+    "question": "Forklift parking should be done:",
+    "options": [
+      "A. On slope",
+      "B. Anywhere",
+      "C. In designated area with forks lowered",
+      "D. Near exit"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Proper parking -> Prevents movement.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl36",
+    "question": "Forklift keys should be removed when:",
+    "options": [
+      "A. In use",
+      "B. During driving",
+      "C. During loading",
+      "D. Not in use"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Remove keys -> Prevent unauthorized use.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl37",
+    "question": "Safety training helps operators to:",
+    "options": [
+      "A. Operate forklift safely",
+      "B. Increase risk",
+      "C. Reduce safety",
+      "D. Delay work"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Training -> Improves skills.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl38",
+    "question": "Seat belt in forklift is used to:",
+    "options": [
+      "A. Decorate",
+      "B. Protect operator during overturning",
+      "C. Increase speed",
+      "D. Reduce fuel"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Seat belt -> Prevents injury.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl39",
+    "question": "Safety is the responsibility of:",
+    "options": [
+      "A. Operator only",
+      "B. Supervisor only",
+      "C. Everyone in workplace",
+      "D. Visitor"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Shared responsibility -> Ensures safety.",
+    "topic": "Forklift Safety"
+  },
+  {
+    "id": "fl40",
+    "question": "The goal of forklift safety is to:",
+    "options": [
+      "A. Increase speed",
+      "B. Reduce safety",
+      "C. Delay work",
+      "D. Prevent accidents and injuries"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Goal -> Protect workers and equipment.",
+    "topic": "Forklift Safety"
+  }
+]

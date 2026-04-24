@@ -73,6 +73,44 @@ export default function StartScreen({
           >
             <option value="electrical">Electrical Safety</option>
             <option value="fire">Fire Safety</option>
+            <option value="safety-induction">Safety Induction</option>
+            <option value="employee-responsibility">
+              Employee Responsibility
+            </option>
+            <option value="machine-handling-safety">
+              Machine Handling Safety
+            </option>
+            <option value="material-handling-safety">
+              Material Handling Safety
+            </option>
+            <option value="ppe-safety">PPE Safety</option>
+            <option value="chemical-handling-safety">
+              Chemical Handling Safety
+            </option>
+            <option value="safety-management-system">
+              Safety Management System
+            </option>
+            <option value="safety-orientation">Safety Orientation</option>
+            <option value="safety-practices">Safety Practices</option>
+            <option value="heavy-lifting-machinery-safety">
+              Heavy Lifting Machinery Safety
+            </option>
+            <option value="general-road-safety">General Road Safety</option>
+            <option value="gas-cylinder-safety">Gas Cylinder Safety</option>
+            <option value="forklift-safety">Forklift Safety</option>
+            <option value="factory-ergonomics-safety">
+              Factory Ergonomics Safety
+            </option>
+            <option value="confined-space-safety">
+              Confined Space Safety
+            </option>
+            <option value="compressed-air-safety">
+              Compressed Air Safety
+            </option>
+            <option value="campus-road-safety">Campus Road Safety</option>
+            <option value="working-at-heights-safety">
+              Working at Heights Safety
+            </option>
           </select>
         </div>
 

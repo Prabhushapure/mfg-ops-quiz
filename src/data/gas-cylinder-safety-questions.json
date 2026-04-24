@@ -1,0 +1,522 @@
+[
+  {
+    "id": "gcs1",
+    "question": "Gas cylinders are used to store:",
+    "options": [
+      "A. Compressed gases safely",
+      "B. Water",
+      "C. Oil",
+      "D. Air only"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Compressed gases -> Require safe handling.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs2",
+    "question": "Gas cylinders should always be kept:",
+    "options": [
+      "A. Lying down",
+      "B. Upright and secured",
+      "C. On floor",
+      "D. Hanging"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Upright position -> Prevents falling.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs3",
+    "question": "The main hazard of gas cylinders is:",
+    "options": [
+      "A. Noise",
+      "B. Weight",
+      "C. Explosion or fire",
+      "D. Color"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Explosion risk -> Due to high pressure.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs4",
+    "question": "Gas cylinders should be handled by:",
+    "options": [
+      "A. Untrained workers",
+      "B. Visitors",
+      "C. Customers",
+      "D. Trained personnel"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Training -> Ensures safe handling.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs5",
+    "question": "Gas cylinder valves should be:",
+    "options": [
+      "A. Opened slowly and carefully",
+      "B. Forced open",
+      "C. Hit with tools",
+      "D. Ignored"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Slow opening -> Prevents pressure surge.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs6",
+    "question": "Cylinders should be stored away from:",
+    "options": [
+      "A. Cool areas",
+      "B. Heat sources and flames",
+      "C. Ventilation",
+      "D. Walls"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Heat sources -> Increase explosion risk.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs7",
+    "question": "Gas cylinders should be labeled to show:",
+    "options": [
+      "A. Price",
+      "B. Company name",
+      "C. Gas type and hazard information",
+      "D. Color only"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Labeling -> Prevents misuse.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs8",
+    "question": "Safety caps on cylinders protect:",
+    "options": [
+      "A. Cylinder color",
+      "B. Workers",
+      "C. Floor",
+      "D. Valve from damage"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Valve protection -> Prevents leakage.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs9",
+    "question": "Cylinders should not be dropped because:",
+    "options": [
+      "A. They may explode or leak",
+      "B. They are heavy",
+      "C. They are expensive",
+      "D. They are dirty"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Dropping -> Causes damage.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs10",
+    "question": "Gas cylinder safety helps to:",
+    "options": [
+      "A. Increase accidents",
+      "B. Prevent fire and explosion",
+      "C. Delay work",
+      "D. Reduce safety"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Prevention -> Protects workers.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs11",
+    "question": "Cylinders should be moved using:",
+    "options": [
+      "A. Hands only",
+      "B. Rolling randomly",
+      "C. Proper trolley or cart",
+      "D. Dragging"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Trolley -> Prevents injury.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs12",
+    "question": "Before using a gas cylinder, check:",
+    "options": [
+      "A. Color",
+      "B. Weight",
+      "C. Size",
+      "D. For leaks or damage"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Inspection -> Ensures safet",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs13",
+    "question": "Gas cylinder connections should be:",
+    "options": [
+      "A. Tight and secure",
+      "B. Loose",
+      "C. Broken",
+      "D. Dirty"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Secure connection -> Prevents leaks.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs14",
+    "question": "Smoking near gas cylinders is:",
+    "options": [
+      "A. Safe",
+      "B. Dangerous and prohibited",
+      "C. Allowed",
+      "D. Recommended"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Smoking -> Causes fire risk.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs15",
+    "question": "Cylinders should not be exposed to:",
+    "options": [
+      "A. Cool air",
+      "B. Shade",
+      "C. Sunlight and high temperature",
+      "D. Ventilation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Heat exposure -> Increases pressure.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs16",
+    "question": "Gas cylinder valves should be closed when:",
+    "options": [
+      "A. In use",
+      "B. During transport",
+      "C. During inspection",
+      "D. Not in use"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Close valve -> Prevents leakage.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs17",
+    "question": "Gas hoses should be:",
+    "options": [
+      "A. In good condition without cracks",
+      "B. Damaged",
+      "C. Loose",
+      "D. Dirty"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Good condition -> Prevents leaks.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs18",
+    "question": "Cylinder storage area should be:",
+    "options": [
+      "A. Closed and unventilated",
+      "B. Well ventilated",
+      "C. Wet",
+      "D. Dark"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ventilation -> Prevents gas buildup.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs19",
+    "question": "Gas cylinders should be kept away from:",
+    "options": [
+      "A. Tools",
+      "B. Wall",
+      "C. Electrical sparks and flames",
+      "D. Door"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sparks -> Cause fire.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs20",
+    "question": "Unauthorized persons should:",
+    "options": [
+      "A. Use cylinders",
+      "B. Inspect cylinders",
+      "C. Move cylinders",
+      "D. Not handle gas cylinders"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Authorized handling -> Ensures safety.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs21",
+    "question": "Gas cylinders should be stored:",
+    "options": [
+      "A. Upright and secured with chain",
+      "B. Horizontally",
+      "C. On floor",
+      "D. Randomly"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Secured storage -> Prevents falling.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs22",
+    "question": "Empty cylinders should be:",
+    "options": [
+      "A. Mixed with full cylinders",
+      "B. Stored separately and labeled",
+      "C. Ignored",
+      "D. Thrown away"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Separate storage -> Prevents confusion.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs23",
+    "question": "Cylinders should not be stored near:",
+    "options": [
+      "A. Ventilation",
+      "B. Wall",
+      "C. Flammable materials",
+      "D. Door"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Flammable materials -> Increase fire risk.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs24",
+    "question": "During transportation, cylinders should be:",
+    "options": [
+      "A. Thrown",
+      "B. Rolled fast",
+      "C. Dragged",
+      "D. Secured properly"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Secure transport -> Prevents accidents.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs25",
+    "question": "Protective caps should be used during:",
+    "options": [
+      "A. Transport",
+      "B. Storage",
+      "C. Cleaning",
+      "D. Inspection"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Protective cap -> Protects valve.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs26",
+    "question": "Cylinder storage areas should have:",
+    "options": [
+      "A. No signs",
+      "B. Safety warning signs",
+      "C. Decoration",
+      "D. Furniture"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Warning signs -> Inform workers.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs27",
+    "question": "Cylinders should be stored in:",
+    "options": [
+      "A. Closed space",
+      "B. Hot area",
+      "C. Cool and dry place",
+      "D. Wet area"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Cool storage -> Reduces pressure risk.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs28",
+    "question": "Cylinders should not be stored:",
+    "options": [
+      "A. Upright",
+      "B. In storage room",
+      "C. In open area",
+      "D. Near exit routes or walkways"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Clear exits -> Ensure evacuation.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs29",
+    "question": "Cylinder racks help to:",
+    "options": [
+      "A. Store cylinders safely",
+      "B. Increase weight",
+      "C. Reduce safety",
+      "D. Decorate area"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Racks -> Prevent falling.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs30",
+    "question": "Cylinders should be handled carefully to:",
+    "options": [
+      "A. Increase risk",
+      "B. Prevent damage and accidents",
+      "C. Reduce safety",
+      "D. Delay work"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Careful handling -> Ensures safety.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs31",
+    "question": "If a gas leak is detected, you should:",
+    "options": [
+      "A. Ignore",
+      "B. Light match",
+      "C. Report immediately",
+      "D. Continue work"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Immediate reporting -> Prevents accidents.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs32",
+    "question": "In case of gas leak, avoid:",
+    "options": [
+      "A. Fresh air",
+      "B. Reporting",
+      "C. Evacuation",
+      "D. Using electrical switches or flames"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Avoid sparks -> Prevent explosion.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs33",
+    "question": "Fire extinguishers should be:",
+    "options": [
+      "A. Easily accessible near gas storage area",
+      "B. Hidden",
+      "C. Locked",
+      "D. Broken"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Accessible extinguisher -> Quick response.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs34",
+    "question": "Emergency exits near gas storage area should be:",
+    "options": [
+      "A. Blocked",
+      "B. Clear and accessible",
+      "C. Locked",
+      "D. Hidden"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clear exits -> Ensure safe evacuation.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs35",
+    "question": "Workers should wear PPE when handling cylinders:",
+    "options": [
+      "A. Sometimes",
+      "B. Never",
+      "C. Always when required",
+      "D. Rarely"
+    ],
+    "correctAnswer": "C",
+    "explanation": "PPE -> Protects workers.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs36",
+    "question": "Safety training helps workers to:",
+    "options": [
+      "A. Increase accidents",
+      "B. Reduce safety",
+      "C. Delay work",
+      "D. Handle gas cylinders safely"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Training -> Improves safety skills.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs37",
+    "question": "Gas cylinder accidents can be prevented by:",
+    "options": [
+      "A. Following safety procedures",
+      "B. Ignoring safety",
+      "C. Taking risks",
+      "D. Running"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Procedures -> Reduce hazards.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs38",
+    "question": "Safety inspections should be conducted:",
+    "options": [
+      "A. Never",
+      "B. Regularly",
+      "C. Once in lifetime",
+      "D. Rarely"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Regular inspection -> Ensures safety.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs39",
+    "question": "Safety is the responsibility of:",
+    "options": [
+      "A. Manager only",
+      "B. Safety officer only",
+      "C. Everyone in workplace",
+      "D. Visitor"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Shared responsibility -> Ensures safety.",
+    "topic": "Gas Cylinder Safety"
+  },
+  {
+    "id": "gcs40",
+    "question": "The goal of gas cylinder safety is to:",
+    "options": [
+      "A. Increase risk",
+      "B. Reduce safety",
+      "C. Delay work",
+      "D. Prevent fire, explosion, and injury"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Goal -> Protect workers and workplace.",
+    "topic": "Gas Cylinder Safety"
+  }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "id": "erg1",
+    "question": "Ergonomics is the science of:",
+    "options": [
+      "A. Designing work to fit the worker safely",
+      "B. Building machines",
+      "C. Painting workplace",
+      "D. Cleaning tools"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Fit the worker -> Reduces strain and injury.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg2",
+    "question": "The main goal of ergonomics is to:",
+    "options": [
+      "A. Increase workload",
+      "B. Reduce discomfort and injury",
+      "C. Delay work",
+      "D. Increase speed"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reduce injury -> Improves worker health.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg3",
+    "question": "Poor ergonomics can cause:",
+    "options": [
+      "A. Comfort",
+      "B. Happiness",
+      "C. Musculoskeletal disorders (MSDs)",
+      "D. Speed"
+    ],
+    "correctAnswer": "C",
+    "explanation": "MSDs -> Common ergonomic injuries.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg4",
+    "question": "Ergonomic hazards are related to:",
+    "options": [
+      "A. Weather",
+      "B. Noise",
+      "C. Color",
+      "D. Posture and repetitive movement"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Posture -> Affects body health.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg5",
+    "question": "Good ergonomics improves:",
+    "options": [
+      "A. Productivity and safety",
+      "B. Risk",
+      "C. Accidents",
+      "D. Fatigue"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Productivity -> Comfortable workers perform better.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg6",
+    "question": "Workers should maintain:",
+    "options": [
+      "A. Awkward posture",
+      "B. Correct body posture",
+      "C. Bent back",
+      "D. Twisted body"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct posture -> Prevents injury.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg7",
+    "question": "Repetitive tasks can cause:",
+    "options": [
+      "A. Comfort",
+      "B. Speed",
+      "C. Muscle strain and fatigue",
+      "D. Safety"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Repetition -> Leads to injury.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg8",
+    "question": "Ergonomic training helps workers to:",
+    "options": [
+      "A. Ignore hazards",
+      "B. Reduce safety",
+      "C. Delay work",
+      "D. Work safely and comfortably"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Training -> Improves awareness.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg9",
+    "question": "Adjustable workstations help to:",
+    "options": [
+      "A. Reduce strain and discomfort",
+      "B. Increase risk",
+      "C. Reduce safety",
+      "D. Increase fatigue"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Adjustable design -> Supports body.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg10",
+    "question": "Ergonomic safety is important for:",
+    "options": [
+      "A. Machines only",
+      "B. Worker health and safety",
+      "C. Furniture",
+      "D. Walls"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Worker health -> Prevents injury.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg11",
+    "question": "While lifting objects, workers should:",
+    "options": [
+      "A. Bend back",
+      "B. Twist body",
+      "C. Bend knees and keep back straight",
+      "D. Lift quickly"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Bend knees -> Reduces strain.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg12",
+    "question": "Heavy loads should be:",
+    "options": [
+      "A. Lifted alone",
+      "B. Thrown",
+      "C. Ignored",
+      "D. Lifted with help or equipment"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Use help -> Prevent injury.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg13",
+    "question": "Loads should be kept:",
+    "options": [
+      "A. Close to body",
+      "B. Away from body",
+      "C. Above head",
+      "D. On shoulder"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Close to body -> Improves balance.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg14",
+    "question": "Twisting while lifting is:",
+    "options": [
+      "A. Safe",
+      "B. Dangerous",
+      "C. Required",
+      "D. Recommended"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Twisting -> Causes back injury.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg15",
+    "question": "Workers should avoid:",
+    "options": [
+      "A. Safe lifting",
+      "B. Slow movement",
+      "C. Sudden jerking movements",
+      "D. Careful lifting"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Jerking -> Leads to strain.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg16",
+    "question": "Using mechanical aids helps to:",
+    "options": [
+      "A. Increase risk",
+      "B. Reduce safety",
+      "C. Delay work",
+      "D. Reduce physical effort"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Mechanical aids -> Improve safety.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg17",
+    "question": "Team lifting is required when:",
+    "options": [
+      "A. Load is heavy or bulky",
+      "B. Load is light",
+      "C. No work",
+      "D. Sitting"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Team lifting -> Prevent injury.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg18",
+    "question": "Workers should take breaks to:",
+    "options": [
+      "A. Increase fatigue",
+      "B. Reduce muscle strain and stress",
+      "C. Delay work",
+      "D. Reduce safety"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Breaks -> Improve comfort.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg19",
+    "question": "Standing for long periods can cause:",
+    "options": [
+      "A. Comfort",
+      "B. Safety",
+      "C. Fatigue and pain",
+      "D. Speed"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Long standing -> Leads to discomfort.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg20",
+    "question": "Workers should stretch exercises to:",
+    "options": [
+      "A. Increase injury",
+      "B. Reduce safety",
+      "C. Delay work",
+      "D. Reduce muscle tension"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Stretching -> Improves flexibility.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg21",
+    "question": "Workstation height should be:",
+    "options": [
+      "A. Adjustable to worker height",
+      "B. Too high",
+      "C. Too low",
+      "D. Fixed only"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Proper height -> Reduces strain.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg22",
+    "question": "Tools should be designed to:",
+    "options": [
+      "A. Increase effort",
+      "B. Fit worker hand comfortably",
+      "C. Cause fatigue",
+      "D. Reduce safety"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Comfortable tools -> Improve control.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg23",
+    "question": "Poor lighting can cause:",
+    "options": [
+      "A. Comfort",
+      "B. Safety",
+      "C. Eye strain and accidents",
+      "D. Relaxation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Lighting -> Improves visibility.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg24",
+    "question": "Work areas should be organized to:",
+    "options": [
+      "A. Increase reaching distance",
+      "B. Increase effort",
+      "C. Reduce safety",
+      "D. Reduce unnecessary movement"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Organization -> Improves efficiency.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg25",
+    "question": "Frequently used tools should be placed:",
+    "options": [
+      "A. Within easy reach",
+      "B. Far away",
+      "C. On floor",
+      "D. Outside workplace"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Easy reach -> Prevent strain.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg26",
+    "question": "Sitting posture should include:",
+    "options": [
+      "A. Slouching",
+      "B. Back supported and feet flat on floor",
+      "C. Twisting body",
+      "D. Leaning forward"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Proper sitting -> Prevents back pain.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg27",
+    "question": "Adjustable chairs help to:",
+    "options": [
+      "A. Increase fatigue",
+      "B. Reduce safety",
+      "C. Improve comfort and posture",
+      "D. Increase risk"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Adjustable chairs -> Support body.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg28",
+    "question": "Repetitive motion injuries are caused by:",
+    "options": [
+      "A. Rest",
+      "B. Sleeping",
+      "C. Walking",
+      "D. Repeating same movement frequently"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Repetition -> Causes strain.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg29",
+    "question": "Work rotation helps to:",
+    "options": [
+      "A. Reduce repetitive strain injuries",
+      "B. Increase boredom",
+      "C. Reduce safety",
+      "D. Delay work"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rotation -> Reduces fatigue.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg30",
+    "question": "Anti-fatigue mats are used to:",
+    "options": [
+      "A. Increase risk",
+      "B. Reduce foot and leg strain",
+      "C. Reduce safety",
+      "D. Increase speed"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Mats -> Improve comfort.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg31",
+    "question": "Employees should report:",
+    "options": [
+      "A. Comfort",
+      "B. Holidays",
+      "C. Ergonomic discomfort or pain immediately",
+      "D. Meetings"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Reporting -> Prevents serious injury.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg32",
+    "question": "Supervisors should:",
+    "options": [
+      "A. Ignore safety",
+      "B. Avoid training",
+      "C. Reduce safety",
+      "D. Monitor ergonomic practices"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Monitoring -> Ensures safe work.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg33",
+    "question": "Ergonomic assessments are conducted to:",
+    "options": [
+      "A. Identify ergonomic hazards",
+      "B. Increase risk",
+      "C. Reduce safety",
+      "D. Delay work"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Assessment -> Improves workplace design.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg34",
+    "question": "Workers should avoid:",
+    "options": [
+      "A. Neutral posture",
+      "B. Awkward body positions",
+      "C. Proper posture",
+      "D. Safe lifting"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Awkward posture -> Causes injury.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg35",
+    "question": "Safety training helps to:",
+    "options": [
+      "A. Increase accidents",
+      "B. Reduce safety",
+      "C. Reduce ergonomic injuries",
+      "D. Delay work"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Training -> Improves awareness.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg36",
+    "question": "Personal protective equipment (PPE) can help to:",
+    "options": [
+      "A. Increase strain",
+      "B. Reduce safety",
+      "C. Increase fatigue",
+      "D. Reduce ergonomic risk in some tasks"
+    ],
+    "correctAnswer": "D",
+    "explanation": "PPE -> Supports safety.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg37",
+    "question": "Workers should adjust workstation:",
+    "options": [
+      "A. Whenever needed for comfort and safety",
+      "B. Once a year",
+      "C. Never",
+      "D. Randomly"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Adjustment -> Improves posture.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg38",
+    "question": "Early reporting of pain helps to:",
+    "options": [
+      "A. Increase injury",
+      "B. Prevent serious health problems",
+      "C. Reduce safety",
+      "D. Delay work"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Early reporting -> Enables treatment.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg39",
+    "question": "Safety is the responsibility of:",
+    "options": [
+      "A. Manager only",
+      "B. Safety officer only",
+      "C. Everyone in workplace",
+      "D. Visitor"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Shared responsibility -> Ensures safety.",
+    "topic": "Factory Ergonomics Safety"
+  },
+  {
+    "id": "erg40",
+    "question": "The goal of ergonomics safety is to:",
+    "options": [
+      "A. Increase fatigue",
+      "B. Reduce safety",
+      "C. Delay work",
+      "D. Improve comfort, health, and productivity"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Goal -> Protect worker health and efficiency.",
+    "topic": "Factory Ergonomics Safety"
+  }
+]

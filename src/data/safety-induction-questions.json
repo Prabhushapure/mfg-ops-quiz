@@ -1,0 +1,522 @@
+[
+  {
+    "id": "si1",
+    "question": "Safety induction training is conducted to:",
+    "options": [
+      "A. Introduce workplace safety rules",
+      "B. Waste time",
+      "C. Increase workload",
+      "D. Delay work"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Safety rules -> Helps employees understand safe working practices.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si2",
+    "question": "The main objective of safety induction is to:",
+    "options": [
+      "A. Increase risk",
+      "B. Reduce accidents and injuries",
+      "C. Avoid work",
+      "D. Save money"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reduce accidents -> Ensures employee safety.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si3",
+    "question": "All new employees must attend:",
+    "options": [
+      "A. Party",
+      "B. Vacation",
+      "C. Safety induction training",
+      "D. Meeting only"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Training -> Provides essential safety information.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si4",
+    "question": "Safety policies in the organization are designed to:",
+    "options": [
+      "A. Punish employees",
+      "B. Delay work",
+      "C. Increase cost",
+      "D. Protect employees and property"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Protection -> Safety policies reduce risks.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si5",
+    "question": "Employees should follow safety rules:",
+    "options": [
+      "A. Always",
+      "B. Sometimes",
+      "C. Never",
+      "D. Only during inspection"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Always follow -> Maintains workplace safety.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si6",
+    "question": "Safety induction training should be given to:",
+    "options": [
+      "A. Visitors only",
+      "B. New employees and contractors",
+      "C. Managers only",
+      "D. Customers"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Training -> Ensures everyone understands safety procedures.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si7",
+    "question": "Workplace safety helps to:",
+    "options": [
+      "A. Increase accidents",
+      "B. Waste time",
+      "C. Improve productivity and safety",
+      "D. Reduce quality"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Productivity -> Safe workplaces improve efficiency.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si8",
+    "question": "Employees must know:",
+    "options": [
+      "A. Lunch menu",
+      "B. Movie schedule",
+      "C. Weather report",
+      "D. Emergency procedures"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Emergency procedures -> Help respond quickly to incidents.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si9",
+    "question": "Safety induction includes information about:",
+    "options": [
+      "A. Workplace hazards and controls",
+      "B. Salary",
+      "C. Holidays",
+      "D. Sports"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Hazards -> Helps identify risks.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si10",
+    "question": "Safety awareness helps employees to:",
+    "options": [
+      "A. Ignore risks",
+      "B. Work safely",
+      "C. Delay tasks",
+      "D. Reduce safety"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Work safely -> Prevents accidents.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si11",
+    "question": "Employees should report hazards to:",
+    "options": [
+      "A. Friend",
+      "B. Visitor",
+      "C. Supervisor or safety officer",
+      "D. Nobody"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Reporting -> Prevents accidents.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si12",
+    "question": "Safety signs in the workplace are used to:",
+    "options": [
+      "A. Decorate",
+      "B. Show company logo",
+      "C. Reduce cost",
+      "D. Provide safety information"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Safety signs -> Warn about hazards.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si13",
+    "question": "Emergency exits should be:",
+    "options": [
+      "A. Clearly marked and accessible",
+      "B. Blocked",
+      "C. Locked",
+      "D. Hidden"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Accessible exits -> Ensure safe evacuation.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si14",
+    "question": "Employees must keep walkways:",
+    "options": [
+      "A. Blocked",
+      "B. Clean and clear",
+      "C. Wet",
+      "D. Dirty"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clear walkways -> Prevent slips and trips.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si15",
+    "question": "Smoking in restricted areas is:",
+    "options": [
+      "A. Allowed",
+      "B. Safe",
+      "C. Prohibited and dangerous",
+      "D. Recommended"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Prohibited -> Prevents fire hazards.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si16",
+    "question": "Employees should follow instructions from:",
+    "options": [
+      "A. Unauthorized persons",
+      "B. Visitors",
+      "C. Friends",
+      "D. Supervisor or safety officer"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Instructions -> Ensure safe operations.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si17",
+    "question": "Housekeeping in the workplace means:",
+    "options": [
+      "A. Keeping workplace clean and organized",
+      "B. Cleaning homes",
+      "C. Decorating office",
+      "D. Painting walls"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Housekeeping -> Reduces hazards.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si18",
+    "question": "Unsafe acts should be:",
+    "options": [
+      "A. Ignored",
+      "B. Reported immediately",
+      "C. Hidden",
+      "D. Encouraged"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reporting -> Prevents incidents.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si19",
+    "question": "Employees should avoid:",
+    "options": [
+      "A. Safe work",
+      "B. Following rules",
+      "C. Unsafe shortcuts",
+      "D. Reporting hazards"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Unsafe shortcuts -> Increase risk.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si20",
+    "question": "Workplace accidents can be prevented by:",
+    "options": [
+      "A. Ignoring safety",
+      "B. Running",
+      "C. Taking risks",
+      "D. Following safety procedures"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Procedures -> Reduce injuries.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si21",
+    "question": "In case of emergency, employees should:",
+    "options": [
+      "A. Stay calm and follow instructions",
+      "B. Panic",
+      "C. Run randomly",
+      "D. Hide"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Stay calm -> Ensures safe response.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si22",
+    "question": "Emergency alarm indicates:",
+    "options": [
+      "A. Break time",
+      "B. Emergency situation",
+      "C. Meeting",
+      "D. Lunch"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Alarm -> Signals evacuation.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si23",
+    "question": "During evacuation, employees should use:",
+    "options": [
+      "A. Elevator",
+      "B. Window",
+      "C. Stairs calmly",
+      "D. Roof"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Stairs -> Safer during emergencies.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si24",
+    "question": "Assembly point is:",
+    "options": [
+      "A. Workstation",
+      "B. Pantry",
+      "C. Parking lot only",
+      "D. Safe gathering area after evacuation"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Assembly point -> Ensures everyone is accounted for.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si25",
+    "question": "Employees should know the location of:",
+    "options": [
+      "A. Emergency exits and fire extinguishers",
+      "B. Cafeteria",
+      "C. Manager office",
+      "D. Reception"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Location -> Helps respond quickly.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si26",
+    "question": "Fire drills are conducted to:",
+    "options": [
+      "A. Waste time",
+      "B. Practice emergency procedures",
+      "C. Entertain employees",
+      "D. Reduce work"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Practice -> Improves preparedness.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si27",
+    "question": "Emergency contact numbers should be:",
+    "options": [
+      "A. Hidden",
+      "B. Optional",
+      "C. Known to all employees",
+      "D. Confidential"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Known numbers -> Enable quick response.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si28",
+    "question": "After evacuation, employees should:",
+    "options": [
+      "A. Go home",
+      "B. Re-enter immediately",
+      "C. Ignore rules",
+      "D. Wait for instructions"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Wait -> Prevents danger.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si29",
+    "question": "Emergency equipment should be:",
+    "options": [
+      "A. Easily accessible",
+      "B. Locked",
+      "C. Hidden",
+      "D. Broken"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Accessible -> Saves time in emergencies.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si30",
+    "question": "Panic during emergency is:",
+    "options": [
+      "A. Helpful",
+      "B. Dangerous",
+      "C. Fun",
+      "D. Required"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Dangerous -> Leads to accidents.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si31",
+    "question": "Safety is the responsibility of:",
+    "options": [
+      "A. Manager only",
+      "B. Safety officer only",
+      "C. Everyone in the workplace",
+      "D. Visitors"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Everyone -> Shared responsibility.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si32",
+    "question": "Employees should participate in:",
+    "options": [
+      "A. Unsafe practices",
+      "B. Ignoring hazards",
+      "C. Delays",
+      "D. Safety training and meetings"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Participation -> Improves safety awareness.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si33",
+    "question": "Personal protective equipment (PPE) should be:",
+    "options": [
+      "A. Used when required",
+      "B. Optional",
+      "C. Ignored",
+      "D. Shared carelessly"
+    ],
+    "correctAnswer": "A",
+    "explanation": "PPE -> Protects workers.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si34",
+    "question": "Employees should immediately report:",
+    "options": [
+      "A. Safe conditions",
+      "B. Hazards or accidents",
+      "C. Holidays",
+      "D. Lunch"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reporting -> Prevents incidents.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si35",
+    "question": "Safety training helps to:",
+    "options": [
+      "A. Increase risk",
+      "B. Waste time",
+      "C. Reduce accidents",
+      "D. Delay work"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Training -> Improves safety behavior.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si36",
+    "question": "Employees should follow company safety policies:",
+    "options": [
+      "A. Sometimes",
+      "B. Never",
+      "C. Only during inspection",
+      "D. Always"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Policies -> Maintain safe workplace.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si37",
+    "question": "Workplace safety improves:",
+    "options": [
+      "A. Productivity and morale",
+      "B. Risk",
+      "C. Stress",
+      "D. Cost"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Productivity -> Safe environment supports performance.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si38",
+    "question": "Employees should protect:",
+    "options": [
+      "A. Only themselves",
+      "B. Themselves and others",
+      "C. Only equipment",
+      "D. Nothing"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Protection -> Team safety matters.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si39",
+    "question": "A safe workplace is created by:",
+    "options": [
+      "A. Ignoring rules",
+      "B. Working unsafely",
+      "C. Following safety procedures",
+      "D. Taking risks"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Procedures -> Reduce hazards.",
+    "topic": "Safety Induction"
+  },
+  {
+    "id": "si40",
+    "question": "The goal of safety induction training is to:",
+    "options": [
+      "A. Delay work",
+      "B. Increase accidents",
+      "C. Reduce rules",
+      "D. Create safe working environment"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Safe environment -> Protects employees and organization.",
+    "topic": "Safety Induction"
+  }
+]

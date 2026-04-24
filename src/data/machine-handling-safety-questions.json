@@ -1,0 +1,522 @@
+[
+  {
+    "id": "mh1",
+    "question": "Before handling any chemical, you should first:",
+    "options": [
+      "A. Read the label and SDS",
+      "B. Use it immediately",
+      "C. Smell it",
+      "D. Shake the container"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Read label and SDS -> Provides hazard and safety instructions.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh2",
+    "question": "Hazard symbols on containers are used to:",
+    "options": [
+      "A. Decorate",
+      "B. Provide safety information",
+      "C. Show company logo",
+      "D. Indicate price"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Safety information -> Helps identify risks quickly.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh3",
+    "question": "Chemical containers without labels should be:",
+    "options": [
+      "A. Used carefully",
+      "B. Ignored",
+      "C. Reported immediately",
+      "D. Opened"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Report -> Prevents accidental misuse.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh4",
+    "question": "Strong chemical odor in the workplace indicates:",
+    "options": [
+      "A. Normal condition",
+      "B. Clean air",
+      "C. No risk",
+      "D. Possible leak or hazard"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Possible leak -> Needs immediate attention.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh5",
+    "question": "Unauthorized persons should:",
+    "options": [
+      "A. Not handle chemicals",
+      "B. Handle chemicals",
+      "C. Enter chemical area",
+      "D. Ignore safety rules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Authorized handling -> Reduces risk.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh6",
+    "question": "Safety signs in chemical areas are:",
+    "options": [
+      "A. Optional",
+      "B. Important guidance",
+      "C. Decoration",
+      "D. Unnecessary"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Guidance -> Helps prevent accidents.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh7",
+    "question": "Chemicals should be handled only by:",
+    "options": [
+      "A. Visitors",
+      "B. Anyone",
+      "C. Trained personnel",
+      "D. Customers"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Trained personnel -> Ensures safe handling.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh8",
+    "question": "The color-coded label system helps workers:",
+    "options": [
+      "A. Work faster",
+      "B. Save money",
+      "C. Reduce workload",
+      "D. Identify hazards easily"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Identify hazards -> Improves safety awareness.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh9",
+    "question": "Before opening a chemical container, check for:",
+    "options": [
+      "A. Damage or leakage",
+      "B. Color only",
+      "C. Size",
+      "D. Weight"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Check condition -> Prevents spills.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh10",
+    "question": "Chemical safety training helps to:",
+    "options": [
+      "A. Increase risk",
+      "B. Reduce accidents",
+      "C. Waste time",
+      "D. Delay work"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Training -> Improves safety behavior.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh11",
+    "question": "Safety goggles protect:",
+    "options": [
+      "A. Hands",
+      "B. Feet",
+      "C. Eyes",
+      "D. Hair"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Eyes -> Prevents chemical splash injury.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh12",
+    "question": "Gloves are worn to protect:",
+    "options": [
+      "A. Face",
+      "B. Shoes",
+      "C. Floor",
+      "D. Hands and skin"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Hands -> Prevents burns and irritation.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh13",
+    "question": "Face shields are used when:",
+    "options": [
+      "A. Handling hazardous chemicals",
+      "B. Sleeping",
+      "C. Eating",
+      "D. Cleaning desk"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Face shield -> Protects face from splashes.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh14",
+    "question": "PPE should be worn:",
+    "options": [
+      "A. After work",
+      "B. Before handling chemicals",
+      "C. During lunch",
+      "D. Only during inspection"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Before handling -> Prevents exposure.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh15",
+    "question": "Damaged PPE should be:",
+    "options": [
+      "A. Used",
+      "B. Ignored",
+      "C. Replaced immediately",
+      "D. Stored"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Replace -> Ensures proper protection.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh16",
+    "question": "Safety shoes protect against:",
+    "options": [
+      "A. Noise",
+      "B. Heat only",
+      "C. Dust",
+      "D. Falling objects and spills"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Protection -> Reduces injury risk.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh17",
+    "question": "Respirators are used to protect against:",
+    "options": [
+      "A. Chemical fumes",
+      "B. Noise",
+      "C. Water",
+      "D. Light"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Fumes -> Prevents inhalation hazards.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh18",
+    "question": "PPE should be removed:",
+    "options": [
+      "A. Anywhere",
+      "B. In designated area",
+      "C. In chemical zone",
+      "D. On floor"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Designated area -> Prevents contamination.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh19",
+    "question": "Wearing PPE is:",
+    "options": [
+      "A. Optional",
+      "B. Time-consuming",
+      "C. Mandatory for hazardous work",
+      "D. Unnecessary"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Mandatory -> Required for safety.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh20",
+    "question": "Dirty PPE should be:",
+    "options": [
+      "A. Reused",
+      "B. Ignored",
+      "C. Hidden",
+      "D. Cleaned or replaced"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Clean PPE -> Maintains protection.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh21",
+    "question": "Chemicals should be stored:",
+    "options": [
+      "A. In designated storage area",
+      "B. Anywhere",
+      "C. Near food",
+      "D. On floor"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Designated storage -> Prevents accidents.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh22",
+    "question": "Incompatible chemicals should be:",
+    "options": [
+      "A. Mixed",
+      "B. Stored separately",
+      "C. Stored together",
+      "D. Ignored"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Separate storage -> Prevents reactions.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh23",
+    "question": "Flammable chemicals must be kept:",
+    "options": [
+      "A. Near heat",
+      "B. In sunlight",
+      "C. Away from ignition sources",
+      "D. Open"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Away from ignition -> Prevents fire.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh24",
+    "question": "Chemical containers should be kept:",
+    "options": [
+      "A. Open",
+      "B. Broken",
+      "C. Tilted",
+      "D. Closed when not in use"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Closed containers -> Prevent leaks.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh25",
+    "question": "Heavy chemical containers should be stored:",
+    "options": [
+      "A. At lower level shelves",
+      "B. On top shelves",
+      "C. Above head",
+      "D. Hanging"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Lower shelves -> Prevent falling hazards.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh26",
+    "question": "Chemical storage areas should be:",
+    "options": [
+      "A. Dark",
+      "B. Well ventilated",
+      "C. Wet",
+      "D. Locked always"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ventilation -> Removes harmful vapors.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh27",
+    "question": "Secondary containment is used to:",
+    "options": [
+      "A. Decorate",
+      "B. Store tools",
+      "C. Catch spills or leaks",
+      "D. Reduce cost"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Containment -> Prevents contamination.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh28",
+    "question": "Chemical drums should be moved using:",
+    "options": [
+      "A. Hands only",
+      "B. Rolling randomly",
+      "C. Dragging",
+      "D. Proper equipment (trolley)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Proper equipment -> Prevents injury.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh29",
+    "question": "Damaged containers should be:",
+    "options": [
+      "A. Reported immediately",
+      "B. Used",
+      "C. Ignored",
+      "D. Hidden"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Report -> Prevents accidents.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh30",
+    "question": "Chemical storage areas should have:",
+    "options": [
+      "A. No signs",
+      "B. Safety signage",
+      "C. Music",
+      "D. Chairs"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Safety signage -> Warns workers.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh31",
+    "question": "In case of chemical spill, the first action is to:",
+    "options": [
+      "A. Ignore",
+      "B. Run away",
+      "C. Report immediately",
+      "D. Touch it"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Report -> Enables quick response.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh32",
+    "question": "Spill kits are used for:",
+    "options": [
+      "A. Cleaning desks",
+      "B. Decoration",
+      "C. Cooking",
+      "D. Controlling chemical spills"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Spill control -> Reduces hazard.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh33",
+    "question": "Emergency shower is used when:",
+    "options": [
+      "A. Chemical spills on body",
+      "B. Worker is tired",
+      "C. Cleaning tools",
+      "D. Drinking water"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Emergency shower -> Removes chemicals quickly.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh34",
+    "question": "If chemical enters the eyes, you should:",
+    "options": [
+      "A. Close eyes",
+      "B. Wash with water immediately",
+      "C. Sleep",
+      "D. Ignore"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Wash immediately -> Reduces injury.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh35",
+    "question": "During chemical exposure, move to:",
+    "options": [
+      "A. Dark room",
+      "B. Office",
+      "C. Fresh air immediately",
+      "D. Store room"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Fresh air -> Reduces inhalation risk.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh36",
+    "question": "Emergency exits should be:",
+    "options": [
+      "A. Blocked",
+      "B. Locked",
+      "C. Hidden",
+      "D. Clearly marked and accessible"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Accessible exits -> Ensures safe evacuation.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh37",
+    "question": "Chemical accidents must be reported to:",
+    "options": [
+      "A. Supervisor or safety officer",
+      "B. Friend",
+      "C. Visitor",
+      "D. Nobody"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Supervisor -> Ensures corrective action.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh38",
+    "question": "Fire caused by chemicals should be handled using:",
+    "options": [
+      "A. Water always",
+      "B. Correct fire extinguisher",
+      "C. Cloth",
+      "D. Sand only"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct extinguisher -> Prevents spreading fire.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh39",
+    "question": "Emergency contact numbers should be:",
+    "options": [
+      "A. Hidden",
+      "B. Optional",
+      "C. Known to all workers",
+      "D. Confidential"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Known numbers -> Enables fast response.",
+    "topic": "Machine Handling Safety"
+  },
+  {
+    "id": "mh40",
+    "question": "Who is responsible for chemical safety?",
+    "options": [
+      "A. Manager only",
+      "B. Safety officer only",
+      "C. Visitors",
+      "D. Everyone in workplace"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Everyone -> Safety is a shared responsibility.",
+    "topic": "Machine Handling Safety"
+  }
+]
