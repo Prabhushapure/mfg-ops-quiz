@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useCallback, useRef, Suspense } from "react";
+import { useEffect, useCallback, useRef, Suspense, useMemo } from "react";
 import { useSearchParams } from "next/navigation";
 import { AnimatePresence } from "framer-motion";
 import GameBoard from "@/components/GameBoard";
@@ -14,11 +14,51 @@ import { useTimer } from "@/hooks/useTimer";
 import { useDice } from "@/hooks/useDice";
 import { calculateResult } from "@/lib/gameLogic";
 import { playTimerWarning } from "@/lib/sounds";
+import type { GameTopic } from "@/hooks/useGameState";
+
+const TOPIC_LABEL_TO_KEY: Record<string, GameTopic> = {
+  "electrical safety": "electrical",
+  "fire safety": "fire",
+  "safety induction": "safety-induction",
+  "employee responsibility": "employee-responsibility",
+  "machine handling safety": "machine-handling-safety",
+  "material handling safety": "material-handling-safety",
+  "ppe safety": "ppe-safety",
+  "chemical handling safety": "chemical-handling-safety",
+  "safety management system": "safety-management-system",
+  "safety orientation": "safety-orientation",
+  "safety practices": "safety-practices",
+  "heavy lifting machinery safety": "heavy-lifting-machinery-safety",
+  "general road safety": "general-road-safety",
+  "gas cylinder safety": "gas-cylinder-safety",
+  "forklift safety": "forklift-safety",
+  "factory ergonomics safety": "factory-ergonomics-safety",
+  "confined space safety": "confined-space-safety",
+  "compressed air safety": "compressed-air-safety",
+  "campus road safety": "campus-road-safety",
+  "working at heights safety": "working-at-heights-safety",
+};
+
+function parseTopicFromUrlParam(topicParam: string | null): GameTopic | null {
+  if (!topicParam) return null;
+
+  const normalized = topicParam.trim().toLowerCase();
+  if (!normalized) return null;
+
+  return (
+    TOPIC_LABEL_TO_KEY[normalized] ??
+    TOPIC_LABEL_TO_KEY[normalized.replace(/[-_]+/g, " ")] ??
+    (Object.values(TOPIC_LABEL_TO_KEY).includes(normalized as GameTopic)
+      ? (normalized as GameTopic)
+      : null)
+  );
+}
 
 function HomeContent() {
   const searchParams = useSearchParams();
   const token = searchParams.get("token");
   const playNo = searchParams.get("play_no");
+  const topicParam = searchParams.get("topic");
   const hasSubmittedRef = useRef(false);
 
   const {
@@ -36,6 +76,13 @@ function HomeContent() {
 
   const timer = useTimer();
   const dice = useDice();
+  const urlTopic = useMemo(() => parseTopicFromUrlParam(topicParam), [topicParam]);
+
+  useEffect(() => {
+    if (urlTopic) {
+      setSelectedTopic(urlTopic);
+    }
+  }, [urlTopic, setSelectedTopic]);
 
   // Start game handler
   const onStartGame = useCallback(() => {
@@ -144,6 +191,7 @@ function HomeContent() {
             selectedTopic={selectedTopic}
             onTopicChange={setSelectedTopic}
             onStart={onStartGame}
+            hideTopicSelection={Boolean(urlTopic)}
           />
         )}
       </AnimatePresence>
