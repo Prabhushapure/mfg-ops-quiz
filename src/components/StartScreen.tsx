@@ -7,12 +7,14 @@ interface StartScreenProps {
   selectedTopic: GameTopic;
   onTopicChange: (topic: GameTopic) => void;
   onStart: () => void;
+  hideTopicSelection?: boolean;
 }
 
 export default function StartScreen({
   selectedTopic,
   onTopicChange,
   onStart,
+  hideTopicSelection = false,
 }: StartScreenProps) {
   return (
     <motion.div
@@ -58,61 +60,63 @@ export default function StartScreen({
           Industrial Safety Quiz
         </p>
 
-        <div className="mb-6 text-left">
-          <label
-            htmlFor="topic-select"
-            className="block font-heading font-bold text-safety-yellow text-sm uppercase tracking-wider mb-2"
-          >
-            Select Topic
-          </label>
-          <select
-            id="topic-select"
-            value={selectedTopic}
-            onChange={(e) => onTopicChange(e.target.value as GameTopic)}
-            className="w-full rounded-lg bg-navy-800 border border-navy-600 text-white px-3 py-2 outline-none focus:ring-2 focus:ring-safety-yellow"
-          >
-            <option value="electrical">Electrical Safety</option>
-            <option value="fire">Fire Safety</option>
-            <option value="safety-induction">Safety Induction</option>
-            <option value="employee-responsibility">
-              Employee Responsibility
-            </option>
-            <option value="machine-handling-safety">
-              Machine Handling Safety
-            </option>
-            <option value="material-handling-safety">
-              Material Handling Safety
-            </option>
-            <option value="ppe-safety">PPE Safety</option>
-            <option value="chemical-handling-safety">
-              Chemical Handling Safety
-            </option>
-            <option value="safety-management-system">
-              Safety Management System
-            </option>
-            <option value="safety-orientation">Safety Orientation</option>
-            <option value="safety-practices">Safety Practices</option>
-            <option value="heavy-lifting-machinery-safety">
-              Heavy Lifting Machinery Safety
-            </option>
-            <option value="general-road-safety">General Road Safety</option>
-            <option value="gas-cylinder-safety">Gas Cylinder Safety</option>
-            <option value="forklift-safety">Forklift Safety</option>
-            <option value="factory-ergonomics-safety">
-              Factory Ergonomics Safety
-            </option>
-            <option value="confined-space-safety">
-              Confined Space Safety
-            </option>
-            <option value="compressed-air-safety">
-              Compressed Air Safety
-            </option>
-            <option value="campus-road-safety">Campus Road Safety</option>
-            <option value="working-at-heights-safety">
-              Working at Heights Safety
-            </option>
-          </select>
-        </div>
+        {!hideTopicSelection && (
+          <div className="mb-6 text-left">
+            <label
+              htmlFor="topic-select"
+              className="block font-heading font-bold text-safety-yellow text-sm uppercase tracking-wider mb-2"
+            >
+              Select Topic
+            </label>
+            <select
+              id="topic-select"
+              value={selectedTopic}
+              onChange={(e) => onTopicChange(e.target.value as GameTopic)}
+              className="w-full rounded-lg bg-navy-800 border border-navy-600 text-white px-3 py-2 outline-none focus:ring-2 focus:ring-safety-yellow"
+            >
+              <option value="electrical">Electrical Safety</option>
+              <option value="fire">Fire Safety</option>
+              <option value="safety-induction">Safety Induction</option>
+              <option value="employee-responsibility">
+                Employee Responsibility
+              </option>
+              <option value="machine-handling-safety">
+                Machine Handling Safety
+              </option>
+              <option value="material-handling-safety">
+                Material Handling Safety
+              </option>
+              <option value="ppe-safety">PPE Safety</option>
+              <option value="chemical-handling-safety">
+                Chemical Handling Safety
+              </option>
+              <option value="safety-management-system">
+                Safety Management System
+              </option>
+              <option value="safety-orientation">Safety Orientation</option>
+              <option value="safety-practices">Safety Practices</option>
+              <option value="heavy-lifting-machinery-safety">
+                Heavy Lifting Machinery Safety
+              </option>
+              <option value="general-road-safety">General Road Safety</option>
+              <option value="gas-cylinder-safety">Gas Cylinder Safety</option>
+              <option value="forklift-safety">Forklift Safety</option>
+              <option value="factory-ergonomics-safety">
+                Factory Ergonomics Safety
+              </option>
+              <option value="confined-space-safety">
+                Confined Space Safety
+              </option>
+              <option value="compressed-air-safety">
+                Compressed Air Safety
+              </option>
+              <option value="campus-road-safety">Campus Road Safety</option>
+              <option value="working-at-heights-safety">
+                Working at Heights Safety
+              </option>
+            </select>
+          </div>
+        )}
 
         <div className="bg-navy-800/60 rounded-xl p-5 sm:p-6 mb-6 text-left border border-navy-700">
           <h2 className="font-heading font-bold text-safety-yellow text-sm uppercase tracking-wider mb-3">

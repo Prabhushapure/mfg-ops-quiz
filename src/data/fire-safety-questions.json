@@ -648,5 +648,525 @@
     "correctAnswer": "C",
     "explanation": "Reduce accidents → Awareness improves response and prevention.",
     "topic": "Fire Safety"
+  },
+  {
+    "id": "fs51",
+    "question": "During working hours on the 8th floor, a faint burning smell is noticed near a workstation, but no visible fire is present. What should be the MOST appropriate first action?",
+    "options": [
+      "A. Ignore and continue working",
+      "B. Open windows to remove smell",
+      "C. Inform facility/emergency team and investigate safely",
+      "D. Immediately evacuate entire building"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Early detection is critical. Reporting and controlled investigation prevents escalation without causing unnecessary panic.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs52",
+    "question": "A fire breaks out in the server room (5th floor), and smoke starts spreading through air ducts. What is the MOST critical immediate action?",
+    "options": [
+      "A. Shut down HVAC system if trained to do so",
+      "B. Continue work until alarm rings",
+      "C. Open all windows",
+      "D. Use water extinguisher"
+    ],
+    "correctAnswer": "A",
+    "explanation": "HVAC systems can spread smoke quickly across floors; stopping it limits smoke propagation.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs53",
+    "question": "You notice a colleague trying to use a water extinguisher on an electrical panel fire. What should you do?",
+    "options": [
+      "A. Let them continue",
+      "B. Run away",
+      "C. Stop them and use CO₂ extinguisher",
+      "D. Pour more water"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Water conducts electricity and can worsen the situation; CO₂ is the correct choice.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs54",
+    "question": "During evacuation from the 10th floor, stairwell A is crowded and smoky, while stairwell B is longer but clear. What should you choose?",
+    "options": [
+      "A. Stairwell A (shorter distance)",
+      "B. Stairwell B (safer path)",
+      "C. Wait for lift",
+      "D. Stay inside office"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Safety over distance—avoid smoke-filled routes.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs55",
+    "question": "While evacuating, an employee insists on going back to collect a laptop. What is the BEST response?",
+    "options": [
+      "A. Allow them",
+      "B. Ignore them",
+      "C. Stop them and guide them to exit",
+      "D. Go with them"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Re-entry increases risk; life safety is priority.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs56",
+    "question": "Fire alarm rings, but no visible fire is seen. Employees suspect it's a false alarm. What should be done?",
+    "options": [
+      "A. Ignore alarm",
+      "B. Wait for confirmation",
+      "C. Continue working",
+      "D. Begin evacuation as per protocol"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Always treat alarms as real unless officially declared otherwise.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs57",
+    "question": "Smoke begins filling a corridor, reducing visibility. What is the safest movement strategy?",
+    "options": [
+      "A. Run fast upright",
+      "B. Crawl low and follow wall",
+      "C. Close eyes and run",
+      "D. Use lift"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Low movement avoids smoke inhalation and walls help navigation.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs58",
+    "question": "A fire starts in the pantry due to oil overheating. What is the MOST appropriate extinguishing method?",
+    "options": [
+      "A. Water",
+      "B. Cloth",
+      "C. Paper",
+      "D. Fire blanket or Class K extinguisher"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Oil fires spread with water; specialized extinguishing is needed.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs59",
+    "question": "During evacuation, a disabled employee is unable to use stairs. What should be done?",
+    "options": [
+      "A. Leave them",
+      "B. Carry randomly",
+      "C. Assist to refuge area and inform rescue team",
+      "D. Wait with them silently"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Refuge areas are designed for safe waiting and rescue.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs60",
+    "question": "After reaching assembly point, one team member is missing. What is the correct action?",
+    "options": [
+      "A. Inform emergency coordinator immediately",
+      "B. Go search alone",
+      "C. Ignore",
+      "D. Call them repeatedly"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Professionals handle search; self-search is dangerous.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs61",
+    "question": "A fire on the 3rd floor triggers panic, and people start running. What is the BEST way to control the situation?",
+    "options": [
+      "A. Shout loudly",
+      "B. Follow crowd",
+      "C. Use trained wardens to guide calmly",
+      "D. Block exits"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Wardens ensure controlled evacuation.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs62",
+    "question": "Firefighters arrive and ask for building layout details. Who should ideally provide this?",
+    "options": [
+      "A. Any employee",
+      "B. Visitors",
+      "C. Security/facility manager",
+      "D. Random staff"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Facility teams have accurate building information.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs63",
+    "question": "During evacuation, you find a closed door that feels hot. What does it indicate?",
+    "options": [
+      "A. Safe area",
+      "B. Fire behind door",
+      "C. Empty room",
+      "D. Cold air"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Heat indicates fire presence—do not open.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs64",
+    "question": "In a multi-floor building, why is phased evacuation sometimes used?",
+    "options": [
+      "A. Avoid congestion in staircases",
+      "B. Save time",
+      "C. Reduce alarms",
+      "D. Increase panic"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Controlled evacuation prevents overcrowding.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs65",
+    "question": "A colleague collapses due to smoke inhalation. What is your priority?",
+    "options": [
+      "A. Continue evacuation",
+      "B. Provide first aid if trained and move to safe area",
+      "C. Leave them",
+      "D. Take video"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Immediate aid can save life, but only if safe.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs66",
+    "question": "You are trapped in a room with smoke outside. What is the BEST action?",
+    "options": [
+      "A. Open door immediately",
+      "B. Jump out",
+      "C. Seal gaps and signal for help",
+      "D. Break glass randomly"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Prevent smoke entry and wait for rescue.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs67",
+    "question": "Why should lifts automatically shut down during fire?",
+    "options": [
+      "A. Save electricity",
+      "B. Prevent people from using them",
+      "C. Avoid trapping and exposure to smoke/fire",
+      "D. Maintenance"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Lifts can fail or open on fire floors.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs68",
+    "question": "During firefighting, why is it important to keep access roads clear?",
+    "options": [
+      "A. For parking",
+      "B. For fire truck access",
+      "C. For walking",
+      "D. For safety drills"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Delays in access reduce rescue effectiveness.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs69",
+    "question": "After evacuation, employees start sharing unverified messages on social media. What risk does this create?",
+    "options": [
+      "A. Awareness",
+      "B. Help",
+      "C. Safety",
+      "D. Panic and misinformation"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Misinformation causes confusion and panic.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs70",
+    "question": "After incident is over, what is the MOST important follow-up action?",
+    "options": [
+      "A. Resume work immediately",
+      "B. Conduct incident review and improve safety systems",
+      "C. Ignore event",
+      "D. Blame others"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Learning from incidents prevents future risks.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs71",
+    "question": "On the 7th floor, a UPS battery backup unit starts overheating and emitting smoke. What is the MOST appropriate first response?",
+    "options": [
+      "A. Pour water immediately",
+      "B. Open windows only",
+      "C. Ignore and continue work",
+      "D. Disconnect power if trained and raise alarm"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Electrical sources must be isolated safely, and alarm raised immediately to prevent escalation.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs72",
+    "question": "During evacuation, you notice employees crowding near one exit while another exit is empty. What should be done?",
+    "options": [
+      "A. Follow crowd",
+      "B. Inform others to use alternate exit",
+      "C. Wait",
+      "D. Block the empty exit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Using multiple exits reduces congestion and risk.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs73",
+    "question": "A fire starts in a document storage room filled with paper files. What is the main hazard here?",
+    "options": [
+      "A. Water damage",
+      "B. Rapid fire spread",
+      "C. Noise",
+      "D. Smell"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Paper is highly combustible, leading to fast fire growth.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs74",
+    "question": "While evacuating, emergency lighting fails temporarily. What should you rely on?",
+    "options": [
+      "A. Mobile flashlight and wall guidance",
+      "B. Run blindly",
+      "C. Sit down",
+      "D. Go back"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Staying oriented using walls and light sources ensures safer movement.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs75",
+    "question": "Fire alarm is triggered on the 2nd floor, but you are on the 9th floor. What should you do?",
+    "options": [
+      "A. Ignore",
+      "B. Wait for confirmation",
+      "C. Start evacuation immediately",
+      "D. Call friends"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Fire can spread quickly; early evacuation is safer.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs76",
+    "question": "A colleague closes all doors during evacuation. What is the purpose?",
+    "options": [
+      "A. Delay people",
+      "B. Stop fire spread",
+      "C. Block exits",
+      "D. Create confusion"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Closed doors slow fire and smoke spread.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs77",
+    "question": "You see someone using lift during fire evacuation. What is your response?",
+    "options": [
+      "A. Ignore",
+      "B. Advise them to use stairs",
+      "C. Stop elevator manually",
+      "D. Join them"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Lifts are unsafe during fire.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs78",
+    "question": "During evacuation, what is the biggest risk of carrying heavy bags?",
+    "options": [
+      "A. Theft",
+      "B. Slowing evacuation and causing obstruction",
+      "C. Comfort",
+      "D. Weight loss"
+    ],
+    "correctAnswer": "B",
+    "explanation": "It delays movement and blocks others.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs79",
+    "question": "Fire spreads to multiple floors through vertical shafts. What does this indicate?",
+    "options": [
+      "A. Good design",
+      "B. No issue",
+      "C. Safe condition",
+      "D. Poor fire containment"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Fire barriers failed, allowing vertical spread.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs80",
+    "question": "At assembly point, why should teams stay grouped?",
+    "options": [
+      "A. Socializing",
+      "B. Easy headcount and coordination",
+      "C. Fun",
+      "D. Relaxation"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Helps identify missing persons quickly.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs81",
+    "question": "Firefighters request information about hazardous materials stored in office. Why is this important?",
+    "options": [
+      "A. Safety planning for firefighting",
+      "B. Curiosity",
+      "C. Reporting",
+      "D. Documentation"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Some materials require special handling.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs82",
+    "question": "During evacuation, pushing and shouting starts among employees. What is the BEST response?",
+    "options": [
+      "A. Join",
+      "B. Stay calm and follow orderly movement",
+      "C. Stop completely",
+      "D. Run faster"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Panic increases injury risk.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs83",
+    "question": "A fire extinguisher is available, but you are not trained. What should you do?",
+    "options": [
+      "A. Avoid using and evacuate",
+      "B. Use it randomly",
+      "C. Experiment",
+      "D. Throw it"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Improper use can worsen fire.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs84",
+    "question": "A fire drill is conducted frequently. What is the main benefit?",
+    "options": [
+      "A. Time waste",
+      "B. Preparedness and faster response",
+      "C. Fun",
+      "D. Break time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Practice improves reaction time and coordination.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs85",
+    "question": "During fire, why is it important to switch off electrical equipment (if safe)?",
+    "options": [
+      "A. Save power",
+      "B. Cooling",
+      "C. Improve lighting",
+      "D. Reduce fire spread risk"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Electricity can fuel fire or cause shocks.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs86",
+    "question": "A person tries to break glass windows during fire unnecessarily. What risk does this create?",
+    "options": [
+      "A. Ventilation",
+      "B. Increased oxygen feeding fire",
+      "C. Cooling",
+      "D. Safety"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Oxygen can intensify fire.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs87",
+    "question": "Emergency wardens check restrooms during evacuation. Why?",
+    "options": [
+      "A. Ensure no one is left behind",
+      "B. Cleaning",
+      "C. Inspection",
+      "D. Maintenance"
+    ],
+    "correctAnswer": "A",
+    "explanation": "People may be unaware of alarms.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs88",
+    "question": "Fire alarm system fails to activate automatically. What should employees do?",
+    "options": [
+      "A. Ignore",
+      "B. Manually raise alarm and inform others",
+      "C. Wait",
+      "D. Leave silently"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Manual alert ensures awareness.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs89",
+    "question": "During firefighting, why should employees avoid gathering near building entrance?",
+    "options": [
+      "A. Heat",
+      "B. Light",
+      "C. Noise",
+      "D. Obstruct emergency operations"
+    ],
+    "correctAnswer": "D",
+    "explanation": "It blocks access for responders.",
+    "topic": "Fire Safety"
+  },
+  {
+    "id": "fs90",
+    "question": "After evacuation, an employee feels minor breathing discomfort. What is the correct action?",
+    "options": [
+      "A. Ignore",
+      "B. Seek medical attention immediately",
+      "C. Go home",
+      "D. Drink water only"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Smoke inhalation effects may worsen later.",
+    "topic": "Fire Safety"
   }
 ]
