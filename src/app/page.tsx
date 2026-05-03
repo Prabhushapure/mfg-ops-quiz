@@ -59,6 +59,7 @@ function HomeContent() {
   const token = searchParams.get("token");
   const playNo = searchParams.get("play_no");
   const topicParam = searchParams.get("topic");
+  const returnUrlParam = searchParams.get("returnUrl");
   const hasSubmittedRef = useRef(false);
 
   const {
@@ -170,17 +171,31 @@ function HomeContent() {
   }, [state.phase, gameResult?.finalScore, gameResult?.passed, token, playNo]);
 
   const handleClose = useCallback(async () => {
-  if (!hasSubmittedRef.current) {
-    hasSubmittedRef.current = true;
-    await submitScore();
-  }
+    if (!hasSubmittedRef.current) {
+      hasSubmittedRef.current = true;
+      await submitScore();
+    }
 
-  if (token) {
-    window.location.href = `https://antiz-digital.com/GamifiedLearning/play?token=${token}`;
-  } else {
-    window.location.href = "https://antiz-digital.com/GamifiedLearning/partner/license";
-  }
-}, [token]);
+    if (returnUrlParam) {
+      try {
+        const returnUrl = new URL(returnUrlParam);
+        const passStatus = gameResult?.passed ? "Pass" : "Fail";
+
+        returnUrl.searchParams.set("status", passStatus);
+        returnUrl.searchParams.set("play_result", passStatus);
+        window.location.href = returnUrl.toString();
+        return;
+      } catch (error) {
+        console.error("Invalid returnUrl provided:", error);
+      }
+    }
+
+    if (token) {
+      window.location.href = `https://antiz-digital.com/GamifiedLearning/play?token=${token}`;
+    } else {
+      window.location.href = "https://antiz-digital.com/GamifiedLearning/partner/license";
+    }
+  }, [token, returnUrlParam, gameResult?.passed, submitScore]);
 
   return (
     <div className="min-h-screen flex flex-col bg-[#fff5f8]">
