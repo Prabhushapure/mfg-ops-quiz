@@ -56,7 +56,8 @@ function parseTopicFromUrlParam(topicParam: string | null): GameTopic | null {
 
 function HomeContent() {
   const [showSplash, setShowSplash] = useState(true);
-  const [splashVideoSrc, setSplashVideoSrc] = useState("/splash.mp4");
+  const splashVideoSources = ["/snake/splash.mp4", "/splash.mp4"];
+  const [splashSourceIndex, setSplashSourceIndex] = useState(0);
   const splashVideoRef = useRef<HTMLVideoElement | null>(null);
   const splashTimerRef = useRef<number | null>(null);
   const searchParams = useSearchParams();
@@ -88,12 +89,6 @@ function HomeContent() {
       setSelectedTopic(urlTopic);
     }
   }, [urlTopic, setSelectedTopic]);
-
-  useEffect(() => {
-    if (window.location.pathname.startsWith("/snake")) {
-      setSplashVideoSrc("/snake/splash.mp4");
-    }
-  }, []);
 
   useEffect(() => {
     if (!showSplash) {
@@ -256,10 +251,16 @@ function HomeContent() {
                 autoPlay
                 muted
                 playsInline
-                src={splashVideoSrc}
+                src={splashVideoSources[splashSourceIndex]}
                 preload="auto"
                 onEnded={() => setShowSplash(false)}
-                onError={() => setShowSplash(false)}
+                onError={() => {
+                  if (splashSourceIndex < splashVideoSources.length - 1) {
+                    setSplashSourceIndex((prev) => prev + 1);
+                    return;
+                  }
+                  setShowSplash(false);
+                }}
               />
             </div>
           </div>
