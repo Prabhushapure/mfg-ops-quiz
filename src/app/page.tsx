@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useCallback, useRef, Suspense, useMemo } from "react";
+import { useEffect, useCallback, useRef, Suspense, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { AnimatePresence } from "framer-motion";
 import GameBoard from "@/components/GameBoard";
@@ -55,6 +55,10 @@ function parseTopicFromUrlParam(topicParam: string | null): GameTopic | null {
 }
 
 function HomeContent() {
+  const [showSplash, setShowSplash] = useState(true);
+  const [splashVideoSrc, setSplashVideoSrc] = useState("/splash.mp4");
+  const splashVideoRef = useRef<HTMLVideoElement | null>(null);
+  const splashTimerRef = useRef<number | null>(null);
   const searchParams = useSearchParams();
   const token = searchParams.get("token");
   const playNo = searchParams.get("play_no");
@@ -84,6 +88,45 @@ function HomeContent() {
       setSelectedTopic(urlTopic);
     }
   }, [urlTopic, setSelectedTopic]);
+
+  useEffect(() => {
+    if (window.location.pathname.startsWith("/snake")) {
+      setSplashVideoSrc("/snake/splash.mp4");
+    }
+  }, []);
+
+  useEffect(() => {
+    if (!showSplash) {
+      if (splashTimerRef.current) {
+        window.clearTimeout(splashTimerRef.current);
+        splashTimerRef.current = null;
+      }
+      return;
+    }
+
+    const videoEl = splashVideoRef.current;
+    if (videoEl) {
+      videoEl.currentTime = 0;
+      videoEl.play().catch((error) => {
+        if (error instanceof DOMException && error.name === "AbortError") {
+          // Expected when splash unmounts before play promise settles.
+          return;
+        }
+        console.error("Splash video autoplay failed:", error);
+      });
+    }
+
+    splashTimerRef.current = window.setTimeout(() => {
+      setShowSplash(false);
+    }, 4000);
+
+    return () => {
+      if (splashTimerRef.current) {
+        window.clearTimeout(splashTimerRef.current);
+        splashTimerRef.current = null;
+      }
+    };
+  }, [showSplash]);
 
   // Start game handler
   const onStartGame = useCallback(() => {
@@ -201,7 +244,27 @@ function HomeContent() {
     <div className="min-h-screen flex flex-col bg-[#fff5f8]">
       {/* Start Screen */}
       <AnimatePresence>
-        {state.phase === "start" && (
+        {showSplash && (
+          <div className="fixed inset-0 z-[60] flex flex-col items-center justify-center bg-[radial-gradient(circle_at_top,#0f1b4d_0%,#050b28_55%,#020616_100%)]">
+            <h1 className="mb-5 text-center font-heading text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+              Safety <span className="text-safety-yellow">Scramble</span>
+            </h1>
+            <div className="w-fit max-w-[100vw] overflow-hidden rounded-2xl border border-white/10 bg-black shadow-[0_20px_80px_rgba(0,0,0,0.55)]">
+              <video
+                ref={splashVideoRef}
+                className="h-[54vh] min-h-[340px] w-auto max-w-[100vw] scale-105 bg-black object-contain sm:h-[62vh]"
+                autoPlay
+                muted
+                playsInline
+                src={splashVideoSrc}
+                preload="auto"
+                onEnded={() => setShowSplash(false)}
+                onError={() => setShowSplash(false)}
+              />
+            </div>
+          </div>
+        )}
+        {!showSplash && state.phase === "start" && (
           <StartScreen
             selectedTopic={selectedTopic}
             onTopicChange={setSelectedTopic}
