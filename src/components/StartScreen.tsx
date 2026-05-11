@@ -53,27 +53,27 @@ export default function StartScreen({
           </h2>
           <ul className="space-y-1 text-sm leading-5 text-white">
             <li className="flex gap-2">
-              <span className="text-steel-300 text-sm leading-6">▶</span>
+              <span className="mt-1.5 inline-block h-0 w-0 shrink-0 border-y-[4px] border-y-transparent border-l-[7px] border-l-white" />
               Select a Topic to play
             </li>
             <li className="flex gap-2">
-              <span className="text-steel-300 text-sm leading-6">▶</span>
+              <span className="mt-1.5 inline-block h-0 w-0 shrink-0 border-y-[4px] border-y-transparent border-l-[7px] border-l-white" />
               Roll the dice and move across the board
             </li>
             <li className="flex gap-2">
-              <span className="text-steel-300 text-sm leading-6">▶</span>
+              <span className="mt-1.5 inline-block h-0 w-0 shrink-0 border-y-[4px] border-y-transparent border-l-[7px] border-l-white" />
               Land on the snake or ladder to trigger a quiz question
             </li>
             <li className="flex gap-2">
-              <span className="text-steel-300 text-sm leading-6">▶</span>
+              <span className="mt-1.5 inline-block h-0 w-0 shrink-0 border-y-[4px] border-y-transparent border-l-[7px] border-l-white" />
               Snakes: Answer correctly to stay, wrong to slide down
             </li>
             <li className="flex gap-2">
-              <span className="text-steel-300 text-sm leading-6">▶</span>
+              <span className="mt-1.5 inline-block h-0 w-0 shrink-0 border-y-[4px] border-y-transparent border-l-[7px] border-l-white" />
               Ladders: Answer correctly to climb up, wrong to stay
             </li>
             <li className="flex gap-2">
-              <span className="text-steel-300 text-sm leading-6">▶</span>
+              <span className="mt-1.5 inline-block h-0 w-0 shrink-0 border-y-[4px] border-y-transparent border-l-[7px] border-l-white" />
               Reach destination cell with 80% + score to PASS
             </li>
           </ul>

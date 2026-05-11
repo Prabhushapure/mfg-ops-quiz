@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme inline {
-  --font-heading: var(--font-barlow);
-  --font-body: var(--font-dm-sans);
+  --font-heading: "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 
   --color-navy-950: #0a1628;
   --color-navy-900: #0f1f3d;

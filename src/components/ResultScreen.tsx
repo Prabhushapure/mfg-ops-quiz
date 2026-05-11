@@ -19,6 +19,7 @@ function generateConfetti() {
 
 interface ResultScreenProps {
   result: GameResult;
+  topicName: string;
   onPlayAgain: () => void;
   onClose: () => void;
 }
@@ -51,7 +52,12 @@ function ConfettiPiece({ delay, x, color, rotation, duration }: ConfettiPiecePro
   );
 }
 
-export default function ResultScreen({ result, onPlayAgain, onClose }: ResultScreenProps) {
+export default function ResultScreen({
+  result,
+  topicName,
+  onPlayAgain,
+  onClose,
+}: ResultScreenProps) {
   useEffect(() => {
     if (result.passed) {
       playGameWin();
@@ -93,7 +99,7 @@ export default function ResultScreen({ result, onPlayAgain, onClose }: ResultScr
             className="mx-auto mb-1 h-12 w-12"
             priority
           />
-          <h1 className="font-heading text-3xl font-semibold text-white tracking-tight whitespace-nowrap">
+          <h1 className="font-heading text-4xl sm:text-5xl font-semibold text-white tracking-tight whitespace-nowrap">
             SAFETY <span className="text-safety-yellow">SCRAMBLE</span>
           </h1>
           <p className="font-heading text-xs text-steel-400 tracking-widest uppercase">
@@ -109,7 +115,7 @@ export default function ResultScreen({ result, onPlayAgain, onClose }: ResultScr
         >
           {/* Pass/Fail banner */}
           <motion.div
-            className={`py-6 text-center ${
+            className={`py-5 text-center ${
               result.passed
                 ? "bg-green-900/35"
                 : "bg-red-900/35"
@@ -117,6 +123,9 @@ export default function ResultScreen({ result, onPlayAgain, onClose }: ResultScr
             animate={{}}
             transition={{}}
           >
+            <p className="text-safety-yellow text-sm mb-1 font-heading uppercase tracking-widest">
+              {topicName}
+            </p>
             <div className="flex items-center justify-center gap-3">
               <motion.h2
                 className={`font-heading font-black text-5xl tracking-tight ${
@@ -140,7 +149,7 @@ export default function ResultScreen({ result, onPlayAgain, onClose }: ResultScr
                 priority
               />
             </div>
-            <p className="text-steel-400 text-sm mt-1 font-heading uppercase tracking-wider">
+            <p className="text-steel-400 text-sm mt-0.5 font-heading uppercase tracking-wider">
               {result.passed
                 ? "Excellent work, Safety Champion!"
                 : "Keep studying and try again!"}
@@ -148,8 +157,8 @@ export default function ResultScreen({ result, onPlayAgain, onClose }: ResultScr
           </motion.div>
 
           {/* Stats */}
-          <div className="px-6 pb-6">
-            <div className="space-y-3 mt-2">
+          <div className="px-6 pb-5">
+            <div className="space-y-2.5 mt-2">
               <StatRow
                 label="Total Questions"
                 value={result.totalQuestions.toString()}
@@ -182,7 +191,7 @@ export default function ResultScreen({ result, onPlayAgain, onClose }: ResultScr
                 label="Time Remaining"
                 value={formatTime(result.timeRemaining)}
               />
-              <div className="border-t border-navy-600 pt-3">
+              <div className="border-t border-navy-600 pt-2.5">
                 <StatRow
                   label="Final Score"
                   value={result.finalScore.toLocaleString()}
@@ -193,7 +202,7 @@ export default function ResultScreen({ result, onPlayAgain, onClose }: ResultScr
 
             <motion.button
               onClick={onClose}
-              className="block w-full max-w-[12rem] mx-auto mt-6 px-8 py-2.5 bg-safety-yellow text-navy-950 font-heading font-black text-xl rounded-xl
+              className="block w-full max-w-[12rem] mx-auto mt-5 px-8 py-2.5 bg-safety-yellow text-navy-950 font-heading font-black text-xl rounded-xl
                          shadow-lg shadow-yellow-900/30 hover:bg-yellow-400 active:bg-yellow-500
                          transition-colors uppercase tracking-wider"
               whileHover={{ scale: 1.02 }}

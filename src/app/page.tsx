@@ -40,6 +40,29 @@ const TOPIC_LABEL_TO_KEY: Record<string, GameTopic> = {
   "working at heights safety": "working-at-heights-safety",
 };
 
+const TOPIC_KEY_TO_LABEL: Record<GameTopic, string> = {
+  electrical: "Electrical Safety",
+  fire: "Fire Safety",
+  "safety-induction": "Safety Induction",
+  "employee-responsibility": "Employee Responsibility",
+  "machine-handling-safety": "Machine Handling Safety",
+  "material-handling-safety": "Material Handling Safety",
+  "ppe-safety": "PPE Safety",
+  "chemical-handling-safety": "Chemical Handling Safety",
+  "safety-management-system": "Safety Management System",
+  "safety-orientation": "Safety Orientation",
+  "safety-practices": "Safety Practices",
+  "heavy-lifting-machinery-safety": "Heavy Lifting Machinery Safety",
+  "general-road-safety": "General Road Safety",
+  "gas-cylinder-safety": "Gas Cylinder Safety",
+  "forklift-safety": "Forklift Safety",
+  "factory-ergonomics-safety": "Factory Ergonomics Safety",
+  "confined-space-safety": "Confined Space Safety",
+  "compressed-air-safety": "Compressed Air Safety",
+  "campus-road-safety": "Campus Road Safety",
+  "working-at-heights-safety": "Working at Heights Safety",
+};
+
 function parseTopicFromUrlParam(topicParam: string | null): GameTopic | null {
   if (!topicParam) return null;
 
@@ -84,6 +107,7 @@ function HomeContent() {
   const timer = useTimer();
   const dice = useDice();
   const urlTopic = useMemo(() => parseTopicFromUrlParam(topicParam), [topicParam]);
+  const selectedTopicLabel = TOPIC_KEY_TO_LABEL[selectedTopic];
 
   useEffect(() => {
     if (urlTopic) {
@@ -250,7 +274,7 @@ function HomeContent() {
               className="mb-3 h-20 w-20 sm:h-24 sm:w-24"
               priority
             />
-            <h1 className="mb-5 text-center font-heading text-3xl font-semibold tracking-tight text-white whitespace-nowrap sm:text-4xl">
+            <h1 className="mb-5 text-center font-heading text-4xl font-semibold tracking-tight text-white whitespace-nowrap sm:text-5xl">
               SAFETY <span className="text-safety-yellow">SCRAMBLE</span>
             </h1>
             <div className="w-fit max-w-[100vw] overflow-hidden rounded-2xl border border-white/10 bg-black shadow-[0_20px_80px_rgba(0,0,0,0.55)]">
@@ -301,51 +325,7 @@ function HomeContent() {
           {/* Board */}
           <div className="flex flex-col items-start w-full min-h-0 shrink" style={{ maxWidth: 'min(100%, 80vh, 720px)' }}>
             <h2 className="text-xl md:text-2xl text-pink-950 font-heading font-bold text-left w-full mt-0 mb-2 shrink-0">
-              {selectedTopic === "fire"
-                ? "Fire Safety"
-                : selectedTopic === "safety-induction"
-                  ? "Safety Induction"
-                  : selectedTopic === "employee-responsibility"
-                    ? "Employee Responsibility"
-                    : selectedTopic === "machine-handling-safety"
-                      ? "Machine Handling Safety"
-                      : selectedTopic === "material-handling-safety"
-                        ? "Material Handling Safety"
-                        : selectedTopic === "ppe-safety"
-                          ? "PPE Safety"
-                          : selectedTopic === "chemical-handling-safety"
-                            ? "Chemical Handling Safety"
-                            : selectedTopic === "safety-management-system"
-                              ? "Safety Management System"
-                              : selectedTopic === "safety-orientation"
-                                ? "Safety Orientation"
-                                : selectedTopic === "safety-practices"
-                                  ? "Safety Practices"
-                                  : selectedTopic ===
-                                      "heavy-lifting-machinery-safety"
-                                    ? "Heavy Lifting Machinery Safety"
-                                    : selectedTopic === "general-road-safety"
-                                      ? "General Road Safety"
-                                      : selectedTopic === "gas-cylinder-safety"
-                                        ? "Gas Cylinder Safety"
-                                        : selectedTopic === "forklift-safety"
-                                          ? "Forklift Safety"
-                                          : selectedTopic ===
-                                              "factory-ergonomics-safety"
-                                            ? "Factory Ergonomics Safety"
-                                            : selectedTopic ===
-                                                "confined-space-safety"
-                                              ? "Confined Space Safety"
-                                              : selectedTopic ===
-                                                  "compressed-air-safety"
-                                                ? "Compressed Air Safety"
-                                                : selectedTopic ===
-                                                    "campus-road-safety"
-                                                  ? "Campus Road Safety"
-                                                  : selectedTopic ===
-                                                      "working-at-heights-safety"
-                                                    ? "Working at Heights Safety"
-                  : "Electrical Safety"}
+              {selectedTopicLabel}
             </h2>
             <div className="w-full shrink min-h-0 aspect-square">
               <GameBoard playerPosition={state.playerPosition} />
@@ -406,7 +386,12 @@ function HomeContent() {
       {/* Result Screen */}
       <AnimatePresence>
         {state.phase === "result" && gameResult && (
-          <ResultScreen result={gameResult} onPlayAgain={onPlayAgain} onClose={handleClose} />
+          <ResultScreen
+            result={gameResult}
+            topicName={selectedTopicLabel}
+            onPlayAgain={onPlayAgain}
+            onClose={handleClose}
+          />
         )}
       </AnimatePresence>
     </div>
