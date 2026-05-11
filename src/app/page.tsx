@@ -2,6 +2,7 @@
 
 import { useEffect, useCallback, useRef, Suspense, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
+import Image from "next/image";
 import { AnimatePresence } from "framer-motion";
 import GameBoard from "@/components/GameBoard";
 import Dice from "@/components/Dice";
@@ -241,8 +242,16 @@ function HomeContent() {
       <AnimatePresence>
         {showSplash && (
           <div className="fixed inset-0 z-[60] flex flex-col items-center justify-center bg-[radial-gradient(circle_at_top,#0f1b4d_0%,#050b28_55%,#020616_100%)]">
-            <h1 className="mb-5 text-center font-heading text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-              Safety <span className="text-safety-yellow">Scramble</span>
+            <Image
+              src="/snake/logo.png"
+              alt="Shield logo"
+              width={88}
+              height={88}
+              className="mb-3 h-20 w-20 sm:h-24 sm:w-24"
+              priority
+            />
+            <h1 className="mb-5 text-center font-heading text-3xl font-semibold tracking-tight text-white whitespace-nowrap sm:text-4xl">
+              SAFETY <span className="text-safety-yellow">SCRAMBLE</span>
             </h1>
             <div className="w-fit max-w-[100vw] overflow-hidden rounded-2xl border border-white/10 bg-black shadow-[0_20px_80px_rgba(0,0,0,0.55)]">
               <video
@@ -270,7 +279,7 @@ function HomeContent() {
             selectedTopic={selectedTopic}
             onTopicChange={setSelectedTopic}
             onStart={onStartGame}
-            hideTopicSelection={Boolean(urlTopic)}
+            disableTopicSelection={Boolean(urlTopic)}
           />
         )}
       </AnimatePresence>

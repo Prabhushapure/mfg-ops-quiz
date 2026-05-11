@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { GameResult } from "@/types/game";
 import { playGameWin, playGameLose } from "@/lib/sounds";
 
@@ -71,7 +72,7 @@ export default function ResultScreen({ result, onPlayAgain, onClose }: ResultScr
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4 overflow-y-auto"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-navy-950/95 backdrop-blur-sm p-4 overflow-y-auto"
     >
       {/* Confetti for pass */}
       {result.passed && (
@@ -82,102 +83,127 @@ export default function ResultScreen({ result, onPlayAgain, onClose }: ResultScr
         </div>
       )}
 
-      <motion.div
-        initial={{ scale: 0.8, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ type: "spring", stiffness: 200, damping: 20 }}
-        className="bg-navy-900 border border-navy-600 rounded-2xl max-w-md w-full shadow-2xl overflow-hidden"
-      >
-        {/* Pass/Fail banner */}
-        <motion.div
-          className={`py-6 text-center ${
-            result.passed
-              ? "bg-gradient-to-b from-green-800/60 to-transparent"
-              : "bg-gradient-to-b from-red-800/60 to-transparent"
-          }`}
-          animate={
-            result.passed
-              ? { boxShadow: ["0 0 0px #22c55e", "0 0 30px #22c55e", "0 0 0px #22c55e"] }
-              : {}
-          }
-          transition={{ duration: 2, repeat: Infinity }}
-        >
-          <motion.h2
-            className={`font-heading font-black text-5xl tracking-tight ${
-              result.passed ? "text-green-400" : "text-red-400"
-            }`}
-            animate={
-              !result.passed
-                ? { x: [0, -5, 5, -3, 3, 0] }
-                : {}
-            }
-            transition={{ duration: 0.5, delay: 0.3 }}
-          >
-            {result.passed ? "PASS" : "FAIL"}
-          </motion.h2>
-          <p className="text-steel-400 text-sm mt-1 font-heading uppercase tracking-wider">
-            {result.passed
-              ? "Excellent work, Safety Champion!"
-              : "Keep studying and try again!"}
+      <div className="w-full max-w-md">
+        <div className="text-center mb-2">
+          <Image
+            src="/snake/logo.png"
+            alt="Shield logo"
+            width={64}
+            height={64}
+            className="mx-auto mb-1 h-12 w-12"
+            priority
+          />
+          <h1 className="font-heading text-3xl font-semibold text-white tracking-tight whitespace-nowrap">
+            SAFETY <span className="text-safety-yellow">SCRAMBLE</span>
+          </h1>
+          <p className="font-heading text-xs text-steel-400 tracking-widest uppercase">
+            Industrial Safety Quiz
           </p>
-        </motion.div>
+        </div>
 
-        {/* Stats */}
-        <div className="px-6 pb-6">
-          <div className="space-y-3 mt-2">
-            <StatRow
-              label="Total Questions"
-              value={result.totalQuestions.toString()}
-            />
-            <StatRow
-              label="Correct Answers"
-              value={result.correctAnswers.toString()}
-              highlight="green"
-            />
-            <StatRow
-              label="Wrong Answers"
-              value={result.wrongAnswers.toString()}
-              highlight={result.wrongAnswers > 0 ? "red" : undefined}
-            />
-            <StatRow
-              label="Points Scored"
-              value={result.pointsScored.toString()}
-            />
-            <StatRow
-              label="Score Percentage"
-              value={`${result.scorePercentage}%`}
-              highlight={result.scorePercentage >= 80 ? "green" : "red"}
-            />
-            <StatRow
-              label="Goal Reached (Cell 36)"
-              value={result.goalReached ? "Yes" : "No"}
-              highlight={result.goalReached ? "green" : "red"}
-            />
-            <StatRow
-              label="Time Remaining"
-              value={formatTime(result.timeRemaining)}
-            />
-            <div className="border-t border-navy-600 pt-3">
-              <StatRow
-                label="Final Score"
-                value={result.finalScore.toLocaleString()}
-                large
+        <motion.div
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ type: "spring", stiffness: 200, damping: 20 }}
+          className="bg-navy-800/60 rounded-2xl w-full shadow-2xl overflow-hidden backdrop-blur-sm"
+        >
+          {/* Pass/Fail banner */}
+          <motion.div
+            className={`py-6 text-center ${
+              result.passed
+                ? "bg-green-900/35"
+                : "bg-red-900/35"
+            }`}
+            animate={{}}
+            transition={{}}
+          >
+            <div className="flex items-center justify-center gap-3">
+              <motion.h2
+                className={`font-heading font-black text-5xl tracking-tight ${
+                  result.passed ? "text-green-400" : "text-red-400"
+                }`}
+                animate={
+                  !result.passed
+                    ? { x: [0, -5, 5, -3, 3, 0] }
+                    : {}
+                }
+                transition={{ duration: 0.5, delay: 0.3 }}
+              >
+                {result.passed ? "PASS" : "FAIL"}
+              </motion.h2>
+              <Image
+                src={result.passed ? "/snake/thumbs-up.png" : "/snake/thumbs-down.png"}
+                alt={result.passed ? "Thumbs up" : "Thumbs down"}
+                width={72}
+                height={72}
+                className="h-14 w-14 sm:h-[72px] sm:w-[72px]"
+                priority
               />
             </div>
-          </div>
+            <p className="text-steel-400 text-sm mt-1 font-heading uppercase tracking-wider">
+              {result.passed
+                ? "Excellent work, Safety Champion!"
+                : "Keep studying and try again!"}
+            </p>
+          </motion.div>
 
-          <motion.button
-            onClick={onClose}
-            className="w-full mt-6 px-8 py-3.5 bg-safety-yellow text-navy-950 font-heading font-black text-lg rounded-xl
-                       shadow-lg shadow-yellow-900/30 hover:bg-yellow-400 active:bg-yellow-500
-                       transition-colors uppercase tracking-wider"
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-          >
-            Close
-          </motion.button>
-        </div>
-      </motion.div>
+          {/* Stats */}
+          <div className="px-6 pb-6">
+            <div className="space-y-3 mt-2">
+              <StatRow
+                label="Total Questions"
+                value={result.totalQuestions.toString()}
+              />
+              <StatRow
+                label="Correct Answers"
+                value={result.correctAnswers.toString()}
+                highlight="green"
+              />
+              <StatRow
+                label="Wrong Answers"
+                value={result.wrongAnswers.toString()}
+                highlight={result.wrongAnswers > 0 ? "red" : undefined}
+              />
+              <StatRow
+                label="Points Scored"
+                value={result.pointsScored.toString()}
+              />
+              <StatRow
+                label="Score Percentage"
+                value={`${result.scorePercentage}%`}
+                highlight={result.scorePercentage >= 80 ? "green" : "red"}
+              />
+              <StatRow
+                label="Goal Reached (Cell 36)"
+                value={result.goalReached ? "Yes" : "No"}
+                highlight={result.goalReached ? "green" : "red"}
+              />
+              <StatRow
+                label="Time Remaining"
+                value={formatTime(result.timeRemaining)}
+              />
+              <div className="border-t border-navy-600 pt-3">
+                <StatRow
+                  label="Final Score"
+                  value={result.finalScore.toLocaleString()}
+                  large
+                />
+              </div>
+            </div>
+
+            <motion.button
+              onClick={onClose}
+              className="block w-full max-w-[12rem] mx-auto mt-6 px-8 py-2.5 bg-safety-yellow text-navy-950 font-heading font-black text-xl rounded-xl
+                         shadow-lg shadow-yellow-900/30 hover:bg-yellow-400 active:bg-yellow-500
+                         transition-colors uppercase tracking-wider"
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+            >
+              Close
+            </motion.button>
+          </div>
+        </motion.div>
+      </div>
     </motion.div>
   );
 }

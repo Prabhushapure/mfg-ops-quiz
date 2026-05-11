@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 interface GameHeaderProps {
   formattedTime: string;
@@ -22,7 +23,7 @@ export default function GameHeader({
       <div className="max-w-4xl mx-auto flex items-center justify-between">
         {/* Title */}
         <div className="hidden sm:block">
-          <h1 className="font-heading font-bold text-lg text-white tracking-tight">
+          <h1 className="font-heading font-semibold text-lg text-white tracking-tight whitespace-nowrap">
             SAFETY <span className="text-safety-yellow">SCRAMBLE</span>
           </h1>
         </div>
@@ -34,10 +35,7 @@ export default function GameHeader({
           animate={isWarning ? { scale: [1, 1.05, 1] } : {}}
           transition={isWarning ? { duration: 1, repeat: Infinity } : {}}
         >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <circle cx="12" cy="12" r="10" />
-            <polyline points="12 6 12 12 16 14" />
-          </svg>
+          <Image src="/snake/logo.png" alt="Shield logo" width={24} height={24} className="h-6 w-6" />
           {formattedTime}
         </motion.div>
 

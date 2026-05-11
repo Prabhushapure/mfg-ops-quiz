@@ -32,7 +32,7 @@ export default function PlayerToken({ position }: PlayerTokenProps) {
         <ellipse cx={1} cy={19} rx={11} ry={4} fill="rgba(0,0,0,0.35)" />
 
         {/* Player icon */}
-        <image
+        <motion.image
           href="/snake/images/player-icon.png"
           xlinkHref="/snake/images/player-icon.png"
           x={-25}
@@ -40,6 +40,12 @@ export default function PlayerToken({ position }: PlayerTokenProps) {
           width={50}
           height={50}
           preserveAspectRatio="xMidYMid meet"
+          animate={{ opacity: [1, 0.35, 1] }}
+          transition={{
+            duration: 0.9,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
         />
       </motion.g>
     </motion.g>
