@@ -58,6 +58,10 @@ export default function StartScreen({
             </li>
             <li className="flex gap-2">
               <span className="mt-1.5 inline-block h-0 w-0 shrink-0 border-y-[4px] border-y-transparent border-l-[7px] border-l-white" />
+              Office Fire Hazards.
+            </li>
+            <li className="flex gap-2">
+              <span className="mt-1.5 inline-block h-0 w-0 shrink-0 border-y-[4px] border-y-transparent border-l-[7px] border-l-white" />
               Roll the dice and move across the board
             </li>
             <li className="flex gap-2">
