@@ -246,6 +246,9 @@ function HomeContent() {
 
         returnUrl.searchParams.set("status", passStatus);
         returnUrl.searchParams.set("play_result", passStatus);
+        if (gameResult != null) {
+          returnUrl.searchParams.set("final_score", String(gameResult.finalScore));
+        }
         window.location.href = returnUrl.toString();
         return;
       } catch (error) {
@@ -258,7 +261,7 @@ function HomeContent() {
     } else {
       window.location.href = "https://antiz-digital.com/GamifiedLearning/partner/license";
     }
-  }, [token, returnUrlParam, gameResult?.passed, submitScore]);
+  }, [token, returnUrlParam, gameResult?.passed, gameResult?.finalScore, submitScore]);
 
   return (
     <div className="min-h-screen flex flex-col bg-[#fff5f8]">
