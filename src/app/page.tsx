@@ -214,6 +214,7 @@ function HomeContent() {
         play_no: parseInt(playNo, 10),
         score: gameResult.scorePercentage,
         play_result: gameResult.passed ? "Pass" : "Fail",
+        final_score: gameResult.finalScore,
       }),
     });
   } catch (error) {
@@ -247,7 +248,10 @@ function HomeContent() {
         returnUrl.searchParams.set("status", passStatus);
         returnUrl.searchParams.set("play_result", passStatus);
         if (gameResult != null) {
-          returnUrl.searchParams.set("final_score", String(gameResult.finalScore));
+          returnUrl.searchParams.set(
+            "final_score",
+            String(gameResult.finalScore)
+          );
         }
         window.location.href = returnUrl.toString();
         return;
