@@ -245,10 +245,11 @@ function HomeContent() {
         const returnUrl = new URL(returnUrlParam);
         const passStatus = gameResult?.passed ? "Pass" : "Fail";
 
+        returnUrl.searchParams.delete("final_score");
         returnUrl.searchParams.set("status", passStatus);
         returnUrl.searchParams.set("play_result", passStatus);
         if (gameResult != null) {
-          returnUrl.searchParams.set(
+          sessionStorage.setItem(
             "final_score",
             String(gameResult.finalScore)
           );
