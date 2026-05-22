@@ -47,15 +47,15 @@ export default function QuizPopup({
 
   const getOptionStyle = (label: "A" | "B" | "C" | "D") => {
     if (!showResult) {
-      return "bg-navy-800 border-navy-600 hover:border-safety-yellow hover:bg-navy-700 cursor-pointer";
+      return "bg-navy-800 border-navy-600 hover:border-safety-yellow hover:bg-navy-700 cursor-pointer text-white";
     }
     if (label === question.correctAnswer) {
-      return "bg-green-900/40 border-green-500 text-green-300";
+      return "bg-green-900/40 border-green-500 text-white";
     }
     if (label === selectedAnswer && !isCorrect) {
-      return "bg-red-900/40 border-red-500 text-red-300";
+      return "bg-red-900/40 border-red-500 text-white";
     }
-    return "bg-navy-800/50 border-navy-700 opacity-50";
+    return "bg-navy-800/50 border-navy-700 opacity-50 text-white";
   };
 
   return (
@@ -125,7 +125,7 @@ export default function QuizPopup({
                   onClick={() => handleSelect(label)}
                   disabled={!!selectedAnswer}
                   className={`w-full text-left px-4 py-3 rounded-xl border-2 transition-all
-                    text-sm sm:text-base font-medium ${getOptionStyle(label)}`}
+                    text-sm sm:text-base font-medium text-white ${getOptionStyle(label)}`}
                   whileHover={!selectedAnswer ? { scale: 1.01 } : {}}
                   whileTap={!selectedAnswer ? { scale: 0.99 } : {}}
                 >

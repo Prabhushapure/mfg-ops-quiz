@@ -3,6 +3,7 @@ import { AnimatePresence } from "framer-motion";
 import GameBoard from "@/components/GameBoard";
 import Dice from "@/components/Dice";
 import GameHeader from "@/components/GameHeader";
+import GameTitle from "@/components/GameTitle";
 import StartScreen from "@/components/StartScreen";
 import QuizPopup from "@/components/QuizPopup";
 import ResultScreen from "@/components/ResultScreen";
@@ -234,9 +235,7 @@ export default function App() {
               height={88}
               className="mb-3 h-20 w-20 sm:h-24 sm:w-24"
             />
-            <h1 className="mb-5 text-center font-heading text-3xl font-semibold tracking-tight text-white sm:text-5xl mx-auto max-w-full px-4">
-              INDUSTRY <span className="text-safety-yellow">QUALITY QUIZ</span>
-            </h1>
+            <GameTitle className="mb-5 mx-auto max-w-full px-4" />
             <div className="w-fit max-w-[100vw] overflow-hidden rounded-2xl border border-white/10 bg-black shadow-[0_20px_80px_rgba(0,0,0,0.55)]">
               <video
                 ref={splashVideoRef}

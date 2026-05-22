@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import GameTitle from "@/components/GameTitle";
 import { GameResult } from "@/types/game";
 import { assetUrl } from "@/lib/assets";
 import { playGameWin, playGameLose } from "@/lib/sounds";
@@ -96,9 +97,7 @@ export default function ResultScreen({
             height={64}
             className="mx-auto mb-1 h-12 w-12"
           />
-          <h1 className="font-heading text-3xl sm:text-5xl font-semibold text-white tracking-tight text-center mx-auto max-w-full">
-            INDUSTRY <span className="text-safety-yellow">QUALITY QUIZ</span>
-          </h1>
+          <GameTitle className="mx-auto max-w-full" />
         </div>
 
         <motion.div

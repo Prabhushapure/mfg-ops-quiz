@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import GameTitle from "@/components/GameTitle";
 import type { GameTopic } from "@/hooks/useGameState";
 import { assetUrl } from "@/lib/assets";
 
@@ -22,13 +23,7 @@ export default function StartScreen({
       exit={{ opacity: 0 }}
       className="fixed inset-0 z-50 flex items-center justify-center bg-navy-950/95 backdrop-blur-sm p-4 overflow-y-auto"
     >
-      <motion.div
-        initial={{ scale: 0.8, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ type: "spring", stiffness: 200, damping: 20 }}
-        className="text-center max-w-lg w-full my-6 p-6 sm:p-8"
-      >
-        {/* Shield logo */}
+      <div className="text-center w-full my-6 px-4 sm:px-8">
         <motion.div
           animate={{ rotate: [0, -5, 5, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
@@ -37,10 +32,14 @@ export default function StartScreen({
           <img src={assetUrl("logo.png")} alt="Shield logo" width={88} height={88} className="mx-auto h-20 w-20 sm:h-24 sm:w-24" />
         </motion.div>
 
-        <h1 className="font-heading text-3xl sm:text-5xl font-semibold text-white tracking-tight text-center mb-5 mx-auto max-w-full">
-          INDUSTRY <span className="text-safety-yellow">QUALITY QUIZ</span>
-        </h1>
+        <GameTitle className="mb-5" />
 
+        <motion.div
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ type: "spring", stiffness: 200, damping: 20 }}
+          className="mx-auto w-full max-w-lg"
+        >
         <div className="bg-navy-800/60 rounded-xl p-5 sm:p-6 mb-5 text-left border border-navy-700">
           <h2 className="font-heading font-bold text-safety-yellow text-sm uppercase tracking-wider mb-3">
             Play Instructions
@@ -119,7 +118,8 @@ export default function StartScreen({
         >
           Play
         </motion.button>
-      </motion.div>
+        </motion.div>
+      </div>
     </motion.div>
   );
 }
