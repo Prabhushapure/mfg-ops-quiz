@@ -1,7 +1,5 @@
-"use client";
-
 import { motion } from "framer-motion";
-import Image from "next/image";
+import { assetUrl } from "@/lib/assets";
 
 interface GameHeaderProps {
   formattedTime: string;
@@ -35,7 +33,7 @@ export default function GameHeader({
           animate={isWarning ? { scale: [1, 1.05, 1] } : {}}
           transition={isWarning ? { duration: 1, repeat: Infinity } : {}}
         >
-          <Image src="/snake/logo.png" alt="Shield logo" width={24} height={24} className="h-6 w-6" />
+          <img src={assetUrl("logo.png")} alt="Shield logo" width={24} height={24} className="h-6 w-6" />
           {formattedTime}
         </motion.div>
 

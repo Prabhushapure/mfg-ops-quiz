@@ -1,9 +1,7 @@
-"use client";
-
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useCallback } from "react";
 import { QuizQuestion } from "@/types/game";
-import Image from "next/image";
+import { assetUrl } from "@/lib/assets";
 
 interface QuizPopupProps {
   question: QuizQuestion;
@@ -104,14 +102,13 @@ export default function QuizPopup({
             {/* Image */}
             {question.image && (
               <div className="mb-4 rounded-lg overflow-hidden bg-navy-800 border border-navy-700">
-                <Image
-  src={`/snake/images/quiz/${question.image}`}
-  alt="Quiz question image"
-  width={500}
-  height={300}
-  className="w-full h-40 sm:h-52 object-cover"
-  unoptimized
-/>
+                <img
+                  src={assetUrl(`images/quiz/${question.image}`)}
+                  alt="Quiz question image"
+                  width={500}
+                  height={300}
+                  className="w-full h-40 sm:h-52 object-cover"
+                />
               </div>
             )}
 

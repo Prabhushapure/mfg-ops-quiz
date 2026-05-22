@@ -1,5 +1,3 @@
-"use client";
-
 import { useState, useCallback, useRef } from "react";
 import { GameState, QuizQuestion } from "@/types/game";
 import {
@@ -8,26 +6,12 @@ import {
   pickRandomQuestion,
 } from "@/lib/gameLogic";
 import { getSnakeAt, getLadderAt, TOTAL_CELLS } from "@/lib/boardConfig";
-import questionsData from "@/data/questions.json";
-import fireSafetyQuestionsData from "@/data/fire-safety-questions.json";
-import safetyInductionQuestionsData from "@/data/safety-induction-questions.json";
-import employeeResponsibilityQuestionsData from "@/data/employee-responsibility-questions.json";
-import machineHandlingSafetyQuestionsData from "@/data/machine-handling-safety-questions.json";
-import materialHandlingSafetyQuestionsData from "@/data/material-handling-safety-questions.json";
-import ppeQuestionsData from "@/data/ppe-questions.json";
-import chemicalHandlingSafetyQuestionsData from "@/data/chemical-handling-safety-questions.json";
-import safetyManagementSystemQuestionsData from "@/data/safety-management-system-questions.json";
-import safetyOrientationQuestionsData from "@/data/safety-orientation-questions.json";
-import safetyPracticesQuestionsData from "@/data/safety-practices-questions.json";
-import heavyLiftingMachinerySafetyQuestionsData from "@/data/heavy-lifting-machinery-safety-questions.json";
-import generalRoadSafetyQuestionsData from "@/data/general-road-safety-questions.json";
-import gasCylinderSafetyQuestionsData from "@/data/gas-cylinder-safety-questions.json";
-import forkliftSafetyQuestionsData from "@/data/forklift-safety-questions.json";
-import factoryErgonomicsSafetyQuestionsData from "@/data/factory-ergonomics-safety-questions.json";
-import confinedSpaceSafetyQuestionsData from "@/data/confined-space-safety-questions.json";
-import compressedAirSafetyQuestionsData from "@/data/compressed-air-safety-questions.json";
-import campusRoadSafetyQuestionsData from "@/data/campus-road-safety-questions.json";
-import workingAtHeightsSafetyQuestionsData from "@/data/working-at-heights-safety-questions.json";
+import manufacturingQualityInductionQuestionsData from "@/data/manufacturing-quality-induction-questions.json";
+import qualityInManufacturingQuestionsData from "@/data/quality-in-manufacturing-questions.json";
+import inhouseQualitySystemsQuestionsData from "@/data/inhouse-quality-systems-questions.json";
+import methodsEnsuringProductQualityQuestionsData from "@/data/methods-ensuring-product-quality-questions.json";
+import qualityTargetsQuestionsData from "@/data/quality-targets-questions.json";
+import peopleRolesIndustrialQualityQuestionsData from "@/data/people-roles-industrial-quality-questions.json";
 import {
   playTokenMove,
   playCorrectAnswer,
@@ -38,51 +22,25 @@ import {
 } from "@/lib/sounds";
 
 export type GameTopic =
-  | "electrical"
-  | "fire"
-  | "safety-induction"
-  | "employee-responsibility"
-  | "machine-handling-safety"
-  | "material-handling-safety"
-  | "ppe-safety"
-  | "chemical-handling-safety"
-  | "safety-management-system"
-  | "safety-orientation"
-  | "safety-practices"
-  | "heavy-lifting-machinery-safety"
-  | "general-road-safety"
-  | "gas-cylinder-safety"
-  | "forklift-safety"
-  | "factory-ergonomics-safety"
-  | "confined-space-safety"
-  | "compressed-air-safety"
-  | "campus-road-safety"
-  | "working-at-heights-safety";
+  | "manufacturing-quality-induction"
+  | "quality-in-manufacturing"
+  | "inhouse-quality-systems"
+  | "methods-ensuring-product-quality"
+  | "quality-targets"
+  | "people-roles-industrial-quality";
 
 const questionBank: Record<GameTopic, QuizQuestion[]> = {
-  electrical: questionsData as QuizQuestion[],
-  fire: fireSafetyQuestionsData as QuizQuestion[],
-  "safety-induction": safetyInductionQuestionsData as QuizQuestion[],
-  "employee-responsibility": employeeResponsibilityQuestionsData as QuizQuestion[],
-  "machine-handling-safety": machineHandlingSafetyQuestionsData as QuizQuestion[],
-  "material-handling-safety": materialHandlingSafetyQuestionsData as QuizQuestion[],
-  "ppe-safety": ppeQuestionsData as QuizQuestion[],
-  "chemical-handling-safety": chemicalHandlingSafetyQuestionsData as QuizQuestion[],
-  "safety-management-system": safetyManagementSystemQuestionsData as QuizQuestion[],
-  "safety-orientation": safetyOrientationQuestionsData as QuizQuestion[],
-  "safety-practices": safetyPracticesQuestionsData as QuizQuestion[],
-  "heavy-lifting-machinery-safety":
-    heavyLiftingMachinerySafetyQuestionsData as QuizQuestion[],
-  "general-road-safety": generalRoadSafetyQuestionsData as QuizQuestion[],
-  "gas-cylinder-safety": gasCylinderSafetyQuestionsData as QuizQuestion[],
-  "forklift-safety": forkliftSafetyQuestionsData as QuizQuestion[],
-  "factory-ergonomics-safety":
-    factoryErgonomicsSafetyQuestionsData as QuizQuestion[],
-  "confined-space-safety": confinedSpaceSafetyQuestionsData as QuizQuestion[],
-  "compressed-air-safety": compressedAirSafetyQuestionsData as QuizQuestion[],
-  "campus-road-safety": campusRoadSafetyQuestionsData as QuizQuestion[],
-  "working-at-heights-safety":
-    workingAtHeightsSafetyQuestionsData as QuizQuestion[],
+  "manufacturing-quality-induction":
+    manufacturingQualityInductionQuestionsData as QuizQuestion[],
+  "quality-in-manufacturing":
+    qualityInManufacturingQuestionsData as QuizQuestion[],
+  "inhouse-quality-systems":
+    inhouseQualitySystemsQuestionsData as QuizQuestion[],
+  "methods-ensuring-product-quality":
+    methodsEnsuringProductQualityQuestionsData as QuizQuestion[],
+  "quality-targets": qualityTargetsQuestionsData as QuizQuestion[],
+  "people-roles-industrial-quality":
+    peopleRolesIndustrialQualityQuestionsData as QuizQuestion[],
 };
 
 const initialState: GameState = {
@@ -105,7 +63,9 @@ const initialState: GameState = {
 
 export function useGameState() {
   const [state, setState] = useState<GameState>(initialState);
-  const [selectedTopic, setSelectedTopic] = useState<GameTopic>("electrical");
+  const [selectedTopic, setSelectedTopic] = useState<GameTopic>(
+    "quality-in-manufacturing"
+  );
   const movingRef = useRef(false);
 
   const startGame = useCallback((topic: GameTopic) => {

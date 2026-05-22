@@ -1,5 +1,3 @@
-"use client";
-
 import { getCellPosition } from "@/lib/boardConfig";
 import { SnakeOrLadder } from "@/types/game";
 

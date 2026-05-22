@@ -1,5 +1,3 @@
-"use client";
-
 import {
   BOARD_SIZE,
   BOARD_PADDING,

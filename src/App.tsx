@@ -1,8 +1,4 @@
-"use client";
-
-import { useEffect, useCallback, useRef, Suspense, useMemo, useState } from "react";
-import { useSearchParams } from "next/navigation";
-import Image from "next/image";
+import { useEffect, useCallback, useRef, useMemo, useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import GameBoard from "@/components/GameBoard";
 import Dice from "@/components/Dice";
@@ -13,54 +9,28 @@ import ResultScreen from "@/components/ResultScreen";
 import { useGameState } from "@/hooks/useGameState";
 import { useTimer } from "@/hooks/useTimer";
 import { useDice } from "@/hooks/useDice";
+import { useSearchParams } from "@/hooks/useSearchParams";
 import { calculateResult } from "@/lib/gameLogic";
 import { playTimerWarning } from "@/lib/sounds";
+import { assetUrl } from "@/lib/assets";
 import type { GameTopic } from "@/hooks/useGameState";
 
 const TOPIC_LABEL_TO_KEY: Record<string, GameTopic> = {
-  "electrical safety": "electrical",
-  "fire safety": "fire",
-  "safety induction": "safety-induction",
-  "employee responsibility": "employee-responsibility",
-  "machine handling safety": "machine-handling-safety",
-  "material handling safety": "material-handling-safety",
-  "ppe safety": "ppe-safety",
-  "chemical handling safety": "chemical-handling-safety",
-  "safety management system": "safety-management-system",
-  "safety orientation": "safety-orientation",
-  "safety practices": "safety-practices",
-  "heavy lifting machinery safety": "heavy-lifting-machinery-safety",
-  "general road safety": "general-road-safety",
-  "gas cylinder safety": "gas-cylinder-safety",
-  "forklift safety": "forklift-safety",
-  "factory ergonomics safety": "factory-ergonomics-safety",
-  "confined space safety": "confined-space-safety",
-  "compressed air safety": "compressed-air-safety",
-  "campus road safety": "campus-road-safety",
-  "working at heights safety": "working-at-heights-safety",
+  "manufacturing quality induction": "manufacturing-quality-induction",
+  "quality in manufacturing": "quality-in-manufacturing",
+  "inhouse quality systems": "inhouse-quality-systems",
+  "methods in ensuring product quality": "methods-ensuring-product-quality",
+  "quality targets": "quality-targets",
+  "people roles in industrial quality": "people-roles-industrial-quality",
 };
 
 const TOPIC_KEY_TO_LABEL: Record<GameTopic, string> = {
-  electrical: "Electrical Safety",
-  fire: "Fire Safety",
-  "safety-induction": "Safety Induction",
-  "employee-responsibility": "Employee Responsibility",
-  "machine-handling-safety": "Machine Handling Safety",
-  "material-handling-safety": "Material Handling Safety",
-  "ppe-safety": "PPE Safety",
-  "chemical-handling-safety": "Chemical Handling Safety",
-  "safety-management-system": "Safety Management System",
-  "safety-orientation": "Safety Orientation",
-  "safety-practices": "Safety Practices",
-  "heavy-lifting-machinery-safety": "Heavy Lifting Machinery Safety",
-  "general-road-safety": "General Road Safety",
-  "gas-cylinder-safety": "Gas Cylinder Safety",
-  "forklift-safety": "Forklift Safety",
-  "factory-ergonomics-safety": "Factory Ergonomics Safety",
-  "confined-space-safety": "Confined Space Safety",
-  "compressed-air-safety": "Compressed Air Safety",
-  "campus-road-safety": "Campus Road Safety",
-  "working-at-heights-safety": "Working at Heights Safety",
+  "manufacturing-quality-induction": "Manufacturing Quality Induction",
+  "quality-in-manufacturing": "Quality in Manufacturing",
+  "inhouse-quality-systems": "Inhouse Quality Systems",
+  "methods-ensuring-product-quality": "Methods in Ensuring Product Quality",
+  "quality-targets": "Quality Targets",
+  "people-roles-industrial-quality": "People Roles in Industrial Quality",
 };
 
 function parseTopicFromUrlParam(topicParam: string | null): GameTopic | null {
@@ -78,9 +48,9 @@ function parseTopicFromUrlParam(topicParam: string | null): GameTopic | null {
   );
 }
 
-function HomeContent() {
+export default function App() {
   const [showSplash, setShowSplash] = useState(true);
-  const splashVideoSources = ["/snake/splash.mp4", "/splash.mp4"];
+  const splashVideoSources = [assetUrl("splash.mp4"), "/splash.mp4"];
   const [splashSourceIndex, setSplashSourceIndex] = useState(0);
   const splashVideoRef = useRef<HTMLVideoElement | null>(null);
   const splashTimerRef = useRef<number | null>(null);
@@ -129,7 +99,6 @@ function HomeContent() {
       videoEl.currentTime = 0;
       videoEl.play().catch((error) => {
         if (error instanceof DOMException && error.name === "AbortError") {
-          // Expected when splash unmounts before play promise settles.
           return;
         }
         console.error("Splash video autoplay failed:", error);
@@ -148,18 +117,15 @@ function HomeContent() {
     };
   }, [showSplash]);
 
-  // Start game handler
   const onStartGame = useCallback(() => {
     startGame(selectedTopic);
     timer.start();
   }, [startGame, selectedTopic, timer]);
 
-  // Sync timer to game state
   useEffect(() => {
     updateTimeRemaining(timer.timeRemaining);
   }, [timer.timeRemaining, updateTimeRemaining]);
 
-  // Pause timer when not actively playing
   useEffect(() => {
     if (state.phase === "playing") {
       timer.resume();
@@ -168,59 +134,54 @@ function HomeContent() {
     }
   }, [state.phase, timer]);
 
-  // Timer expired
   useEffect(() => {
     if (timer.isExpired && state.phase === "playing") {
       endGame(0);
     }
   }, [timer.isExpired, state.phase, endGame]);
 
-  // Timer warning sound
   useEffect(() => {
     if (timer.isWarning && timer.timeRemaining % 10 === 0 && state.phase === "playing") {
       playTimerWarning();
     }
   }, [timer.isWarning, timer.timeRemaining, state.phase]);
 
-  // Dice roll handler
   const onDiceRoll = useCallback(async () => {
     if (state.phase !== "playing" || state.isMoving || dice.isRolling) return;
     const value = await dice.roll(state.playerPosition);
     await handleDiceRoll(value);
   }, [state.phase, state.isMoving, state.playerPosition, dice, handleDiceRoll]);
 
-  // Play again handler
   const onPlayAgain = useCallback(() => {
     resetGame();
     dice.reset();
     timer.reset();
   }, [resetGame, dice, timer]);
 
-  // Calculate result for result screen
   const gameResult =
     state.phase === "result" ? calculateResult(state) : null;
 
   const submitScore = useCallback(async () => {
-  if (!token || !playNo || !gameResult) return;
+    if (!token || !playNo || !gameResult) return;
 
-  try {
-    await fetch("https://antiz-digital.com/GamifiedLearning/api/play/complete", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        token,
-        play_no: parseInt(playNo, 10),
-        score: gameResult.scorePercentage,
-        play_result: gameResult.passed ? "Pass" : "Fail",
-        final_score: gameResult.finalScore,
-      }),
-    });
-  } catch (error) {
-    console.error("Error submitting game score:", error);
-  }
-}, [token, playNo, gameResult]);
+    try {
+      await fetch("https://antiz-digital.com/GamifiedLearning/api/play/complete", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          token,
+          play_no: parseInt(playNo, 10),
+          score: gameResult.scorePercentage,
+          play_result: gameResult.passed ? "Pass" : "Fail",
+          final_score: gameResult.finalScore,
+        }),
+      });
+    } catch (error) {
+      console.error("Error submitting game score:", error);
+    }
+  }, [token, playNo, gameResult]);
 
   useEffect(() => {
     if (state.phase === "start") {
@@ -229,10 +190,9 @@ function HomeContent() {
 
     if (state.phase === "result" && gameResult && token && playNo && !hasSubmittedRef.current) {
       hasSubmittedRef.current = true;
-
       submitScore();
     }
-  }, [state.phase, gameResult?.finalScore, gameResult?.passed, token, playNo]);
+  }, [state.phase, gameResult?.finalScore, gameResult?.passed, token, playNo, submitScore]);
 
   const handleClose = useCallback(async () => {
     if (!hasSubmittedRef.current) {
@@ -269,17 +229,15 @@ function HomeContent() {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#fff5f8]">
-      {/* Start Screen */}
       <AnimatePresence>
         {showSplash && (
           <div className="fixed inset-0 z-[60] flex flex-col items-center justify-center bg-[radial-gradient(circle_at_top,#0f1b4d_0%,#050b28_55%,#020616_100%)]">
-            <Image
-              src="/snake/logo.png"
+            <img
+              src={assetUrl("logo.png")}
               alt="Shield logo"
               width={88}
               height={88}
               className="mb-3 h-20 w-20 sm:h-24 sm:w-24"
-              priority
             />
             <h1 className="mb-5 text-center font-heading text-4xl font-semibold tracking-tight text-white whitespace-nowrap sm:text-5xl">
               SAFETY <span className="text-safety-yellow">SCRAMBLE</span>
@@ -315,7 +273,6 @@ function HomeContent() {
         )}
       </AnimatePresence>
 
-      {/* Game Header */}
       {state.phase !== "start" && (
         <GameHeader
           formattedTime={timer.formattedTime}
@@ -326,11 +283,9 @@ function HomeContent() {
         />
       )}
 
-      {/* Main Game Area */}
       {state.phase !== "start" && (
         <div className="flex-1 flex flex-col lg:flex-row items-center lg:items-start justify-start lg:justify-center gap-4 lg:gap-8 px-4 pb-4 pt-0 lg:px-8 lg:pb-8 lg:pt-2 min-h-0">
-          {/* Board */}
-          <div className="flex flex-col items-start w-full min-h-0 shrink" style={{ maxWidth: 'min(100%, 80vh, 720px)' }}>
+          <div className="flex flex-col items-start w-full min-h-0 shrink" style={{ maxWidth: "min(100%, 80vh, 720px)" }}>
             <h2 className="text-xl md:text-2xl text-pink-950 font-heading font-bold text-left w-full mt-0 mb-2 shrink-0">
               {selectedTopicLabel}
             </h2>
@@ -339,18 +294,14 @@ function HomeContent() {
             </div>
           </div>
 
-          {/* Controls panel */}
           <div className="flex flex-row lg:flex-col items-center justify-center lg:self-center gap-4 lg:gap-6 shrink-0 lg:w-48 mt-4 lg:mt-0">
             <Dice
               value={dice.value}
               isRolling={dice.isRolling}
               onRoll={onDiceRoll}
-              disabled={
-                state.phase !== "playing" || state.isMoving
-              }
+              disabled={state.phase !== "playing" || state.isMoving}
             />
 
-            {/* Position indicator */}
             <div className="text-center bg-white rounded-xl px-4 py-2 lg:px-6 lg:py-3 border border-pink-200 shadow-sm">
               <div className="text-[10px] lg:text-xs text-pink-500 font-heading uppercase tracking-wider">
                 Position
@@ -363,7 +314,6 @@ function HomeContent() {
               </div>
             </div>
 
-            {/* Last roll */}
             {dice.value && !dice.isRolling && (
               <div className="text-center">
                 <div className="text-[10px] lg:text-xs text-pink-500 font-heading uppercase tracking-wider">
@@ -378,7 +328,6 @@ function HomeContent() {
         </div>
       )}
 
-      {/* Quiz Popup */}
       <AnimatePresence>
         {state.phase === "quiz" && state.currentQuestion && (
           <QuizPopup
@@ -390,7 +339,6 @@ function HomeContent() {
         )}
       </AnimatePresence>
 
-      {/* Result Screen */}
       <AnimatePresence>
         {state.phase === "result" && gameResult && (
           <ResultScreen
@@ -402,13 +350,5 @@ function HomeContent() {
         )}
       </AnimatePresence>
     </div>
-  );
-}
-
-export default function Home() {
-  return (
-    <Suspense fallback={<div className="min-h-screen flex items-center justify-center bg-[#fff5f8]">Loading...</div>}>
-      <HomeContent />
-    </Suspense>
   );
 }

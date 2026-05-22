@@ -1,0 +1,392 @@
+[
+  {
+    "id": "inhouse-quality-systems-q1",
+    "question": "What is the primary purpose of an Inhouse Quality System in manufacturing?",
+    "options": [
+      "A. Increase machine speed",
+      "B. Ensure products meet defined quality standards",
+      "C. Reduce employee count",
+      "D. Increase inventory"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Inhouse Quality Systems ensure products consistently meet specifications and customer requirements.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q2",
+    "question": "Which quality system ensures raw materials received from suppliers meet specifications?",
+    "options": [
+      "A. PQS",
+      "B. FQS",
+      "C. IQS",
+      "D. SPC"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Incoming Quality System (IQS) verifies supplier materials before production.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q3",
+    "question": "PQS stands for:",
+    "options": [
+      "A. Product Quality Sheet",
+      "B. Process Quality Standard",
+      "C. In-Process Quality System",
+      "D. Production Quality Sampling"
+    ],
+    "correctAnswer": "C",
+    "explanation": "PQS monitors quality during manufacturing operations.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q4",
+    "question": "Which quality system verifies finished products before dispatch?",
+    "options": [
+      "A. IQS",
+      "B. PQS",
+      "C. FQS",
+      "D. SOP"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Final Quality System (FQS) checks products before shipment.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q5",
+    "question": "Which activity belongs to Incoming Quality System (IQS)?",
+    "options": [
+      "A. Final packaging inspection",
+      "B. Supplier material verification",
+      "C. Customer complaint analysis",
+      "D. Shipment approval"
+    ],
+    "correctAnswer": "B",
+    "explanation": "IQS ensures incoming materials meet requirements.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q6",
+    "question": "First-piece inspection is mainly conducted during:",
+    "options": [
+      "A. Incoming inspection",
+      "B. Final inspection",
+      "C. In-process quality control",
+      "D. Customer audit"
+    ],
+    "correctAnswer": "C",
+    "explanation": "First-piece inspection verifies initial production output.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q7",
+    "question": "Which parameter defines allowable variation around nominal dimensions?",
+    "options": [
+      "A. Specification",
+      "B. Boundary condition",
+      "C. Tolerance",
+      "D. Traceability"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Tolerance defines acceptable dimensional variation.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q8",
+    "question": "Example of a client-specific quality requirement is:",
+    "options": [
+      "A. Material hardness",
+      "B. Hole diameter",
+      "C. Logo placement and QR traceability",
+      "D. Surface roughness"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Customers may define special identification and traceability requirements.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q9",
+    "question": "Which document provides step-by-step instructions for performing tasks?",
+    "options": [
+      "A. QPR",
+      "B. SOP",
+      "C. ISS",
+      "D. IQPR"
+    ],
+    "correctAnswer": "B",
+    "explanation": "SOP standardizes work methods and processes.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q10",
+    "question": "SOP implementation mainly helps reduce:",
+    "options": [
+      "A. Machine capacity",
+      "B. Work variability and errors",
+      "C. Material stock",
+      "D. Production volume"
+    ],
+    "correctAnswer": "B",
+    "explanation": "SOPs improve consistency and reduce mistakes.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q11",
+    "question": "The Inspection Standard Sheet (ISS) mainly defines:",
+    "options": [
+      "A. Salary structure",
+      "B. Inspection criteria and methods",
+      "C. Production targets",
+      "D. Shift schedules"
+    ],
+    "correctAnswer": "B",
+    "explanation": "ISS specifies inspection procedures and acceptance criteria.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q12",
+    "question": "Which ISS element defines pass/fail limits?",
+    "options": [
+      "A. Sampling plan",
+      "B. Recording section",
+      "C. Acceptance / Reject criteria",
+      "D. Revision number"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Acceptance criteria determine conformity limits.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q13",
+    "question": "Which instrument is commonly mentioned for dimensional inspection in ISS?",
+    "options": [
+      "A. Oscilloscope",
+      "B. Vernier caliper",
+      "C. Megger",
+      "D. PLC tester"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Vernier calipers measure dimensions accurately.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q14",
+    "question": "A defect is defined as:",
+    "options": [
+      "A. Production delay",
+      "B. Customer feedback",
+      "C. Nonconformance to specified requirements",
+      "D. Machine stoppage"
+    ],
+    "correctAnswer": "C",
+    "explanation": "A defect means product requirements are not met.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q15",
+    "question": "Scratches and dents are examples of:",
+    "options": [
+      "A. Functional defects",
+      "B. Visual defects",
+      "C. Material defects",
+      "D. Reliability defects"
+    ],
+    "correctAnswer": "B",
+    "explanation": "These defects affect appearance and can be visually detected.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q16",
+    "question": "Loose fasteners and missing components are:",
+    "options": [
+      "A. Material defects",
+      "B. Environmental defects",
+      "C. Assembly defects",
+      "D. Surface defects"
+    ],
+    "correctAnswer": "C",
+    "explanation": "These occur due to assembly process issues.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q17",
+    "question": "Which report records an individual quality issue occurrence?",
+    "options": [
+      "A. IQPR",
+      "B. QPR",
+      "C. Defect Report",
+      "D. QPC"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Defect reports document individual non-conformance events.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q18",
+    "question": "IQPR mainly monitors:",
+    "options": [
+      "A. Customer returns",
+      "B. In-process quality performance",
+      "C. Payroll records",
+      "D. Supplier quotations"
+    ],
+    "correctAnswer": "B",
+    "explanation": "IQPR tracks quality during manufacturing stages.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q19",
+    "question": "QPR is generally used for:",
+    "options": [
+      "A. Machine setup",
+      "B. Management quality review",
+      "C. Tool calibration",
+      "D. Packaging approval"
+    ],
+    "correctAnswer": "B",
+    "explanation": "QPR summarizes quality performance for review.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q20",
+    "question": "Which item is normally included in QPR?",
+    "options": [
+      "A. Attendance records",
+      "B. Customer complaints and rejection trends",
+      "C. Machine oil level",
+      "D. Warehouse layout"
+    ],
+    "correctAnswer": "B",
+    "explanation": "QPR includes quality KPIs and trend analysis.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q21",
+    "question": "PPM stands for:",
+    "options": [
+      "A. Process Performance Method",
+      "B. Parts Per Million",
+      "C. Product Process Monitoring",
+      "D. Production Parameter Matrix"
+    ],
+    "correctAnswer": "B",
+    "explanation": "PPM measures defects per million produced units.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q22",
+    "question": "A batch has 10 defects in 20,000 units. PPM value equals:",
+    "options": [
+      "A. 250",
+      "B. 500",
+      "C. 750",
+      "D. 1000"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The defect rate equals 500 defective parts per million units.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q23",
+    "question": "Lower PPM indicates:",
+    "options": [
+      "A. Poor quality",
+      "B. Better quality performance",
+      "C. Higher production cost",
+      "D. More rework"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Lower PPM means fewer defects and improved quality.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q24",
+    "question": "Which inspection type checks all produced parts?",
+    "options": [
+      "A. Random inspection",
+      "B. Sampling inspection",
+      "C. 100% inspection",
+      "D. Periodic inspection"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Every unit is inspected individually.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q25",
+    "question": "Which inspection method reduces inspection time and cost?",
+    "options": [
+      "A. 100% inspection",
+      "B. Sampling inspection",
+      "C. Final audit only",
+      "D. Rework inspection"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Sampling reduces inspection effort while maintaining control.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q26",
+    "question": "Which quality checkpoint verifies customer-ready products?",
+    "options": [
+      "A. IQS",
+      "B. PQS",
+      "C. FQS",
+      "D. SPC"
+    ],
+    "correctAnswer": "C",
+    "explanation": "FQS verifies finished products before delivery.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q27",
+    "question": "Boundary samples are mainly used to:",
+    "options": [
+      "A. Increase production rate",
+      "B. Reduce inspection subjectivity",
+      "C. Replace SOPs",
+      "D. Eliminate audits"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Boundary samples provide visual references for acceptance decisions.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q28",
+    "question": "Which quality function checks machine settings and tool wear during production?",
+    "options": [
+      "A. Final Quality System",
+      "B. In-Process Quality System",
+      "C. Customer Quality",
+      "D. Supplier Audit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "PQS monitors machine conditions and process quality.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q29",
+    "question": "Which activity supports traceability in inspection records?",
+    "options": [
+      "A. Lot identification and inspector signoff",
+      "B. Machine cleaning",
+      "C. Production planning",
+      "D. Cost analysis"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Traceability requires product identification and inspection records.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "inhouse-quality-systems-q30",
+    "question": "Together, IQS + PQS + FQS create:",
+    "options": [
+      "A. Warehouse management system",
+      "B. Closed-loop quality control system",
+      "C. Maintenance schedule",
+      "D. Production planning system"
+    ],
+    "correctAnswer": "B",
+    "explanation": "IQS + PQS + FQS provide complete quality control from incoming materials to finished goods inspection.",
+    "topic": "Inhouse Quality Systems"
+  }
+]

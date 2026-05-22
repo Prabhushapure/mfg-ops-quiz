@@ -1,9 +1,7 @@
-"use client";
-
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import { GameResult } from "@/types/game";
+import { assetUrl } from "@/lib/assets";
 import { playGameWin, playGameLose } from "@/lib/sounds";
 
 function generateConfetti() {
@@ -55,7 +53,7 @@ function ConfettiPiece({ delay, x, color, rotation, duration }: ConfettiPiecePro
 export default function ResultScreen({
   result,
   topicName,
-  onPlayAgain,
+  onPlayAgain: _onPlayAgain,
   onClose,
 }: ResultScreenProps) {
   useEffect(() => {
@@ -91,19 +89,18 @@ export default function ResultScreen({
 
       <div className="w-full max-w-md">
         <div className="text-center mb-2">
-          <Image
-            src="/snake/logo.png"
+          <img
+            src={assetUrl("logo.png")}
             alt="Shield logo"
             width={64}
             height={64}
             className="mx-auto mb-1 h-12 w-12"
-            priority
           />
           <h1 className="font-heading text-4xl sm:text-5xl font-semibold text-white tracking-tight whitespace-nowrap">
             SAFETY <span className="text-safety-yellow">SCRAMBLE</span>
           </h1>
           <p className="font-heading text-xs text-steel-400 tracking-widest uppercase">
-            Industrial Safety Quiz
+            Manufacturing Quality Quiz
           </p>
         </div>
 
@@ -140,13 +137,12 @@ export default function ResultScreen({
               >
                 {result.passed ? "PASS" : "FAIL"}
               </motion.h2>
-              <Image
-                src={result.passed ? "/snake/thumbs-up.png" : "/snake/thumbs-down.png"}
+              <img
+                src={assetUrl(result.passed ? "thumbs-up.png" : "thumbs-down.png")}
                 alt={result.passed ? "Thumbs up" : "Thumbs down"}
                 width={72}
                 height={72}
                 className="h-14 w-14 sm:h-[72px] sm:w-[72px]"
-                priority
               />
             </div>
             <p className="text-steel-400 text-sm mt-0.5 font-heading uppercase tracking-wider">

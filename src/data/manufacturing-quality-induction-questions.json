@@ -1,0 +1,652 @@
+[
+  {
+    "id": "manufacturing-quality-induction-q1",
+    "question": "What is the main objective of the Manufacturing Quality Induction Module?",
+    "options": [
+      "A. To teach machinery operation techniques",
+      "B. To familiarize employees with the importance of quality in manufacturing",
+      "C. To train workers in accounting and logistics",
+      "D. To define marketing strategies"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Quality in Manufacturing"
+  },
+  {
+    "id": "manufacturing-quality-induction-q2",
+    "question": "Which statement best defines Manufacturing?",
+    "options": [
+      "A. Trading goods between suppliers and customers",
+      "B. Providing repair and maintenance services",
+      "C. Transforming raw materials or components into finished goods using machines, tools, labour, and technology",
+      "D. Managing warehouse and logistics operations"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The correct answer is C.",
+    "topic": "Quality in Manufacturing"
+  },
+  {
+    "id": "manufacturing-quality-induction-q3",
+    "question": "Which of the following is an example of Discrete Manufacturing?",
+    "options": [
+      "A. Production of cement",
+      "B. Production of packaged food",
+      "C. Production of automobiles and machinery",
+      "D. Production of pharmaceutical drugs"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The correct answer is C.",
+    "topic": "Quality in Manufacturing"
+  },
+  {
+    "id": "manufacturing-quality-induction-q4",
+    "question": "What does Quality in Manufacturing primarily ensure?",
+    "options": [
+      "A. Fast production",
+      "B. Defect-free, reliable, durable, and safe products that meet or exceed customer expectations",
+      "C. Reduced production manpower",
+      "D. Increased inventory"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Quality in Manufacturing"
+  },
+  {
+    "id": "manufacturing-quality-induction-q5",
+    "question": "Which of the following is a key aspect of quality?",
+    "options": [
+      "A. Random process variation",
+      "B. Conformance to specifications and standards",
+      "C. Ignoring customer expectations",
+      "D. Reducing inspection frequency"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Quality in Manufacturing"
+  },
+  {
+    "id": "manufacturing-quality-induction-q6",
+    "question": "What is the main focus of Quality Assurance (QA)?",
+    "options": [
+      "A. Detecting and fixing defects",
+      "B. Preventing defects by improving processes",
+      "C. Replacing defective parts",
+      "D. Auditing only final products"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Quality in Manufacturing"
+  },
+  {
+    "id": "manufacturing-quality-induction-q7",
+    "question": "Which international standard focuses on Quality Management Systems (QMS)?",
+    "options": [
+      "A. ISO 45001",
+      "B. ISO 9001",
+      "C. AS9100",
+      "D. GMP"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Quality in Manufacturing"
+  },
+  {
+    "id": "manufacturing-quality-induction-q8",
+    "question": "The IATF 16949 standard is specific to which industry?",
+    "options": [
+      "A. Aerospace",
+      "B. Automotive",
+      "C. Electronics",
+      "D. Food & Beverages"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Quality in Manufacturing"
+  },
+  {
+    "id": "manufacturing-quality-induction-q9",
+    "question": "What is the purpose of Continuous Improvement in manufacturing?",
+    "options": [
+      "A. To maintain existing inefficiencies",
+      "B. To reduce waste and improve efficiency using methods like Kaizen and Six Sigma",
+      "C. To increase production time",
+      "D. To replace workers with machines"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Quality in Manufacturing"
+  },
+  {
+    "id": "manufacturing-quality-induction-q10",
+    "question": "Which of the following best describes the role of employee training and awareness in assuring product quality?",
+    "options": [
+      "A. It helps reduce the number of machines used",
+      "B. It ensures accountability, process discipline, and consistent quality performance",
+      "C. It replaces the need for inspection",
+      "D. It reduces customer feedback"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Quality in Manufacturing"
+  },
+  {
+    "id": "manufacturing-quality-induction-q11",
+    "question": "What is the main purpose of Inhouse Quality Systems in manufacturing?",
+    "options": [
+      "A. To increase production speed",
+      "B. To ensure every product meets defined quality standards through systematic controls",
+      "C. To focus only on supplier inspections",
+      "D. To manage logistics and dispatch operations"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "manufacturing-quality-induction-q12",
+    "question": "Which of the following is NOT one of the three main Inhouse Quality Systems?",
+    "options": [
+      "A. Incoming Quality System (IQS)",
+      "B. In-Process Quality System (PQS)",
+      "C. Final Quality System (FQS)",
+      "D. Distribution Quality System (DQS)"
+    ],
+    "correctAnswer": "D",
+    "explanation": "The correct answer is D.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "manufacturing-quality-induction-q13",
+    "question": "What is the main function of the Incoming Quality System (IQS)?",
+    "options": [
+      "A. To perform customer audits",
+      "B. To inspect and verify quality of raw materials and components received from suppliers",
+      "C. To package finished goods",
+      "D. To monitor energy consumption in the plant"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "manufacturing-quality-induction-q14",
+    "question": "The In-Process Quality System (PQS) helps to:",
+    "options": [
+      "A. Inspect finished goods before dispatch",
+      "B. Maintain quality during production and detect defects early",
+      "C. Handle supplier communications",
+      "D. Conduct customer satisfaction surveys"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "manufacturing-quality-induction-q15",
+    "question": "What is the role of a Final Quality System (FQS)?",
+    "options": [
+      "A. To train new employees",
+      "B. To verify that finished products conform to all specifications before dispatch",
+      "C. To record machine maintenance schedules",
+      "D. To manage supplier invoices"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "manufacturing-quality-induction-q16",
+    "question": "What does an SOP (Standard Operating Procedure) ensure on the shopfloor?",
+    "options": [
+      "A. Flexibility in operator decisions",
+      "B. Consistency, safety, and compliance in performing tasks",
+      "C. Faster machine speeds",
+      "D. Increased material consumption"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "manufacturing-quality-induction-q17",
+    "question": "What is an Inspection Standard Sheet (ISS) used for?",
+    "options": [
+      "A. To define inspection criteria, methods, frequency, and acceptance standards",
+      "B. To calculate production cost",
+      "C. To record attendance of inspectors",
+      "D. To schedule maintenance activities"
+    ],
+    "correctAnswer": "A",
+    "explanation": "The correct answer is A.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "manufacturing-quality-induction-q18",
+    "question": "In manufacturing, a Defect is defined as:",
+    "options": [
+      "A. Any product that is delayed in delivery",
+      "B. Any nonconformance or deviation from specified requirements",
+      "C. Any customer complaint",
+      "D. A minor visual imperfection that doesn’t affect function"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "manufacturing-quality-induction-q19",
+    "question": "What does PPM (Parts Per Million) indicate?",
+    "options": [
+      "A. Production volume per machine",
+      "B. The number of defective units per one million units produced",
+      "C. The production speed of a process",
+      "D. The percentage of manpower utilization"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "manufacturing-quality-induction-q20",
+    "question": "The purpose of a Defect Report is to:",
+    "options": [
+      "A. Record operator attendance",
+      "B. Document the defect, analyze its cause, and ensure corrective and preventive actions",
+      "C. Record machine energy consumption",
+      "D. Track shipment schedules"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Inhouse Quality Systems"
+  },
+  {
+    "id": "manufacturing-quality-induction-q21",
+    "question": "What is the main objective of formal methods in ensuring product quality?",
+    "options": [
+      "A. To increase production quantity",
+      "B. To provide a structured and repeatable approach to meet customer expectations and standards",
+      "C. To reduce employee strength",
+      "D. To avoid inspection completely"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q22",
+    "question": "What is the primary difference between Quality Control (QC) and Quality Assurance (QA)?",
+    "options": [
+      "A. QC focuses on preventing defects, QA on detecting them",
+      "B. QA focuses on preventing defects, QC on detecting them",
+      "C. QC and QA mean the same",
+      "D. QA involves only final inspection"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q23",
+    "question": "Which of the following activities is associated with Quality Control (QC)?",
+    "options": [
+      "A. Conducting supplier audits",
+      "B. In-process inspection and final inspection",
+      "C. Defining quality policy",
+      "D. Developing standard procedures"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q24",
+    "question": "Which of the following is an example of Quality Assurance (QA) activity?",
+    "options": [
+      "A. Checking dimensions of a finished part",
+      "B. Performing process audits and ensuring calibration of measuring instruments",
+      "C. Sorting defective parts",
+      "D. Conducting final inspection"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q25",
+    "question": "The main purpose of Quality Inspection is to:",
+    "options": [
+      "A. Evaluate product performance under load",
+      "B. Detect nonconformities before the product moves to the next stage",
+      "C. Replace defective components",
+      "D. Record supplier payments"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q26",
+    "question": "Quality Testing primarily focuses on:",
+    "options": [
+      "A. Checking visual appearance",
+      "B. Verifying product performance and functionality under specified conditions",
+      "C. Counting inventory",
+      "D. Measuring operator efficiency"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q27",
+    "question": "Which of the following statements about Destructive Testing (DT) is TRUE?",
+    "options": [
+      "A. The sample remains intact after testing",
+      "B. It is mainly used for process quality control during production",
+      "C. It destroys the sample to measure properties like strength and durability",
+      "D. It is faster than Non-Destructive Testing"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The correct answer is C.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q28",
+    "question": "What does Non-Destructive Testing (NDT) help determine?",
+    "options": [
+      "A. Electrical load of equipment",
+      "B. Internal and surface defects without damaging the product",
+      "C. Visual color uniformity only",
+      "D. Cost of production"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q29",
+    "question": "The purpose of Boundary Samples is to:",
+    "options": [
+      "A. Define the range of acceptable visual quality standards for inspection",
+      "B. Record production cycle time",
+      "C. Identify equipment downtime",
+      "D. Track process temperatures"
+    ],
+    "correctAnswer": "A",
+    "explanation": "The correct answer is A.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q30",
+    "question": "The difference between 100% Inspection and Sampling Inspection is that:",
+    "options": [
+      "A. Both inspect every item produced",
+      "B. 100% checks all items, while Sampling checks only selected samples from the batch",
+      "C. Sampling is slower and more expensive",
+      "D. 100% inspection uses statistical methods"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q31",
+    "question": "What is the main purpose of defining Quality Targets in manufacturing?",
+    "options": [
+      "A. To increase production speed",
+      "B. To ensure products consistently meet customer expectations and quality standards",
+      "C. To reduce inspection manpower",
+      "D. To define marketing goals"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Quality Targets"
+  },
+  {
+    "id": "manufacturing-quality-induction-q32",
+    "question": "Which of the following is NOT a reason for defining Quality Targets?",
+    "options": [
+      "A. To meet customer requirements",
+      "B. To monitor performance and compliance",
+      "C. To encourage continuous improvement",
+      "D. To reduce customer communication"
+    ],
+    "correctAnswer": "D",
+    "explanation": "The correct answer is D.",
+    "topic": "Quality Targets"
+  },
+  {
+    "id": "manufacturing-quality-induction-q33",
+    "question": "Quality targets are generally set using which SMART criteria?",
+    "options": [
+      "A. Safe, Measurable, Applicable, Reliable, Time-bound",
+      "B. Simple, Manageable, Accurate, Rational, Timely",
+      "C. Specific, Measurable, Achievable, Relevant, Time-bound",
+      "D. Sustainable, Meaningful, Accountable, Realistic, Trackable"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The correct answer is C.",
+    "topic": "Quality Targets"
+  },
+  {
+    "id": "manufacturing-quality-induction-q34",
+    "question": "What does Process Quality in manufacturing refer to?",
+    "options": [
+      "A. The appearance of the final product",
+      "B. The ability of a process to consistently produce products that meet specifications",
+      "C. The inspection of packaging",
+      "D. The quality of marketing materials"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Quality Targets"
+  },
+  {
+    "id": "manufacturing-quality-induction-q35",
+    "question": "Which parameter measures how well a process performs within specification limits?",
+    "options": [
+      "A. Cp and Cpk (Process Capability)",
+      "B. TPM Index",
+      "C. Efficiency Ratio",
+      "D. Cycle Time"
+    ],
+    "correctAnswer": "A",
+    "explanation": "The correct answer is A.",
+    "topic": "Quality Targets"
+  },
+  {
+    "id": "manufacturing-quality-induction-q36",
+    "question": "Which of the following is NOT typically included in a Quality Performance Card (QPC)?",
+    "options": [
+      "A. Defective Units",
+      "B. First Pass Yield (FPY)",
+      "C. Total Units Produced",
+      "D. Employee Salary"
+    ],
+    "correctAnswer": "D",
+    "explanation": "The correct answer is D.",
+    "topic": "Quality Targets"
+  },
+  {
+    "id": "manufacturing-quality-induction-q37",
+    "question": "What does a Customer PPM Requirement represent?",
+    "options": [
+      "A. The number of spare parts supplied per million",
+      "B. The maximum allowable number of defective parts per million units delivered",
+      "C. The total number of products produced in a month",
+      "D. The process cycle time per product"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Quality Targets"
+  },
+  {
+    "id": "manufacturing-quality-induction-q38",
+    "question": "If a customer specifies a PPM requirement of ≤500, what does it mean?",
+    "options": [
+      "A. No more than 500 defective parts per one million supplied",
+      "B. The supplier must produce 500 parts per minute",
+      "C. The supplier must ship exactly 500 parts per batch",
+      "D. The customer expects 500% production efficiency"
+    ],
+    "correctAnswer": "A",
+    "explanation": "The correct answer is A.",
+    "topic": "Quality Targets"
+  },
+  {
+    "id": "manufacturing-quality-induction-q39",
+    "question": "What is the main difference between Daily QPC and Monthly QPC?",
+    "options": [
+      "A. Daily QPC is for management review; Monthly QPC is for operators",
+      "B. Daily QPC tracks immediate performance; Monthly QPC shows long-term trends",
+      "C. Monthly QPC is used on the shopfloor only",
+      "D. Both are identical reports"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "Quality Targets"
+  },
+  {
+    "id": "manufacturing-quality-induction-q40",
+    "question": "What happens when the Customer PPM target is not met?",
+    "options": [
+      "A. The customer may apply penalties or request corrective actions",
+      "B. Production is automatically increased",
+      "C. The supplier ignores the target",
+      "D. The customer reduces their PPM requirement"
+    ],
+    "correctAnswer": "A",
+    "explanation": "The correct answer is A.",
+    "topic": "Quality Targets"
+  },
+  {
+    "id": "manufacturing-quality-induction-q41",
+    "question": "What is the primary role of qualified people in the quality function of manufacturing?",
+    "options": [
+      "A. To reduce manpower in production",
+      "B. To ensure products meet design specifications, performance standards, and customer expectations",
+      "C. To focus only on marketing and sales",
+      "D. To manage raw material procurement"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "People Roles in Industrial Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q42",
+    "question": "Which of the following is a key contribution of qualified quality professionals?",
+    "options": [
+      "A. Increasing production speed",
+      "B. Conducting financial audits",
+      "C. Identifying potential sources of variation and implementing preventive actions",
+      "D. Managing warehouse operations"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The correct answer is C.",
+    "topic": "People Roles in Industrial Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q43",
+    "question": "The Chief Quality Officer (CQO) is responsible for:",
+    "options": [
+      "A. Operating machines on the shopfloor",
+      "B. Defining the company’s Quality Vision, Policy, and Objectives",
+      "C. Performing incoming material inspection",
+      "D. Approving supplier invoices"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "People Roles in Industrial Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q44",
+    "question": "The Quality Manager / Plant Quality Head primarily:",
+    "options": [
+      "A. Manages the marketing and sales team",
+      "B. Leads the Quality Department at the plant level, overseeing QA, QC, and audits",
+      "C. Designs new products for R&D",
+      "D. Handles employee payroll"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "People Roles in Industrial Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q45",
+    "question": "The Quality Control (QC) Engineer / Inspector is mainly responsible for:",
+    "options": [
+      "A. Checking design documentation",
+      "B. Performing in-process and final inspections using measuring instruments",
+      "C. Setting business targets",
+      "D. Approving vendor payments"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "People Roles in Industrial Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q46",
+    "question": "The Supplier Quality Engineer (SQE) focuses on:",
+    "options": [
+      "A. Managing customer complaints",
+      "B. Ensuring supplier quality performance and conducting supplier audits",
+      "C. Supervising final inspection",
+      "D. Maintaining calibration records only"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "People Roles in Industrial Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q47",
+    "question": "The Customer Quality Engineer (CQE) handles:",
+    "options": [
+      "A. Internal audits and maintenance",
+      "B. Customer complaints, field failures, and Corrective Action (8D) reports",
+      "C. Process capability studies",
+      "D. Tool calibration"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "People Roles in Industrial Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q48",
+    "question": "The Metrology Engineer / Calibration Technician ensures:",
+    "options": [
+      "A. Raw material traceability",
+      "B. Machines are operated faster",
+      "C. Measuring instruments and gauges are calibrated and accurate",
+      "D. Final products are packaged correctly"
+    ],
+    "correctAnswer": "C",
+    "explanation": "The correct answer is C.",
+    "topic": "People Roles in Industrial Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q49",
+    "question": "The Continuous Improvement / Six Sigma Engineer is responsible for:",
+    "options": [
+      "A. Identifying and implementing process and quality improvement projects using Lean or Six Sigma",
+      "B. Conducting visual inspections only",
+      "C. Managing attendance of operators",
+      "D. Supervising dispatch schedules"
+    ],
+    "correctAnswer": "A",
+    "explanation": "The correct answer is A.",
+    "topic": "People Roles in Industrial Quality"
+  },
+  {
+    "id": "manufacturing-quality-induction-q50",
+    "question": "Which statement best defines the role of every employee in quality?",
+    "options": [
+      "A. Only the quality department is responsible for product quality",
+      "B. Every employee is a quality ambassador responsible for process discipline and continuous improvement",
+      "C. Quality is ensured only through management audits",
+      "D. Quality responsibility ends with the final inspector"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B.",
+    "topic": "People Roles in Industrial Quality"
+  }
+]

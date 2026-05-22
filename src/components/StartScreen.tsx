@@ -1,8 +1,6 @@
-"use client";
-
 import { motion } from "framer-motion";
-import Image from "next/image";
 import type { GameTopic } from "@/hooks/useGameState";
+import { assetUrl } from "@/lib/assets";
 
 interface StartScreenProps {
   selectedTopic: GameTopic;
@@ -36,7 +34,7 @@ export default function StartScreen({
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
           className="mb-0 leading-none"
         >
-          <Image src="/snake/logo.png" alt="Shield logo" width={88} height={88} className="mx-auto h-20 w-20 sm:h-24 sm:w-24" priority />
+          <img src={assetUrl("logo.png")} alt="Shield logo" width={88} height={88} className="mx-auto h-20 w-20 sm:h-24 sm:w-24" />
         </motion.div>
 
         <h1 className="font-heading text-4xl sm:text-5xl font-semibold text-white tracking-tight whitespace-nowrap mb-0">
@@ -44,7 +42,7 @@ export default function StartScreen({
         </h1>
 
         <p className="font-heading text-base text-steel-400 tracking-widest uppercase mb-5">
-          Industrial Safety Quiz
+          Manufacturing Quality Quiz
         </p>
 
         <div className="bg-navy-800/60 rounded-xl p-5 sm:p-6 mb-5 text-left border border-navy-700">
@@ -96,45 +94,21 @@ export default function StartScreen({
             disabled={disableTopicSelection}
             className="w-full rounded-lg bg-navy-800 border border-navy-600 text-white px-3 py-2 outline-none focus:ring-2 focus:ring-safety-yellow disabled:opacity-60 disabled:cursor-not-allowed"
           >
-            <option value="electrical">Electrical Safety</option>
-            <option value="fire">Fire Safety</option>
-            <option value="safety-induction">Safety Induction</option>
-            <option value="employee-responsibility">
-              Employee Responsibility
+            <option value="manufacturing-quality-induction">
+              Manufacturing Quality Induction
             </option>
-            <option value="machine-handling-safety">
-              Machine Handling Safety
+            <option value="quality-in-manufacturing">
+              Quality in Manufacturing
             </option>
-            <option value="material-handling-safety">
-              Material Handling Safety
+            <option value="inhouse-quality-systems">
+              Inhouse Quality Systems
             </option>
-            <option value="ppe-safety">PPE Safety</option>
-            <option value="chemical-handling-safety">
-              Chemical Handling Safety
+            <option value="methods-ensuring-product-quality">
+              Methods in Ensuring Product Quality
             </option>
-            <option value="safety-management-system">
-              Safety Management System
-            </option>
-            <option value="safety-orientation">Safety Orientation</option>
-            <option value="safety-practices">Safety Practices</option>
-            <option value="heavy-lifting-machinery-safety">
-              Heavy Lifting Machinery Safety
-            </option>
-            <option value="general-road-safety">General Road Safety</option>
-            <option value="gas-cylinder-safety">Gas Cylinder Safety</option>
-            <option value="forklift-safety">Forklift Safety</option>
-            <option value="factory-ergonomics-safety">
-              Factory Ergonomics Safety
-            </option>
-            <option value="confined-space-safety">
-              Confined Space Safety
-            </option>
-            <option value="compressed-air-safety">
-              Compressed Air Safety
-            </option>
-            <option value="campus-road-safety">Campus Road Safety</option>
-            <option value="working-at-heights-safety">
-              Working at Heights Safety
+            <option value="quality-targets">Quality Targets</option>
+            <option value="people-roles-industrial-quality">
+              People Roles in Industrial Quality
             </option>
           </select>
         </div>

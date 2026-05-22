@@ -1,7 +1,6 @@
-"use client";
-
 import { motion } from "framer-motion";
 import { getCellPosition } from "@/lib/boardConfig";
+import { assetUrl } from "@/lib/assets";
 
 interface PlayerTokenProps {
   position: number;
@@ -33,8 +32,8 @@ export default function PlayerToken({ position }: PlayerTokenProps) {
 
         {/* Player icon */}
         <motion.image
-          href="/snake/images/player-icon.png"
-          xlinkHref="/snake/images/player-icon.png"
+          href={assetUrl("images/player-icon.png")}
+          xlinkHref={assetUrl("images/player-icon.png")}
           x={-25}
           y={-25}
           width={50}

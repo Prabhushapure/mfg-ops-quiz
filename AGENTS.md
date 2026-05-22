@@ -1,5 +1,15 @@
-<!-- BEGIN:nextjs-agent-rules -->
-# This is NOT the Next.js you know
+# Suraxa Snake Quiz
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
-<!-- END:nextjs-agent-rules -->
+React + Vite SPA. Game code lives under `src/`. Static assets are in `public/` and served under the `/quality_quiz/` base path (see `vite.config.ts`).
+
+## Commands
+
+- `npm run dev` — local dev server (open `/quality_quiz/`)
+- `npm run build` — production build to `dist/`
+- `npm run preview` — preview production build
+
+## Conventions
+
+- Use `@/` path alias for `src/` imports
+- Use `assetUrl()` from `src/lib/assets.ts` for public asset paths (respects Vite `base`)
+- Question banks: `src/data/*-questions.json`

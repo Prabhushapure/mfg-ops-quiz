@@ -1,5 +1,3 @@
-"use client";
-
 import { useState, useCallback, useRef } from "react";
 import { rollDice } from "@/lib/gameLogic";
 import { playDiceRoll } from "@/lib/sounds";

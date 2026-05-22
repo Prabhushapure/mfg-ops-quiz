@@ -1,0 +1,392 @@
+[
+  {
+    "id": "methods-ensuring-product-quality-q1",
+    "question": "What is the primary objective of formal quality methods in manufacturing?",
+    "options": [
+      "A. Increase labour count",
+      "B. Ensure consistent product quality",
+      "C. Reduce warehouse area",
+      "D. Increase machine speed only"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Formal quality methods ensure products consistently meet specifications and customer expectations.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q2",
+    "question": "Quality Control (QC) mainly focuses on:",
+    "options": [
+      "A. Product inspection and defect detection",
+      "B. Payroll management",
+      "C. Production scheduling",
+      "D. Material procurement"
+    ],
+    "correctAnswer": "A",
+    "explanation": "QC identifies defects through inspections and testing activities.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q3",
+    "question": "Quality Assurance (QA) is considered:",
+    "options": [
+      "A. Reactive",
+      "B. Product-focused only",
+      "C. Proactive",
+      "D. Post-production activity only"
+    ],
+    "correctAnswer": "C",
+    "explanation": "QA prevents defects by improving systems and processes before production issues occur.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q4",
+    "question": "Which activity belongs to QA?",
+    "options": [
+      "A. Final inspection of products",
+      "B. Process capability studies (Cp/Cpk)",
+      "C. Segregating rejected parts",
+      "D. Visual inspection only"
+    ],
+    "correctAnswer": "B",
+    "explanation": "QA uses Cp/Cpk studies to improve process stability and prevent defects.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q5",
+    "question": "Inspecting paint thickness on a vehicle body is an example of:",
+    "options": [
+      "A. Quality Assurance",
+      "B. Quality Control",
+      "C. Inventory Control",
+      "D. Material Planning"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Paint thickness inspection checks product conformity and is part of QC.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q6",
+    "question": "Which activity is normally performed by QC inspectors?",
+    "options": [
+      "A. Supplier audits",
+      "B. SOP development",
+      "C. Defect identification and segregation",
+      "D. Management review"
+    ],
+    "correctAnswer": "C",
+    "explanation": "QC inspectors identify defects and separate non-conforming products.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q7",
+    "question": "Quality Inspection mainly verifies:",
+    "options": [
+      "A. Product conformance to standards",
+      "B. Employee attendance",
+      "C. Production target achievement",
+      "D. Material purchasing"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Inspection confirms products meet specifications and standards.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q8",
+    "question": "Which inspection type checks surface scratches and paint finish?",
+    "options": [
+      "A. Functional inspection",
+      "B. Visual inspection",
+      "C. Load testing",
+      "D. Environmental testing"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Visual inspection checks appearance-related defects.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q9",
+    "question": "Measuring bolt hole diameter using gauges is:",
+    "options": [
+      "A. Dimensional inspection",
+      "B. Environmental testing",
+      "C. Endurance testing",
+      "D. Stress testing"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Dimensional inspection verifies measurements against design requirements.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q10",
+    "question": "Quality Testing evaluates:",
+    "options": [
+      "A. Product functionality and performance",
+      "B. Inventory status",
+      "C. Employee efficiency",
+      "D. Machine uptime only"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Testing verifies whether products function properly.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q11",
+    "question": "Leak testing of a fuel tank is an example of:",
+    "options": [
+      "A. Visual inspection",
+      "B. Functional testing",
+      "C. Sampling inspection",
+      "D. Material audit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Leak testing checks operational performance and functionality.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q12",
+    "question": "Endurance testing mainly checks:",
+    "options": [
+      "A. Appearance",
+      "B. Product durability over time",
+      "C. Packaging quality",
+      "D. Traceability"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Endurance testing evaluates long-term reliability.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q13",
+    "question": "Which testing method intentionally destroys the sample?",
+    "options": [
+      "A. Dye Penetrant Test",
+      "B. Radiographic Test",
+      "C. Tensile Test",
+      "D. Ultrasonic Test"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Tensile testing breaks the sample to evaluate strength properties.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q14",
+    "question": "Ultrasonic Testing (UT) is used to:",
+    "options": [
+      "A. Measure dimensions",
+      "B. Detect internal defects without damage",
+      "C. Test product color",
+      "D. Increase production speed"
+    ],
+    "correctAnswer": "B",
+    "explanation": "UT uses sound waves to locate internal flaws.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q15",
+    "question": "Dye Penetrant Testing (PT) mainly detects:",
+    "options": [
+      "A. Surface cracks",
+      "B. Internal porosity only",
+      "C. Temperature variation",
+      "D. Electrical faults"
+    ],
+    "correctAnswer": "A",
+    "explanation": "PT identifies cracks and surface discontinuities.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q16",
+    "question": "Radiographic Testing (RT) uses:",
+    "options": [
+      "A. Sound waves",
+      "B. Laser beams",
+      "C. X-rays or gamma rays",
+      "D. Water pressure"
+    ],
+    "correctAnswer": "C",
+    "explanation": "RT detects internal defects using radiation.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q17",
+    "question": "Boundary samples help inspectors by:",
+    "options": [
+      "A. Increasing inspection speed only",
+      "B. Reducing subjectivity in visual inspection",
+      "C. Eliminating testing",
+      "D. Replacing SOPs"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Boundary samples define acceptable and reject standards.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q18",
+    "question": "A paint scratch limit reference used for comparison is called:",
+    "options": [
+      "A. SPC chart",
+      "B. Boundary sample",
+      "C. Defect report",
+      "D. FMEA sheet"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Boundary samples act as reference standards during inspection.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q19",
+    "question": "Which inspection method checks every produced item?",
+    "options": [
+      "A. Sampling inspection",
+      "B. AQL inspection",
+      "C. 100% inspection",
+      "D. Random inspection"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Every unit is inspected individually.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q20",
+    "question": "Sampling inspection is mainly preferred because it:",
+    "options": [
+      "A. Eliminates all defects",
+      "B. Reduces inspection time and cost",
+      "C. Replaces quality systems",
+      "D. Increases rejection rate"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Sampling minimizes effort while maintaining quality control.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q21",
+    "question": "AQL stands for:",
+    "options": [
+      "A. Approved Quality Level",
+      "B. Acceptable Quality Limit",
+      "C. Analytical Quality List",
+      "D. Assured Quality Level"
+    ],
+    "correctAnswer": "B",
+    "explanation": "AQL defines allowable defect levels during sampling inspection.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q22",
+    "question": "Which inspection type is commonly used for safety-critical products?",
+    "options": [
+      "A. Sampling inspection",
+      "B. Random inspection",
+      "C. 100% inspection",
+      "D. Batch inspection only"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Critical products require complete inspection to avoid failures.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q23",
+    "question": "Which QC Lab instrument provides high-precision dimensional measurement?",
+    "options": [
+      "A. Oscilloscope",
+      "B. CMM",
+      "C. Multimeter",
+      "D. Hipot Tester"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Coordinate Measuring Machines provide precise dimensional verification.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q24",
+    "question": "Which QC lab equipment checks insulation breakdown?",
+    "options": [
+      "A. Vernier Caliper",
+      "B. Hipot Tester",
+      "C. Gauge Block",
+      "D. Micrometer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Hipot testing verifies insulation strength and electrical safety.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q25",
+    "question": "Pareto Chart is mainly used for:",
+    "options": [
+      "A. Monitoring machine speed",
+      "B. Prioritizing major defect causes",
+      "C. Measuring dimensions",
+      "D. Production planning"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Pareto analysis identifies the most significant issues.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q26",
+    "question": "Fishbone Diagram is also known as:",
+    "options": [
+      "A. Control Chart",
+      "B. Ishikawa Diagram",
+      "C. DMAIC Chart",
+      "D. PPM Chart"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Fishbone diagrams analyze root causes of problems.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q27",
+    "question": "Which QC tool uses repeated questioning to identify root causes?",
+    "options": [
+      "A. Pareto Analysis",
+      "B. FMEA",
+      "C. 5 Whys",
+      "D. Control Plan"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Repeated “Why?” questioning helps identify root causes.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q28",
+    "question": "DMAIC belongs to:",
+    "options": [
+      "A. Six Sigma methodology",
+      "B. ISO Audit",
+      "C. SOP preparation",
+      "D. Sampling inspection"
+    ],
+    "correctAnswer": "A",
+    "explanation": "DMAIC is Six Sigma’s improvement cycle.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q29",
+    "question": "Go / No-Go gauges provide:",
+    "options": [
+      "A. Detailed measurement value",
+      "B. Pass / Fail dimensional decision",
+      "C. Cost analysis",
+      "D. Material traceability"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Go/No-Go gauges quickly verify dimensional acceptance.",
+    "topic": "Methods in Ensuring Product Quality"
+  },
+  {
+    "id": "methods-ensuring-product-quality-q30",
+    "question": "Calibration standards are important because they ensure:",
+    "options": [
+      "A. Faster production",
+      "B. Measurement accuracy",
+      "C. Lower manpower",
+      "D. Increased inventory"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Calibration maintains reliable and accurate measurement systems.",
+    "topic": "Methods in Ensuring Product Quality"
+  }
+]

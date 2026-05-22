@@ -1,6 +1,6 @@
-# Safety Scramble — Industrial Safety Quiz
+# Safety Scramble — Manufacturing Quality Quiz
 
-A gamified Snakes & Ladders board game that tests electrical safety knowledge for industrial workers. Built with Next.js, Tailwind CSS, Framer Motion, and SVG graphics.
+A gamified Snakes & Ladders board game that tests manufacturing quality knowledge. Built with React, Vite, Tailwind CSS, Framer Motion, and SVG graphics.
 
 ## Setup
 
@@ -9,12 +9,12 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:5173/quality_quiz/](http://localhost:5173/quality_quiz/) in your browser.
 
 ## How to Play
 
-1. Click **Start Game** to begin the 10-minute timer
-2. Click **Roll Dice** to move your token across the 6x6 board
+1. Select a topic and click **Play** to begin the 10-minute timer
+2. Click **Roll Dice** to move your token across the 6×6 board
 3. Land on a **snake head** or **ladder bottom** to trigger a quiz question
 4. **Snakes**: answer correctly to stay, wrong answer slides you down
 5. **Ladders**: answer correctly to climb up, wrong answer keeps you in place
@@ -22,11 +22,11 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Tech Stack
 
-- **Next.js 16** (App Router, TypeScript)
-- **Tailwind CSS v4** for styling
-- **Framer Motion** for animations (dice roll, token movement, popups)
+- **React 19** + **Vite 7** (TypeScript)
+- **Tailwind CSS v4** (`@tailwindcss/vite`)
+- **Framer Motion** for animations
 - **SVG** for board, snakes, ladders, player token, and dice
-- **Web Audio API** for programmatic sound effects
+- **Web Audio API** for sound effects
 
 ## Build
 
@@ -34,17 +34,18 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 npm run build
 ```
 
-Deploys to Vercel with zero config.
+Output is written to `dist/`. Deploy the `dist` folder with the app served at `/quality_quiz/` (matching `base` in `vite.config.ts`).
 
 ## Project Structure
 
 ```
 src/
-  app/          — Next.js App Router pages and layout
+  App.tsx       — main game page
+  main.tsx      — entry point
   components/   — GameBoard, Snake, Ladder, PlayerToken, Dice, QuizPopup, etc.
-  data/         — 40 electrical safety quiz questions (JSON)
-  hooks/        — useGameState, useTimer, useDice
-  lib/          — boardConfig, gameLogic, sounds
-  types/        — TypeScript type definitions
-public/images/quiz/ — Real photos for quiz questions
+  data/         — MFG quality quiz questions (JSON)
+  hooks/        — useGameState, useTimer, useDice, useSearchParams
+  lib/          — boardConfig, gameLogic, sounds, assets
+  types/        — TypeScript definitions
+public/         — logo, splash video, quiz images
 ```

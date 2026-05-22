@@ -1,0 +1,233 @@
+"""Convert MFG Quality Quiz docx files to game JSON question banks."""
+from __future__ import annotations
+
+import json
+import re
+import zipfile
+import xml.etree.ElementTree as ET
+from pathlib import Path
+
+DOWNLOADS = Path(r"C:\Users\hi\Downloads\MFG Quality Quiz")
+OUT_DIR = Path(__file__).resolve().parent.parent / "src" / "data"
+
+W_NS = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
+
+TOPICS = [
+    {
+        "slug": "manufacturing-quality-induction",
+        "file": "MFG Quality MCQ Quiz.docx",
+        "label": "Manufacturing Quality Induction",
+        "parser": "mcq",
+    },
+    {
+        "slug": "quality-in-manufacturing",
+        "file": "MFG Quiz - Quality in Manufacturing.docx",
+        "label": "Quality in Manufacturing",
+        "parser": "structured",
+    },
+    {
+        "slug": "inhouse-quality-systems",
+        "file": "MFG Quiz - Inhouse Quality Systems.docx",
+        "label": "Inhouse Quality Systems",
+        "parser": "structured",
+    },
+    {
+        "slug": "methods-ensuring-product-quality",
+        "file": "MFG Quiz - Methods in Ensuring Product Quality.docx",
+        "label": "Methods in Ensuring Product Quality",
+        "parser": "structured",
+    },
+    {
+        "slug": "quality-targets",
+        "file": "MFG Quiz - Quality Targets.docx",
+        "label": "Quality Targets",
+        "parser": "structured",
+    },
+    {
+        "slug": "people-roles-industrial-quality",
+        "file": "MFG Quiz - People Roles in Industrial Quality.docx",
+        "label": "People Roles in Industrial Quality",
+        "parser": "structured",
+    },
+]
+
+
+def read_docx_text(path: Path) -> str:
+    with zipfile.ZipFile(path) as zf:
+        xml = zf.read("word/document.xml")
+    root = ET.fromstring(xml)
+    parts: list[str] = []
+    for node in root.iter(f"{W_NS}t"):
+        if node.text:
+            parts.append(node.text)
+        if node.tail:
+            parts.append(node.tail)
+    return "".join(parts)
+
+
+def letter_from_answer(text: str) -> str | None:
+    m = re.match(r"^([A-D])\)", text.strip())
+    if m:
+        return m.group(1)
+    m = re.match(r"^([A-D])\.", text.strip())
+    if m:
+        return m.group(1)
+    return None
+
+
+def parse_structured(text: str, topic_label: str, slug: str) -> list[dict]:
+    # Strip title prefix before first numbered question
+    text = re.sub(r"^.*?(?=\d+\.\s)", "", text, count=1, flags=re.DOTALL)
+    blocks = re.split(r"(?=\d+\.\s)", text)
+    questions: list[dict] = []
+    qnum = 0
+
+    for block in blocks:
+        block = block.strip()
+        if not block:
+            continue
+        m = re.match(r"(\d+)\.\s*(.+?)(?=Options:)", block, re.DOTALL)
+        if not m:
+            continue
+        qnum += 1
+        question = re.sub(r"\s+", " ", m.group(2).strip())
+
+        opts_match = re.search(
+            r"Options:\s*(.+?)(?=Answer:)",
+            block,
+            re.DOTALL,
+        )
+        if not opts_match:
+            continue
+        opts_text = opts_match.group(1)
+        option_lines = re.findall(
+            r"([A-D])\)\s*(.+?)(?=[A-D]\)|Answer:|$)",
+            opts_text,
+            re.DOTALL,
+        )
+        if len(option_lines) < 4:
+            continue
+
+        ans_match = re.search(r"Answer:\s*([A-D])\)\s*(.+?)(?=Explanation:|$)", block, re.DOTALL)
+        if not ans_match:
+            ans_match = re.search(r"Answer:\s*([A-D])\)", block)
+        if not ans_match:
+            continue
+        correct = ans_match.group(1)
+
+        expl_match = re.search(r"Explanation:\s*(.+?)(?=\d+\.\s|$)", block, re.DOTALL)
+        explanation = ""
+        if expl_match:
+            explanation = re.sub(r"\s+", " ", expl_match.group(1).strip())
+            explanation = re.sub(r"Calculation:.*", "", explanation).strip()
+
+        options = [
+            f"{letter}. {re.sub(r'\\s+', ' ', opt.strip())}"
+            for letter, opt in option_lines[:4]
+        ]
+
+        questions.append(
+            {
+                "id": f"{slug}-q{qnum}",
+                "question": question,
+                "options": options,
+                "correctAnswer": correct,
+                "explanation": explanation or f"The correct answer is {correct}.",
+                "topic": topic_label,
+            }
+        )
+
+    return questions
+
+
+def parse_mcq(text: str, topic_label: str, slug: str) -> list[dict]:
+    # Remove table of contents / header
+    text = re.sub(
+        r"^.*?Chapter 1",
+        "Chapter 1",
+        text,
+        count=1,
+        flags=re.DOTALL,
+    )
+    chapters = re.split(r"(?=Chapter \d+)", text)
+    questions: list[dict] = []
+    qnum = 0
+
+    for chapter in chapters:
+        if not chapter.strip():
+            continue
+        ch_match = re.match(r"Chapter \d+\s*[–-]\s*(.+?)(?=\d+\.)", chapter)
+        subtopic = ch_match.group(1).strip() if ch_match else topic_label
+        body = re.sub(r"^Chapter \d+\s*[–-]\s*.+?(?=\d+\.)", "", chapter, count=1, flags=re.DOTALL)
+
+        for block in re.split(r"(?=\d+\.\s)", body):
+            block = block.strip()
+            if not block:
+                continue
+            m = re.match(
+                r"(\d+)\.\s*(.+?)(?=[A-D]\.\s)",
+                block,
+                re.DOTALL,
+            )
+            if not m:
+                continue
+
+            rest = block[m.end() :]
+            opts = re.findall(
+                r"([A-D])\.\s*(.+?)(?=[A-D]\.\s|✅|$)",
+                rest,
+                re.DOTALL,
+            )
+            if len(opts) < 4:
+                continue
+
+            ans = re.search(r"✅\s*Answer:\s*([A-D])", block)
+            if not ans:
+                continue
+
+            qnum += 1
+            question = re.sub(r"\s+", " ", m.group(2).strip())
+            correct = ans.group(1)
+            options = [
+                f"{letter}. {re.sub(r'\\s+', ' ', opt.strip())}"
+                for letter, opt in opts[:4]
+            ]
+
+            questions.append(
+                {
+                    "id": f"{slug}-q{qnum}",
+                    "question": question,
+                    "options": options,
+                    "correctAnswer": correct,
+                    "explanation": f"The correct answer is {correct}.",
+                    "topic": subtopic,
+                }
+            )
+
+    return questions
+
+
+def main() -> None:
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    summary: list[str] = []
+
+    for topic in TOPICS:
+        path = DOWNLOADS / topic["file"]
+        text = read_docx_text(path)
+        if topic["parser"] == "mcq":
+            questions = parse_mcq(text, topic["label"], topic["slug"])
+        else:
+            questions = parse_structured(text, topic["label"], topic["slug"])
+
+        out_path = OUT_DIR / f"{topic['slug']}-questions.json"
+        out_path.write_text(
+            json.dumps(questions, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+        summary.append(f"{topic['slug']}: {len(questions)} questions -> {out_path.name}")
+
+    print("\n".join(summary))
+
+
+if __name__ == "__main__":
+    main()
