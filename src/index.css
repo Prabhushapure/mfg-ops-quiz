@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
 @theme inline {
-  --font-heading: "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  --font-body: "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-sans: "Aptos", "Aptos Display", "Segoe UI", system-ui, -apple-system,
+    sans-serif;
+  --font-heading: var(--font-sans);
+  --font-body: var(--font-sans);
 
   --color-navy-950: #0a1628;
   --color-navy-900: #0f1f3d;
@@ -22,25 +24,30 @@
   --color-board-bg: #1a2744;
 }
 
+@layer base {
+  html {
+    font-family: var(--font-sans);
+  }
+
+  body,
+  #root,
+  button,
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: var(--font-body);
   margin: 0;
   min-height: 100vh;
 }
 
 #root {
   min-height: 100vh;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-heading);
 }

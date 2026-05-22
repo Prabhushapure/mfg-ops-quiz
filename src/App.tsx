@@ -224,7 +224,7 @@ export default function App() {
   }, [token, submitScore]);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#fff5f8]">
+    <div className="min-h-screen flex flex-col bg-[#fff5f8] font-sans">
       <AnimatePresence>
         {showSplash && (
           <div className="fixed inset-0 z-[60] flex flex-col items-center justify-center bg-[radial-gradient(circle_at_top,#0f1b4d_0%,#050b28_55%,#020616_100%)]">

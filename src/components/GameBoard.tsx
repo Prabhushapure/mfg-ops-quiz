@@ -68,7 +68,7 @@ export default function GameBoard({ playerPosition }: GameBoardProps) {
           fill="#ffffff"
           fontSize="14"
           fontWeight="800"
-          fontFamily="var(--font-heading)"
+          fontFamily="var(--font-sans)"
           stroke="#000000"
           strokeWidth="0.5"
           colorInterpolationFilters="sRGB"
@@ -85,7 +85,7 @@ export default function GameBoard({ playerPosition }: GameBoardProps) {
               fontSize="12"
               fontWeight="800"
               textAnchor="middle"
-              fontFamily="var(--font-heading)"
+              fontFamily="var(--font-sans)"
             >
               START
             </text>
@@ -96,7 +96,7 @@ export default function GameBoard({ playerPosition }: GameBoardProps) {
               fontSize="16"
               fontWeight="900"
               textAnchor="middle"
-              fontFamily="var(--font-heading)"
+              fontFamily="var(--font-sans)"
             >
               →
             </text>
@@ -111,7 +111,7 @@ export default function GameBoard({ playerPosition }: GameBoardProps) {
               fontSize="12"
               fontWeight="800"
               textAnchor="middle"
-              fontFamily="var(--font-heading)"
+              fontFamily="var(--font-sans)"
             >
               FINISH
             </text>
@@ -122,7 +122,7 @@ export default function GameBoard({ playerPosition }: GameBoardProps) {
               fontSize="16"
               fontWeight="900"
               textAnchor="middle"
-              fontFamily="var(--font-heading)"
+              fontFamily="var(--font-sans)"
             >
               ←
             </text>
