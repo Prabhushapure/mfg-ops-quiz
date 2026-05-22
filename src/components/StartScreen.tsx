@@ -37,13 +37,9 @@ export default function StartScreen({
           <img src={assetUrl("logo.png")} alt="Shield logo" width={88} height={88} className="mx-auto h-20 w-20 sm:h-24 sm:w-24" />
         </motion.div>
 
-        <h1 className="font-heading text-4xl sm:text-5xl font-semibold text-white tracking-tight whitespace-nowrap mb-0">
-          SAFETY <span className="text-safety-yellow">SCRAMBLE</span>
+        <h1 className="font-heading text-3xl sm:text-5xl font-semibold text-white tracking-tight text-center mb-5 mx-auto max-w-full">
+          INDUSTRY <span className="text-safety-yellow">QUALITY QUIZ</span>
         </h1>
-
-        <p className="font-heading text-base text-steel-400 tracking-widest uppercase mb-5">
-          Manufacturing Quality Quiz
-        </p>
 
         <div className="bg-navy-800/60 rounded-xl p-5 sm:p-6 mb-5 text-left border border-navy-700">
           <h2 className="font-heading font-bold text-safety-yellow text-sm uppercase tracking-wider mb-3">

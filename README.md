@@ -1,4 +1,4 @@
-# Safety Scramble — Manufacturing Quality Quiz
+# Industry Quality Quiz
 
 A gamified Snakes & Ladders board game that tests manufacturing quality knowledge. Built with React, Vite, Tailwind CSS, Framer Motion, and SVG graphics.
 

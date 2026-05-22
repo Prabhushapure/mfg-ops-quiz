@@ -24,6 +24,12 @@ const TOPIC_LABEL_TO_KEY: Record<string, GameTopic> = {
   "people roles in industrial quality": "people-roles-industrial-quality",
 };
 
+const PARTNER_LICENSE_URL =
+  "https://antiz-digital.com/GamifiedLearning/partner/license";
+const PLAY_BASE_URL = "https://antiz-digital.com/GamifiedLearning/play";
+const PLAY_COMPLETE_API =
+  "https://antiz-digital.com/GamifiedLearning/api/play/complete";
+
 const TOPIC_KEY_TO_LABEL: Record<GameTopic, string> = {
   "manufacturing-quality-induction": "Manufacturing Quality Induction",
   "quality-in-manufacturing": "Quality in Manufacturing",
@@ -58,7 +64,6 @@ export default function App() {
   const token = searchParams.get("token");
   const playNo = searchParams.get("play_no");
   const topicParam = searchParams.get("topic");
-  const returnUrlParam = searchParams.get("returnUrl");
   const hasSubmittedRef = useRef(false);
 
   const {
@@ -165,7 +170,7 @@ export default function App() {
     if (!token || !playNo || !gameResult) return;
 
     try {
-      await fetch("https://antiz-digital.com/GamifiedLearning/api/play/complete", {
+      const response = await fetch(PLAY_COMPLETE_API, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -175,9 +180,12 @@ export default function App() {
           play_no: parseInt(playNo, 10),
           score: gameResult.scorePercentage,
           play_result: gameResult.passed ? "Pass" : "Fail",
-          final_score: gameResult.finalScore,
         }),
       });
+
+      if (!response.ok) {
+        console.error("Play complete API failed:", response.status);
+      }
     } catch (error) {
       console.error("Error submitting game score:", error);
     }
@@ -188,11 +196,17 @@ export default function App() {
       hasSubmittedRef.current = false;
     }
 
-    if (state.phase === "result" && gameResult && token && playNo && !hasSubmittedRef.current) {
+    if (
+      state.phase === "result" &&
+      gameResult &&
+      token &&
+      playNo &&
+      !hasSubmittedRef.current
+    ) {
       hasSubmittedRef.current = true;
-      submitScore();
+      void submitScore();
     }
-  }, [state.phase, gameResult?.finalScore, gameResult?.passed, token, playNo, submitScore]);
+  }, [state.phase, gameResult, token, playNo, submitScore]);
 
   const handleClose = useCallback(async () => {
     if (!hasSubmittedRef.current) {
@@ -200,32 +214,13 @@ export default function App() {
       await submitScore();
     }
 
-    if (returnUrlParam) {
-      try {
-        const returnUrl = new URL(returnUrlParam);
-        const passStatus = gameResult?.passed ? "Pass" : "Fail";
-
-        returnUrl.searchParams.set("status", passStatus);
-        returnUrl.searchParams.set("play_result", passStatus);
-        if (gameResult != null) {
-          returnUrl.searchParams.set(
-            "final_score",
-            String(gameResult.finalScore)
-          );
-        }
-        window.location.href = returnUrl.toString();
-        return;
-      } catch (error) {
-        console.error("Invalid returnUrl provided:", error);
-      }
+    if (!token) {
+      window.location.href = PARTNER_LICENSE_URL;
+      return;
     }
 
-    if (token) {
-      window.location.href = `https://antiz-digital.com/GamifiedLearning/play?token=${token}`;
-    } else {
-      window.location.href = "https://antiz-digital.com/GamifiedLearning/partner/license";
-    }
-  }, [token, returnUrlParam, gameResult?.passed, gameResult?.finalScore, submitScore]);
+    window.location.href = `${PLAY_BASE_URL}?token=${encodeURIComponent(token)}`;
+  }, [token, submitScore]);
 
   return (
     <div className="min-h-screen flex flex-col bg-[#fff5f8]">
@@ -239,8 +234,8 @@ export default function App() {
               height={88}
               className="mb-3 h-20 w-20 sm:h-24 sm:w-24"
             />
-            <h1 className="mb-5 text-center font-heading text-4xl font-semibold tracking-tight text-white whitespace-nowrap sm:text-5xl">
-              SAFETY <span className="text-safety-yellow">SCRAMBLE</span>
+            <h1 className="mb-5 text-center font-heading text-3xl font-semibold tracking-tight text-white sm:text-5xl mx-auto max-w-full px-4">
+              INDUSTRY <span className="text-safety-yellow">QUALITY QUIZ</span>
             </h1>
             <div className="w-fit max-w-[100vw] overflow-hidden rounded-2xl border border-white/10 bg-black shadow-[0_20px_80px_rgba(0,0,0,0.55)]">
               <video

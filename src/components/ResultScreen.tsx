@@ -96,12 +96,9 @@ export default function ResultScreen({
             height={64}
             className="mx-auto mb-1 h-12 w-12"
           />
-          <h1 className="font-heading text-4xl sm:text-5xl font-semibold text-white tracking-tight whitespace-nowrap">
-            SAFETY <span className="text-safety-yellow">SCRAMBLE</span>
+          <h1 className="font-heading text-3xl sm:text-5xl font-semibold text-white tracking-tight text-center mx-auto max-w-full">
+            INDUSTRY <span className="text-safety-yellow">QUALITY QUIZ</span>
           </h1>
-          <p className="font-heading text-xs text-steel-400 tracking-widest uppercase">
-            Manufacturing Quality Quiz
-          </p>
         </div>
 
         <motion.div
