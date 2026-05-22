@@ -7,6 +7,8 @@ import zipfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+from shuffle_quiz_options import shuffle_question
+
 DOWNLOADS = Path(r"C:\Users\hi\Downloads\MFG Quality Quiz")
 OUT_DIR = Path(__file__).resolve().parent.parent / "src" / "data"
 
@@ -218,6 +220,9 @@ def main() -> None:
             questions = parse_mcq(text, topic["label"], topic["slug"])
         else:
             questions = parse_structured(text, topic["label"], topic["slug"])
+
+        for i, q in enumerate(questions):
+            shuffle_question(q, i)
 
         out_path = OUT_DIR / f"{topic['slug']}-questions.json"
         out_path.write_text(

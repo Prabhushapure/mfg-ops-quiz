@@ -3,12 +3,12 @@
     "id": "people-roles-industrial-quality-q1",
     "question": "Who is responsible for defining the company’s quality vision and strategy?",
     "options": [
-      "A. QC Inspector",
+      "A. Chief Quality Officer (CQO)",
       "B. Supplier Quality Engineer",
-      "C. Chief Quality Officer (CQO)",
-      "D. Lab Technician"
+      "C. Lab Technician",
+      "D. QC Inspector"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "CQO defines the organization’s quality vision, policies, long-term goals, and quality strategy.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -16,10 +16,10 @@
     "id": "people-roles-industrial-quality-q2",
     "question": "Which role oversees QA, QC, Supplier Quality, and Customer Quality at plant level?",
     "options": [
-      "A. Final Inspector",
+      "A. Test Technician",
       "B. Quality Manager",
-      "C. Test Technician",
-      "D. Incoming Inspector"
+      "C. Incoming Inspector",
+      "D. Final Inspector"
     ],
     "correctAnswer": "B",
     "explanation": "Quality Manager coordinates all quality functions within the manufacturing plant.",
@@ -29,12 +29,12 @@
     "id": "people-roles-industrial-quality-q3",
     "question": "Which role mainly develops SOPs, PFMEA, and control plans?",
     "options": [
-      "A. QA Engineer",
-      "B. QC Inspector",
-      "C. CQE",
-      "D. Final Inspector"
+      "A. CQE",
+      "B. Final Inspector",
+      "C. QA Engineer",
+      "D. QC Inspector"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "QA Engineers establish preventive systems such as SOPs, PFMEA, and control plans.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -42,12 +42,12 @@
     "id": "people-roles-industrial-quality-q4",
     "question": "Who is primarily responsible for in-process, incoming, and final inspections?",
     "options": [
-      "A. Quality Systems Engineer",
-      "B. QC Engineer / QC Inspector",
-      "C. Metrology Engineer",
-      "D. CQO"
+      "A. Metrology Engineer",
+      "B. CQO",
+      "C. Quality Systems Engineer",
+      "D. QC Engineer / QC Inspector"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "QC personnel perform inspections and identify product defects.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -55,12 +55,12 @@
     "id": "people-roles-industrial-quality-q5",
     "question": "Supplier audits and supplier capability assessments are mainly handled by:",
     "options": [
-      "A. CQE",
-      "B. SQE",
+      "A. SQE",
+      "B. Test Engineer",
       "C. QA Inspector",
-      "D. Test Engineer"
+      "D. CQE"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Supplier Quality Engineers manage supplier audits and supplier performance improvement.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -68,12 +68,12 @@
     "id": "people-roles-industrial-quality-q6",
     "question": "SQE stands for:",
     "options": [
-      "A. Supplier Quality Engineer",
-      "B. System Quality Executive",
+      "A. System Quality Executive",
+      "B. Supplier Quality Engineer",
       "C. Standard Quality Evaluator",
       "D. Supplier Qualification Examiner"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "SQE ensures supplier products meet quality requirements.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -81,12 +81,12 @@
     "id": "people-roles-industrial-quality-q7",
     "question": "Which role handles customer complaints and warranty claims?",
     "options": [
-      "A. CQE",
-      "B. Metrology Engineer",
-      "C. QC Inspector",
-      "D. Test Technician"
+      "A. Test Technician",
+      "B. QC Inspector",
+      "C. CQE",
+      "D. Metrology Engineer"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Customer Quality Engineers manage complaints, returns, and customer quality issues.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -94,12 +94,12 @@
     "id": "people-roles-industrial-quality-q8",
     "question": "Customer PPM tracking is mainly the responsibility of:",
     "options": [
-      "A. CQE",
+      "A. Documentation Engineer",
       "B. Lab Technician",
       "C. Incoming Inspector",
-      "D. Documentation Engineer"
+      "D. CQE"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "CQE monitors customer defect rates and PPM performance.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -108,9 +108,9 @@
     "question": "Which role focuses on process stability and capability studies (Cp/Cpk)?",
     "options": [
       "A. Process Quality Engineer",
-      "B. Final Inspector",
-      "C. Incoming Inspector",
-      "D. CQO"
+      "B. CQO",
+      "C. Final Inspector",
+      "D. Incoming Inspector"
     ],
     "correctAnswer": "A",
     "explanation": "Process Quality Engineers improve process capability and stability.",
@@ -120,12 +120,12 @@
     "id": "people-roles-industrial-quality-q10",
     "question": "Process audits are generally performed by:",
     "options": [
-      "A. Process Quality Engineer",
-      "B. Packaging Operator",
-      "C. Dispatch Coordinator",
+      "A. Dispatch Coordinator",
+      "B. Process Quality Engineer",
+      "C. Packaging Operator",
       "D. Warehouse Staff"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Process audits verify compliance with process standards.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -133,12 +133,12 @@
     "id": "people-roles-industrial-quality-q11",
     "question": "Maintaining ISO / IATF documentation is mainly handled by:",
     "options": [
-      "A. Quality Systems Engineer",
-      "B. QC Inspector",
-      "C. Test Operator",
-      "D. SQE"
+      "A. Test Operator",
+      "B. SQE",
+      "C. Quality Systems Engineer",
+      "D. QC Inspector"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Quality Systems Engineers maintain standards documentation and certifications.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -146,12 +146,12 @@
     "id": "people-roles-industrial-quality-q12",
     "question": "Which role updates SOPs, Quality Manuals, and audit records?",
     "options": [
-      "A. Quality Systems Engineer",
+      "A. Incoming Inspector",
       "B. Customer Quality Engineer",
-      "C. Incoming Inspector",
-      "D. Final Inspector"
+      "C. Final Inspector",
+      "D. Quality Systems Engineer"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Documentation control is part of Quality Systems responsibilities.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -159,12 +159,12 @@
     "id": "people-roles-industrial-quality-q13",
     "question": "Calibration of gauges and measuring instruments is handled by:",
     "options": [
-      "A. CQE",
-      "B. Metrology Engineer",
-      "C. Lab Assistant",
-      "D. QA Executive"
+      "A. Metrology Engineer",
+      "B. Lab Assistant",
+      "C. QA Executive",
+      "D. CQE"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Metrology Engineers ensure measurement accuracy through calibration.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -172,10 +172,10 @@
     "id": "people-roles-industrial-quality-q14",
     "question": "MSA (Measurement System Analysis) is mainly associated with:",
     "options": [
-      "A. Supplier Quality",
+      "A. Packaging Quality",
       "B. Metrology",
-      "C. Customer Quality",
-      "D. Packaging Quality"
+      "C. Supplier Quality",
+      "D. Customer Quality"
     ],
     "correctAnswer": "B",
     "explanation": "MSA evaluates measurement system accuracy and repeatability.",
@@ -185,12 +185,12 @@
     "id": "people-roles-industrial-quality-q15",
     "question": "Which role supervises inspectors on the shop floor?",
     "options": [
-      "A. Inspection Supervisor",
+      "A. Test Engineer",
       "B. CQO",
-      "C. SQE",
-      "D. Test Engineer"
+      "C. Inspection Supervisor",
+      "D. SQE"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Inspection Supervisors manage inspection activities and inspectors.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -199,11 +199,11 @@
     "question": "Incoming Material Inspector mainly checks:",
     "options": [
       "A. Customer complaints",
-      "B. Raw materials and purchased components",
-      "C. Production scheduling",
-      "D. Packaging design"
+      "B. Production scheduling",
+      "C. Packaging design",
+      "D. Raw materials and purchased components"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Incoming inspection verifies material quality before production.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -211,12 +211,12 @@
     "id": "people-roles-industrial-quality-q17",
     "question": "Final Inspector performs inspections before:",
     "options": [
-      "A. Production start",
-      "B. Supplier delivery",
-      "C. Product dispatch",
-      "D. Machine maintenance"
+      "A. Product dispatch",
+      "B. Machine maintenance",
+      "C. Supplier delivery",
+      "D. Production start"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "Final inspection ensures only approved products are shipped.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -224,12 +224,12 @@
     "id": "people-roles-industrial-quality-q18",
     "question": "Which role conducts mechanical and environmental testing?",
     "options": [
-      "A. Test Laboratory Technician",
-      "B. Quality Data Analyst",
-      "C. SQE",
+      "A. SQE",
+      "B. Test Laboratory Technician",
+      "C. Quality Data Analyst",
       "D. CQE"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Lab technicians perform product testing and validation.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -237,12 +237,12 @@
     "id": "people-roles-industrial-quality-q19",
     "question": "Endurance testing and validation activities are usually handled by:",
     "options": [
-      "A. Test Engineer",
-      "B. Incoming Inspector",
-      "C. Packaging Supervisor",
-      "D. Dispatch Officer"
+      "A. Packaging Supervisor",
+      "B. Dispatch Officer",
+      "C. Test Engineer",
+      "D. Incoming Inspector"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Test Engineers verify product durability and performance.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -250,12 +250,12 @@
     "id": "people-roles-industrial-quality-q20",
     "question": "Lean and Six Sigma projects are generally led by:",
     "options": [
-      "A. Continuous Improvement Engineer",
-      "B. Final Inspector",
-      "C. Material Inspector",
-      "D. CQE"
+      "A. CQE",
+      "B. Material Inspector",
+      "C. Final Inspector",
+      "D. Continuous Improvement Engineer"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "CI Engineers implement Lean, Six Sigma, and Kaizen improvements.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -264,9 +264,9 @@
     "question": "Poka-Yoke implementation is commonly associated with:",
     "options": [
       "A. Continuous Improvement Engineer",
-      "B. Store Keeper",
-      "C. Lab Assistant",
-      "D. Customer Auditor"
+      "B. Customer Auditor",
+      "C. Store Keeper",
+      "D. Lab Assistant"
     ],
     "correctAnswer": "A",
     "explanation": "Poka-Yoke prevents human errors through mistake-proofing.",
@@ -276,12 +276,12 @@
     "id": "people-roles-industrial-quality-q22",
     "question": "Quality dashboards and trend reports are prepared by:",
     "options": [
-      "A. Quality Data Analyst",
-      "B. QC Inspector",
-      "C. Final Inspector",
-      "D. SQE"
+      "A. Final Inspector",
+      "B. Quality Data Analyst",
+      "C. SQE",
+      "D. QC Inspector"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Analysts monitor KPIs, quality trends, and dashboards.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -289,12 +289,12 @@
     "id": "people-roles-industrial-quality-q23",
     "question": "Which role tracks PPM, defect trends, and quality KPIs?",
     "options": [
-      "A. Quality MIS Executive",
-      "B. Maintenance Engineer",
-      "C. Warehouse Manager",
-      "D. Production Planner"
+      "A. Production Planner",
+      "B. Warehouse Manager",
+      "C. Quality MIS Executive",
+      "D. Maintenance Engineer"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "MIS executives analyze and report quality performance metrics.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -302,12 +302,12 @@
     "id": "people-roles-industrial-quality-q24",
     "question": "Which function mainly focuses on prevention rather than detection?",
     "options": [
-      "A. QA",
-      "B. QC",
+      "A. QC",
+      "B. Packaging",
       "C. Dispatch",
-      "D. Packaging"
+      "D. QA"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "QA prevents defects through systems and controls.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -315,12 +315,12 @@
     "id": "people-roles-industrial-quality-q25",
     "question": "QC function mainly focuses on:",
     "options": [
-      "A. System development",
-      "B. Inspection and defect detection",
-      "C. Customer marketing",
-      "D. Material planning"
+      "A. Inspection and defect detection",
+      "B. Material planning",
+      "C. System development",
+      "D. Customer marketing"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "QC identifies and controls defects.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -328,12 +328,12 @@
     "id": "people-roles-industrial-quality-q26",
     "question": "Supplier Quality belongs to which functional category?",
     "options": [
-      "A. SQA",
-      "B. CQ",
-      "C. QA Systems",
-      "D. Metrology"
+      "A. Metrology",
+      "B. SQA",
+      "C. CQ",
+      "D. QA Systems"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Supplier Quality Assurance (SQA) manages supplier quality performance.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -341,12 +341,12 @@
     "id": "people-roles-industrial-quality-q27",
     "question": "Customer complaint handling belongs to:",
     "options": [
-      "A. Supplier Quality",
-      "B. Customer Quality",
-      "C. Metrology",
-      "D. Inspection Control"
+      "A. Inspection Control",
+      "B. Metrology",
+      "C. Customer Quality",
+      "D. Supplier Quality"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Customer Quality manages complaints and customer feedback.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -354,12 +354,12 @@
     "id": "people-roles-industrial-quality-q28",
     "question": "Which role supports management reviews and corrective action tracking?",
     "options": [
-      "A. Quality Systems Engineer",
-      "B. Incoming Inspector",
-      "C. Test Operator",
-      "D. Shift Operator"
+      "A. Test Operator",
+      "B. Shift Operator",
+      "C. Incoming Inspector",
+      "D. Quality Systems Engineer"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "They maintain audit records and CAPA tracking.",
     "topic": "People Roles in Industrial Quality"
   },
@@ -368,9 +368,9 @@
     "question": "The role responsible for ensuring only approved products are shipped is:",
     "options": [
       "A. Final Inspector",
-      "B. SQE",
-      "C. Metrology Engineer",
-      "D. CQE"
+      "B. CQE",
+      "C. SQE",
+      "D. Metrology Engineer"
     ],
     "correctAnswer": "A",
     "explanation": "Final Inspectors approve products before dispatch.",
@@ -380,9 +380,9 @@
     "id": "people-roles-industrial-quality-q30",
     "question": "Which statement best describes industrial quality professionals?",
     "options": [
-      "A. Responsible only for inspection",
+      "A. Work only during audits",
       "B. Ensure quality across the complete manufacturing lifecycle",
-      "C. Work only during audits",
+      "C. Responsible only for inspection",
       "D. Focus only on customer complaints"
     ],
     "correctAnswer": "B",

@@ -3,12 +3,12 @@
     "id": "quality-targets-q1",
     "question": "What is the main purpose of defining quality targets in manufacturing?",
     "options": [
-      "A. Increase inventory levels",
-      "B. Maintain product quality and customer expectations",
-      "C. Reduce employee count",
-      "D. Increase production speed only"
+      "A. Maintain product quality and customer expectations",
+      "B. Reduce employee count",
+      "C. Increase production speed only",
+      "D. Increase inventory levels"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Quality targets help manufacturers maintain consistent quality and satisfy customer requirements.",
     "topic": "Quality Targets"
   },
@@ -18,8 +18,8 @@
     "options": [
       "A. OEE",
       "B. PPM",
-      "C. MTBF",
-      "D. ROI"
+      "C. ROI",
+      "D. MTBF"
     ],
     "correctAnswer": "B",
     "explanation": "PPM (Parts Per Million) measures defect rate and customer acceptance criteria.",
@@ -42,12 +42,12 @@
     "id": "quality-targets-q4",
     "question": "Which framework is used to define effective quality targets?",
     "options": [
-      "A. DMAIC",
-      "B. SMART",
-      "C. 5S",
-      "D. FMEA"
+      "A. FMEA",
+      "B. 5S",
+      "C. DMAIC",
+      "D. SMART"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "SMART targets ensure goals are measurable and achievable.",
     "topic": "Quality Targets"
   },
@@ -55,12 +55,12 @@
     "id": "quality-targets-q5",
     "question": "SMART targets mean:",
     "options": [
-      "A. Standard, Measured, Accurate, Reliable, Technical",
-      "B. Specific, Measurable, Achievable, Relevant, Time-bound",
-      "C. Sampled, Monitored, Audited, Reviewed, Tracked",
-      "D. Safe, Managed, Audited, Recorded, Tested"
+      "A. Specific, Measurable, Achievable, Relevant, Time-bound",
+      "B. Safe, Managed, Audited, Recorded, Tested",
+      "C. Standard, Measured, Accurate, Reliable, Technical",
+      "D. Sampled, Monitored, Audited, Reviewed, Tracked"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "SMART framework helps create clear and trackable quality goals.",
     "topic": "Quality Targets"
   },
@@ -68,12 +68,12 @@
     "id": "quality-targets-q6",
     "question": "Which department is normally involved in defining quality targets?",
     "options": [
-      "A. Quality only",
-      "B. Production only",
-      "C. Cross-functional teams",
-      "D. Warehouse only"
+      "A. Production only",
+      "B. Cross-functional teams",
+      "C. Warehouse only",
+      "D. Quality only"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "Quality targets require collaboration between Quality, Production, Engineering, and Management.",
     "topic": "Quality Targets"
   },
@@ -81,12 +81,12 @@
     "id": "quality-targets-q7",
     "question": "Historical rejection rates are mainly used to:",
     "options": [
-      "A. Set realistic quality goals",
+      "A. Reduce inspections",
       "B. Increase machine speed",
-      "C. Reduce inspections",
+      "C. Set realistic quality goals",
       "D. Manage attendance"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Previous defect history helps establish achievable targets.",
     "topic": "Quality Targets"
   },
@@ -94,12 +94,12 @@
     "id": "quality-targets-q8",
     "question": "Cp and Cpk values are related to:",
     "options": [
-      "A. Employee productivity",
-      "B. Process capability",
-      "C. Inventory management",
-      "D. Supplier cost"
+      "A. Inventory management",
+      "B. Supplier cost",
+      "C. Employee productivity",
+      "D. Process capability"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Cp and Cpk determine process performance and capability.",
     "topic": "Quality Targets"
   },
@@ -107,12 +107,12 @@
     "id": "quality-targets-q9",
     "question": "Company quality targets are commonly monitored through:",
     "options": [
-      "A. Payroll reports",
-      "B. Quality Performance Cards",
+      "A. Quality Performance Cards",
+      "B. Machine manuals",
       "C. Purchase orders",
-      "D. Machine manuals"
+      "D. Payroll reports"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "QPC tracks quality performance against targets.",
     "topic": "Quality Targets"
   },
@@ -122,8 +122,8 @@
     "options": [
       "A. Production target",
       "B. Defect limit requirement",
-      "C. Machine utilization",
-      "D. Labor efficiency"
+      "C. Labor efficiency",
+      "D. Machine utilization"
     ],
     "correctAnswer": "B",
     "explanation": "≤500 PPM means allowable defect level should not exceed 500 per million units.",
@@ -134,11 +134,11 @@
     "question": "Which manufacturing process removes excess material?",
     "options": [
       "A. Casting",
-      "B. Machining",
-      "C. Assembly",
+      "B. Assembly",
+      "C. Machining",
       "D. Forming"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Machining removes unwanted material through cutting operations.",
     "topic": "Quality Targets"
   },
@@ -148,10 +148,10 @@
     "options": [
       "A. Material removal",
       "B. Surface treatment",
-      "C. Joining / Assembly",
-      "D. Additive manufacturing"
+      "C. Additive manufacturing",
+      "D. Joining / Assembly"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "Welding joins components together permanently.",
     "topic": "Quality Targets"
   },
@@ -160,9 +160,9 @@
     "question": "Which factor directly affects process quality?",
     "options": [
       "A. Machine calibration",
-      "B. Office layout",
+      "B. Payroll cycle",
       "C. Parking area",
-      "D. Payroll cycle"
+      "D. Office layout"
     ],
     "correctAnswer": "A",
     "explanation": "Incorrect calibration causes dimensional and quality errors.",
@@ -172,12 +172,12 @@
     "id": "quality-targets-q14",
     "question": "Process quality focuses mainly on:",
     "options": [
-      "A. Controlling processes to achieve consistent output",
-      "B. Customer marketing",
-      "C. Material purchasing only",
-      "D. Packaging only"
+      "A. Customer marketing",
+      "B. Controlling processes to achieve consistent output",
+      "C. Packaging only",
+      "D. Material purchasing only"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Process quality ensures stable manufacturing output.",
     "topic": "Quality Targets"
   },
@@ -186,11 +186,11 @@
     "question": "SPC charts are mainly used for:",
     "options": [
       "A. Attendance tracking",
-      "B. Process monitoring",
-      "C. Payroll processing",
+      "B. Payroll processing",
+      "C. Process monitoring",
       "D. Vendor payment"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "SPC monitors process variation and stability.",
     "topic": "Quality Targets"
   },
@@ -198,12 +198,12 @@
     "id": "quality-targets-q16",
     "question": "Poor process quality can result in:",
     "options": [
-      "A. Lower rework",
-      "B. Higher customer complaints",
-      "C. Reduced inspections",
-      "D. Lower inventory"
+      "A. Reduced inspections",
+      "B. Lower rework",
+      "C. Lower inventory",
+      "D. Higher customer complaints"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Poor quality leads to customer dissatisfaction and returns.",
     "topic": "Quality Targets"
   },
@@ -211,12 +211,12 @@
     "id": "quality-targets-q17",
     "question": "Which metric measures products passing inspection without rework?",
     "options": [
-      "A. PPM",
-      "B. FPY",
+      "A. FPY",
+      "B. PPM",
       "C. COPQ",
       "D. AQL"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "FPY (First Pass Yield) measures products accepted in first attempt.",
     "topic": "Quality Targets"
   },
@@ -238,11 +238,11 @@
     "question": "Quality Performance Cards are generally displayed:",
     "options": [
       "A. Inside warehouse only",
-      "B. On shop floor production areas",
-      "C. In payroll office",
-      "D. Outside factory gate"
+      "B. Outside factory gate",
+      "C. On shop floor production areas",
+      "D. In payroll office"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Shop floor display allows real-time monitoring.",
     "topic": "Quality Targets"
   },
@@ -250,12 +250,12 @@
     "id": "quality-targets-q20",
     "question": "Which metric is usually included in a QPC?",
     "options": [
-      "A. Employee leave balance",
-      "B. Defective units",
-      "C. Utility bill cost",
-      "D. Supplier quotations"
+      "A. Supplier quotations",
+      "B. Utility bill cost",
+      "C. Employee leave balance",
+      "D. Defective units"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Defects are major quality indicators.",
     "topic": "Quality Targets"
   },
@@ -264,9 +264,9 @@
     "question": "In QPC color coding, Green generally means:",
     "options": [
       "A. Target met",
-      "B. Rework required",
+      "B. Audit pending",
       "C. Machine breakdown",
-      "D. Audit pending"
+      "D. Rework required"
     ],
     "correctAnswer": "A",
     "explanation": "Green indicates performance is within target.",
@@ -276,12 +276,12 @@
     "id": "quality-targets-q22",
     "question": "Customer PPM represents:",
     "options": [
-      "A. Maximum acceptable defects by customer",
-      "B. Production capacity",
-      "C. Machine efficiency",
-      "D. Inventory turnover"
+      "A. Machine efficiency",
+      "B. Maximum acceptable defects by customer",
+      "C. Inventory turnover",
+      "D. Production capacity"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Customer PPM defines allowable quality level.",
     "topic": "Quality Targets"
   },
@@ -289,12 +289,12 @@
     "id": "quality-targets-q23",
     "question": "Automotive customer PPM target for critical parts is generally:",
     "options": [
-      "A. ≤500 PPM",
-      "B. ≤5000 PPM",
-      "C. ≤10000 PPM",
-      "D. ≤20000 PPM"
+      "A. ≤5000 PPM",
+      "B. ≤20000 PPM",
+      "C. ≤500 PPM",
+      "D. ≤10000 PPM"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Automotive customers maintain strict defect requirements.",
     "topic": "Quality Targets"
   },
@@ -302,12 +302,12 @@
     "id": "quality-targets-q24",
     "question": "Aerospace industry quality requirements are usually:",
     "options": [
-      "A. Less strict",
-      "B. Moderate",
-      "C. Very stringent",
-      "D. Optional"
+      "A. Moderate",
+      "B. Less strict",
+      "C. Optional",
+      "D. Very stringent"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "Aerospace demands extremely high reliability and safety.",
     "topic": "Quality Targets"
   },
@@ -315,12 +315,12 @@
     "id": "quality-targets-q25",
     "question": "A supplier delivers 20,000 parts and 12 are defective. PPM equals:",
     "options": [
-      "A. 400",
-      "B. 500",
-      "C. 600",
-      "D. 800"
+      "A. 600",
+      "B. 800",
+      "C. 400",
+      "D. 500"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "Supplier defect rate equals 600 PPM.",
     "topic": "Quality Targets"
   },
@@ -329,11 +329,11 @@
     "question": "If customer requirement is ≤500 PPM and supplier performance is 600 PPM, then:",
     "options": [
       "A. Requirement achieved",
-      "B. Requirement exceeded",
-      "C. Requirement failed",
+      "B. Requirement failed",
+      "C. Requirement exceeded",
       "D. Requirement optional"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "Supplier exceeded customer defect limit.",
     "topic": "Quality Targets"
   },
@@ -341,12 +341,12 @@
     "id": "quality-targets-q27",
     "question": "Monthly Quality Performance Cards are mainly used for:",
     "options": [
-      "A. Daily operator attendance",
-      "B. Monthly trend analysis",
-      "C. Machine installation",
+      "A. Machine installation",
+      "B. Daily operator attendance",
+      "C. Monthly trend analysis",
       "D. Material issue records"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Monthly QPC tracks long-term quality trends.",
     "topic": "Quality Targets"
   },
@@ -355,11 +355,11 @@
     "question": "Monthly QPC differs from Daily QPC because it focuses on:",
     "options": [
       "A. Immediate corrections only",
-      "B. Strategic quality improvement",
-      "C. Shift targets only",
-      "D. Tool maintenance only"
+      "B. Shift targets only",
+      "C. Tool maintenance only",
+      "D. Strategic quality improvement"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Monthly analysis supports improvement planning.",
     "topic": "Quality Targets"
   },
@@ -369,8 +369,8 @@
     "options": [
       "A. Quality performance changes over time",
       "B. Payroll variance",
-      "C. Utility consumption",
-      "D. Vendor payments"
+      "C. Vendor payments",
+      "D. Utility consumption"
     ],
     "correctAnswer": "A",
     "explanation": "Trends reveal improvement or deterioration patterns.",
@@ -380,12 +380,12 @@
     "id": "quality-targets-q30",
     "question": "Which initiative is commonly linked to achieving quality targets?",
     "options": [
-      "A. Kaizen",
-      "B. 8D Problem Solving",
+      "A. 8D Problem Solving",
+      "B. All of the above",
       "C. Six Sigma",
-      "D. All of the above"
+      "D. Kaizen"
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "B",
     "explanation": "Kaizen, 8D, and Six Sigma all support quality improvement and target achievement.",
     "topic": "Quality Targets"
   }

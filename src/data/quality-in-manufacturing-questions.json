@@ -3,12 +3,12 @@
     "id": "quality-in-manufacturing-q1",
     "question": "What is the primary objective of Quality Assurance (QA) in manufacturing?",
     "options": [
-      "A. Detect defects after production",
-      "B. Prevent defects through process control",
+      "A. Prevent defects through process control",
+      "B. Reduce manpower",
       "C. Increase production speed only",
-      "D. Reduce manpower"
+      "D. Detect defects after production"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "QA focuses on prevention rather than detection. It establishes SOPs, audits, process controls, standards, and training to avoid defects before they happen.",
     "topic": "Quality in Manufacturing"
   },
@@ -16,12 +16,12 @@
     "id": "quality-in-manufacturing-q2",
     "question": "Which quality metric measures defective parts per one million units produced?",
     "options": [
-      "A. FPY",
-      "B. COPQ",
-      "C. PPM",
-      "D. SPC"
+      "A. COPQ",
+      "B. PPM",
+      "C. SPC",
+      "D. FPY"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "PPM (Parts Per Million) indicates how many defective parts exist in one million produced parts and is widely used for supplier/customer quality performance.",
     "topic": "Quality in Manufacturing"
   },
@@ -29,10 +29,10 @@
     "id": "quality-in-manufacturing-q3",
     "question": "A batch contains 20 defective units out of 25,000 inspected parts. What is the PPM value?",
     "options": [
-      "A. 400",
+      "A. 1000",
       "B. 600",
       "C. 800",
-      "D. 1000"
+      "D. 400"
     ],
     "correctAnswer": "C",
     "explanation": "Lower PPM indicates better manufacturing quality performance.",
@@ -44,10 +44,10 @@
     "options": [
       "A. Sampling inspection",
       "B. Random inspection",
-      "C. 100% inspection",
-      "D. AQL inspection"
+      "C. AQL inspection",
+      "D. 100% inspection"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "In 100% inspection, every unit is inspected. It is commonly used for critical products where failure is unacceptable.",
     "topic": "Quality in Manufacturing"
   },
@@ -55,12 +55,12 @@
     "id": "quality-in-manufacturing-q5",
     "question": "Which standard is specifically used in the automotive industry quality system?",
     "options": [
-      "A. ISO 14001",
-      "B. GMP",
-      "C. AS9100",
-      "D. IATF 16949"
+      "A. IATF 16949",
+      "B. ISO 14001",
+      "C. GMP",
+      "D. AS9100"
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "A",
     "explanation": "IATF 16949 is the automotive quality management standard derived from ISO 9001 and used by automotive manufacturers and suppliers.",
     "topic": "Quality in Manufacturing"
   },
@@ -68,12 +68,12 @@
     "id": "quality-in-manufacturing-q6",
     "question": "What is the main purpose of an Inspection Standard Sheet (ISS)?",
     "options": [
-      "A. Payroll processing",
-      "B. Machine maintenance planning",
-      "C. Standardizing inspection activities",
+      "A. Machine maintenance planning",
+      "B. Standardizing inspection activities",
+      "C. Payroll processing",
       "D. Production scheduling"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "ISS defines inspection method, frequency, tools, acceptance criteria, and inspection checkpoints.",
     "topic": "Quality in Manufacturing"
   },
@@ -82,11 +82,11 @@
     "question": "Which of the following is a visual defect?",
     "options": [
       "A. Incorrect torque value",
-      "B. Crack in casting",
-      "C. Loose fastener",
-      "D. Wrong voltage output"
+      "B. Wrong voltage output",
+      "C. Crack in casting",
+      "D. Loose fastener"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "A casting crack can usually be seen directly and therefore falls under visual defects.",
     "topic": "Quality in Manufacturing"
   },
@@ -95,11 +95,11 @@
     "question": "Which QC tool follows the 80/20 rule?",
     "options": [
       "A. Fishbone Diagram",
-      "B. Pareto Chart",
-      "C. FMEA",
-      "D. Control Chart"
+      "B. FMEA",
+      "C. Control Chart",
+      "D. Pareto Chart"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Pareto analysis follows the principle that 80% of problems come from 20% of causes.",
     "topic": "Quality in Manufacturing"
   },
@@ -107,12 +107,12 @@
     "id": "quality-in-manufacturing-q9",
     "question": "Which testing method detects internal cracks without damaging the component?",
     "options": [
-      "A. Tensile Test",
-      "B. Impact Test",
-      "C. Ultrasonic Testing",
-      "D. Bend Test"
+      "A. Ultrasonic Testing",
+      "B. Tensile Test",
+      "C. Bend Test",
+      "D. Impact Test"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "Ultrasonic Testing (UT) uses sound waves to identify internal defects without damaging the product.",
     "topic": "Quality in Manufacturing"
   },
@@ -120,9 +120,9 @@
     "id": "quality-in-manufacturing-q10",
     "question": "In manufacturing, SOP stands for:",
     "options": [
-      "A. Safety Operation Policy",
+      "A. System Operating Process",
       "B. Standard Operating Procedure",
-      "C. System Operating Process",
+      "C. Safety Operation Policy",
       "D. Standard Output Practice"
     ],
     "correctAnswer": "B",
@@ -134,11 +134,11 @@
     "question": "Which report monitors quality during production stages?",
     "options": [
       "A. QPR",
-      "B. IQPR",
-      "C. CAPA",
+      "B. CAPA",
+      "C. IQPR",
       "D. NCR"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "IQPR (In-Process Quality Performance Report) monitors quality performance during manufacturing stages.",
     "topic": "Quality in Manufacturing"
   },
@@ -146,12 +146,12 @@
     "id": "quality-in-manufacturing-q12",
     "question": "Which quality activity is considered reactive?",
     "options": [
-      "A. QA",
-      "B. Kaizen",
-      "C. QC",
-      "D. FMEA"
+      "A. Kaizen",
+      "B. FMEA",
+      "C. QA",
+      "D. QC"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "QC is reactive because it identifies defects after production or during inspection.",
     "topic": "Quality in Manufacturing"
   },
@@ -159,12 +159,12 @@
     "id": "quality-in-manufacturing-q13",
     "question": "A process capability index used to evaluate process performance is:",
     "options": [
-      "A. PPM",
-      "B. Cpk",
+      "A. Cpk",
+      "B. PPM",
       "C. FPY",
       "D. AQL"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Cpk measures process capability and indicates whether output remains within specification limits.",
     "topic": "Quality in Manufacturing"
   },
@@ -172,10 +172,10 @@
     "id": "quality-in-manufacturing-q14",
     "question": "Which manufacturing methodology focuses on eliminating waste?",
     "options": [
-      "A. Six Sigma",
+      "A. GMP",
       "B. Lean Manufacturing",
-      "C. SPC",
-      "D. GMP"
+      "C. Six Sigma",
+      "D. SPC"
     ],
     "correctAnswer": "B",
     "explanation": "Lean Manufacturing removes waste such as waiting, defects, overproduction, inventory, and unnecessary motion.",
@@ -185,10 +185,10 @@
     "id": "quality-in-manufacturing-q15",
     "question": "Which defect type includes misaligned shafts and loose fasteners?",
     "options": [
-      "A. Material defect",
-      "B. Functional defect",
+      "A. Surface defect",
+      "B. Material defect",
       "C. Assembly defect",
-      "D. Surface defect"
+      "D. Functional defect"
     ],
     "correctAnswer": "C",
     "explanation": "These defects occur during assembly operations due to incorrect fitting or installation.",
@@ -198,12 +198,12 @@
     "id": "quality-in-manufacturing-q16",
     "question": "Boundary samples are mainly used to:",
     "options": [
-      "A. Increase production speed",
-      "B. Reduce visual inspection subjectivity",
-      "C. Measure dimensions",
-      "D. Replace inspectors"
+      "A. Measure dimensions",
+      "B. Replace inspectors",
+      "C. Increase production speed",
+      "D. Reduce visual inspection subjectivity"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Boundary samples define acceptable and reject conditions for comparison during inspection.",
     "topic": "Quality in Manufacturing"
   },
@@ -211,12 +211,12 @@
     "id": "quality-in-manufacturing-q17",
     "question": "What does FPY stand for in quality monitoring?",
     "options": [
-      "A. Final Product Yield",
-      "B. First Process Yield",
-      "C. First Pass Yield",
-      "D. Factory Performance Yield"
+      "A. First Pass Yield",
+      "B. Factory Performance Yield",
+      "C. First Process Yield",
+      "D. Final Product Yield"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "FPY indicates products passing inspection without rework.",
     "topic": "Quality in Manufacturing"
   },
@@ -224,12 +224,12 @@
     "id": "quality-in-manufacturing-q18",
     "question": "Which testing method intentionally destroys the sample?",
     "options": [
-      "A. Radiography Test",
-      "B. Dye Penetrant Test",
-      "C. Tensile Test",
+      "A. Dye Penetrant Test",
+      "B. Tensile Test",
+      "C. Radiography Test",
       "D. Ultrasonic Test"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "Tensile testing breaks the sample to determine strength and elongation properties.",
     "topic": "Quality in Manufacturing"
   },
@@ -251,11 +251,11 @@
     "question": "In SPC, control charts are mainly used to:",
     "options": [
       "A. Measure productivity",
-      "B. Monitor process variation",
+      "B. Track attendance",
       "C. Schedule production",
-      "D. Track attendance"
+      "D. Monitor process variation"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Control charts track process behavior and identify abnormal variations.",
     "topic": "Quality in Manufacturing"
   },
@@ -263,12 +263,12 @@
     "id": "quality-in-manufacturing-q21",
     "question": "Which quality system focuses on workplace organization?",
     "options": [
-      "A. Kaizen",
-      "B. Six Sigma",
-      "C. 5S",
-      "D. TQM"
+      "A. 5S",
+      "B. TQM",
+      "C. Kaizen",
+      "D. Six Sigma"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "5S = Sort, Set in Order, Shine, Standardize, Sustain; used for workplace organization.",
     "topic": "Quality in Manufacturing"
   },
@@ -276,12 +276,12 @@
     "id": "quality-in-manufacturing-q22",
     "question": "What is the purpose of Incoming Quality System (IQS)?",
     "options": [
-      "A. Customer complaint handling",
-      "B. Final dispatch inspection",
-      "C. Checking incoming materials quality",
-      "D. Machine maintenance"
+      "A. Machine maintenance",
+      "B. Checking incoming materials quality",
+      "C. Customer complaint handling",
+      "D. Final dispatch inspection"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "IQS verifies raw materials and purchased components before production starts.",
     "topic": "Quality in Manufacturing"
   },
@@ -289,12 +289,12 @@
     "id": "quality-in-manufacturing-q23",
     "question": "Which role is primarily responsible for supplier audits and supplier quality improvement?",
     "options": [
-      "A. CQE",
-      "B. SQE",
-      "C. QC Inspector",
-      "D. Metrology Engineer"
+      "A. Metrology Engineer",
+      "B. CQE",
+      "C. SQE",
+      "D. QC Inspector"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Supplier Quality Engineers handle supplier audits, approvals, and improvement activities.",
     "topic": "Quality in Manufacturing"
   },
@@ -302,12 +302,12 @@
     "id": "quality-in-manufacturing-q24",
     "question": "Which defect category includes paint runs, dents, scratches, and poor plating?",
     "options": [
-      "A. Functional defects",
-      "B. Material defects",
-      "C. Visual defects",
-      "D. Reliability defects"
+      "A. Material defects",
+      "B. Functional defects",
+      "C. Reliability defects",
+      "D. Visual defects"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "These defects affect appearance and can be visually identified.",
     "topic": "Quality in Manufacturing"
   },
@@ -315,12 +315,12 @@
     "id": "quality-in-manufacturing-q25",
     "question": "A customer requires ≤500 PPM, but supplier performance is 650 PPM. Result?",
     "options": [
-      "A. Requirement achieved",
-      "B. Acceptable variation",
-      "C. Requirement not met",
-      "D. Automatic approval"
+      "A. Requirement not met",
+      "B. Automatic approval",
+      "C. Acceptable variation",
+      "D. Requirement achieved"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "Supplier defect rate exceeded the customer limit.",
     "topic": "Quality in Manufacturing"
   },
@@ -328,9 +328,9 @@
     "id": "quality-in-manufacturing-q26",
     "question": "Which QC lab equipment measures dimensional accuracy with high precision?",
     "options": [
-      "A. Oscilloscope",
+      "A. Hipot Tester",
       "B. CMM",
-      "C. Hipot Tester",
+      "C. Oscilloscope",
       "D. LCR Meter"
     ],
     "correctAnswer": "B",
@@ -341,12 +341,12 @@
     "id": "quality-in-manufacturing-q27",
     "question": "Which quality improvement method uses Define–Measure–Analyze–Improve–Control?",
     "options": [
-      "A. PDCA",
-      "B. DMAIC",
-      "C. SPC",
-      "D. FMEA"
+      "A. FMEA",
+      "B. PDCA",
+      "C. DMAIC",
+      "D. SPC"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "DMAIC is the structured problem-solving approach used in Six Sigma.",
     "topic": "Quality in Manufacturing"
   },
@@ -354,12 +354,12 @@
     "id": "quality-in-manufacturing-q28",
     "question": "Which manufacturing quality target framework means Specific, Measurable, Achievable, Relevant, Time-bound?",
     "options": [
-      "A. DMAIC",
-      "B. SMART",
+      "A. QPC",
+      "B. DMAIC",
       "C. SPC",
-      "D. QPC"
+      "D. SMART"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "SMART helps create measurable and realistic quality objectives.",
     "topic": "Quality in Manufacturing"
   },
@@ -367,12 +367,12 @@
     "id": "quality-in-manufacturing-q29",
     "question": "Which inspection type evaluates dimensions such as hole diameter and thickness?",
     "options": [
-      "A. Functional inspection",
-      "B. Visual inspection",
-      "C. Dimensional inspection",
+      "A. Dimensional inspection",
+      "B. Functional inspection",
+      "C. Visual inspection",
       "D. Sampling inspection"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "Dimensional inspection verifies measurements against specifications.",
     "topic": "Quality in Manufacturing"
   },
@@ -380,12 +380,12 @@
     "id": "quality-in-manufacturing-q30",
     "question": "Which quality function verifies finished products before dispatch?",
     "options": [
-      "A. IQS",
-      "B. PQS",
-      "C. FQS",
-      "D. SPC"
+      "A. SPC",
+      "B. FQS",
+      "C. PQS",
+      "D. IQS"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "FQS (Final Quality System) ensures finished products meet all quality requirements before shipment.",
     "topic": "Quality in Manufacturing"
   }
