@@ -6,11 +6,11 @@ import {
   pickRandomQuestion,
 } from "@/lib/gameLogic";
 import { getSnakeAt, getLadderAt, TOTAL_CELLS } from "@/lib/boardConfig";
-import qualityInManufacturingQuestionsData from "@/data/quality-in-manufacturing-questions.json";
-import inhouseQualitySystemsQuestionsData from "@/data/inhouse-quality-systems-questions.json";
-import methodsEnsuringProductQualityQuestionsData from "@/data/methods-ensuring-product-quality-questions.json";
-import qualityTargetsQuestionsData from "@/data/quality-targets-questions.json";
-import peopleRolesIndustrialQualityQuestionsData from "@/data/people-roles-industrial-quality-questions.json";
+import leanManufacturingShopfloorProductivityQuestionsData from "@/data/lean-manufacturing-shopfloor-productivity-questions.json";
+import machineOperationsMaintenanceAwarenessQuestionsData from "@/data/machine-operations-maintenance-awareness-questions.json";
+import productionOperationsMaterialsFlowQuestionsData from "@/data/production-operations-materials-flow-questions.json";
+import qualityControlDefectPreventionQuestionsData from "@/data/quality-control-defect-prevention-questions.json";
+import shopfloorSafetyIndustrialEhsQuestionsData from "@/data/shopfloor-safety-industrial-ehs-questions.json";
 import {
   playTokenMove,
   playCorrectAnswer,
@@ -21,22 +21,23 @@ import {
 } from "@/lib/sounds";
 
 export type GameTopic =
-  | "quality-in-manufacturing"
-  | "inhouse-quality-systems"
-  | "methods-ensuring-product-quality"
-  | "quality-targets"
-  | "people-roles-industrial-quality";
+  | "lean-manufacturing-shopfloor-productivity"
+  | "machine-operations-maintenance-awareness"
+  | "production-operations-materials-flow"
+  | "quality-control-defect-prevention"
+  | "shopfloor-safety-industrial-ehs";
 
 const questionBank: Record<GameTopic, QuizQuestion[]> = {
-  "quality-in-manufacturing":
-    qualityInManufacturingQuestionsData as QuizQuestion[],
-  "inhouse-quality-systems":
-    inhouseQualitySystemsQuestionsData as QuizQuestion[],
-  "methods-ensuring-product-quality":
-    methodsEnsuringProductQualityQuestionsData as QuizQuestion[],
-  "quality-targets": qualityTargetsQuestionsData as QuizQuestion[],
-  "people-roles-industrial-quality":
-    peopleRolesIndustrialQualityQuestionsData as QuizQuestion[],
+  "lean-manufacturing-shopfloor-productivity":
+    leanManufacturingShopfloorProductivityQuestionsData as QuizQuestion[],
+  "machine-operations-maintenance-awareness":
+    machineOperationsMaintenanceAwarenessQuestionsData as QuizQuestion[],
+  "production-operations-materials-flow":
+    productionOperationsMaterialsFlowQuestionsData as QuizQuestion[],
+  "quality-control-defect-prevention":
+    qualityControlDefectPreventionQuestionsData as QuizQuestion[],
+  "shopfloor-safety-industrial-ehs":
+    shopfloorSafetyIndustrialEhsQuestionsData as QuizQuestion[],
 };
 
 const initialState: GameState = {
@@ -60,7 +61,7 @@ const initialState: GameState = {
 export function useGameState() {
   const [state, setState] = useState<GameState>(initialState);
   const [selectedTopic, setSelectedTopic] = useState<GameTopic>(
-    "quality-in-manufacturing"
+    "lean-manufacturing-shopfloor-productivity"
   );
   const movingRef = useRef(false);
 

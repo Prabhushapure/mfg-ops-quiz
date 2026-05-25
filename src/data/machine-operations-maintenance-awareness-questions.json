@@ -1,0 +1,392 @@
+[
+  {
+    "id": "machine-operations-maintenance-awareness-q1",
+    "question": "What is the primary purpose of machine maintenance?",
+    "options": [
+      "A. Prevent breakdowns and ensure reliable operation",
+      "B. Increase machine noise",
+      "C. Reduce production quality",
+      "D. Increase downtime"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Machine maintenance improves reliability, reduces failures, and ensures continuous production.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q2",
+    "question": "What does TPM stand for?",
+    "options": [
+      "A. Total Preventive Manufacturing",
+      "B. Total Productive Maintenance",
+      "C. Total Product Management",
+      "D. Technical Production Method"
+    ],
+    "correctAnswer": "B",
+    "explanation": "TPM aims to maximize equipment effectiveness through operator involvement and preventive maintenance.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q3",
+    "question": "What is preventive maintenance?",
+    "options": [
+      "A. Replacing machines daily",
+      "B. Repairing machines only after failure",
+      "C. Scheduled maintenance to prevent equipment failure",
+      "D. Ignoring machine condition"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Preventive maintenance is planned servicing to avoid breakdowns.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q4",
+    "question": "What should an operator check before starting a machine?",
+    "options": [
+      "A. Cafeteria schedule",
+      "B. Paint color of machine",
+      "C. Employee attendance",
+      "D. Machine condition and safety systems"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Pre-start checks ensure equipment safety and readiness.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q5",
+    "question": "Which of the following is a sign of abnormal machine operation?",
+    "options": [
+      "A. Unusual noise or excessive vibration",
+      "B. Proper lubrication",
+      "C. Smooth vibration",
+      "D. Normal operating temperature"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Excessive vibration or unusual sounds indicate machine issues.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q6",
+    "question": "What is lubrication used for in machines?",
+    "options": [
+      "A. Increase machine temperature",
+      "B. Reduce wear and friction between moving parts",
+      "C. Increase friction",
+      "D. Clean the factory floor only"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Lubrication reduces friction and extends equipment life.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q7",
+    "question": "What should be done before cleaning or servicing a machine?",
+    "options": [
+      "A. Continue production",
+      "B. Remove safety guards permanently",
+      "C. Apply Lockout/Tagout procedures",
+      "D. Increase machine speed"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Lockout/Tagout prevents accidental machine startup during maintenance.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q8",
+    "question": "What is machine downtime?",
+    "options": [
+      "A. Inspection approval period",
+      "B. Time when machine is operating normally",
+      "C. Employee break time",
+      "D. Time when machine is unavailable for production"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Downtime includes breakdowns, maintenance, or stoppages.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q9",
+    "question": "Which maintenance activity is performed by machine operators regularly?",
+    "options": [
+      "A. Autonomous maintenance",
+      "B. Production planning",
+      "C. Financial auditing",
+      "D. Material purchasing"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Operators perform basic maintenance such as cleaning and inspection.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q10",
+    "question": "What is the purpose of machine guards?",
+    "options": [
+      "A. Improve machine appearance",
+      "B. Prevent contact with moving parts",
+      "C. Reduce lubrication needs",
+      "D. Increase production speed"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Guards protect workers from injuries.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q11",
+    "question": "Which tool is commonly used to measure dimensions accurately?",
+    "options": [
+      "A. Paint brush",
+      "B. Hammer",
+      "C. Vernier caliper",
+      "D. Screwdriver only"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Vernier calipers provide accurate dimensional measurements.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q12",
+    "question": "What should an operator do if a machine warning light appears?",
+    "options": [
+      "A. Continue operating normally",
+      "B. Ignore it",
+      "C. Turn off the warning light manually",
+      "D. Report and investigate the issue"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Warning indicators must be investigated immediately.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q13",
+    "question": "What is a breakdown maintenance activity?",
+    "options": [
+      "A. Maintenance done after machine failure",
+      "B. Inventory counting process",
+      "C. Daily cleaning activity",
+      "D. Product inspection task"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Breakdown maintenance occurs after equipment failure.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q14",
+    "question": "Why is machine inspection important?",
+    "options": [
+      "A. Increases downtime intentionally",
+      "B. Helps detect problems before failure occurs",
+      "C. Reduces machine safety",
+      "D. Delays production unnecessarily"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Inspection supports early fault detection.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q15",
+    "question": "Which of the following is an example of unsafe machine operation?",
+    "options": [
+      "A. Following SOPs",
+      "B. Using machine guards",
+      "C. Operating without PPE",
+      "D. Reporting abnormalities"
+    ],
+    "correctAnswer": "C",
+    "explanation": "PPE protects operators from hazards.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q16",
+    "question": "What does CNC stand for?",
+    "options": [
+      "A. Central Network Control",
+      "B. Central Numerical Control",
+      "C. Computerized Network Circuit",
+      "D. Computer Numerical Control"
+    ],
+    "correctAnswer": "D",
+    "explanation": "CNC machines operate using computer-controlled instructions.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q17",
+    "question": "What is the purpose of coolant in machining operations?",
+    "options": [
+      "A. Reduce heat and improve cutting performance",
+      "B. Reduce operator visibility",
+      "C. Increase machine vibration",
+      "D. Increase tool wear"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Coolants reduce temperature and improve tool life.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q18",
+    "question": "What should operators do after completing machine operation?",
+    "options": [
+      "A. Remove safety labels",
+      "B. Follow proper shutdown procedures",
+      "C. Leave machine running unattended",
+      "D. Ignore cleaning requirements"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Proper shutdown prevents accidents and equipment damage.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q19",
+    "question": "What is tool wear?",
+    "options": [
+      "A. Machine painting process",
+      "B. Tool becoming sharper over time",
+      "C. Gradual deterioration of cutting tools during use",
+      "D. Tool storage method"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Tool wear reduces cutting performance.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q20",
+    "question": "Why is vibration monitoring important?",
+    "options": [
+      "A. Improves machine color",
+      "B. Reduces inspections",
+      "C. Increases inventory",
+      "D. Detects abnormal machine conditions"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Vibration changes indicate faults.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q21",
+    "question": "Which maintenance approach aims to predict failures before they happen?",
+    "options": [
+      "A. Predictive maintenance",
+      "B. Manual inspection avoidance",
+      "C. Emergency repair only",
+      "D. Breakdown maintenance"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Predictive maintenance uses condition monitoring to prevent failures.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q22",
+    "question": "What is the purpose of Standard Operating Procedures (SOPs)?",
+    "options": [
+      "A. Reduce communication",
+      "B. Provide consistent instructions for safe operation",
+      "C. Eliminate maintenance",
+      "D. Increase process variation"
+    ],
+    "correctAnswer": "B",
+    "explanation": "SOPs standardize machine operation and safety.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q23",
+    "question": "Which action helps improve machine life?",
+    "options": [
+      "A. Operating continuously without checks",
+      "B. Overloading the machine",
+      "C. Regular cleaning and maintenance",
+      "D. Ignoring lubrication schedules"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Routine care increases equipment lifespan.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q24",
+    "question": "What should be done if a machine produces defective parts?",
+    "options": [
+      "A. Continue production without reporting",
+      "B. Increase machine speed",
+      "C. Hide the defective parts",
+      "D. Stop and report the issue for investigation"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Production issues require immediate investigation.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q25",
+    "question": "What is autonomous maintenance?",
+    "options": [
+      "A. Basic maintenance tasks carried out by machine operators",
+      "B. Financial planning activity",
+      "C. Production scheduling process",
+      "D. Maintenance performed only by external technicians"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Operators perform routine maintenance activities.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q26",
+    "question": "Why are maintenance records important?",
+    "options": [
+      "A. Increase paperwork only",
+      "B. Help track equipment history and recurring issues",
+      "C. Reduce communication",
+      "D. Delay repairs"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Records support maintenance planning and analysis.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q27",
+    "question": "Which of the following indicates proper machine operation?",
+    "options": [
+      "A. Excessive heat and smoke",
+      "B. Unusual sounds",
+      "C. Stable performance within operating limits",
+      "D. Frequent breakdowns"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Stable operation indicates healthy equipment.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q28",
+    "question": "What should be checked before replacing a machine tool?",
+    "options": [
+      "A. Cafeteria timing",
+      "B. Packaging material",
+      "C. Employee attendance",
+      "D. Correct tool specification and condition"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct tools maintain machining quality.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q29",
+    "question": "Why is housekeeping around machines important?",
+    "options": [
+      "A. Prevents slips, accidents, and contamination",
+      "B. Increases machine vibration",
+      "C. Reduces production visibility",
+      "D. Delays maintenance"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Good housekeeping improves safety and efficiency.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  },
+  {
+    "id": "machine-operations-maintenance-awareness-q30",
+    "question": "What is the ultimate goal of maintenance awareness on the shopfloor?",
+    "options": [
+      "A. Eliminate operator involvement",
+      "B. Ensure safe, reliable, and efficient machine operation",
+      "C. Increase machine failures",
+      "D. Reduce productivity"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Maintenance awareness improves safety, uptime, and productivity.",
+    "topic": "Machine Operations & Maintenance Awareness"
+  }
+]

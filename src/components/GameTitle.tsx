@@ -7,7 +7,7 @@ export default function GameTitle({ className = "" }: GameTitleProps) {
     <h1
       className={`font-heading text-4xl sm:text-5xl font-semibold text-white tracking-tight text-center whitespace-nowrap ${className}`}
     >
-      INDUSTRY <span className="text-safety-yellow">QUALITY QUIZ</span>
+      MANUFACTURING <span className="text-safety-yellow">OPERATIONS QUIZ</span>
     </h1>
   );
 }

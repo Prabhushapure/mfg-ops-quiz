@@ -1,0 +1,392 @@
+[
+  {
+    "id": "production-operations-materials-flow-q1",
+    "question": "What is the primary objective of production operations?",
+    "options": [
+      "A. Convert raw materials into finished products efficiently",
+      "B. Reduce employee communication",
+      "C. Increase storage space only",
+      "D. Increase paperwork"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Production operations focus on transforming raw materials into finished products efficiently while meeting quality and delivery targets.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q2",
+    "question": "What does WIP stand for?",
+    "options": [
+      "A. Work Instruction Program",
+      "B. Work In Process",
+      "C. Worker Improvement Plan",
+      "D. Warehouse Inspection Procedure"
+    ],
+    "correctAnswer": "B",
+    "explanation": "WIP refers to partially completed products currently undergoing manufacturing.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q3",
+    "question": "What is the purpose of a production schedule?",
+    "options": [
+      "A. Increase inventory waste",
+      "B. Track employee salaries",
+      "C. Plan and control manufacturing activities",
+      "D. Reduce machine usage"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Production schedules organize operations, materials, and resources to meet demand.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q4",
+    "question": "Which system produces items only when needed?",
+    "options": [
+      "A. Push System",
+      "B. Batch Delay System",
+      "C. Overstock System",
+      "D. Pull System"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Pull systems manufacture products based on actual customer demand.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q5",
+    "question": "What does FIFO stand for?",
+    "options": [
+      "A. First In First Out",
+      "B. Finished Inventory Flow Operation",
+      "C. Final Inspection First Output",
+      "D. Fast Input Fast Output"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FIFO ensures older materials are used before newer stock.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q6",
+    "question": "Why is FIFO important in manufacturing?",
+    "options": [
+      "A. Delays production",
+      "B. Reduces material aging and obsolescence",
+      "C. Prevents proper storage",
+      "D. Increases waiting time"
+    ],
+    "correctAnswer": "B",
+    "explanation": "FIFO avoids expiry, deterioration, and excess inventory.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q7",
+    "question": "What is a work instruction?",
+    "options": [
+      "A. Safety alarm system",
+      "B. Machine breakdown report",
+      "C. Step-by-step guide for performing a task",
+      "D. Financial report"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Work instructions standardize processes and reduce errors.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q8",
+    "question": "Which document specifies the sequence of manufacturing operations?",
+    "options": [
+      "A. Salary statement",
+      "B. Fire permit",
+      "C. Attendance register",
+      "D. Routing sheet"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Routing sheets define process sequence and operation flow.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q9",
+    "question": "What is material handling?",
+    "options": [
+      "A. Movement, storage, and control of materials",
+      "B. Financial inventory tracking",
+      "C. Machine programming only",
+      "D. Managing employee attendance"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Material handling ensures efficient movement and storage.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q10",
+    "question": "Which equipment is commonly used for moving pallets in a factory?",
+    "options": [
+      "A. Drill machine",
+      "B. Forklift",
+      "C. Grinder",
+      "D. Compressor"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Forklifts transport pallets and materials safely.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q11",
+    "question": "What is the purpose of Kanban in material flow?",
+    "options": [
+      "A. Increase storage area",
+      "B. Increase paperwork",
+      "C. Control inventory and replenish materials based on demand",
+      "D. Delay production"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Kanban supports pull systems and inventory control.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q12",
+    "question": "What is line balancing?",
+    "options": [
+      "A. Inventory counting process",
+      "B. Maintenance scheduling",
+      "C. Balancing machine colors",
+      "D. Equal distribution of workload across operations"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Line balancing improves flow and reduces idle time.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q13",
+    "question": "What is a bottleneck?",
+    "options": [
+      "A. Process step limiting overall production capacity",
+      "B. Fastest process in production",
+      "C. Storage area for finished goods",
+      "D. Safety inspection zone"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Bottlenecks restrict production output.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q14",
+    "question": "What is the purpose of inventory management?",
+    "options": [
+      "A. Increase excess stock",
+      "B. Ensure materials are available while minimizing excess inventory",
+      "C. Delay customer deliveries",
+      "D. Reduce production visibility"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Inventory management balances availability and cost.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q15",
+    "question": "What does “cycle time” refer to?",
+    "options": [
+      "A. Time spent in meetings",
+      "B. Machine maintenance duration only",
+      "C. Time taken to complete one production cycle or operation",
+      "D. Employee break time"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Cycle time measures operation duration.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q16",
+    "question": "Which of the following is a finished good?",
+    "options": [
+      "A. Semi-assembled component",
+      "B. Raw steel sheet",
+      "C. Packaging material only",
+      "D. Completed product ready for shipment"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Finished goods are completed products ready for customers.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q17",
+    "question": "What is the purpose of production monitoring?",
+    "options": [
+      "A. Track progress and identify issues during production",
+      "B. Eliminate inspections",
+      "C. Ignore delays",
+      "D. Reduce communication"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Monitoring helps detect delays and issues early.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q18",
+    "question": "What is downtime?",
+    "options": [
+      "A. Material transport duration",
+      "B. Time when equipment or production is not operating",
+      "C. Inventory counting period",
+      "D. Extra overtime hours"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Downtime reduces productivity and output.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q19",
+    "question": "Which of the following helps improve material traceability?",
+    "options": [
+      "A. Unlabeled storage",
+      "B. Mixing different batches",
+      "C. Barcode or RFID systems",
+      "D. Random storage locations"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Barcode and RFID improve tracking accuracy.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q20",
+    "question": "What is an assembly line?",
+    "options": [
+      "A. Storage area for tools",
+      "B. Employee training center",
+      "C. Machine repair room",
+      "D. Sequence of workstations where products are assembled step-by-step"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Assembly lines support efficient production flow.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q21",
+    "question": "Why is proper material storage important?",
+    "options": [
+      "A. Prevents damage and improves accessibility",
+      "B. Increases confusion",
+      "C. Reduces quality checks",
+      "D. Delays production"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Proper storage protects materials and improves efficiency.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q22",
+    "question": "What is a dispatch area?",
+    "options": [
+      "A. Safety equipment room",
+      "B. Area where finished goods are prepared for shipment",
+      "C. Employee cafeteria",
+      "D. Machine maintenance zone"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Dispatch areas manage outgoing products.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q23",
+    "question": "What is overproduction?",
+    "options": [
+      "A. Delayed production planning",
+      "B. Producing fewer items than required",
+      "C. Producing more items than customer demand",
+      "D. Producing defective products only"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Overproduction creates waste and excess inventory.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q24",
+    "question": "What is the role of a warehouse in material flow?",
+    "options": [
+      "A. Increase production defects",
+      "B. Conduct machine repairs only",
+      "C. Replace production lines",
+      "D. Store and manage raw materials and finished goods"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Warehouses support storage and supply flow.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q25",
+    "question": "Which production method is commonly used for high-volume manufacturing?",
+    "options": [
+      "A. Assembly line production",
+      "B. Manual inspection process",
+      "C. Job shop production",
+      "D. Prototype production only"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Assembly lines support large-scale production.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q26",
+    "question": "What should operators do when materials are unavailable?",
+    "options": [
+      "A. Use incorrect materials",
+      "B. Report shortages immediately",
+      "C. Ignore the issue",
+      "D. Continue production without materials"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Immediate reporting prevents production delays.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q27",
+    "question": "What is takt time?",
+    "options": [
+      "A. Employee training schedule",
+      "B. Machine repair duration",
+      "C. Production rate required to meet customer demand",
+      "D. Inventory counting cycle"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Takt time aligns output with demand.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q28",
+    "question": "Which activity adds value in manufacturing?",
+    "options": [
+      "A. Rework of defective parts",
+      "B. Waiting for materials",
+      "C. Excess transportation",
+      "D. Transforming raw materials into finished products"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Value-added activities directly contribute to the final product.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q29",
+    "question": "What is the purpose of visual management in production?",
+    "options": [
+      "A. Improve visibility of status, flow, and issues",
+      "B. Increase paperwork",
+      "C. Reduce communication",
+      "D. Decorate the workplace"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Visual management improves communication and process visibility.",
+    "topic": "Production Operations & Materials Flow"
+  },
+  {
+    "id": "production-operations-materials-flow-q30",
+    "question": "Why is smooth material flow important?",
+    "options": [
+      "A. Causes delays and bottlenecks",
+      "B. Improves efficiency and reduces waste",
+      "C. Increases unnecessary inventory",
+      "D. Reduces productivity"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Smooth flow reduces delays, waste, and inventory buildup.",
+    "topic": "Production Operations & Materials Flow"
+  }
+]

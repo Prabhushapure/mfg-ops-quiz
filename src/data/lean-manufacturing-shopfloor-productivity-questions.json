@@ -1,0 +1,392 @@
+[
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q1",
+    "question": "What is the primary goal of Lean Manufacturing?",
+    "options": [
+      "A. Reduce waste and improve efficiency",
+      "B. Reduce employee count",
+      "C. Increase inventory",
+      "D. Increase machine speed only"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Lean Manufacturing focuses on eliminating waste and improving productivity and efficiency.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q2",
+    "question": "Which of the following is NOT one of the traditional 7 wastes?",
+    "options": [
+      "A. Transportation",
+      "B. Innovation",
+      "C. Waiting",
+      "D. Overproduction"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The traditional 7 wastes include Overproduction, Waiting, Transportation, Overprocessing, Inventory, Motion, and Defects.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q3",
+    "question": "What does “5S” primarily focus on?",
+    "options": [
+      "A. Financial accounting",
+      "B. Product marketing",
+      "C. Workplace organization",
+      "D. Machine programming"
+    ],
+    "correctAnswer": "C",
+    "explanation": "5S improves workplace organization, cleanliness, and efficiency.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q4",
+    "question": "Which “5S” step means arranging items for easy access?",
+    "options": [
+      "A. Sort",
+      "B. Sustain",
+      "C. Shine",
+      "D. Set in Order"
+    ],
+    "correctAnswer": "D",
+    "explanation": "“Set in Order” arranges tools and materials for quick and efficient access.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q5",
+    "question": "What is the purpose of Kaizen?",
+    "options": [
+      "A. Continuous improvement",
+      "B. Eliminate training",
+      "C. Reduce inspections",
+      "D. Increase overtime"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Kaizen promotes continuous small improvements in processes and quality.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q6",
+    "question": "What does OEE stand for?",
+    "options": [
+      "A. Overall Equipment Efficiency",
+      "B. Overall Equipment Effectiveness",
+      "C. Operational Equipment Efficiency",
+      "D. Operational Engineering Evaluation"
+    ],
+    "correctAnswer": "B",
+    "explanation": "OEE measures manufacturing effectiveness using Availability, Performance, and Quality.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q7",
+    "question": "Which factor is NOT part of OEE calculation?",
+    "options": [
+      "A. Quality",
+      "B. Performance",
+      "C. Employee Salary",
+      "D. Availability"
+    ],
+    "correctAnswer": "C",
+    "explanation": "OEE = Availability × Performance × Quality.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q8",
+    "question": "What is Takt Time?",
+    "options": [
+      "A. Machine downtime",
+      "B. Time taken for inspection",
+      "C. Time to repair equipment",
+      "D. Rate at which products must be produced to meet customer demand"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Takt Time aligns production speed with customer demand.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q9",
+    "question": "Which waste refers to excess materials or products?",
+    "options": [
+      "A. Inventory",
+      "B. Defects",
+      "C. Waiting",
+      "D. Motion"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Excess inventory increases storage costs and waste.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q10",
+    "question": "Which Lean tool uses cards or signals to control material flow?",
+    "options": [
+      "A. SMED",
+      "B. Kanban",
+      "C. Andon",
+      "D. Poka-Yoke"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Kanban uses visual signals to control production and material movement.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q11",
+    "question": "What is the purpose of Visual Management?",
+    "options": [
+      "A. Decorate the shopfloor",
+      "B. Increase paperwork",
+      "C. Improve communication and visibility of status",
+      "D. Reduce machine speed"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Visual Management provides quick understanding of process conditions.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q12",
+    "question": "Which waste occurs when employees or machines are idle?",
+    "options": [
+      "A. Inventory",
+      "B. Transportation",
+      "C. Overprocessing",
+      "D. Waiting"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Waiting waste occurs during idle time due to delays.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q13",
+    "question": "What does FIFO stand for?",
+    "options": [
+      "A. First In First Out",
+      "B. Finished Input Finished Output",
+      "C. Fast In Fast Out",
+      "D. First Inspection First Output"
+    ],
+    "correctAnswer": "A",
+    "explanation": "FIFO ensures older materials are used before newer ones.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q14",
+    "question": "Which Lean principle focuses on producing only what is needed?",
+    "options": [
+      "A. Batch Production",
+      "B. Pull System",
+      "C. Rework System",
+      "D. Push System"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Pull systems produce based on actual customer demand.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q15",
+    "question": "What is the main purpose of Standard Work?",
+    "options": [
+      "A. Delay production",
+      "B. Increase variation",
+      "C. Ensure consistent processes",
+      "D. Increase inventory"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Standard Work reduces variation and improves consistency.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q16",
+    "question": "Which waste involves unnecessary movement of people?",
+    "options": [
+      "A. Transportation",
+      "B. Inventory",
+      "C. Waiting",
+      "D. Motion"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Motion waste includes unnecessary movement by workers.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q17",
+    "question": "What does SMED aim to reduce?",
+    "options": [
+      "A. Setup and changeover time",
+      "B. Material quality",
+      "C. Operator count",
+      "D. Machine size"
+    ],
+    "correctAnswer": "A",
+    "explanation": "SMED (Single Minute Exchange of Dies) reduces setup time.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q18",
+    "question": "Which Lean concept helps identify the root cause of problems?",
+    "options": [
+      "A. FIFO",
+      "B. 5 Why Analysis",
+      "C. JIT",
+      "D. Kanban"
+    ],
+    "correctAnswer": "B",
+    "explanation": "5 Why analysis repeatedly asks “Why?” to find root causes.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q19",
+    "question": "What is the purpose of an Andon system?",
+    "options": [
+      "A. Increase inventory",
+      "B. Store materials",
+      "C. Signal abnormalities or production issues",
+      "D. Measure machine speed"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Andon alerts operators about production issues.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q20",
+    "question": "What is overproduction waste?",
+    "options": [
+      "A. Producing defective products",
+      "B. Producing slowly",
+      "C. Producing with low quality",
+      "D. Producing more than required"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Overproduction creates unnecessary inventory and costs.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q21",
+    "question": "What does “JIT” stand for?",
+    "options": [
+      "A. Just In Time",
+      "B. Justified Inventory Tracking",
+      "C. Joint Inspection Technique",
+      "D. Job Inspection Tool"
+    ],
+    "correctAnswer": "A",
+    "explanation": "JIT minimizes inventory by producing only when needed.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q22",
+    "question": "Which of the following is an example of Poka-Yoke?",
+    "options": [
+      "A. Large inventory storage",
+      "B. Color-coded connectors preventing wrong assembly",
+      "C. Delayed inspections",
+      "D. Extra paperwork"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Poka-Yoke prevents errors through mistake-proofing.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q23",
+    "question": "What is a bottleneck in production?",
+    "options": [
+      "A. A quality inspection station",
+      "B. The fastest operation in a process",
+      "C. A process step limiting overall output",
+      "D. A safety hazard"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Bottlenecks reduce total production flow.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q24",
+    "question": "Which Lean activity focuses on cleaning the workplace?",
+    "options": [
+      "A. Sort",
+      "B. Sustain",
+      "C. Standardize",
+      "D. Shine"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Shine maintains cleanliness and workplace condition.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q25",
+    "question": "Which waste is caused by unnecessary movement of materials?",
+    "options": [
+      "A. Transportation",
+      "B. Defects",
+      "C. Overprocessing",
+      "D. Waiting"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Transportation waste adds no value to the product.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q26",
+    "question": "What is the benefit of Line Balancing?",
+    "options": [
+      "A. Reduced workflow efficiency",
+      "B. Improved production flow and reduced idle time",
+      "C. Increased machine breakdowns",
+      "D. Uneven workload distribution"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Line balancing distributes workload evenly.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q27",
+    "question": "Which Lean method helps reduce inventory levels?",
+    "options": [
+      "A. Push Production",
+      "B. Rework System",
+      "C. Just In Time",
+      "D. Batch Delays"
+    ],
+    "correctAnswer": "C",
+    "explanation": "JIT reduces excess inventory and storage needs.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q28",
+    "question": "What is the purpose of Value Stream Mapping?",
+    "options": [
+      "A. Increase production cost",
+      "B. Track employee attendance",
+      "C. Monitor payroll",
+      "D. Analyze material and information flow"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Value Stream Mapping identifies waste and process improvements.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q29",
+    "question": "Which of the following is an example of overprocessing waste?",
+    "options": [
+      "A. Double inspection without need",
+      "B. Excess inventory",
+      "C. Machine breakdown",
+      "D. Waiting for materials"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Overprocessing performs unnecessary work that adds no value.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  },
+  {
+    "id": "lean-manufacturing-shopfloor-productivity-q30",
+    "question": "What is the final “S” in 5S?",
+    "options": [
+      "A. Secure",
+      "B. Sustain",
+      "C. Support",
+      "D. Simplify"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Sustain ensures long-term maintenance of 5S practices.",
+    "topic": "Lean Manufacturing & Shopfloor Productivity"
+  }
+]

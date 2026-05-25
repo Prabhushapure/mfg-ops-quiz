@@ -89,18 +89,20 @@ export default function StartScreen({
             disabled={disableTopicSelection}
             className="w-full rounded-lg bg-navy-800 border border-navy-600 text-white px-3 py-2 outline-none focus:ring-2 focus:ring-safety-yellow disabled:opacity-60 disabled:cursor-not-allowed"
           >
-            <option value="quality-in-manufacturing">
-              Quality in Manufacturing
+            <option value="lean-manufacturing-shopfloor-productivity">
+              Lean Manufacturing & Shopfloor Productivity
             </option>
-            <option value="inhouse-quality-systems">
-              Inhouse Quality Systems
+            <option value="machine-operations-maintenance-awareness">
+              Machine Operations & Maintenance Awareness
             </option>
-            <option value="methods-ensuring-product-quality">
-              Methods in Ensuring Product Quality
+            <option value="production-operations-materials-flow">
+              Production Operations & Materials Flow
             </option>
-            <option value="quality-targets">Quality Targets</option>
-            <option value="people-roles-industrial-quality">
-              People Roles in Industrial Quality
+            <option value="quality-control-defect-prevention">
+              Quality Control & Defect Prevention
+            </option>
+            <option value="shopfloor-safety-industrial-ehs">
+              Shopfloor Safety & Industrial EHS
             </option>
           </select>
         </div>

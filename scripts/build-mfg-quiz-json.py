@@ -1,57 +1,56 @@
-"""Convert MFG Quality Quiz docx files to game JSON question banks."""
+"""Convert MFG Shopfloor Quiz docx files to game JSON question banks."""
 from __future__ import annotations
 
+import importlib.util
 import json
 import re
 import zipfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-from shuffle_quiz_options import shuffle_question
+_shuffle_spec = importlib.util.spec_from_file_location(
+    "shuffle_quiz_options",
+    Path(__file__).resolve().parent / "shuffle-quiz-options.py",
+)
+_shuffle_mod = importlib.util.module_from_spec(_shuffle_spec)
+_shuffle_spec.loader.exec_module(_shuffle_mod)
+shuffle_question = _shuffle_mod.shuffle_question
 
-DOWNLOADS = Path(r"C:\Users\hi\Downloads\MFG Quality Quiz")
+DOWNLOADS = Path(r"C:\Users\hi\Downloads\MFG Shopfloor Quiz")
 OUT_DIR = Path(__file__).resolve().parent.parent / "src" / "data"
 
 W_NS = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
 
 TOPICS = [
     {
-        "slug": "quality-in-manufacturing",
-        "label": "Quality in Manufacturing",
-        "sources": [
-            {
-                "file": "MFG Quality MCQ Quiz.docx",
-                "parser": "mcq",
-            },
-            {
-                "file": "MFG Quiz - Quality in Manufacturing.docx",
-                "parser": "structured",
-            },
-        ],
-    },
-    {
-        "slug": "inhouse-quality-systems",
-        "file": "MFG Quiz - Inhouse Quality Systems.docx",
-        "label": "Inhouse Quality Systems",
+        "slug": "lean-manufacturing-shopfloor-productivity",
+        "file": "MFG Quiz - Lean Manufacturing & Shopfloor Productivity.docx",
+        "label": "Lean Manufacturing & Shopfloor Productivity",
         "parser": "structured",
     },
     {
-        "slug": "methods-ensuring-product-quality",
-        "file": "MFG Quiz - Methods in Ensuring Product Quality.docx",
-        "label": "Methods in Ensuring Product Quality",
+        "slug": "machine-operations-maintenance-awareness",
+        "file": "MFG Quiz - Machine Operations & Maintenance Awareness.docx",
+        "label": "Machine Operations & Maintenance Awareness",
         "parser": "structured",
     },
     {
-        "slug": "quality-targets",
-        "file": "MFG Quiz - Quality Targets.docx",
-        "label": "Quality Targets",
+        "slug": "production-operations-materials-flow",
+        "file": "MFG Quiz - Production Operations & Materials Flow.docx",
+        "label": "Production Operations & Materials Flow",
         "parser": "structured",
     },
     {
-        "slug": "people-roles-industrial-quality",
-        "file": "MFG Quiz - People Roles in Industrial Quality.docx",
-        "label": "People Roles in Industrial Quality",
+        "slug": "quality-control-defect-prevention",
+        "file": "MFG Quiz - Quality Control & Defect Prevention.docx",
+        "label": "Quality Control & Defect Prevention",
         "parser": "structured",
+    },
+    {
+        "slug": "shopfloor-safety-industrial-ehs",
+        "file": "MFG Quiz - Shopfloor Safety & Inductrial EHS.docx",
+        "label": "Shopfloor Safety & Industrial EHS",
+        "parser": "dot_options",
     },
 ]
 
@@ -124,6 +123,68 @@ def parse_structured(text: str, topic_label: str, slug: str) -> list[dict]:
         if expl_match:
             explanation = re.sub(r"\s+", " ", expl_match.group(1).strip())
             explanation = re.sub(r"Calculation:.*", "", explanation).strip()
+
+        options = [
+            f"{letter}. {re.sub(r'\\s+', ' ', opt.strip())}"
+            for letter, opt in option_lines[:4]
+        ]
+
+        questions.append(
+            {
+                "id": f"{slug}-q{qnum}",
+                "question": question,
+                "options": options,
+                "correctAnswer": correct,
+                "explanation": explanation or f"The correct answer is {correct}.",
+                "topic": topic_label,
+            }
+        )
+
+    return questions
+
+
+def parse_dot_options(text: str, topic_label: str, slug: str) -> list[dict]:
+    text = re.sub(r"^.*?(?=\d+\.\s)", "", text, count=1, flags=re.DOTALL)
+    blocks = re.split(r"(?=\d+\.\s)", text)
+    questions: list[dict] = []
+    qnum = 0
+
+    for block in blocks:
+        block = block.strip()
+        if not block:
+            continue
+        m = re.match(r"(\d+)\.\s*(.+?)(?=A\.\s)", block, re.DOTALL)
+        if not m:
+            continue
+        qnum += 1
+        question = re.sub(r"\s+", " ", m.group(2).strip())
+
+        opts_match = re.search(r"(A\.\s.+?)(?=Answer:)", block, re.DOTALL)
+        if not opts_match:
+            continue
+        option_lines = re.findall(
+            r"([A-D])\.\s*(.+?)(?=[A-D]\.|Answer:|$)",
+            opts_match.group(1),
+            re.DOTALL,
+        )
+        if len(option_lines) < 4:
+            continue
+
+        ans_match = re.search(
+            r"Answer:\s*([A-D])\)\s*(.+?)(?=Explanation:|$)",
+            block,
+            re.DOTALL,
+        )
+        if not ans_match:
+            ans_match = re.search(r"Answer:\s*([A-D])\)", block)
+        if not ans_match:
+            continue
+        correct = ans_match.group(1)
+
+        expl_match = re.search(r"Explanation:\s*(.+?)(?=\d+\.\s|$)", block, re.DOTALL)
+        explanation = ""
+        if expl_match:
+            explanation = re.sub(r"\s+", " ", expl_match.group(1).strip())
 
         options = [
             f"{letter}. {re.sub(r'\\s+', ' ', opt.strip())}"
@@ -228,8 +289,11 @@ def parse_topic_questions(topic: dict) -> list[dict]:
 
     path = DOWNLOADS / topic["file"]
     text = read_docx_text(path)
-    if topic["parser"] == "mcq":
+    parser = topic["parser"]
+    if parser == "mcq":
         return parse_mcq(text, label, slug)
+    if parser == "dot_options":
+        return parse_dot_options(text, label, slug)
     return parse_structured(text, label, slug)
 
 

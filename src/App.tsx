@@ -17,12 +17,22 @@ import { assetUrl } from "@/lib/assets";
 import type { GameTopic } from "@/hooks/useGameState";
 
 const TOPIC_LABEL_TO_KEY: Record<string, GameTopic> = {
-  "manufacturing quality induction": "quality-in-manufacturing",
-  "quality in manufacturing": "quality-in-manufacturing",
-  "inhouse quality systems": "inhouse-quality-systems",
-  "methods in ensuring product quality": "methods-ensuring-product-quality",
-  "quality targets": "quality-targets",
-  "people roles in industrial quality": "people-roles-industrial-quality",
+  "lean manufacturing & shopfloor productivity":
+    "lean-manufacturing-shopfloor-productivity",
+  "lean manufacturing and shopfloor productivity":
+    "lean-manufacturing-shopfloor-productivity",
+  "machine operations & maintenance awareness":
+    "machine-operations-maintenance-awareness",
+  "machine operations and maintenance awareness":
+    "machine-operations-maintenance-awareness",
+  "production operations & materials flow":
+    "production-operations-materials-flow",
+  "production operations and materials flow":
+    "production-operations-materials-flow",
+  "quality control & defect prevention": "quality-control-defect-prevention",
+  "quality control and defect prevention": "quality-control-defect-prevention",
+  "shopfloor safety & industrial ehs": "shopfloor-safety-industrial-ehs",
+  "shopfloor safety and industrial ehs": "shopfloor-safety-industrial-ehs",
 };
 
 const PARTNER_LICENSE_URL =
@@ -32,11 +42,15 @@ const PLAY_COMPLETE_API =
   "https://antiz-digital.com/GamifiedLearning/api/play/complete";
 
 const TOPIC_KEY_TO_LABEL: Record<GameTopic, string> = {
-  "quality-in-manufacturing": "Quality in Manufacturing",
-  "inhouse-quality-systems": "Inhouse Quality Systems",
-  "methods-ensuring-product-quality": "Methods in Ensuring Product Quality",
-  "quality-targets": "Quality Targets",
-  "people-roles-industrial-quality": "People Roles in Industrial Quality",
+  "lean-manufacturing-shopfloor-productivity":
+    "Lean Manufacturing & Shopfloor Productivity",
+  "machine-operations-maintenance-awareness":
+    "Machine Operations & Maintenance Awareness",
+  "production-operations-materials-flow":
+    "Production Operations & Materials Flow",
+  "quality-control-defect-prevention":
+    "Quality Control & Defect Prevention",
+  "shopfloor-safety-industrial-ehs": "Shopfloor Safety & Industrial EHS",
 };
 
 function parseTopicFromUrlParam(topicParam: string | null): GameTopic | null {

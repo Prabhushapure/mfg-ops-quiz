@@ -21,7 +21,7 @@ export default function GameHeader({
       <div className="max-w-4xl mx-auto grid grid-cols-3 items-center gap-2 min-h-10">
         {/* Title — left */}
         <h1 className="font-heading font-semibold text-xs sm:text-lg text-white tracking-tight text-left leading-tight">
-          INDUSTRY <span className="text-safety-yellow">QUALITY QUIZ</span>
+          MANUFACTURING <span className="text-safety-yellow">OPERATIONS QUIZ</span>
         </h1>
 
         {/* Timer — center */}

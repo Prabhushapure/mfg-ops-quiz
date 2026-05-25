@@ -1,0 +1,392 @@
+[
+  {
+    "id": "shopfloor-safety-industrial-ehs-q1",
+    "question": "What does PPE stand for?",
+    "options": [
+      "A. Personal Protective Equipment",
+      "B. Process Prevention Equipment",
+      "C. Personal Production Equipment",
+      "D. Production Protection Equipment"
+    ],
+    "correctAnswer": "A",
+    "explanation": "PPE includes safety items such as helmets, gloves, goggles, and shoes used to protect workers from workplace hazards.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q2",
+    "question": "Which PPE is commonly used to protect the eyes?",
+    "options": [
+      "A. Safety shoes",
+      "B. Safety goggles",
+      "C. Ear plugs",
+      "D. Safety gloves"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Safety goggles protect eyes from dust, sparks, chemicals, and flying particles.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q3",
+    "question": "What is the primary purpose of Lockout/Tagout (LOTO)?",
+    "options": [
+      "A. Improve machine appearance",
+      "B. Increase production speed",
+      "C. Prevent accidental machine startup during maintenance",
+      "D. Reduce electricity bills"
+    ],
+    "correctAnswer": "C",
+    "explanation": "LOTO prevents machines from unexpectedly starting during servicing activities.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q4",
+    "question": "Which fire extinguisher is suitable for electrical fires?",
+    "options": [
+      "A. Water extinguisher",
+      "B. Sand bucket only",
+      "C. Foam extinguisher",
+      "D. CO₂ extinguisher"
+    ],
+    "correctAnswer": "D",
+    "explanation": "CO₂ extinguishers are safe for electrical equipment because they do not conduct electricity.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q5",
+    "question": "What should you do first when noticing a fire on the shopfloor?",
+    "options": [
+      "A. Raise the alarm and inform emergency personnel",
+      "B. Run without informing anyone",
+      "C. Ignore it",
+      "D. Continue working"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Immediate reporting helps activate emergency response procedures quickly.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q6",
+    "question": "What is the safest action when a chemical spill occurs?",
+    "options": [
+      "A. Ignore it",
+      "B. Report and isolate the area immediately",
+      "C. Wash it with water without instructions",
+      "D. Walk through it carefully"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Chemical spills can be hazardous and must be controlled immediately.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q7",
+    "question": "Why are machine guards important?",
+    "options": [
+      "A. Reduce maintenance costs",
+      "B. Improve machine color",
+      "C. Prevent contact with moving parts",
+      "D. Increase machine speed"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Guards prevent injuries from rotating and moving machine components.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q8",
+    "question": "Which sign color is generally used for emergency or fire equipment?",
+    "options": [
+      "A. Blue",
+      "B. Green",
+      "C. Yellow",
+      "D. Red"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Red signs indicate fire equipment and emergency devices.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q9",
+    "question": "What does EHS stand for?",
+    "options": [
+      "A. Environmental Health and Safety",
+      "B. Engineering Hazard System",
+      "C. Emergency Hazard Safety",
+      "D. Equipment Handling Standards"
+    ],
+    "correctAnswer": "A",
+    "explanation": "EHS manages environmental protection and worker safety.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q10",
+    "question": "What is a “near miss”?",
+    "options": [
+      "A. A successful inspection",
+      "B. An event that could have caused injury or damage but did not",
+      "C. A machine breakdown",
+      "D. A completed accident"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Near misses help identify hazards before actual accidents occur.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q11",
+    "question": "Which of the following is a slip hazard?",
+    "options": [
+      "A. Safety helmet",
+      "B. Machine guard",
+      "C. Wet floor",
+      "D. Fire extinguisher"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Wet surfaces increase the chance of slips and falls.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q12",
+    "question": "What should be done before operating a forklift?",
+    "options": [
+      "A. Remove seat belt",
+      "B. Increase speed immediately",
+      "C. Ignore warning lights",
+      "D. Check the forklift condition and safety systems"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Pre-use checks ensure safe forklift operation.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q13",
+    "question": "Why is housekeeping important on a shopfloor?",
+    "options": [
+      "A. Reduces accidents and improves efficiency",
+      "B. Increases inventory",
+      "C. Delays production",
+      "D. Improves decoration only"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Clean workplaces reduce hazards and improve workflow.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q14",
+    "question": "Which body part is protected by safety shoes?",
+    "options": [
+      "A. Eyes",
+      "B. Feet",
+      "C. Head",
+      "D. Hands"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Safety shoes protect against impact, punctures, and slips.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q15",
+    "question": "What is the safest way to lift a heavy object?",
+    "options": [
+      "A. Twist while lifting",
+      "B. Lift quickly using one hand",
+      "C. Lift with legs while keeping back straight",
+      "D. Bend the back"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Proper lifting reduces back injuries.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q16",
+    "question": "What should you do if you notice damaged electrical wires?",
+    "options": [
+      "A. Touch them carefully",
+      "B. Ignore them",
+      "C. Cover them with paper",
+      "D. Report them immediately"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Damaged wires can cause shock or fire.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q17",
+    "question": "Which fire class involves flammable liquids?",
+    "options": [
+      "A. Class B",
+      "B. Class D",
+      "C. Class C",
+      "D. Class A"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Flammable liquids such as oils and fuels belong to Class B.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q18",
+    "question": "What is the purpose of emergency evacuation drills?",
+    "options": [
+      "A. Increase overtime",
+      "B. Practice safe evacuation procedures",
+      "C. Improve production speed",
+      "D. Reduce machine usage"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Drills prepare employees for emergency situations.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q19",
+    "question": "What should be avoided while walking on the shopfloor?",
+    "options": [
+      "A. Using designated walkways",
+      "B. Wearing PPE",
+      "C. Running or using mobile phones carelessly",
+      "D. Following safety signs"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Distractions increase accident risk.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q20",
+    "question": "Why are safety signs important?",
+    "options": [
+      "A. Decoration only",
+      "B. Increase paperwork",
+      "C. Reduce lighting needs",
+      "D. Provide warnings and safety information"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Safety signs communicate hazards and instructions.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q21",
+    "question": "Which of the following is a confined space?",
+    "options": [
+      "A. Storage tank",
+      "B. Open parking lot",
+      "C. Office lobby",
+      "D. Cafeteria"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Storage tanks have limited entry and may contain hazards.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q22",
+    "question": "What should be checked before using a ladder?",
+    "options": [
+      "A. Brand name",
+      "B. Stability and condition",
+      "C. Weight only",
+      "D. Paint color"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Damaged ladders can cause falls.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q23",
+    "question": "Which action is unsafe around moving machinery?",
+    "options": [
+      "A. Using machine guards",
+      "B. Wearing PPE",
+      "C. Wearing loose clothing near rotating parts",
+      "D. Following SOPs"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Loose clothing may get caught in moving equipment.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q24",
+    "question": "What is the purpose of a Safety Data Sheet (SDS)?",
+    "options": [
+      "A. Production schedule",
+      "B. Machine repair guide",
+      "C. Payroll details",
+      "D. Chemical hazard and handling information"
+    ],
+    "correctAnswer": "D",
+    "explanation": "SDS explains chemical hazards, PPE, and emergency actions.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q25",
+    "question": "Which extinguisher is commonly used for ordinary combustible materials like paper and wood?",
+    "options": [
+      "A. Water extinguisher",
+      "B. Dry powder only",
+      "C. Metal fire extinguisher",
+      "D. CO₂ extinguisher"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Water extinguishers are used for Class A fires.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q26",
+    "question": "What should you do before entering a restricted area?",
+    "options": [
+      "A. Enter immediately",
+      "B. Obtain authorization and follow safety procedures",
+      "C. Ignore warning signs",
+      "D. Remove PPE"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Restricted areas require approval and controls.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q27",
+    "question": "Why is incident reporting important?",
+    "options": [
+      "A. Delays production",
+      "B. Increases inspections unnecessarily",
+      "C. Helps prevent future accidents",
+      "D. Creates extra paperwork only"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Reporting supports corrective actions and prevention.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q28",
+    "question": "Which PPE helps protect hearing in noisy environments?",
+    "options": [
+      "A. Helmet",
+      "B. Gloves",
+      "C. Goggles",
+      "D. Ear plugs or ear muffs"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Hearing PPE prevents noise-induced hearing loss.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q29",
+    "question": "What does a yellow safety sign usually indicate?",
+    "options": [
+      "A. Warning or caution",
+      "B. Fire equipment",
+      "C. Safe condition",
+      "D. Mandatory action"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Yellow signs indicate caution and potential hazards.",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  },
+  {
+    "id": "shopfloor-safety-industrial-ehs-q30",
+    "question": "What is the safest response if you are unsure about a safety procedure?",
+    "options": [
+      "A. Ignore the procedure",
+      "B. Ask a supervisor or safety officer for guidance",
+      "C. Guess and continue",
+      "D. Wait for someone else to act"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Clarification ensures safe and correct work practices.ss",
+    "topic": "Shopfloor Safety & Industrial EHS"
+  }
+]

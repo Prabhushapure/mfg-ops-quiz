@@ -1,0 +1,392 @@
+[
+  {
+    "id": "quality-control-defect-prevention-q1",
+    "question": "What is the primary objective of Quality Control?",
+    "options": [
+      "A. Ensure products meet specified standards",
+      "B. Increase machine speed",
+      "C. Reduce employee count",
+      "D. Increase inventory"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Quality Control ensures products meet defined quality specifications and customer requirements.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q2",
+    "question": "What does “QC” stand for?",
+    "options": [
+      "A. Quantity Check",
+      "B. Quality Control",
+      "C. Quick Change",
+      "D. Quality Calculation"
+    ],
+    "correctAnswer": "B",
+    "explanation": "QC refers to inspection and monitoring activities used to maintain product quality.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q3",
+    "question": "Which of the following is an example of a defect?",
+    "options": [
+      "A. Approved inspection result",
+      "B. Product meeting specifications",
+      "C. Damaged or incorrect product feature",
+      "D. Properly assembled part"
+    ],
+    "correctAnswer": "C",
+    "explanation": "A defect is any condition that does not meet required standards.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q4",
+    "question": "What is the purpose of inspection in manufacturing?",
+    "options": [
+      "A. Increase production delays",
+      "B. Increase machine downtime",
+      "C. Reduce documentation",
+      "D. Detect defects and verify quality"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Inspection identifies non-conforming products before shipment.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q5",
+    "question": "What does Poka-Yoke mean?",
+    "options": [
+      "A. Mistake-proofing",
+      "B. Machine balancing",
+      "C. Inventory control",
+      "D. Continuous production"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Poka-Yoke prevents human errors from becoming defects.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q6",
+    "question": "Which QC tool is commonly used to identify root causes of problems?",
+    "options": [
+      "A. Andon",
+      "B. Fishbone Diagram",
+      "C. FIFO",
+      "D. Kanban"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Fishbone diagrams help analyze causes of quality issues.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q7",
+    "question": "What does SPC stand for?",
+    "options": [
+      "A. Standard Production Cycle",
+      "B. Safety Process Check",
+      "C. Statistical Process Control",
+      "D. Systematic Product Calculation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "SPC monitors process variation using statistical methods.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q8",
+    "question": "What is the purpose of Statistical Process Control?",
+    "options": [
+      "A. Reduce operator training",
+      "B. Increase inventory",
+      "C. Improve product packaging only",
+      "D. Monitor and control process variation"
+    ],
+    "correctAnswer": "D",
+    "explanation": "SPC helps maintain stable and capable manufacturing processes.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q9",
+    "question": "Which of the following is a preventive quality activity?",
+    "options": [
+      "A. Process standardization",
+      "B. Rework",
+      "C. Customer complaint handling only",
+      "D. Scrap disposal"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Standardization reduces variation and prevents defects.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q10",
+    "question": "What is a “root cause”?",
+    "options": [
+      "A. Inspection frequency",
+      "B. Main underlying reason for a problem",
+      "C. Product packaging issue",
+      "D. Surface-level symptom"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Root causes are the actual reasons problems occur.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q11",
+    "question": "What does “rework” mean?",
+    "options": [
+      "A. Skipping inspections",
+      "B. Increasing production speed",
+      "C. Repairing defective products to meet standards",
+      "D. Scrapping products immediately"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Rework corrects defects so products meet requirements.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q12",
+    "question": "What is scrap in manufacturing?",
+    "options": [
+      "A. Safety equipment",
+      "B. Packaging waste only",
+      "C. Reusable finished goods",
+      "D. Defective material that cannot be repaired"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Scrap refers to unusable defective material.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q13",
+    "question": "Which document provides product quality requirements and tolerances?",
+    "options": [
+      "A. Engineering drawing/specification",
+      "B. Attendance sheet",
+      "C. Safety poster",
+      "D. Payroll register"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Engineering drawings define dimensions, tolerances, and requirements.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q14",
+    "question": "What is the purpose of calibration?",
+    "options": [
+      "A. Decorate measuring instruments",
+      "B. Ensure measuring equipment accuracy",
+      "C. Reduce inspections",
+      "D. Increase machine speed"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Calibration maintains measurement reliability and accuracy.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q15",
+    "question": "Which measuring instrument is commonly used for precise dimensional checks?",
+    "options": [
+      "A. Wrench",
+      "B. Hammer",
+      "C. Vernier caliper",
+      "D. Paint brush"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Vernier calipers measure dimensions precisely.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q16",
+    "question": "What is a quality audit?",
+    "options": [
+      "A. Production scheduling activity",
+      "B. Machine lubrication process",
+      "C. Financial investment review",
+      "D. Systematic check of quality processes and compliance"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Audits verify compliance with quality standards and procedures.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q17",
+    "question": "Which QC tool is used to track defect frequency?",
+    "options": [
+      "A. Check Sheet",
+      "B. Fishbone Diagram",
+      "C. Histogram",
+      "D. Flowchart"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Check sheets collect and record defect occurrence data.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q18",
+    "question": "What does traceability mean in manufacturing?",
+    "options": [
+      "A. Reducing inspections",
+      "B. Tracking product history and process information",
+      "C. Moving materials faster",
+      "D. Increasing production speed"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Traceability tracks materials, batches, and production history.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q19",
+    "question": "What is First Pass Yield (FPY)?",
+    "options": [
+      "A. Employee attendance score",
+      "B. Inventory turnover rate",
+      "C. Products completed without defects or rework",
+      "D. Machine efficiency percentage"
+    ],
+    "correctAnswer": "C",
+    "explanation": "FPY measures products passing through processes correctly the first time.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q20",
+    "question": "Which action helps prevent defects?",
+    "options": [
+      "A. Using damaged tools",
+      "B. Skipping inspections",
+      "C. Ignoring work instructions",
+      "D. Following standardized procedures"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Standard procedures reduce process variation and errors.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q21",
+    "question": "What is a non-conformance?",
+    "options": [
+      "A. Deviation from required standards",
+      "B. Product meeting specifications",
+      "C. Approved process change",
+      "D. Scheduled maintenance"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Non-conformance means failure to meet specified requirements.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q22",
+    "question": "What is the purpose of a control chart?",
+    "options": [
+      "A. Schedule production shifts",
+      "B. Monitor process stability over time",
+      "C. Track employee attendance",
+      "D. Increase inventory accuracy"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Control charts identify abnormal process variation.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q23",
+    "question": "Which of the following is an example of a visual inspection?",
+    "options": [
+      "A. Using payroll software",
+      "B. Machine programming",
+      "C. Checking color and surface finish by sight",
+      "D. Forklift operation"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Visual inspection evaluates appearance-related characteristics.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q24",
+    "question": "What is the benefit of standard operating procedures (SOPs)?",
+    "options": [
+      "A. Reduce communication",
+      "B. Eliminate inspections completely",
+      "C. Increase process variation",
+      "D. Ensure consistent quality and operations"
+    ],
+    "correctAnswer": "D",
+    "explanation": "SOPs standardize work and improve consistency.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q25",
+    "question": "What should an operator do upon detecting a defect?",
+    "options": [
+      "A. Report and segregate defective parts",
+      "B. Continue production without reporting",
+      "C. Ignore it",
+      "D. Hide the defective part"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Reporting defects prevents defective products from moving forward.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q26",
+    "question": "Which QC tool helps prioritize the most significant problems?",
+    "options": [
+      "A. Kanban Card",
+      "B. Pareto Chart",
+      "C. Work Schedule",
+      "D. Safety Matrix"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Pareto Charts identify major problem contributors using the 80/20 rule.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q27",
+    "question": "What is the purpose of incoming material inspection?",
+    "options": [
+      "A. Increase inventory",
+      "B. Improve packaging appearance",
+      "C. Verify raw materials meet specifications",
+      "D. Reduce supplier communication"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Incoming inspection ensures supplier materials meet quality standards.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q28",
+    "question": "Which term refers to variation outside acceptable limits?",
+    "options": [
+      "A. Standardization",
+      "B. Conformance",
+      "C. Calibration",
+      "D. Deviation"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Deviation means a product or process differs from specifications.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q29",
+    "question": "Why is employee training important for quality?",
+    "options": [
+      "A. Helps reduce defects and process errors",
+      "B. Reduces teamwork",
+      "C. Eliminates documentation",
+      "D. Increases downtime"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Trained employees perform tasks correctly and consistently.",
+    "topic": "Quality Control & Defect Prevention"
+  },
+  {
+    "id": "quality-control-defect-prevention-q30",
+    "question": "What is the ultimate goal of defect prevention?",
+    "options": [
+      "A. Increase inspection workload",
+      "B. Eliminate defects before they occur",
+      "C. Detect defects after shipping",
+      "D. Increase production delays"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Defect prevention focuses on proactive quality improvement.",
+    "topic": "Quality Control & Defect Prevention"
+  }
+]
