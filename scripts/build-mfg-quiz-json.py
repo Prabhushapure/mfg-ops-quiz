@@ -16,16 +16,18 @@ W_NS = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
 
 TOPICS = [
     {
-        "slug": "manufacturing-quality-induction",
-        "file": "MFG Quality MCQ Quiz.docx",
-        "label": "Manufacturing Quality Induction",
-        "parser": "mcq",
-    },
-    {
         "slug": "quality-in-manufacturing",
-        "file": "MFG Quiz - Quality in Manufacturing.docx",
         "label": "Quality in Manufacturing",
-        "parser": "structured",
+        "sources": [
+            {
+                "file": "MFG Quality MCQ Quiz.docx",
+                "parser": "mcq",
+            },
+            {
+                "file": "MFG Quiz - Quality in Manufacturing.docx",
+                "parser": "structured",
+            },
+        ],
     },
     {
         "slug": "inhouse-quality-systems",
@@ -209,27 +211,48 @@ def parse_mcq(text: str, topic_label: str, slug: str) -> list[dict]:
     return questions
 
 
+def parse_topic_questions(topic: dict) -> list[dict]:
+    slug = topic["slug"]
+    label = topic["label"]
+    questions: list[dict] = []
+
+    if "sources" in topic:
+        for source in topic["sources"]:
+            path = DOWNLOADS / source["file"]
+            text = read_docx_text(path)
+            if source["parser"] == "mcq":
+                questions.extend(parse_mcq(text, label, slug))
+            else:
+                questions.extend(parse_structured(text, label, slug))
+        return questions
+
+    path = DOWNLOADS / topic["file"]
+    text = read_docx_text(path)
+    if topic["parser"] == "mcq":
+        return parse_mcq(text, label, slug)
+    return parse_structured(text, label, slug)
+
+
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     summary: list[str] = []
 
     for topic in TOPICS:
-        path = DOWNLOADS / topic["file"]
-        text = read_docx_text(path)
-        if topic["parser"] == "mcq":
-            questions = parse_mcq(text, topic["label"], topic["slug"])
-        else:
-            questions = parse_structured(text, topic["label"], topic["slug"])
+        questions = parse_topic_questions(topic)
+        slug = topic["slug"]
+        label = topic["label"]
 
         for i, q in enumerate(questions):
+            q["id"] = f"{slug}-q{i + 1}"
+            q["topic"] = label
             shuffle_question(q, i)
 
-        out_path = OUT_DIR / f"{topic['slug']}-questions.json"
+        out_path = OUT_DIR / f"{slug}-questions.json"
         out_path.write_text(
             json.dumps(questions, indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8",
         )
-        summary.append(f"{topic['slug']}: {len(questions)} questions -> {out_path.name}")
+        summary.append(f"{slug}: {len(questions)} questions -> {out_path.name}")
 
     print("\n".join(summary))
 

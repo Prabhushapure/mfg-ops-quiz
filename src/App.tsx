@@ -17,7 +17,7 @@ import { assetUrl } from "@/lib/assets";
 import type { GameTopic } from "@/hooks/useGameState";
 
 const TOPIC_LABEL_TO_KEY: Record<string, GameTopic> = {
-  "manufacturing quality induction": "manufacturing-quality-induction",
+  "manufacturing quality induction": "quality-in-manufacturing",
   "quality in manufacturing": "quality-in-manufacturing",
   "inhouse quality systems": "inhouse-quality-systems",
   "methods in ensuring product quality": "methods-ensuring-product-quality",
