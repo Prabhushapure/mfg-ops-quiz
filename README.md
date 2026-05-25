@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173/quality_quiz/](http://localhost:5173/quality_quiz/) in your browser.
+Open [http://localhost:5173/mfg-quiz/](http://localhost:5173/mfg-quiz/) in your browser.
 
 ## How to Play
 
@@ -34,7 +34,7 @@ Open [http://localhost:5173/quality_quiz/](http://localhost:5173/quality_quiz/) 
 npm run build
 ```
 
-Output is written to `dist/`. Deploy the `dist` folder with the app served at `/quality_quiz/` (matching `base` in `vite.config.ts`).
+Output is written to `dist/`. Deploy the `dist` folder with the app served at `/mfg-quiz/` (matching `base` in `vite.config.ts`).
 
 ## Project Structure
 

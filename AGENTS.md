@@ -1,10 +1,10 @@
 # Suraxa Snake Quiz
 
-React + Vite SPA. Game code lives under `src/`. Static assets are in `public/` and served under the `/quality_quiz/` base path (see `vite.config.ts`).
+React + Vite SPA. Game code lives under `src/`. Static assets are in `public/` and served under the `/mfg-quiz/` base path (see `vite.config.ts`).
 
 ## Commands
 
-- `npm run dev` — local dev server (open `/quality_quiz/`)
+- `npm run dev` — local dev server (open `/mfg-quiz/`)
 - `npm run build` — production build to `dist/`
 - `npm run preview` — preview production build
 

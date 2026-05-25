@@ -5,7 +5,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/quality-quiz/",
+  base: "/mfg-quiz/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
