@@ -32,7 +32,6 @@ const PLAY_COMPLETE_API =
   "https://antiz-digital.com/GamifiedLearning/api/play/complete";
 
 const TOPIC_KEY_TO_LABEL: Record<GameTopic, string> = {
-  "manufacturing-quality-induction": "Manufacturing Quality Induction",
   "quality-in-manufacturing": "Quality in Manufacturing",
   "inhouse-quality-systems": "Inhouse Quality Systems",
   "methods-ensuring-product-quality": "Methods in Ensuring Product Quality",

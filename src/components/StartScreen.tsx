@@ -89,9 +89,6 @@ export default function StartScreen({
             disabled={disableTopicSelection}
             className="w-full rounded-lg bg-navy-800 border border-navy-600 text-white px-3 py-2 outline-none focus:ring-2 focus:ring-safety-yellow disabled:opacity-60 disabled:cursor-not-allowed"
           >
-            <option value="manufacturing-quality-induction">
-              Manufacturing Quality Induction
-            </option>
             <option value="quality-in-manufacturing">
               Quality in Manufacturing
             </option>

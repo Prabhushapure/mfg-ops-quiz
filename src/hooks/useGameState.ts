@@ -6,7 +6,6 @@ import {
   pickRandomQuestion,
 } from "@/lib/gameLogic";
 import { getSnakeAt, getLadderAt, TOTAL_CELLS } from "@/lib/boardConfig";
-import manufacturingQualityInductionQuestionsData from "@/data/manufacturing-quality-induction-questions.json";
 import qualityInManufacturingQuestionsData from "@/data/quality-in-manufacturing-questions.json";
 import inhouseQualitySystemsQuestionsData from "@/data/inhouse-quality-systems-questions.json";
 import methodsEnsuringProductQualityQuestionsData from "@/data/methods-ensuring-product-quality-questions.json";
@@ -22,7 +21,6 @@ import {
 } from "@/lib/sounds";
 
 export type GameTopic =
-  | "manufacturing-quality-induction"
   | "quality-in-manufacturing"
   | "inhouse-quality-systems"
   | "methods-ensuring-product-quality"
@@ -30,8 +28,6 @@ export type GameTopic =
   | "people-roles-industrial-quality";
 
 const questionBank: Record<GameTopic, QuizQuestion[]> = {
-  "manufacturing-quality-induction":
-    manufacturingQualityInductionQuestionsData as QuizQuestion[],
   "quality-in-manufacturing":
     qualityInManufacturingQuestionsData as QuizQuestion[],
   "inhouse-quality-systems":
