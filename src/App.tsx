@@ -286,6 +286,7 @@ export default function App() {
       {state.phase !== "start" && (
         <GameHeader
           formattedTime={timer.formattedTime}
+          timeRemaining={timer.timeRemaining}
           score={state.score}
           correctAnswers={state.correctAnswers}
           totalQuestions={state.totalQuestions}
@@ -311,18 +312,6 @@ export default function App() {
               onRoll={onDiceRoll}
               disabled={state.phase !== "playing" || state.isMoving}
             />
-
-            <div className="text-center bg-white rounded-xl px-4 py-2 lg:px-6 lg:py-3 border border-pink-200 shadow-sm">
-              <div className="text-[10px] lg:text-xs text-pink-500 font-heading uppercase tracking-wider">
-                Position
-              </div>
-              <div className="font-heading font-bold text-xl lg:text-2xl text-pink-950">
-                {state.playerPosition}
-                <span className="text-pink-400 text-xs lg:text-sm font-normal">
-                  /36
-                </span>
-              </div>
-            </div>
 
             {dice.value && !dice.isRolling && (
               <div className="text-center">

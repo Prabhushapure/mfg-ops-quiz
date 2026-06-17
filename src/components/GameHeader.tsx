@@ -1,60 +1,98 @@
 import { motion } from "framer-motion";
 import { assetUrl } from "@/lib/assets";
+import { GAME_DURATION } from "@/lib/gameLogic";
 
 interface GameHeaderProps {
   formattedTime: string;
+  timeRemaining: number;
   score: number;
   correctAnswers: number;
   totalQuestions: number;
   isWarning: boolean;
 }
 
+function HudBadge({
+  children,
+  className = "",
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) {
+  return (
+    <div
+      className={`inline-flex skew-x-[-14deg] rounded-sm bg-safety-yellow px-3 py-1.5 shadow-[0_2px_8px_rgba(0,0,0,0.35)] sm:px-4 ${className}`}
+    >
+      <div className="inline-flex skew-x-[14deg] items-center gap-1.5 font-heading font-bold text-sm text-navy-950 sm:text-base">
+        {children}
+      </div>
+    </div>
+  );
+}
+
 export default function GameHeader({
   formattedTime,
+  timeRemaining,
   score,
   correctAnswers,
   totalQuestions,
   isWarning,
 }: GameHeaderProps) {
+  const progress = Math.max(0, Math.min(100, (timeRemaining / GAME_DURATION) * 100));
+
   return (
-    <div className="w-full bg-navy-900/80 backdrop-blur-sm border-b border-navy-700 px-4 py-3">
-      <div className="max-w-4xl mx-auto grid grid-cols-3 items-center gap-2 min-h-10">
-        {/* Title — left */}
-        <h1 className="font-heading font-semibold text-xs sm:text-lg text-white tracking-tight text-left leading-tight">
-          MANUFACTURING <span className="text-safety-yellow">OPERATIONS QUIZ</span>
+    <header className="w-full bg-navy-950">
+      <div className="flex items-center justify-between gap-3 px-4 py-3 sm:px-6">
+        <h1 className="font-heading text-base font-bold uppercase tracking-wide text-left leading-tight sm:text-xl md:text-2xl">
+          <span className="text-safety-orange">MFG</span>{" "}
+          <span className="text-white">OPERATIONS QUIZ</span>
         </h1>
 
-        {/* Timer — center */}
-        <motion.div
-          className={`justify-self-center flex items-center gap-2 px-3 py-1.5 sm:px-4 rounded-lg font-heading font-bold text-lg sm:text-xl
-            ${isWarning ? "bg-safety-red/20 text-safety-red" : "bg-navy-800 text-white"}`}
-          animate={isWarning ? { scale: [1, 1.05, 1] } : {}}
-          transition={isWarning ? { duration: 1, repeat: Infinity } : {}}
-        >
-          <img src={assetUrl("logo.png")} alt="Shield logo" width={24} height={24} className="h-6 w-6" />
-          {formattedTime}
-        </motion.div>
+        <div className="flex shrink-0 items-center gap-2 sm:gap-3">
+          <HudBadge>
+            <span>
+              {correctAnswers}/{totalQuestions || 0}
+            </span>
+          </HudBadge>
 
-        {/* Score — right */}
-        <div className="justify-self-end flex items-center gap-3 sm:gap-4">
-          <div className="text-center">
-            <div className="text-xs text-steel-400 uppercase tracking-wider font-heading">
-              Score
-            </div>
-            <div className="font-heading font-bold text-lg text-safety-yellow">
-              {score}
-            </div>
-          </div>
-          <div className="text-center">
-            <div className="text-xs text-steel-400 uppercase tracking-wider font-heading">
-              Correct
-            </div>
-            <div className="font-heading font-bold text-lg text-white">
-              {correctAnswers}/{totalQuestions}
-            </div>
-          </div>
+          <HudBadge>
+            <img
+              src={assetUrl("hud-score-icon.png")}
+              alt=""
+              width={20}
+              height={20}
+              className="h-4 w-4 sm:h-5 sm:w-5"
+              aria-hidden
+            />
+            <span>{score}</span>
+          </HudBadge>
+
+          <HudBadge className={isWarning ? "bg-safety-red" : ""}>
+            <img
+              src={assetUrl("hud-timer-icon.png")}
+              alt=""
+              width={20}
+              height={20}
+              className="h-4 w-4 sm:h-5 sm:w-5"
+              aria-hidden
+            />
+            <motion.span
+              animate={isWarning ? { scale: [1, 1.08, 1] } : {}}
+              transition={isWarning ? { duration: 0.8, repeat: Infinity } : {}}
+            >
+              {formattedTime}
+            </motion.span>
+          </HudBadge>
         </div>
       </div>
-    </div>
+
+      <div className="h-1 w-full bg-navy-900">
+        <motion.div
+          className="h-full bg-safety-orange"
+          initial={false}
+          animate={{ width: `${progress}%` }}
+          transition={{ duration: 0.4, ease: "linear" }}
+        />
+      </div>
+    </header>
   );
 }
