@@ -60,9 +60,7 @@ const initialState: GameState = {
 
 export function useGameState() {
   const [state, setState] = useState<GameState>(initialState);
-  const [selectedTopic, setSelectedTopic] = useState<GameTopic>(
-    "lean-manufacturing-shopfloor-productivity"
-  );
+  const [selectedTopic, setSelectedTopic] = useState<GameTopic | null>(null);
   const movingRef = useRef(false);
 
   const startGame = useCallback((topic: GameTopic) => {
@@ -132,6 +130,7 @@ export function useGameState() {
       // Check for snake or ladder
       const snake = getSnakeAt(newPos);
       const ladder = getLadderAt(newPos);
+      if (!selectedTopic) return;
       const selectedQuestions = questionBank[selectedTopic] ?? [];
 
       if (snake) {

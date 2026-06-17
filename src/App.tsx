@@ -96,7 +96,9 @@ export default function App() {
   const timer = useTimer();
   const dice = useDice();
   const urlTopic = useMemo(() => parseTopicFromUrlParam(topicParam), [topicParam]);
-  const selectedTopicLabel = TOPIC_KEY_TO_LABEL[selectedTopic];
+  const selectedTopicLabel = selectedTopic
+    ? TOPIC_KEY_TO_LABEL[selectedTopic]
+    : "";
 
   useEffect(() => {
     if (urlTopic) {
@@ -137,6 +139,7 @@ export default function App() {
   }, [showSplash]);
 
   const onStartGame = useCallback(() => {
+    if (!selectedTopic) return;
     startGame(selectedTopic);
     timer.start();
   }, [startGame, selectedTopic, timer]);
